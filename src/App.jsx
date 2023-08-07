@@ -8,6 +8,7 @@ import { Main } from "./screens/Main";
 
 import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
+import { Spanish } from "./screens/Spanish";
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -20,7 +21,8 @@ export const App = () => {
     if (isMobile) {
       return <Celular />;
     } else {
-      return <Main />;
+      return <Main/>;
+      
     }
   };
 
@@ -46,6 +48,11 @@ export const App = () => {
     {
       path: "/teste",
       element: <Obrigado />,
+    },
+
+    {
+      path: "/Spanish",
+      element: <Spanish/>,
     },
 
 

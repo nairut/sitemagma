@@ -1,0 +1,1 @@
+export { Spanish } from "./Spanish";
