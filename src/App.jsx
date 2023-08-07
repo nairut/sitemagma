@@ -26,6 +26,18 @@ export const App = () => {
     }
   };
 
+
+  const renderSpanishPage = () => {
+    if (isMobile) {
+      return <Celular />;
+    } else {
+      return <Spanish/>;
+      
+    }
+  };
+
+
+
   const renderFormPage = () => {
     if (isMobile) {
       return <CellForm />;
@@ -39,6 +51,13 @@ export const App = () => {
       path: "/*",
       element: renderMainPage(),
     },
+
+    {
+      path: "/spanish",
+      element: renderSpanishPage(),
+    },
+
+
     {
       path: "/desktop-form",
       element: renderFormPage(),
@@ -50,10 +69,6 @@ export const App = () => {
       element: <Obrigado />,
     },
 
-    {
-      path: "/Spanish",
-      element: <Spanish/>,
-    },
 
 
      
