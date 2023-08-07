@@ -53,7 +53,7 @@ export const App = () => {
     },
 
     {
-      path: "/spanish",
+      path: "/spanish-translation-service",
       element: renderSpanishPage(),
     },
 
@@ -63,15 +63,6 @@ export const App = () => {
       element: renderFormPage(),
     },
 
-
-    {
-      path: "/teste",
-      element: <Obrigado />,
-    },
-
-
-
-     
   ]);
 
 
