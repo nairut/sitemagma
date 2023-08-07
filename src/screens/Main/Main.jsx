@@ -1,16 +1,16 @@
 import React from "react";
 import { Group } from "../../components/Group";
 import { Star16 } from "../../icons/Star16";
-import "./style.css;
+import "./style.css";
 
 export const Main = () => {
   return (
-    <div className="index">sdfsd
+    <div className="index">
       <div className="div">
         <div className="overlap">
           <img className="rectangle" alt="Rectangle" src="/img/rectangle-min.png" />
           <div className="group-2">
-            <h1 className="text-wrapper">Professional Translation Services</h1>
+            <h1 className="text-wrapper">Professional Translasdfsdtion Services</h1>
             <p className="element-languages-that">
               120 languages that fits in your budget
               <br />

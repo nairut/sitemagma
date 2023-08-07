@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
-import { Index } from "./screens/Index";
+import { Main } from "./screens/Main";
 
 import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
@@ -20,7 +20,7 @@ export const App = () => {
     if (isMobile) {
       return <Celular />;
     } else {
-      return <Index />;
+      return <Main />;
     }
   };
 
