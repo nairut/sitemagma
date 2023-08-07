@@ -69,7 +69,7 @@ export const App = () => {
     },
 
     {
-      path: "/german-translation-service",
+      path: "/german-translation-services ",
       element: renderGermanPage(),
     },
 
