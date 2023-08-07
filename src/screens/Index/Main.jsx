@@ -3,7 +3,7 @@ import { Group } from "../../components/Group";
 import { Star16 } from "../../icons/Star16";
 import "./style.css;
 
-export const Main = () => {sdfsd
+export const Main = () => {
   return (
     <div className="index">sdfsd
       <div className="div">
