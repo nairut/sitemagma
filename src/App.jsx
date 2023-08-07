@@ -5,10 +5,10 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import { Main } from "./screens/Main";
-
 import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
+import { German } from "./screens/German";
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -37,6 +37,17 @@ export const App = () => {
   };
 
 
+  const renderGermanPage = () => {
+    if (isMobile) {
+      return <Celular />;
+    } else {
+      return <German/>;
+      
+    }
+  };
+
+
+
 
   const renderFormPage = () => {
     if (isMobile) {
@@ -55,6 +66,11 @@ export const App = () => {
     {
       path: "/spanish-translation-service",
       element: renderSpanishPage(),
+    },
+
+    {
+      path: "/german-translation-service",
+      element: renderGermanPage(),
     },
 
 
