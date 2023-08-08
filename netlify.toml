@@ -1,0 +1,5 @@
+[[build]]
+  # Define a `robots.txt` file with the desired content
+  base = "."
+  publish = "public"
+  command = "echo 'User-agent: *\\nDisallow: /' > public/robots.txt"
