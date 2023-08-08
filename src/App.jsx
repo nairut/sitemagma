@@ -11,7 +11,7 @@ import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
 import { Testes } from "./screens/Testes";
 
-xcv
+
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
