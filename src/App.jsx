@@ -9,6 +9,9 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
+import { Testes } from "./screens/Testes";
+
+
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -78,6 +81,13 @@ export const App = () => {
       path: "/desktop-form",
       element: renderFormPage(),
     },
+
+    {
+      path: "/testes",
+      element: <Testes/>,
+    },
+
+
 
   ]);
 
