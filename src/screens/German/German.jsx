@@ -5,19 +5,35 @@ import "./style.css";
 import {Helmet} from "react-helmet";
 
 
+class Application extends React.Component {
+  render () {
+    return (
+        <div className="application">
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>My Title</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+            ...
+        </div>
+    );
+  }
+};
+
+
 export const German = () => {
   return (
     
     <div className="spanish">
+      <div className="div-2">
 
-            <Helmet>
+      <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
 
 
-      <div className="div-2">
         <div className="overlap-6">
           <div className="overlap-7">
             <img className="rectangle-5" alt="Rectangle" src="/img/rectangle.png" />
