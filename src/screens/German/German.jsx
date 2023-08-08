@@ -2,7 +2,7 @@ import React from "react";
 import { Group } from "../../components/Group";
 import { Star16 } from "../../icons/Star16";
 import "./style.css";
-
+import {Helmet} from "react-helmet";
 
 
 export const German = () => {
@@ -10,6 +10,11 @@ export const German = () => {
     
     <div className="spanish">
 
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>My Title</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
 
 
       <div className="div-2">
