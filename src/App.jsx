@@ -9,10 +9,6 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
-import { Testes } from "./screens/Testes";
-import robotstxt from "generate-robotstxt";
-
-
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -83,13 +79,6 @@ export const App = () => {
       element: renderFormPage(),
     },
 
-    {
-      path: "/testes",
-      element: <Testes/>,
-    },
-
-
-
   ]);
 
 
@@ -103,40 +92,6 @@ export const App = () => {
   );
 
 };
-
-robotstxt({
-  policy: [
-    {
-      userAgent: "Googlebot",
-      allow: "/",
-      disallow: "/search",
-      crawlDelay: 2,
-    },
-    {
-      userAgent: "OtherBot",
-      allow: ["/allow-for-all-bots", "/allow-only-for-other-bot"],
-      disallow: ["/admin", "/login"],
-      crawlDelay: 2,
-    },
-    {
-      userAgent: "*",
-      allow: "/",
-      disallow: "/search",
-      crawlDelay: 10,
-      cleanParam: "ref /articles/",
-    },
-  ],
-  sitemap: "http://example.com/sitemap.xml",
-  host: "http://example.com",
-})
-  .then((content) => {
-    console.log(content);
- 
-    return content;
-  })
-  .catch((error) => {
-    throw error;
-  });
 
 
 
