@@ -64,12 +64,12 @@ export const App = () => {
     },
 
     {
-      path: "/spanish-translation-service",
+      path: "/spanish-translation-services",
       element: renderSpanishPage(),
     },
 
     {
-      path: "/german-translation-services ",
+      path: "/german-translation-services",
       element: renderGermanPage(),
     },
 

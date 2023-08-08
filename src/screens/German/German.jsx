@@ -2,32 +2,11 @@ import React from "react";
 import { Group } from "../../components/Group";
 import { Star16 } from "../../icons/Star16";
 import "./style.css";
-import {Helmet} from "react-helmet";
-
-
 
 export const German = () => {
   return (
-
-
-    
-    
     <div className="spanish">
       <div className="div-2">
-
-      <div className="App">
-        <Helmet title="Home - React Router com Helmet" />
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          <Link to="/sobre">Ir para a página sobre \o/</Link>
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-
-
         <div className="overlap-6">
           <div className="overlap-7">
             <img className="rectangle-5" alt="Rectangle" src="/img/rectangle.png" />
