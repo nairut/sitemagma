@@ -10,13 +10,13 @@ export const German = () => {
     
     <div className="spanish">
 
-<Helmet>
+            <Helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
 
-            
+
       <div className="div-2">
         <div className="overlap-6">
           <div className="overlap-7">
