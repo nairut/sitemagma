@@ -27,11 +27,7 @@ export const German = () => {
     <div className="spanish">
       <div className="div-2">
 
-      <Helmet>
-                <meta charSet="utf-8" />
-                <title>My Title</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+
 
 
         <div className="overlap-6">
