@@ -11,7 +11,7 @@ export const DesktopFormPT = () => {
     <div className="desktop-form">
       <div className="div">
 
-      <form  name="contact" action="/" method="post">
+      <form  name="contact-brasil" action="/" method="post">
       <input type="hidden" name="form-name" value="contact" />
 
         <div className="group">
