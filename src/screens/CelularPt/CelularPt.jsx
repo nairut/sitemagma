@@ -6,7 +6,7 @@ export const CelularPt = () => {
   return (
     <div className="celular">
       <div className="div-2">
-        <h1 className="h-1">Serviço de Traduçãpo Profissional</h1>
+        <h1 className="h-1">Serviço de Tradução Profissional</h1>
         <p className="element-languages-that-2">
           120 idiomas que cabem no seu bolso
           <br />
