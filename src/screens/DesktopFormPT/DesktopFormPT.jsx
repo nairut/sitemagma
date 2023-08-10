@@ -6,7 +6,7 @@ export const DesktopFormPT = () => {
   return (
     <div className="desktop-form">
       <div className="div">
-        <form name="contato-brasil" action="/" method="post">
+        <form name="contato-brasil" action="/depoimentos" method="post">
           <input type="hidden" name="form-name" value="contato" />
 
           <div className="group">
@@ -14,6 +14,8 @@ export const DesktopFormPT = () => {
               <div className="text-wrapper">Enviar</div>
             </button>
           </div>
+
+          
 
           <div className="overlap">
             <textarea required name="mensagem" placeholder="" className="textarea-style" cols="30" rows="10"></textarea>
