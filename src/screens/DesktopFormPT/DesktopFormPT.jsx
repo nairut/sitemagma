@@ -6,7 +6,7 @@ export const DesktopFormPT = () => {
   return (
     <div className="desktop-form">
       <div className="div">
-        <form name="contato brasil" action="/" method="post">
+        <form name="contato-brasil" action="/" method="post">
           <input type="hidden" name="form-name" value="contato" />
 
           <div className="group">
