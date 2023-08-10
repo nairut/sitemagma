@@ -1,0 +1,39 @@
+.button-portugues {
+  border-radius: 13px;
+  height: 55px;
+  position: relative;
+  width: 335px;
+}
+
+.button-portugues .entre-em-contato {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  height: 9px;
+  letter-spacing: 1px;
+  line-height: 13px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  white-space: nowrap;
+}
+
+.button-portugues.default {
+  background-color: #0536a8;
+}
+
+.button-portugues.variant-2 {
+  background-color: #c8982a;
+  transition: all 0.2s ease;
+}
+
+.button-portugues.default .entre-em-contato {
+  left: 34px;
+  width: 268px;
+}
+
+.button-portugues.variant-2 .entre-em-contato {
+  left: 63px;
+  width: 209px;
+}

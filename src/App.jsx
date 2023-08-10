@@ -9,6 +9,9 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
+import { Testes } from "./screens/Testes";
+import { Depoimentos } from "./screens/Depoimentos";
+import { DesktopFormPT } from "./screens/DesktopFormPT";
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -36,7 +39,6 @@ export const App = () => {
     }
   };
 
-
   const renderGermanPage = () => {
     if (isMobile) {
       return <Celular />;
@@ -47,8 +49,6 @@ export const App = () => {
   };
 
 
-
-
   const renderFormPage = () => {
     if (isMobile) {
       return <CellForm />;
@@ -56,6 +56,39 @@ export const App = () => {
       return <DesktopForm />;
     }
   };
+
+  const renderTestesPage = () => {
+    if (isMobile) {
+      return <CellForm />;
+    } else {
+      return <Testes />;
+    }
+  };
+
+//Abaixo as páginas em português
+
+
+const renderDepoimentosPage = () => {
+  if (isMobile) {
+    return <Celular />;
+  } else {
+    return <Depoimentos />;
+  }
+};
+
+
+const renderOrcamentoPage = () => {
+  if (isMobile) {
+    return <Celular />;
+  } else {
+    return <DesktopFormPT />;
+  }
+};
+
+
+
+
+
 
   const router = createBrowserRouter([
     {
@@ -78,6 +111,31 @@ export const App = () => {
       path: "/desktop-form",
       element: renderFormPage(),
     },
+
+    {
+      path: "/testes",
+      element: renderTestesPage(),
+    },
+
+
+
+
+//Abaixo as páginas em português
+
+    {
+      path: "/depoimentos",
+      element: renderDepoimentosPage(),
+    },
+    
+
+    {
+      path: "/orcamento",
+      element: renderOrcamentoPage(),
+    },
+
+
+
+
 
   ]);
 

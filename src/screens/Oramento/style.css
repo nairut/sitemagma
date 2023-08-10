@@ -1,0 +1,296 @@
+.oramento {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.oramento .div {
+  background-color: #ffffff;
+  border: 0.77px none;
+  height: 1072px;
+  position: relative;
+  width: 1200px;
+}
+
+.oramento .overlap {
+  height: 64px;
+  left: 580px;
+  position: absolute;
+  top: 253px;
+  width: 197px;
+}
+
+.oramento .rectangle {
+  background-color: #ffffff;
+  border: 0.54px solid;
+  border-color: #000000;
+  border-radius: 3.08px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 197px;
+}
+
+.oramento .group {
+  height: 28px;
+  left: 5px;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.oramento .overlap-group {
+  background-color: #ffffff;
+  height: 28px;
+  position: relative;
+  width: 95px;
+}
+
+.oramento .text-wrapper {
+  color: #0a3749;
+  font-family: "Nunito", Helvetica;
+  font-size: 16.9px;
+  font-weight: 500;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 93px;
+}
+
+.oramento .overlap-2 {
+  height: 65px;
+  left: 591px;
+  position: absolute;
+  top: 346px;
+  width: 443px;
+}
+
+.oramento .rectangle-2 {
+  background-color: #ffffff;
+  border: 0.54px solid;
+  border-color: #000000;
+  border-radius: 3.08px;
+  height: 50px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 430px;
+}
+
+.oramento .overlap-wrapper {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+
+.oramento .div-wrapper {
+  background-color: #ffffff;
+  height: 28px;
+  position: relative;
+  width: 58px;
+}
+
+.oramento .text-wrapper-2 {
+  color: #0a3749;
+  font-family: "Nunito", Helvetica;
+  font-size: 16.9px;
+  font-weight: 500;
+  left: 2px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 52px;
+}
+
+.oramento .overlap-3 {
+  height: 103px;
+  left: 591px;
+  position: absolute;
+  top: 436px;
+  width: 443px;
+}
+
+.oramento .img {
+  height: 89px;
+  left: 13px;
+  position: absolute;
+  top: 14px;
+  width: 430px;
+}
+
+.oramento .overlap-group-wrapper {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.oramento .overlap-4 {
+  height: 28px;
+  position: relative;
+  width: 106px;
+}
+
+.oramento .rectangle-3 {
+  background-color: #ffffff;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.oramento .text-wrapper-3 {
+  color: #0a3749;
+  font-family: "Nunito", Helvetica;
+  font-size: 16.9px;
+  font-weight: 500;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 94px;
+}
+
+.oramento .overlap-5 {
+  height: 64px;
+  left: 853px;
+  position: absolute;
+  top: 253px;
+  width: 213px;
+}
+
+.oramento .rectangle-4 {
+  background-color: #ffffff;
+  border: 0.54px solid;
+  border-color: #000000;
+  border-radius: 3.08px;
+  height: 50px;
+  left: 5px;
+  position: absolute;
+  top: 14px;
+  width: 208px;
+}
+
+.oramento .group-2 {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.oramento .text-wrapper-4 {
+  color: #0a3749;
+  font-family: "Nunito", Helvetica;
+  font-size: 16.9px;
+  font-weight: 500;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+  width: 81px;
+}
+
+.oramento .group-3 {
+  height: 50px;
+  left: 604px;
+  position: absolute;
+  top: 566px;
+  width: 431px;
+}
+
+.oramento .overlap-group-2 {
+  background-color: #ffe061;
+  border-radius: 5.38px;
+  height: 50px;
+  position: relative;
+  width: 429px;
+}
+
+.oramento .text-wrapper-5 {
+  color: #0a3749;
+  font-family: "Inter", Helvetica;
+  font-size: 20.8px;
+  font-weight: 400;
+  left: 197px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 12px;
+  width: 129px;
+}
+
+.oramento .line {
+  height: 1px;
+  left: 661px;
+  position: absolute;
+  top: 227px;
+  width: 426px;
+}
+
+.oramento .lady-instance {
+  background-image: url(../../../static/img/whatsapp-image-2023-07-12-at-12-41-1.png) !important;
+  height: 280px !important;
+  left: 129px !important;
+  position: absolute !important;
+  top: 336px !important;
+  width: 215px !important;
+}
+
+.oramento .magma-translation {
+  height: 35px;
+  left: 83px;
+  position: absolute;
+  top: 70px;
+  width: 124px;
+}
+
+.oramento .p {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 34.6px;
+  font-weight: 700;
+  left: 656px;
+  letter-spacing: 1.38px;
+  line-height: normal;
+  position: absolute;
+  top: 70px;
+  width: 461px;
+}
+
+.oramento .text-wrapper-6 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 397px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  top: 986px;
+  width: 444px;
+}
+
+.oramento .magma-translation-2 {
+  height: 54px;
+  left: 522px;
+  position: absolute;
+  top: 808px;
+  width: 194px;
+}
