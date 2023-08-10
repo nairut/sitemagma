@@ -4,7 +4,7 @@ import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
-import { Main } from "./screens/Main";
+import {  Main } from "./screens/Main";
 import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
@@ -12,6 +12,8 @@ import { German } from "./screens/German";
 import { Testes } from "./screens/Testes";
 import { Depoimentos } from "./screens/Depoimentos";
 import { DesktopFormPT } from "./screens/DesktopFormPT";
+import { HomePt } from "./screens/HomePt/HomePt";
+
 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -66,6 +68,17 @@ export const App = () => {
   };
 
 //Abaixo as páginas em português
+
+
+const renderHomePtPage = () => {
+  if (isMobile) {
+    return <Celular />;
+  } else {
+    return <HomePt/>;
+    
+  }
+};
+
 
 
 const renderDepoimentosPage = () => {
@@ -134,6 +147,13 @@ const renderOrcamentoPage = () => {
     },
 
 
+    {
+      path: "/pt",
+      element: renderHomePtPage(),
+    },
+
+
+
 
 
 
@@ -150,6 +170,8 @@ const renderOrcamentoPage = () => {
   );
 
 };
+
+
 
 
 
