@@ -1,36 +1,28 @@
 import React from "react";
 import { ButtonPortugues } from "../../components/ButtonPortugues";
-import { Group } from "../../components/Group";
 import "./style.css";
 
 export const HomePt = () => {
   return (
     <div className="home-pt">
       <div className="div-2">
-        <div className="group-5">
-          <div className="group-6">
+        <div className="group-4">
+          <div className="group-5">
             <p className="text-wrapper-7">
               MAGMA é um fornecedor global de soluções de localização, permitindo que marcas estabeleçam uma presença
               autêntica em diversos mercados ao redor do mundo.
             </p>
             <p className="text-wrapper-8">Magma Translation | Todos os direitos reservados. ©Magma™</p>
           </div>
-          <img className="magma-translation-3" alt="Magma translation" src="/img/magma-translation-png-1.png" />
+          <img className="magma-translation-3" alt="Magma translation" src="/img/magma-translation-png.png" />
         </div>
-        <Group
-          className="group-instance"
-          property1="default"
-          talkToAnExpertClassName="group-2-instance"
-          text="ENTRE EM CONTATO"
-          to="/orcamento"
-        />
-        <div className="group-7">
+        <div className="group-6">
           <p className="text-wrapper-9">O que você pode traduzir?</p>
           <p className="text-wrapper-10">
             Nossos tradutores proficientes têm a capacidade de traduzir qualquer tipo de documento, com suporte aos
             tipos de arquivo abaixo mencionados.
           </p>
-          <div className="group-8">
+          <div className="group-7">
             <div className="overlap-6">
               <div className="documentos"> Documentos</div>
               <img className="img-2" alt="Pdf" src="/img/pdf.png" />
@@ -57,13 +49,13 @@ export const HomePt = () => {
             </div>
           </div>
         </div>
-        <div className="group-9">
+        <div className="group-8">
           <div className="text-wrapper-15">Qualidade que dá gosto</div>
           <p className="cada-tradu-o-passa">
             Cada tradução passa por uma revisão minuciosa e validação tanto pela nossa <br />
             equipe de editores externos profissionais quanto pelos nossos especialistas internos em idiomas.
           </p>
-          <div className="group-10">
+          <div className="group-9">
             <p className="text-wrapper-16">
               Na Magma Translation, encontramos profissionalismo e precisão em cada projeto. Anton Paar agradece pela
               parceria e recomenda seus excelentes serviços de tradução.
@@ -84,9 +76,16 @@ export const HomePt = () => {
             <div className="text-wrapper-22">Ambev</div>
             <div className="text-wrapper-23">Elisabeth Vogel</div>
             <div className="marcelo-soares"> Marcelo Soares</div>
-            <img className="ellipse" alt="Ellipse" src="/img/ellipse-1-1.png" />
-            <img className="ellipse-2" alt="Ellipse" src="/img/ellipse-2-1.png" />
-            <img className="ellipse-3" alt="Ellipse" src="/img/ellipse-3-1.png" />
+            <img className="ellipse" alt="Ellipse" src="/img/ellipse-1.png" />
+            <img className="ellipse-2" alt="Ellipse" src="/img/ellipse-2.png" />
+            <img className="ellipse-3" alt="Ellipse" src="/img/ellipse-3.png" />
+          </div>
+          <div className="group-10">
+            <img className="star" alt="Star" src="/img/star-16.svg" />
+            <img className="star-2" alt="Star" src="/img/star-16.svg" />
+            <img className="star-3" alt="Star" src="/img/star-16.svg" />
+            <img className="star-4" alt="Star" src="/img/star-16.svg" />
+            <img className="star-5" alt="Star" src="/img/star-16.svg" />
           </div>
           <div className="group-11">
             <img className="star" alt="Star" src="/img/star-16.svg" />
@@ -102,18 +101,12 @@ export const HomePt = () => {
             <img className="star-4" alt="Star" src="/img/star-16.svg" />
             <img className="star-5" alt="Star" src="/img/star-16.svg" />
           </div>
-          <div className="group-13">
-            <img className="star" alt="Star" src="/img/star-16.svg" />
-            <img className="star-2" alt="Star" src="/img/star-16.svg" />
-            <img className="star-3" alt="Star" src="/img/star-16.svg" />
-            <img className="star-4" alt="Star" src="/img/star-16.svg" />
-            <img className="star-5" alt="Star" src="/img/star-16.svg" />
-          </div>
         </div>
         <ButtonPortugues className="button-portugues-instance" property1="default" to="/orcamento" />
-        <div className="group-14">
+        <ButtonPortugues className="design-component-instance-node" property1="default" to="/orcamento" />
+        <div className="group-13">
           <p className="text-wrapper-24">Veja alguns dos nossos setores de atuação</p>
-          <div className="group-15">
+          <div className="group-14">
             <div className="overlap-11">
               <div className="text-wrapper-25">Legal</div>
               <img className="law" alt="Law" src="/img/law.png" />
@@ -165,15 +158,15 @@ export const HomePt = () => {
             </div>
           </div>
         </div>
-        <div className="group-16">
+        <div className="group-15">
           <div className="text-wrapper-34">Nossas Parcerias</div>
-          <img className="group-17" alt="Group" src="/img/group-17.png" />
+          <img className="group-16" alt="Group" src="/img/group-17.png" />
         </div>
         <div className="overlap-22">
-          <div className="group-18">
+          <div className="group-17">
             <div className="overlap-23">
               <img className="rectangle-6" alt="Rectangle" src="/img/rectangle.png" />
-              <div className="group-19">
+              <div className="group-18">
                 <div className="text-wrapper-35">Serviço de Tradução Profissional</div>
                 <p className="element-idiomas-que">
                   120 Idiomas que cabem no seu bolso
@@ -182,11 +175,11 @@ export const HomePt = () => {
                   <br />
                   Traduzimos em mais de 60 áreas
                 </p>
-                <ButtonPortugues className="design-component-instance-node" property1="default" to="/orcamento" />
+                <ButtonPortugues className="button-portugues-2" property1="default" to="/orcamento" />
               </div>
             </div>
           </div>
-          <img className="magma-translation-4" alt="Magma translation" src="/img/magma-translation-png-1.png" />
+          <img className="magma-translation-4" alt="Magma translation" src="/img/magma-translation-png.png" />
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@
   width: 1201px;
 }
 
-.home-pt .group-5 {
+.home-pt .group-4 {
   height: 276px;
   left: 193px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 816px;
 }
 
-.home-pt .group-6 {
+.home-pt .group-5 {
   height: 151px;
   left: 0;
   position: absolute;
@@ -66,24 +66,7 @@
   width: 194px;
 }
 
-.home-pt .group-instance {
-  border-radius: 28.16px !important;
-  height: 56px !important;
-  left: 420px !important;
-  position: absolute !important;
-  top: 3252px !important;
-  width: 361px !important;
-}
-
-.home-pt .group-2-instance {
-  font-size: 20.5px !important;
-  left: 68px !important;
-  letter-spacing: 1.03px !important;
-  line-height: 13.3px !important;
-  width: 225px !important;
-}
-
-.home-pt .group-7 {
+.home-pt .group-6 {
   height: 455px;
   left: 64px;
   position: absolute;
@@ -119,7 +102,7 @@
   width: 939px;
 }
 
-.home-pt .group-8 {
+.home-pt .group-7 {
   height: 205px;
   left: 0;
   position: absolute;
@@ -281,7 +264,7 @@
   width: 38px;
 }
 
-.home-pt .group-9 {
+.home-pt .group-8 {
   height: 651px;
   left: 121px;
   position: absolute;
@@ -316,7 +299,7 @@
   top: 78px;
 }
 
-.home-pt .group-10 {
+.home-pt .group-9 {
   height: 360px;
   left: 0;
   position: absolute;
@@ -382,10 +365,10 @@
 
 .home-pt .overlap-group-4 {
   height: 68px;
-  left: 372px;
+  left: 342px;
   position: absolute;
   top: 113px;
-  width: 218px;
+  width: 275px;
 }
 
 .home-pt .text-wrapper-20 {
@@ -393,7 +376,7 @@
   font-family: "Lato", Helvetica;
   font-size: 18px;
   font-weight: 400;
-  left: 30px;
+  left: 60px;
   letter-spacing: 0.72px;
   line-height: 29.7px;
   position: absolute;
@@ -413,6 +396,7 @@
   position: absolute;
   text-align: center;
   top: 0;
+  width: 275px;
 }
 
 .home-pt .text-wrapper-22 {
@@ -484,7 +468,7 @@
   width: 84px;
 }
 
-.home-pt .group-11 {
+.home-pt .group-10 {
   height: 24px;
   left: 72px;
   position: absolute;
@@ -532,7 +516,7 @@
   width: 23px;
 }
 
-.home-pt .group-12 {
+.home-pt .group-11 {
   height: 24px;
   left: 405px;
   position: absolute;
@@ -540,7 +524,7 @@
   width: 150px;
 }
 
-.home-pt .group-13 {
+.home-pt .group-12 {
   height: 24px;
   left: 760px;
   position: absolute;
@@ -554,7 +538,13 @@
   top: 1755px !important;
 }
 
-.home-pt .group-14 {
+.home-pt .design-component-instance-node {
+  left: 433px !important;
+  position: absolute !important;
+  top: 3247px !important;
+}
+
+.home-pt .group-13 {
   height: 447px;
   left: 64px;
   position: absolute;
@@ -576,7 +566,7 @@
   width: 853px;
 }
 
-.home-pt .group-15 {
+.home-pt .group-14 {
   height: 346px;
   left: 0;
   position: absolute;
@@ -872,7 +862,7 @@
   white-space: nowrap;
 }
 
-.home-pt .group-16 {
+.home-pt .group-15 {
   height: 286px;
   left: 102px;
   position: absolute;
@@ -894,7 +884,7 @@
   width: 706px;
 }
 
-.home-pt .group-17 {
+.home-pt .group-16 {
   height: 186px;
   left: 0;
   position: absolute;
@@ -910,7 +900,7 @@
   width: 1035px;
 }
 
-.home-pt .group-18 {
+.home-pt .group-17 {
   height: 518px;
   left: 0;
   position: absolute;
@@ -931,7 +921,7 @@
   width: 601px;
 }
 
-.home-pt .group-19 {
+.home-pt .group-18 {
   height: 404px;
   left: 0;
   position: absolute;
@@ -966,7 +956,7 @@
   width: 689px;
 }
 
-.home-pt .design-component-instance-node {
+.home-pt .button-portugues-2 {
   left: 0 !important;
   position: absolute !important;
   top: 349px !important;
