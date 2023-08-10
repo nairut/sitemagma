@@ -13,6 +13,9 @@ import { Testes } from "./screens/Testes";
 import { Depoimentos } from "./screens/Depoimentos";
 import { DesktopFormPT } from "./screens/DesktopFormPT";
 import { HomePt } from "./screens/HomePt/HomePt";
+import { CelularPt } from "./screens/CelularPt";
+
+
 
 
 // Lazy-loaded components
@@ -72,7 +75,7 @@ export const App = () => {
 
 const renderHomePtPage = () => {
   if (isMobile) {
-    return <Celular />;
+    return <CelularPt />;
   } else {
     return <HomePt/>;
     

@@ -1,0 +1,76 @@
+.celular {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.celular .div-2 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 912px;
+  position: relative;
+  width: 430px;
+}
+
+.celular .h-1 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 55px;
+  font-weight: 700;
+  left: 28px;
+  letter-spacing: 2.2px;
+  line-height: 80.3px;
+  position: absolute;
+  text-align: center;
+  top: 117px;
+  width: 366px;
+}
+
+.celular .element-languages-that-2 {
+  color: #383836;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 199px;
+  left: 5px;
+  letter-spacing: 0.6px;
+  line-height: 66.3px;
+  position: absolute;
+  text-align: center;
+  top: 396px;
+  width: 421px;
+}
+
+.celular .click-to-discover-wrapper {
+  background-color: #0536a8;
+  height: 266px;
+  left: 0;
+  position: absolute;
+  top: 646px;
+  width: 430px;
+}
+
+.celular .click-to-discover {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 26.8px;
+  font-weight: 300;
+  height: 44px;
+  left: 81px;
+  letter-spacing: 1.34px;
+  line-height: 17.4px;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  width: 268px;
+}
+
+.celular .magma-translation-3 {
+  height: 54px;
+  left: 118px;
+  position: absolute;
+  top: 34px;
+  width: 194px;
+}
