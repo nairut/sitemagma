@@ -9,11 +9,12 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
-import { Testes } from "./screens/Testes";
+import { ContagemPalavra, Testes } from "./screens/Testes";
 import { Depoimentos } from "./screens/Depoimentos";
 import { DesktopFormPT } from "./screens/DesktopFormPT";
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
+
 
 
 
@@ -24,112 +25,6 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-
-  const renderMainPage = () => {
-    if (isMobile) {
-      return <Celular />;
-    } else {
-      return <Main/>;
-      
-    }
-  };
-  
-
-
-  const renderSpanishPage = () => {
-    if (isMobile) {
-      return <Celular />;
-    } else {
-      return <Spanish/>;
-      
-    }
-  };
-
-  const renderGermanPage = () => {
-    if (isMobile) {
-      return <Celular />;
-    } else {
-      return <German/>;
-      
-    }
-  };
-
-
-  const renderFormPage = () => {
-    if (isMobile) {
-      return <CellForm />;
-    } else {
-      return <DesktopForm />;
-    }
-  };
-
-  const renderTestesPage = () => {
-    if (isMobile) {
-      return <CellForm />;
-    } else {
-      return <Testes />;
-    }
-  };
-
-//Abaixo as páginas em português
-
-
-const renderHomePtPage = () => {
-  if (isMobile) {
-    return <CelularPt />;
-  } else {
-    return <HomePt   
-    titulo="Serviço de Tradução Profissional" 
-    textSize="large"
-    primeiraFrase="120 Idiomas que cabem no seu bolso"
-    segundaFrase="  Traduzimos em mais de 60 áreas"
-    terceiraFrase="Linguistas com Mestrado"
-     />;
-
-
-    
-  }
-};
-
-
-const PromocaoPt = () => {
-  if (isMobile) {
-    return <CelularPt />;
-  } else {
-
-    return <HomePt   
-    titulo="Serviço de Tradução Profissional" 
-    textSize="large" 
-    textCollor="large" 
-    primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
-    segundaFrase='Insira o cupon DESCONTO15 na mensagem'
-    terceiraFrase="que você receberá a promoção"
-    textoBotao="Receba a promoção"
-    />;
-    
-  }
-};
-
-
-
-const renderDepoimentosPage = () => {
-  if (isMobile) {
-    return <Celular />;
-  } else {
-    return <Depoimentos />;
-  }
-};
-
-
-
-const renderOrcamentoPage = () => {
-  if (isMobile) {
-    return <Celular />;
-  } else {
-    return <DesktopFormPT />;
-  }
-};
-
 
 
 
@@ -169,7 +64,7 @@ const renderOrcamentoPage = () => {
         ),
       },
       {
-        path: "/promocao",
+        path: "/pt/promocao",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -183,14 +78,21 @@ const renderOrcamentoPage = () => {
         ),
       },
       {
-        path: "/depoimentos",
+        path: "/pt/depoimentos",
         element: isMobile ? <Celular /> : <Depoimentos />,
       },
       {
-        path: "/orcamento",
+        path: "/pt/orcamento",
         element: isMobile ? <Celular /> : <DesktopFormPT />,
       },
       // Add more pages here
+
+      /////////////////Abaixo tudo de teste ////////////////////////////////
+
+      {
+        path: "/contagem",
+        element: isMobile ? <Celular /> : <Testes />,
+      },
  
 
   ]);
