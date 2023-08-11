@@ -103,6 +103,7 @@ const PromocaoPt = () => {
     primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
     segundaFrase='Insira o cupon DESCONTO15 na mensagem'
     terceiraFrase="que você receberá a promoção"
+    textoBotao="Receba a promoção"
     />;
     
   }

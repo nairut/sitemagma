@@ -9,7 +9,7 @@ import { useReducer } from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-export const ButtonPortugues = ({ property1, className, to }) => {
+export const ButtonPortugues = ({ property1, className, to, textoBotao = "ENTRE EM CONTATO" }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
@@ -25,7 +25,7 @@ export const ButtonPortugues = ({ property1, className, to }) => {
         dispatch("mouse_leave");
       }}
     >
-      <div className="entre-em-contato">ENTRE EM CONTATO</div>
+      <div className="entre-em-contato">{textoBotao}</div>
     </Link>
   );
 };
