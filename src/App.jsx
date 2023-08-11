@@ -77,10 +77,41 @@ const renderHomePtPage = () => {
   if (isMobile) {
     return <CelularPt />;
   } else {
-    return <HomePt/>;
+    return <HomePt   
+    titulo="Serviço de Tradução Profissional" 
+    textSize="large"
+    primeiraFrase="120 Idiomas que cabem no seu bolso"
+    segundaFrase="  Traduzimos em mais de 60 áreas"
+    terceiraFrase="Linguistas com Mestrado"
+     />;
+
+
     
   }
 };
+
+
+const PromocaoPt = () => {
+  if (isMobile) {
+    return <CelularPt />;
+  } else {
+
+    return <HomePt   
+    titulo="Serviço de Tradução Profissional" 
+    textSize="large" 
+    textCollor="large" 
+    primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
+    segundaFrase='Insira o cupon DESCONTO15 na mensagem'
+    terceiraFrase="que você receberá a promoção"
+    />;
+    
+  }
+};
+
+
+
+
+
 
 
 
@@ -100,7 +131,6 @@ const renderOrcamentoPage = () => {
     return <DesktopFormPT />;
   }
 };
-
 
 
 
@@ -134,8 +164,6 @@ const renderOrcamentoPage = () => {
     },
 
 
-
-
 //Abaixo as páginas em português
 
     {
@@ -155,6 +183,11 @@ const renderOrcamentoPage = () => {
     {
       path: "/pt",
       element: renderHomePtPage(),
+    },
+
+    {
+      path: "/pt/promocao",
+      element: PromocaoPt(),
     },
 
 
