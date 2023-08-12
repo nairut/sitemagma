@@ -1,42 +1,53 @@
 import React, { useState } from 'react';
-import axios from 'axios';
-import mammoth from 'mammoth';
+import { Document, Page, pdfjs } from 'react-pdf';
 
-export const Testes = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [wordCount, setWordCount] = useState(0);
-  const [errorMessage, setErrorMessage] = useState('');
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-  const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-    setWordCount(0);
-    setErrorMessage('');
+const PdfWordCounter = () => {
+  const [numWords, setNumWords] = useState(0);
+
+  const onDocumentLoadSuccess = async ({ numPages }) => {
+    let totalWords = 0;
+
+    for (let pageNum = 1; pageNum <= numPages; pageNum++) {
+      const pageText = await extractPageText(pageNum);
+      totalWords += countWords(pageText);
+    }
+
+    setNumWords(totalWords);
   };
 
-  const handleFileUpload = async () => {
-    if (selectedFile && selectedFile.name.endsWith('.docx')) {
-      try {
-        const response = await axios.get(URL.createObjectURL(selectedFile), { responseType: 'arraybuffer' });
-        const result = await mammoth.extractRawText({ arrayBuffer: response.data });
-        const text = result.value;
-        const words = text.split(/\s+/).filter((word) => word !== '');
-        setWordCount(words.length);
-      } catch (error) {
-        console.error('Error uploading or converting file:', error);
-        setErrorMessage('Error uploading or converting file. Please try again.');
-      }
-    } else {
-      setErrorMessage('Please select a .docx file.');
+  const extractPageText = async (pageNum) => {
+    try {
+      const pdfUrl = 'path-to-your-pdf-file.pdf'; // Replace with the actual path to your PDF file.
+      const pdf = await pdfjs.getDocument(pdfUrl).promise;
+      const page = await pdf.getPage(pageNum);
+      const textContent = await page.getTextContent();
+      return textContent.items.map(item => item.str).join(' ');
+    } catch (error) {
+      console.error('Error extracting text from PDF:', error);
+      return '';
     }
+  };
+
+  const countWords = (text) => {
+    return text.split(/\s+/).length;
   };
 
   return (
     <div>
-      <h1>Testes Component</h1>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleFileUpload}>Count Words</button>
-      {wordCount > 0 && <p>Total words: {wordCount}</p>}
-      {errorMessage && <p>{errorMessage}</p>}
+      <h1>PDF Word Counter</h1>
+      <Document
+        file="path-to-your-pdf-file.pdf" // Replace with the actual path to your PDF file.
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
+        {Array.from({ length: numPages }, (_, index) => (
+          <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+        ))}
+      </Document>
+      <p>Total number of words in PDF: {numWords}</p>
     </div>
   );
 };
+
+export default PdfWordCounter;

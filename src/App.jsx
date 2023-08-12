@@ -9,11 +9,13 @@ import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
 import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
-import { ContagemPalavra, Testes } from "./screens/Testes";
+
 import { Depoimentos } from "./screens/Depoimentos";
 import { DesktopFormPT } from "./screens/DesktopFormPT";
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
+
+import { ContagemPalavra, Testes } from "./screens/Testes";
 
 
 
@@ -47,10 +49,7 @@ export const App = () => {
         path: "/form",
         element: isMobile ? <CellForm /> : <DesktopForm />,
       },
-      {
-        path: "/testes",
-        element: isMobile ? <CellForm /> : <Testes />,
-      },
+
       {
         path: "/pt",
         element: isMobile ? <CelularPt /> : (
@@ -90,7 +89,7 @@ export const App = () => {
       /////////////////Abaixo tudo de teste ////////////////////////////////
 
       {
-        path: "/contagem",
+        path: "/testes",
         element: isMobile ? <Celular /> : <Testes />,
       },
  
