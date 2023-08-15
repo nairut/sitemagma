@@ -11,16 +11,18 @@ import { Spanish } from "./screens/Spanish";
 import { German } from "./screens/German";
 
 import { Depoimentos } from "./screens/Depoimentos";
-import { DesktopFormPT } from "./screens/DesktopFormPT";
+
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 
 import { ContagemPalavra, Testes } from "./screens/Testes";
+import Apple from "./screens/Testes/Apple";
+import { OrcamentoPt } from "./screens/OrcamentoPt";
 
 
 
 
-
+ 
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
@@ -30,6 +32,11 @@ export const App = () => {
 
 
 
+  function myFuncion() {
+   console.log("vai aparecer algo")
+  }
+
+
 
   const router = createBrowserRouter([
     
@@ -37,18 +44,40 @@ export const App = () => {
         path: "/",
         element: isMobile ? <Celular /> : <Main />,
       },
+
       {
         path: "/spanish",
         element: isMobile ? <Celular /> : <Spanish />,
       },
+
       {
         path: "/german",
         element: isMobile ? <Celular /> : <German />,
       },
+
+
       {
         path: "/form",
         element: isMobile ? <CellForm /> : <DesktopForm />,
       },
+
+      {
+        path: "/desktop-form",
+        element: isMobile ? <Celular /> : <DesktopForm />,
+      },
+
+
+
+      {path:"/pt/clientes/avaliacoes",
+      element: isMobile ? <Celular /> :<Depoimentos/>,
+    },
+
+
+
+
+
+
+      //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
         path: "/pt",
@@ -62,29 +91,110 @@ export const App = () => {
           />
         ),
       },
+
+
+
+
       {
-        path: "/pt/promocao",
+        path: "/pt/servicos/traducao-ingles",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-            titulo="Serviço de Tradução Profissional"
+            titulo="Serviço de Tradução de Inglês"
             textSize="large"
-            textCollor="large"
-            primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
-            segundaFrase='Insira o cupon DESCONTO15 na mensagem'
-            terceiraFrase="que você receberá a promoção"
-            textoBotao="Receba a promoção"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
           />
         ),
       },
+
+
+
+
       {
-        path: "/pt/depoimentos",
-        element: isMobile ? <Celular /> : <Depoimentos />,
+        path: "pt/servicos/traducao-espanhol",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Serviço de Tradução de Espanhol"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
       },
+
+
+
       {
-        path: "/pt/orcamento",
-        element: isMobile ? <Celular /> : <DesktopFormPT />,
+        path: "/pt/servicostraducao-ingles-portugues",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Tradução de Inglês para Português"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
       },
-      // Add more pages here
+
+
+
+      {
+        path: "/pt/servicos/traducao-espanhol-portugues",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Tradução de Espanhol para Português"
+            textSize="medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+
+
+
+
+
+////////////Páginas de Formulário em PT
+
+
+{
+  path: "/pt/orcamento",
+  element: isMobile ? <Celular /> : <OrcamentoPt />,
+},
+
+
+
+
+
+////////////Páginas de Promoções em PT1
+
+{
+  path: "/pt/promocoes/cupon",
+  element: isMobile ? <CelularPt /> : (
+    <HomePt
+      titulo="Serviço de Tradução Profissional"
+      textSize="large"
+      textCollor="large"
+      primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
+      segundaFrase='Insira o cupon DESCONTO15 na mensagem'
+      terceiraFrase="que você receberá a promoção"
+      textoBotao="Receba a promoção"
+    />
+  ),
+},
+
+
+
+
+
+
+
+
 
       /////////////////Abaixo tudo de teste ////////////////////////////////
 
@@ -92,6 +202,9 @@ export const App = () => {
         path: "/testes",
         element: isMobile ? <Celular /> : <Testes />,
       },
+
+
+
  
 
   ]);

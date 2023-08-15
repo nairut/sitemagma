@@ -1,16 +1,11 @@
 import * as React from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import "./style.css"
+import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 export const Testes = () => {
-  const { scrollYProgress } = useScroll();
+  const { scrollYProgress } = useViewportScroll();
   const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
 
   return (
-
-    <div className="turian">
-
-      
     <div className="wrapper">
       <motion.div
         className="container"
@@ -19,18 +14,12 @@ export const Testes = () => {
         }}
       >
         <motion.div
-        
           className="item"
           style={{
             scaleY: scrollYProgress
           }}
-          
         />
-
-      
       </motion.div>
-    </div>
-
     </div>
   );
 };

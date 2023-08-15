@@ -2,7 +2,7 @@ import React from "react";
 import { Lady } from "../../components/Lady";
 import "./style.css";
 
-export const DesktopFormPT = () => {
+export const OrcamentoPt = () => {
   return (
     
     
