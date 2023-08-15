@@ -26,7 +26,7 @@ export const App = () => {
 
 
     <BrowserRouter>
-    <Routes>sdfsdf
+    <Routes>
 
     <Route path="/"  element={<Main/>}  />
     <Route path="/en/ttt"  element={<HomePt/>}  />
