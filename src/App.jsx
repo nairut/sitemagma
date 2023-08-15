@@ -30,18 +30,10 @@ export const App = () => {
   return (
 
   <BrowserRouter>
-
-
-
-
-    
-
   <Routes>
-    <Route path="/pt" element={isMobile ? <Celular /> : <Depoimentos />} />
+    <Route path="/pt/pt" element={isMobile ? <Celular /> : <Depoimentos />} />
     {/* Other routes can be defined here */}
   </Routes>
-
-
   </BrowserRouter>
 
 
