@@ -77,7 +77,7 @@ export const OrcamentoPt = () => {
         <img className="line" alt="Line" src="/img/line-1.png" />
         <Lady className="lady-instance" />
         <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png.png" />
-        <h1 className="h-1">Receba um Orçamento Gratuito</h1>
+        <h1 className="h-1">{titulo}</h1>
         <p className="p">
         MAGMA é um fornecedor global de soluções de localização, permitindo que marcas estabeleçam uma presença autêntica em diversos mercados ao redor do mundo.
         </p>
