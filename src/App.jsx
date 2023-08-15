@@ -8,7 +8,6 @@ import React, { useEffect } from "react";
 import { Depoimentos } from "./screens/Depoimentos";
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
-import { ContagemPalavra, Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 
 
@@ -33,7 +32,7 @@ export const App = () => {
 
 
       {
-        path: "/desktop-form",
+        path: "/teste/desktop-form",
         element: isMobile ? <Celular /> : <DesktopForm />,
       },
 
