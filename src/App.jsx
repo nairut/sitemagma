@@ -141,7 +141,7 @@ export const App = () => {
 
 
 {
-  path: "/pt/orcamento",
+  path: "/ptorcamento",
   element: isMobile ? <Celular /> : <OrcamentoPt
   
   titulo="Testes da porra"
