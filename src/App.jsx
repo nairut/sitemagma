@@ -23,7 +23,7 @@ export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
   return (
-sdfsdf
+
 
     <BrowserRouter>
     <Routes>
