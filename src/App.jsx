@@ -53,9 +53,9 @@ export const App = () => {
 
 
 
-      {path:"/pt/clientes/avaliacoes",
+      {path:"/quepassa",
       element: isMobile ? <Celular /> :<Depoimentos/>,
-    },
+      },
 
 
 
