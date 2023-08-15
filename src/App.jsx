@@ -32,7 +32,7 @@ export const App = () => {
     <BrowserRouter >
   <Routes>
     <Route path="/" element={isMobile ? <Celular /> : <Main />} />
-    <Route path="/es" element={isMobile ? <Celular /> : <Depoimentos />} />
+    <Route path="/a" element={isMobile ? <Celular /> : <Depoimentos />} />
     <Route path="pt/pt" element={isMobile ? <Celular /> : <HomePt />} />
     {/* Other routes can be defined here */}
   </Routes>
