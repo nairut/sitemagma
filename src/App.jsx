@@ -99,7 +99,7 @@ export const App = () => {
 
 
       {
-        path: "/pt/servicos/traducao-ingles",
+        path: "/ingles",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução de Inglês"
