@@ -41,7 +41,7 @@ export const App = () => {
       //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
-        path: "/pt/*",
+        path: "/pt",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -51,6 +51,25 @@ export const App = () => {
             terceiraFrase="Linguistas com Mestrado"
           />
         ),
+
+
+
+        children: [
+          // Nested routes for "/pt"
+          {
+            path: "/", // Match "/pt"
+            element: isMobile ? <CelularPt /> : (
+              <HomePt
+                // ... (your component props)
+              />
+            ),
+          },
+          {
+            path: "/depoimentos", // Match "/pt/depoimentos"
+            element: isMobile ? <Celular /> : <Depoimentos />,
+          },
+          // Add more nested routes as needed
+        ],
       },
 
 
@@ -201,6 +220,7 @@ export const App = () => {
   );
 
 };
+
 
 
 
