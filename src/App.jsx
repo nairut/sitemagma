@@ -94,15 +94,24 @@ export const App = () => {
 
 
 
-
-
-
-
       {
         path: "/ingles",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução de Inglês"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+      {
+        path: "/ingles/teste",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="testetestestestestset"
             textSize="large"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
             segundaFrase="Traduzimos em mais de 60 áreas"
