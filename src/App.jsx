@@ -153,7 +153,7 @@ export const App = () => {
 
 
 
-////////////Páginas de Promoções em PT1
+////////////Páginas de Promoções em PT1werwer
 
 {
   path: "/pt/promocoes/cupon",
