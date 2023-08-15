@@ -164,7 +164,20 @@ export const App = () => {
 
 {
   path: "/pt/orcamento",
-  element: isMobile ? <Celular /> : <OrcamentoPt />,
+  element: isMobile ? <Celular /> : <OrcamentoPt
+  
+  titulo="Receba um Orçamento Gratuito"
+  
+  />,
+},
+
+
+{
+  path: "/pt/contato",
+  element: isMobile ? <Celular /> : <OrcamentoPt
+  titulo="Entre em Contato"
+  
+  />,
 },
 
 
