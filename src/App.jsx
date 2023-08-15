@@ -22,9 +22,16 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
-
+  return (
+    <Routes>
+      <Route path="/pt/depoimentos" element={isMobile ? <Celular /> : <Depoimentos />} />
+      {/* Other routes can be defined here */}
+    </Routes>
+  );
 
   const router = createBrowserRouter([
+
+    
     
       {
         path: "/",
@@ -202,3 +209,9 @@ export const App = () => {
   );
 
 };
+
+
+
+
+
+
