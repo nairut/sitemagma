@@ -27,7 +27,7 @@ export const App = () => {
   const router = createBrowserRouter([
     
       {
-        path: "/",
+        path: "/*",
         element: isMobile ? <Celular /> : <Main />,
       },
 
