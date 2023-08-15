@@ -38,16 +38,6 @@ export const App = () => {
       },
 
 
-
-      {path:"/pt/depoimentos",
-      element: isMobile ? <Celular /> :<Depoimentos/>,
-      },
-
-
-
-
-
-
       //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
@@ -62,6 +52,12 @@ export const App = () => {
           />
         ),
       },
+
+
+      {path:"/pt/depoimentos",
+      element: isMobile ? <Celular /> :<Depoimentos/>,
+      },
+
 
 
       {
