@@ -23,14 +23,12 @@ export const App = () => {
   return (
 
     <BrowserRouter>
-    <Routes>
-    <Route path="/"  element={<Main/>}  />
-    </Routes>
+
 
 
     <Routes>
-    <Route path="/en/th"  element={<HomePt/>}  />
-    </Routes>
+<Route path="/en/th"  element={<HomePt/>}  />
+</Routes>
     
     
     </BrowserRouter>
