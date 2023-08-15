@@ -41,7 +41,7 @@ export const App = () => {
       //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
-        path: "/pt",
+        path: "/pt/",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -54,26 +54,9 @@ export const App = () => {
       },
 
 
-      {path:"/pt/depoimentos",
+            {path:"/pt/depoimentos",
       element: isMobile ? <Celular /> :<Depoimentos/>,
       },
-
-
-
-      {
-        path: "/falaserio",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="falaserio"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-
 
 
       {
