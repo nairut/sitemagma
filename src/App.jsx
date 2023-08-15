@@ -35,23 +35,6 @@ export const App = () => {
       {
         path: "/desktop-form",
         element: isMobile ? <Celular /> : <DesktopForm />,
-
-
-        children: [
-          {
-            path: "servicos/traducao-espanhol", // No leading slash here
-            element: isMobile ? <CelularPt /> : (
-              <HomePt
-                titulo="Serviço de Tradução de Espanhol"
-                textSize="large"
-                primeiraFrase="120 Idiomas que cabem no seu bolso"
-                segundaFrase="Traduzimos em mais de 60 áreas"
-                terceiraFrase="Linguistas com Mestrado"
-              />
-            ),
-          },
-        ],
-
       },
 
 
@@ -211,30 +194,12 @@ export const App = () => {
 
 
   return (
-<<<<<<< HEAD
     <React.Suspense fallback={<div>Loading...</div>}>
       {/* Lazy-load and render the TagManager component */}
       <LazyTagManager />
       <RouterProvider router={router} />
     </React.Suspense>
   );
-=======
-
-    <BrowserRouter >
-  <Routes>
-    <Route path="/" element={isMobile ? <Celular /> : <Main />} />
-    <Route path="/a" element={isMobile ? <Celular /> : <Depoimentos />} />
-    <Route path="pt/pt" element={isMobile ? <Celular /> : <HomePt />} />
-    {/* Other routes can be defined here */}
-  </Routes>
-  </BrowserRouter>
-
-
-);
-
-
-
->>>>>>> 4cb528f27345399d9ba79e8d25f3d255d60308c8
 
 };
 
