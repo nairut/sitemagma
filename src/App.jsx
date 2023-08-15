@@ -31,10 +31,7 @@ export const App = () => {
       },
 
 
-      {
-        path: "/teste/desktop-form",
-        element: isMobile ? <Celular /> : <DesktopForm />,
-      },
+ 
 
 
       //////////////////////Abaixo tudo de Português//////////////////////////////
