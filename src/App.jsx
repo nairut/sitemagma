@@ -37,7 +37,7 @@ export const App = () => {
       //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
-        path: "./pt",
+        path: "/pt",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -51,7 +51,7 @@ export const App = () => {
       },
 
 
-            {path:"./pt/depoimentos",
+            {path:"/pt/depoimentos",
       element: isMobile ? <Celular /> :<Depoimentos/>,
       },
 
