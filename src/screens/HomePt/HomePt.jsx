@@ -33,7 +33,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
                   <br />
                   {terceiraFrase}
                 </p>
-                <ButtonPortugues className="button-portugues-instance" property1="default" textoBotao={textoBotao} to="/pt/orcamento" />
+                <ButtonPortugues className="button-portugues-instance" property1="default" textoBotao={textoBotao} to="/pt/depoimentos" />
               </div>
             </div>
           </div>
