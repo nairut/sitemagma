@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
-import { CellForm } from "./screens/CellForm";
 import {  Main } from "./screens/Main";
 import React, { useEffect } from "react";
 import { Depoimentos } from "./screens/Depoimentos";
@@ -40,7 +39,7 @@ export const App = () => {
 
 
 
-      {path:"/depoimentos",
+      {path:"/pt/depoimentos",
       element: isMobile ? <Celular /> :<Depoimentos/>,
       },
 
