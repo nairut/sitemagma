@@ -20,10 +20,7 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 
 export const App = () => {
-
-
   return (
-
 
     <BrowserRouter>
     <Routes>
@@ -35,9 +32,6 @@ export const App = () => {
     
     
     </BrowserRouter>
-
-
-
 
 
 
