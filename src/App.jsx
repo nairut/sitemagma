@@ -27,7 +27,7 @@ export const App = () => {
 
 
     <Routes>
-<Route path="/en/th"  element={<HomePt/>}  />
+<Route path="/en/thjjj"  element={<HomePt/>}  />
 </Routes>
     
     
