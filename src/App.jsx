@@ -44,15 +44,6 @@ export const App = () => {
 );
 
 
-return (
-
-    <React.Suspense fallback={<div>Loading...</div>}>
-      {/* Lazy-load and render the TagManager component */}
-      <LazyTagManager />
-      <RouterProvider router={router} />
-    </React.Suspense>
-  );
-
 };
 
 
