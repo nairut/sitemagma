@@ -46,19 +46,8 @@ export const App = () => {
       },
 
       {
-        path: "/spanish",
-        element: isMobile ? <Celular /> : <Spanish />,
-      },
-
-      {
-        path: "/german",
-        element: isMobile ? <Celular /> : <German />,
-      },
-
-
-      {
         path: "/form",
-        element: isMobile ? <CellForm /> : <DesktopForm />,
+        element: isMobile ? <CellForm /> : <Depoimentos />,
       },
 
       {
@@ -83,7 +72,11 @@ export const App = () => {
         path: "/pt",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-
+            titulo="Serviço de Tradução Profissional"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
           />
         ),
       },
