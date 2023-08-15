@@ -24,10 +24,12 @@ export const App = () => {
 
     <BrowserRouter>
     <Routes>
-
     <Route path="/"  element={<Main/>}  />
-    <Route path="/pt"  element={<HomePt/>}  />
+    </Routes>
 
+
+    <Routes>
+    <Route path="/en/th"  element={<HomePt/>}  />
     </Routes>
     
     
