@@ -32,7 +32,7 @@ export const App = () => {
     
     
     </BrowserRouter>
-sdfsd
+
 
 
 );
