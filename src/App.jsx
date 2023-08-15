@@ -163,7 +163,7 @@ export const App = () => {
 
 
 {
-  path: "/pt/orcamento",
+  path: "/pt/solicite-um-orcamento",
   element: isMobile ? <Celular /> : <OrcamentoPt
   
   titulo="Receba um Orçamento Gratuito"
