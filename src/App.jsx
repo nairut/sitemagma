@@ -41,7 +41,7 @@ export const App = () => {
       //////////////////////Abaixo tudo de Português//////////////////////////////
 
       {
-        path: "/pt",
+        path: "/pt/*",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -51,8 +51,6 @@ export const App = () => {
             terceiraFrase="Linguistas com Mestrado"
           />
         ),
-
-
 
         children: [
           // Nested routes for "/pt"
