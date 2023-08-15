@@ -41,13 +41,13 @@
     "@storybook/react": "^7.0.3",
     "@storybook/react-webpack5": "^7.0.3",
     "@storybook/testing-library": "^0.0.14-next.2",
-
-
+    "browserify-zlib": "^0.2.0",
+    "https-browserify": "^1.0.0",
     "parcel": "^2.8.0",
     "parcel-reporter-static-files-copy": "^1.5.0",
     "process": "^0.11.10",
     "storybook": "^7.0.3",
-    "stream-browserify": "^3.0.0"
-
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0"
   }
 }
