@@ -5,18 +5,11 @@ import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
 import { CellForm } from "./screens/CellForm";
 import {  Main } from "./screens/Main";
-import { Obrigado } from "./screens/Obrigado";
 import React, { useEffect } from "react";
-import { Spanish } from "./screens/Spanish";
-import { German } from "./screens/German";
-
 import { Depoimentos } from "./screens/Depoimentos";
-
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
-
 import { ContagemPalavra, Testes } from "./screens/Testes";
-import Apple from "./screens/Testes/Apple";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 
 
@@ -29,12 +22,6 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
-
-
-
-  function myFuncion() {
-   console.log("vai aparecer algo")
-  }
 
 
 
@@ -53,7 +40,7 @@ export const App = () => {
 
 
 
-      {path:"/quepassa",
+      {path:"/depoimentos",
       element: isMobile ? <Celular /> :<Depoimentos/>,
       },
 
@@ -179,15 +166,6 @@ export const App = () => {
   element: isMobile ? <Celular /> : <OrcamentoPt
   
   titulo="Testes da porra"
-  
-  />,
-},
-
-
-{
-  path: "/pt/contato",
-  element: isMobile ? <Celular /> : <OrcamentoPt
-  titulo="Entre em Contato"
   
   />,
 },
