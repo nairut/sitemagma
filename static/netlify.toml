@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/pt/*"
-to = "/index.html"
+to = "/pt/index.html"
 status = 200
 
 [[redirects]]
