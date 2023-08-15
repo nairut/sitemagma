@@ -45,10 +45,6 @@ export const App = () => {
         element: isMobile ? <Celular /> : <Main />,
       },
 
-      {
-        path: "/form",
-        element: isMobile ? <CellForm /> : <Depoimentos />,
-      },
 
       {
         path: "/desktop-form",
@@ -101,7 +97,7 @@ export const App = () => {
 
 
       {
-        path: "pt/servicos/traducao-espanhol",
+        path: "pt/testesss",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução de Espanhol"
