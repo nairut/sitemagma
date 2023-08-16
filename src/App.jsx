@@ -180,6 +180,8 @@ export const App = () => {
 
 
 
+
+
       {path:"/depoimentos",
       element: isMobile ? <Celular /> :<Depoimentos/>,
       },
