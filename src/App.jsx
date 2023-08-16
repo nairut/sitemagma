@@ -103,7 +103,7 @@ export const App = () => {
 
 
       {
-        path: "/pt/servicos/traducao-espanhol-portugues",
+        path: "traducao-espanhol-portugues",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Tradução de Espanhol para Português"
