@@ -67,8 +67,8 @@ export const Depoimentos = () => {
         <img className="jungheinrich-png" alt="Jungheinrich png" src="/img/jungheinrich-png-2.png" />
         <img className="rectangle-11" alt="Rectangle" src="/img/rectangle-85.png" />
         <img className="shopee-png" alt="Shopee png" src="/img/shopee-png-2.png" />
-        <ButtonPortugues className="button-portugues-instance" property1="default" to="/orcamento" />
-        <ButtonPortugues className="design-component-instance-node" property1="default" to="/orcamento" />
+        <ButtonPortugues className="button-portugues-instance" property1="default" to="/solicite-um-orcamento" />
+        <ButtonPortugues className="design-component-instance-node" property1="default" to="/solicite-um-orcamento" />
         <p className="text-wrapper-20">
           Na Magma Translation, encontramos profissionalismo e precisão em cada projeto. Anton Paar agradece pela
           parceria e recomenda seus excelentes serviços de tradução.
