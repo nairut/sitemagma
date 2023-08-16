@@ -55,23 +55,6 @@ export const App = () => {
       },
 
 
-            {path:"/pt/depoimentos",
-      element: isMobile ? <Celular /> :<Depoimentos/>,
-      },
-
-
-      {
-        path: "/ingles",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Serviço de Tradução de Inglês"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
 
       {
         path: "/ingles/teste",
@@ -133,7 +116,72 @@ export const App = () => {
       },
 
 
+      {
+        path: "/traducao-para-espanhol",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Tradução para Espanhol"
+            textSize="large"
+            textCollor="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
 
+
+    
+
+
+      {
+        path: "/traducao-para-ingles",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Serviço de Tradução para Inglês"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+
+      
+      {
+        path: "/traducao-ingles-portugues",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Tradução de Inglês para Português"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+
+      {
+        path: "/traducao-espanhol-portugues",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Tradução de Espanhol para Português"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+
+
+
+      {path:"/depoimentos",
+      element: isMobile ? <Celular /> :<Depoimentos/>,
+      },
 
 
 
@@ -141,10 +189,20 @@ export const App = () => {
 
 
 {
-  path: "/pt/orcamento",
+  path: "/solicite-um-orcamento",
   element: isMobile ? <Celular /> : <OrcamentoPt
   
-  titulo="Testes da porra"
+  titulo="Orçamento Grátis"
+  
+  />,
+},
+
+
+{
+  path: "/entre-em-contato",
+  element: isMobile ? <Celular /> : <OrcamentoPt
+  
+  titulo="Entre em Contato"
   
   />,
 },
@@ -153,10 +211,11 @@ export const App = () => {
 
 
 
+
 ////////////Páginas de Promoções em PT1
 
 {
-  path: "/pt/promocoes/cupon",
+  path: "/promocoes",
   element: isMobile ? <CelularPt /> : (
     <HomePt
       titulo="Serviço de Tradução Profissional"
@@ -169,6 +228,7 @@ export const App = () => {
     />
   ),
 },
+
 
 
 
