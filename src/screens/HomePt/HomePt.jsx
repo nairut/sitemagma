@@ -33,7 +33,9 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
                   <br />
                   {terceiraFrase}
                 </p>
-                <ButtonPortugues className="button-portugues-instance" property1="default" textoBotao={textoBotao} to="solicite-um-orcamento" />
+                <ButtonPortugues className="button-portugues-instance" 
+                property1="default" 
+                textoBotao={textoBotao} to="https://pages.magmatranslation.com/solicite-um-orcamento" />
               </div>
             </div>
           </div>
@@ -96,7 +98,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
             </div>
           </div>
         </div>
-        <ButtonPortugues className="botao-brasileiro" property1="default" to="solicite-um-orcamento"  textoBotao={textoBotao} />
+        <ButtonPortugues className="botao-brasileiro" property1="default" to="https://pages.magmatranslation.com/solicite-um-orcamento"  textoBotao={textoBotao} />
         <div className="depoimentos">
           <div className="osdepoimentos">
             <p className="text-wrapper-19">
@@ -195,7 +197,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
           </p>
           <p className="text-wrapper-33">O que você pode traduzir?</p>
         </div>
-        <ButtonPortugues className="design-component-instance-node" property1="default" to="solicite-um-orcamento" textoBotao={textoBotao} />
+        <ButtonPortugues className="design-component-instance-node" property1="default" to="https://pages.magmatranslation.com/solicite-um-orcamento" textoBotao={textoBotao} />
         <div className="group-4">
           <div className="group-5">
             <p className="text-wrapper-34">
