@@ -1,39 +1,29 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import mammoth from 'mammoth';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Make sure to handle this securely.
+const API_KEY = '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'; // Make sure to handle this securely.
 
 export function ChatGpt() {
-    const [file, setFile] = useState(null);
+    const [inputText, setInputText] = useState("");
     const [summary, setSummary] = useState("");
 
-    const handleFileChange = (e) => {
-        setFile(e.target.files[0]);
+    const handleInputChange = (e) => {
+        setInputText(e.target.value);
     };
 
     const handleSummarizeClick = async () => {
-        if (!file) return;
+        if (!inputText) return;
 
-        const reader = new FileReader();
-        reader.onload = async (event) => {
-            const arrayBuffer = event.target.result;
-
-            const { value } = await mammoth.extractRawText({ arrayBuffer });
-            const response = await summarizeText(value);
-
-            setSummary(response.data.choices[0].message.content);
-        };
-
-        reader.readAsArrayBuffer(file);
+        const response = await summarizeText(inputText);
+        setSummary(response.data.choices[0].message.content);
     };
 
     const summarizeText = async (text) => {
         return await axios.post(API_ENDPOINT, {
-            model: "gpt-4",
+            model: "gpt-3.5-turbo-16k-0613",
             messages: [
-                { role: "user", content: `Explique com 100 caracteres: ${text}` }
+                { role: "user", content: ` ${text}` }
             ]
         }, {
             headers: {
@@ -45,10 +35,16 @@ export function ChatGpt() {
 
     return (
         <div>
-            <input type="file" accept=".docx" onChange={handleFileChange} />
+            <textarea
+                rows={4}
+                cols={50}
+                value={inputText}
+                onChange={handleInputChange}
+                placeholder="Enter your text here..."
+            />
             <button onClick={handleSummarizeClick}>Summarize</button>
             <div>
-                <h2>Aqui está o resultado:</h2>
+                <h2>Here is the result:</h2>
                 <p>{summary}</p>
             </div>
         </div>

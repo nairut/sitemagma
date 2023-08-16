@@ -2,35 +2,45 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Make sure to handle this securely.
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY; // Use environment variables for API keys
 
 export function ChatGpt() {
     const [inputText, setInputText] = useState("");
     const [summary, setSummary] = useState("");
+    const [isLoading, setIsLoading] = useState(false);
 
     const handleInputChange = (e) => {
         setInputText(e.target.value);
     };
 
     const handleSummarizeClick = async () => {
-        if (!inputText) return;
+        if (!inputText || isLoading) return;
 
-        const response = await summarizeText(inputText);
-        setSummary(response.data.choices[0].message.content);
+        setIsLoading(true);
+
+        try {
+            const response = await summarizeText(inputText);
+            setSummary(response.data.choices[0].message.content);
+        } catch (error) {
+            console.error('Error summarizing text:', error.response?.data || error.message);
+            // Handle error state here
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     const summarizeText = async (text) => {
-        return await axios.post(API_ENDPOINT, {
-            model: "gpt-3.5-turbo-16k-0613",
-            messages: [
-                { role: "user", content: ` ${text}` }
-            ]
-        }, {
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${API_KEY}`
-            }
-        });
+        const requestData = {
+            model: 'gpt-3.5-turbo-16k-0613',
+            messages: [{ role: 'user', content: text }]
+        };
+
+        const requestHeaders = {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${API_KEY}`
+        };
+
+        return await axios.post(API_ENDPOINT, requestData, { headers: requestHeaders });
     };
 
     return (
@@ -42,7 +52,9 @@ export function ChatGpt() {
                 onChange={handleInputChange}
                 placeholder="Enter your text here..."
             />
-            <button onClick={handleSummarizeClick}>Summarize</button>
+            <button onClick={handleSummarizeClick} disabled={isLoading}>
+                {isLoading ? 'Summarizing...' : 'Summarize'}
+            </button>
             <div>
                 <h2>Here is the result:</h2>
                 <p>{summary}</p>
