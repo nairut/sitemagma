@@ -26,4 +26,4 @@ const App = () => {
   );
 };
 
-ReactDOM.createRoot(document.getElementById("app")).render(<App />);
+export default App;
