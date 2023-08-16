@@ -20,23 +20,23 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 
 export const App = () => {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
 
-
-
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route
-        element={<Main />}
-        path="/tudo/aquilo"
-        loader={async ({ params }) => {
-          return fetch(
-            `/fake/api/teams/${params.teamId}.json`
-          );
-        }}
-      />
-    )
-  );
+  
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main />,
+      loader: rootLoader,
+      children: [
+        {
+          path: "pt",
+          element: <HomePt />,
+          loader: teamLoader,
+        },
+      ],
+    },
+  ]);
+  
 
 
 
