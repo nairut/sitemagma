@@ -25,7 +25,7 @@ export const App = () => {
 return (   
   
   
-  <BrowserRouter basename="/pt/" >
+  <BrowserRouter basename="/*" >
   <Routes>
     <Route
       path="/en"
