@@ -10,7 +10,6 @@ import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 import { ContagemPalavra, Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
-import ComponenteTeste from "./ComponenteTeste";
 
 
 
@@ -61,7 +60,7 @@ export const App = () => {
 
 
             {path:"/pt/depoimentos",
-      element: isMobile ? <Celular /> :<ComponenteTeste/>,
+      element: isMobile ? <Celular /> :<Depoimentos/>,
       },
 
 
