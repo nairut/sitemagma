@@ -10,7 +10,8 @@ import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
-import { ContagemPalavras } from "./screens/ContagemPalavras";
+import { ChatGpt, ContagemPalavras } from "./screens/ContagemPalavras";
+import ContagemEChatGpt from "./screens/ContagemPalavras/ContagemEChatGpt";
 
 
 
@@ -252,7 +253,7 @@ export const App = () => {
 
       {
         path: "/contagem",
-        element: isMobile ? <Celular /> : <ContagemPalavras />,
+        element: isMobile ? <Celular /> : <ChatGpt />,
       },
 
 
