@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, ErrorBoundary  } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
@@ -24,176 +24,19 @@ export const App = () => {
 
 
 
-  const router = createBrowserRouter([
-    
-
-
-
-    
-      {
-        path: "/",
-        element: isMobile ? <Celular /> : <Main />,
-      },
-
-
-      {
-        path: "/desktop-form",
-        element: isMobile ? <Celular /> : <DesktopForm />,
-      },
-
-
-      //////////////////////Abaixo tudo de Português//////////////////////////////
-
-      {
-        path: "/pt",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Serviço de Tradução Profissional"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-
-      },
-
-
-            {path:"/pt/depoimentos",
-      element: isMobile ? <Celular /> :<Depoimentos/>,
-      },
-
-
-      {
-        path: "/ingles",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Serviço de Tradução de Inglês"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-      {
-        path: "/ingles/teste",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="testetestestestestset"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-
-
-
-      {
-        path: "/pt/servicos/traducao-espanhol",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Serviço de Tradução de Espanhol"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-
-
-      {
-        path: "/pt/servicos/traducao-ingles-portugues",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Tradução de Inglês para Português"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-
-
-      {
-        path: "/pt/servicos/traducao-espanhol-portugues",
-        element: isMobile ? <CelularPt /> : (
-          <HomePt
-            titulo="Tradução de Espanhol para Português"
-            textSize="medium"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-      },
-
-
-
-
-
-
-////////////Páginas de Formulário em PT
-
-
-{
-  path: "/pt/orcamento",
-  element: isMobile ? <Celular /> : <OrcamentoPt
-  
-  titulo="Testes da porra"
-  
-  />,
-},
-
-
-
-
-
-////////////Páginas de Promoções em PT1
-
-{
-  path: "/pt/promocoes/cupon",
-  element: isMobile ? <CelularPt /> : (
-    <HomePt
-      titulo="Serviço de Tradução Profissional"
-      textSize="large"
-      textCollor="large"
-      primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
-      segundaFrase='Insira o cupon DESCONTO15 na mensagem'
-      terceiraFrase="que você receberá a promoção"
-      textoBotao="Receba a promoção"
-    />
-  ),
-},
-
-
-
-
-
-
-
-
-
-      /////////////////Abaixo tudo de teste ////////////////////////////////
-
-      {
-        path: "/testes",
-        element: isMobile ? <Celular /> : <Testes />,
-      },
-
-
-
- 
-
-  ]);
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route
+        element={<Main />}
+        path="/tudo/aquilo"
+        loader={async ({ params }) => {
+          return fetch(
+            `/fake/api/teams/${params.teamId}.json`
+          );
+        }}
+      />
+    )
+  );
 
 
 
