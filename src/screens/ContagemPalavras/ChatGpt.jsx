@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Replace with your actual API key
+const API_KEY = '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'; // Replace with your actual API key
 
-//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    API para Netlify
+//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    API para Netlify
 
 
 
