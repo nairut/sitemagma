@@ -23,7 +23,7 @@ export function ChatGpt() {
         return await axios.post(API_ENDPOINT, {
             model: "gpt-3.5-turbo-16k-0613",
             messages: [
-                { role: "user", content: `Use no more than 2 ${text}` }
+                { role: "user", content: ` ${text}` }
             ]
         }, {
             headers: {
