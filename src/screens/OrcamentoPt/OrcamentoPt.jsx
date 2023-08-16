@@ -37,7 +37,7 @@ export const OrcamentoPt = ({titulo}) => {
 
         </div>
         <div className="overlap-3">
-        <input required type="email" className="rectangle-3" name="email" placeholder="Your E-mail"/>
+        <input required type="email" className="rectangle-3" name="email" placeholder="Seu E-mail"/>
 
           <div className="overlap-group-wrapper">
             <div className="div-wrapper">

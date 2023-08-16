@@ -8,8 +8,9 @@ import React, { useEffect } from "react";
 import { Depoimentos } from "./screens/Depoimentos";
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
-import { ContagemPalavra, Testes } from "./screens/Testes";
+import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
+import { ContagemPalavras } from "./screens/ContagemPalavras";
 
 
 
@@ -246,6 +247,12 @@ export const App = () => {
       {
         path: "/testes",
         element: isMobile ? <Celular /> : <Testes />,
+      },
+
+
+      {
+        path: "/contagem",
+        element: isMobile ? <Celular /> : <ContagemPalavras />,
       },
 
 
