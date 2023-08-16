@@ -2,41 +2,55 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import mammoth from 'mammoth';
 
-export const ContagemPalavras = () => {
-  const [selectedFile, setSelectedFile] = useState(null);
-  const [wordCount, setWordCount] = useState(0);
-  const [errorMessage, setErrorMessage] = useState('');
+const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
+const API_KEY = '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'; // Make sure to handle this securely.
 
-  const handleFileChange = (event) => {
-    setSelectedFile(event.target.files[0]);
-    setWordCount(0);
-    setErrorMessage('');
-  };
+export function ContagemPalavras() {
+    const [file, setFile] = useState(null);
+    const [summary, setSummary] = useState("");
 
-  const handleFileUpload = async () => {
-    if (selectedFile && selectedFile.name.endsWith('.docx')) {
-      try {
-        const response = await axios.get(URL.createObjectURL(selectedFile), { responseType: 'arraybuffer' });
-        const result = await mammoth.extractRawText({ arrayBuffer: response.data });
-        const text = result.value;
-        const words = text.split(/\s+/).filter((word) => word !== '');
-        setWordCount(words.length);
-      } catch (error) {
-        console.error('Error uploading or converting file:', error);
-        setErrorMessage('Error uploading or converting file. Please try again.');
-      }
-    } else {
-      setErrorMessage('Please select a .docx file.');
-    }
-  };
+    const handleFileChange = (e) => {
+        setFile(e.target.files[0]);
+    };
 
-  return (
-    <div>
-      <h1>Testes Component</h1>
-      <input type="file" onChange={handleFileChange} />
-      <button onClick={handleFileUpload}>Count Words</button>
-      {wordCount > 0 && <p>Total words: {wordCount}</p>}
-      {errorMessage && <p>{errorMessage}</p>}
-    </div>
-  );
-};
+    const handleSummarizeClick = async () => {
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = async (event) => {
+            const arrayBuffer = event.target.result;
+
+            const { value } = await mammoth.extractRawText({ arrayBuffer });
+            const response = await summarizeText(value);
+
+            setSummary(response.data.choices[0].message.content);
+        };
+
+        reader.readAsArrayBuffer(file);
+    };
+
+    const summarizeText = async (text) => {
+        return await axios.post(API_ENDPOINT, {
+            model: "gpt-3.5-turbo",
+            messages: [
+                { role: "user", content: `Translate this to portuguese: ${text}` }
+            ]
+        }, {
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${API_KEY}`
+            }
+        });
+    };
+
+    return (
+        <div>
+            <input type="file" accept=".docx" onChange={handleFileChange} />
+            <button onClick={handleSummarizeClick}>Summarize</button>
+            <div>
+                <h2>Summary:</h2>
+                <p>{summary}</p>
+            </div>
+        </div>
+    );
+}
