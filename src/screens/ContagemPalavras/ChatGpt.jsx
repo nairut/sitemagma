@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Replace with your actual API key
+const API_KEY = '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'; // Replace with your actual API key
 
 
 export function ChatGpt() {
