@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = process.env.REACT_APP_OPENAI_API_KEY; // Use environment variables for API keys
+const API_KEY = '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'; // Replace with your actual API key
+
+//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    API para Netlify
+
+
+
+//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  API para RUN DEV
 
 export function ChatGpt() {
     const [inputText, setInputText] = useState("");
@@ -40,7 +46,12 @@ export function ChatGpt() {
             'Authorization': `Bearer ${API_KEY}`
         };
 
-        return await axios.post(API_ENDPOINT, requestData, { headers: requestHeaders });
+        try {
+            const response = await axios.post(API_ENDPOINT, requestData, { headers: requestHeaders });
+            return response;
+        } catch (error) {
+            throw error;
+        }
     };
 
     return (
