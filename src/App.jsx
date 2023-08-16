@@ -37,7 +37,20 @@ export const App = () => {
         path="/team"
         element={<HomePt />}
       />
+
+
+<Route 
+        path="/team/teste"
+        element={<Testes />}
+      />
+
+
+
+
+
+
     </Routes>
+    
   </BrowserRouter>
   );
 
