@@ -120,7 +120,7 @@ export const App = () => {
         path: "/traducao-para-espanhol",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-            titulo="Tradução para Espanhol"
+            titulo="Serviço de Tradução para Espanhol"
             textSize="large"
             textCollor="large"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
