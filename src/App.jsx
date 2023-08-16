@@ -25,12 +25,19 @@ export const App = () => {
 return (   
   
   
-  <BrowserRouter basename="/pt" >
+  <BrowserRouter basename="/" >
   <Routes>
     <Route
       path="/en"
       element={isMobile ? <Celular /> : <Main />}
     />
+
+
+<Route
+      path="/en/pt"
+      element={isMobile ? <Celular /> : <HomePt />}
+    />
+
     {/* Define other routes here */}
   </Routes>
 </BrowserRouter>);
