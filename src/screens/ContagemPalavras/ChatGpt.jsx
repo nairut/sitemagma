@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Make sure to handle this securely.
+const API_KEY = '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'; // Make sure to handle this securely.
 
 export function ChatGpt() {
     const [inputText, setInputText] = useState("");
@@ -21,7 +21,7 @@ export function ChatGpt() {
 
     const summarizeText = async (text) => {
         return await axios.post(API_ENDPOINT, {
-            model: "gpt-4",
+            model: "gpt-3.5-turbo-16k-0613",
             messages: [
                 { role: "user", content: `give an explanation with no more than 50 about: ${text}` }
             ]
