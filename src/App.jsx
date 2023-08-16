@@ -30,19 +30,22 @@ export const App = () => {
     <Routes>
       <Route 
         path="/" 
+        element={<HomePt />} 
+      />
+
+        <Route 
+        path="/team" 
         element={<Main />} 
       />
-      
-      <Route 
-        path="/team"
-        element={<HomePt />}
+   
+
+   <Route 
+        path="/en/pt" 
+        element={<DesktopForm />} 
       />
+  
 
 
-<Route 
-        path="/team/teste"
-        element={<Testes />}
-      />
 
 
 
