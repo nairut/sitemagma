@@ -2,12 +2,11 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Replace with your actual API key
-
+const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
 
 export function ChatGpt() {
-    const [inputText, setInputText] = useState("");
-    const [summary, setSummary] = useState("");
+    const [inputText, setInputText] = useState('');
+    const [summary, setSummary] = useState('');
     const [isLoading, setIsLoading] = useState(false);
 
     const handleInputChange = (e) => {
@@ -15,7 +14,7 @@ export function ChatGpt() {
     };
 
     const handleSummarizeClick = async () => {
-        if (!inputText || isLoading) return;
+        if (!inputText) return;
 
         setIsLoading(true);
 
@@ -23,7 +22,7 @@ export function ChatGpt() {
             const response = await summarizeText(inputText);
             setSummary(response.data.choices[0].message.content);
         } catch (error) {
-            console.error('Error summarizing text:', error.response?.data || error.message);
+            console.error('Error summarizing text:', error);
             // Handle error state here
         } finally {
             setIsLoading(false);
@@ -31,22 +30,19 @@ export function ChatGpt() {
     };
 
     const summarizeText = async (text) => {
-        const requestData = {
-            model: 'gpt-3.5-turbo-16k-0613',
-            messages: [{ role: 'user', content: text }]
-        };
-
-        const requestHeaders = {
-            'Content-Type': 'application/json',
-            'Authorization': `Bearer ${API_KEY}`
-        };
-
-        try {
-            const response = await axios.post(API_ENDPOINT, requestData, { headers: requestHeaders });
-            return response;
-        } catch (error) {
-            throw error;
-        }
+        return await axios.post(
+            API_ENDPOINT,
+            {
+                model: 'gpt-3.5-turbo-16k-0613',
+                messages: [{ role: 'user', content: text }]
+            },
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Authorization: `Bearer ${API_KEY}`
+                }
+            }
+        );
     };
 
     return (
