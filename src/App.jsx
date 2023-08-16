@@ -21,14 +21,6 @@ const App = () => {
           />
         </Routes>
       </BrowserRouter>
-    
-
-
-
-
-
-
-
 
 
   );
