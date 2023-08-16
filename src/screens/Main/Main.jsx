@@ -23,7 +23,7 @@ export const Main = () => {
               className="group-instance"
               property1="default"
               talkToAnExpertClassName="group-2-instance"
-              to="/pt/servicos/traducao-espanhol"
+              to="/desktop-form"
             />
           </div>
         </div>

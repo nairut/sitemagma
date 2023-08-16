@@ -88,7 +88,7 @@ export const App = () => {
 
 
       {
-        path: "pt/servicos/traducao-espanhol",
+        path: "/pt/servicos/traducao-espanhol",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Serviço de Tradução de Espanhol"
@@ -103,7 +103,7 @@ export const App = () => {
 
 
       {
-        path: "/pt/servicostraducao-ingles-portugues",
+        path: "/pt/servicos/traducao-ingles-portugues",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Tradução de Inglês para Português"
