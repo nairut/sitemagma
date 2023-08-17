@@ -1,999 +1,129 @@
-.ChatGpt {
-    background-color: #ffffff;
+.chatmagma {
+    background-color: #444654;
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
   
-  .home-pt .div-2 {
-    background-color: #ffffff;
+  .chatmagma .div {
+    background-color: #656772;
     border: 1px none;
-    height: 3796px;
+    height: 994px;
     position: relative;
     width: 1200px;
   }
   
-  .ChatGpt .overlap-6 {
-    height: 551px;
-    left: 64px;
-    position: absolute;
-    top: 40px;
-    width: 1035px;
-  }
-  
-  .ChatGpt .servio-de-traduo {
-    height: 54px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 194px;
-  }
-  
-  .ChatGpt .chamadadeentrada {
-    height: 518px;
-    left: 0;
-    position: absolute;
-    top: 33px;
-    width: 1035px;
-  }
-  
-  .ChatGpt .overlap-group-3 {
-    height: 518px;
-    position: relative;
-  }
-  
-  .ChatGpt .agncia-de-traduo {
-    height: 518px;
-    left: 434px;
-    position: absolute;
-    top: 0;
-    width: 601px;
-  }
-  
-  .ChatGpt .textoebotao {
-    height: 404px;
-    left: 0;
-    position: absolute;
-    top: 114px;
-    width: 693px;
-  }
-  
-  .ChatGpt .text-wrapper-7 {
+  .chatmagma .chat-magma {
     color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 59.8px;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 50px;
     font-weight: 700;
-    left: 0;
+    left: 114px;
     letter-spacing: 2.39px;
     line-height: normal;
     position: absolute;
-    top: 0;
+    top: 50px;
     width: 599px;
   }
   
-  .ChatGpt .element-idiomas-que {
-    color: #383836;
-    font-family: "Lato", Helvetica;
-    font-size: 21.5px;
-    font-weight: 700;
-    height: 130px;
-    left: 0;
-    letter-spacing: 0.65px;
-    line-height: 43.1px;
-    position: absolute;
-    top: 181px;
-    width: 689px;
-  }
-  
-  .ChatGpt .button-portugues-instance {
-    left: 0 !important;
-    position: absolute !important;
-    top: 349px !important;
-  }
-  
-  .ChatGpt .nossas-parcerias {
-    height: 286px;
-    left: 102px;
-    position: absolute;
-    top: 737px;
-    width: 999px;
-  }
-  
-  .ChatGpt .text-wrapper-8 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 37.7px;
-    font-weight: 700;
-    left: 146px;
-    letter-spacing: 1.51px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 706px;
-  }
-  
-  .ChatGpt .empresa-de-traduo {
-    height: 186px;
-    left: 0;
-    position: absolute;
-    top: 100px;
-    width: 997px;
-  }
-  
-  .ChatGpt .setores {
-    height: 447px;
-    left: 64px;
-    position: absolute;
-    top: 1216px;
-    width: 1074px;
-  }
-  
-  .ChatGpt .text-wrapper-9 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 37px;
-    font-weight: 700;
-    left: 110px;
-    letter-spacing: 1.48px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 853px;
-  }
-  
-  .ChatGpt .setores-de-servio-de {
-    height: 346px;
-    left: 0;
-    position: absolute;
-    top: 101px;
-    width: 1096px;
-  }
-  
-  .ChatGpt .overlap-7 {
-    background-image: url(../../../static/img/rectangle-19.svg);
-    background-size: 100% 100%;
-    height: 139px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-10 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 51px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 100px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .law {
-    height: 38px;
-    left: 57px;
-    position: absolute;
-    top: 31px;
-    width: 38px;
-  }
-  
-  .ChatGpt .overlap-8 {
-    height: 139px;
-    left: 0;
-    position: absolute;
-    top: 207px;
-    width: 157px;
-  }
-  
-  .ChatGpt .rectangle-5 {
-    height: 139px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .media-filmes {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 40px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 96px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .next {
-    height: 38px;
-    left: 57px;
-    position: absolute;
-    top: 28px;
-    width: 38px;
-  }
-  
-  .ChatGpt .overlap-9 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 184px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-11 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 37px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .img-2 {
-    height: 38px;
-    left: 56px;
-    position: absolute;
-    top: 27px;
-    width: 38px;
-  }
-  
-  .ChatGpt .overlap-10 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 184px;
-    position: absolute;
-    top: 207px;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-12 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 24px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-11 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 368px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-13 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 12px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-12 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 368px;
-    position: absolute;
-    top: 207px;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-14 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 19px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-group-4 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 552px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-15 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 32px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .money-bag-pounds {
-    height: 38px;
-    left: 49px;
-    position: absolute;
-    top: 27px;
-    width: 38px;
-  }
-  
-  .ChatGpt .overlap-13 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 552px;
-    position: absolute;
-    top: 207px;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-16 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 26px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 103px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-14 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 736px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .overlap-15 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 736px;
-    position: absolute;
-    top: 207px;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-17 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 35px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-16 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 920px;
-    position: absolute;
-    top: 0;
-    width: 152px;
-  }
-  
-  .ChatGpt .overlap-17 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 139px;
-    left: 920px;
-    position: absolute;
-    top: 207px;
-    width: 152px;
-  }
-  
-  .ChatGpt .text-wrapper-18 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 700;
-    left: 16px;
-    letter-spacing: 0.8px;
-    line-height: normal;
-    position: absolute;
-    top: 99px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .botao-brasileiro {
-    left: 433px !important;
-    position: absolute !important;
-    top: 1755px !important;
-  }
-  
-  .ChatGpt .depoimentos {
-    height: 651px;
-    left: 121px;
-    position: absolute;
-    top: 1917px;
-    width: 963px;
-  }
-  
-  .ChatGpt .osdepoimentos {
-    height: 360px;
-    left: 0;
-    position: absolute;
-    top: 207px;
-    width: 977px;
-  }
-  
-  .ChatGpt .text-wrapper-19 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0.64px;
-    line-height: 26.4px;
-    position: absolute;
-    text-align: center;
-    top: 221px;
-    width: 285px;
-  }
-  
-  .ChatGpt .text-wrapper-20 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 338px;
-    letter-spacing: 0.64px;
-    line-height: 26.2px;
-    position: absolute;
-    text-align: center;
-    top: 220px;
-    width: 285px;
-  }
-  
-  .ChatGpt .text-wrapper-21 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 674px;
-    letter-spacing: 0.64px;
-    line-height: 21.4px;
-    position: absolute;
-    text-align: center;
-    top: 220px;
-    width: 285px;
-  }
-  
-  .ChatGpt .text-wrapper-22 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 88px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 151px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .overlap-group-5 {
-    height: 68px;
-    left: 342px;
-    position: absolute;
-    top: 113px;
-    width: 275px;
-  }
-  
-  .ChatGpt .text-wrapper-23 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 60px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 38px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .text-wrapper-24 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 275px;
-  }
-  
-  .ChatGpt .text-wrapper-25 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 805px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 151px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .text-wrapper-26 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 71px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 113px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .marcelo-soares {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 766px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 113px;
-    white-space: nowrap;
-  }
-  
-  .ChatGpt .empresa-de-traduo-2 {
-    height: 84px;
-    left: 94px;
-    object-fit: cover;
-    position: absolute;
-    top: 2px;
-    width: 84px;
-  }
-  
-  .ChatGpt .empresa-de-traduo-3 {
-    height: 84px;
-    left: 438px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 84px;
-  }
-  
-  .ChatGpt .empresa-de-traduo-4 {
-    height: 84px;
-    left: 803px;
-    object-fit: cover;
-    position: absolute;
-    top: 2px;
-    width: 84px;
-  }
-  
-  .ChatGpt .estrelas {
-    height: 24px;
-    left: 72px;
-    position: absolute;
-    top: 627px;
-    width: 150px;
-  }
-  
-  .ChatGpt .star {
-    height: 19px;
-    left: 3px;
-    position: absolute;
-    top: 2px;
-    width: 23px;
-  }
-  
-  .ChatGpt .star-2 {
-    height: 19px;
-    left: 33px;
-    position: absolute;
-    top: 2px;
-    width: 23px;
-  }
-  
-  .ChatGpt .star-3 {
-    height: 19px;
-    left: 63px;
-    position: absolute;
-    top: 2px;
-    width: 23px;
-  }
-  
-  .ChatGpt .star-4 {
-    height: 19px;
-    left: 93px;
-    position: absolute;
-    top: 2px;
-    width: 23px;
-  }
-  
-  .ChatGpt .star-5 {
-    height: 19px;
-    left: 123px;
-    position: absolute;
-    top: 2px;
-    width: 23px;
-  }
-  
-  .ChatGpt .estrelas-2 {
-    height: 24px;
-    left: 405px;
-    position: absolute;
-    top: 627px;
-    width: 150px;
-  }
-  
-  .ChatGpt .estrelas-3 {
-    height: 24px;
-    left: 760px;
-    position: absolute;
-    top: 627px;
-    width: 150px;
-  }
-  
-  .ChatGpt .cada-tradu-o-passa {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 21px;
-    letter-spacing: 0.8px;
-    line-height: 27px;
-    position: absolute;
-    text-align: center;
-    top: 78px;
-  }
-  
-  .ChatGpt .text-wrapper-27 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 37px;
-    font-weight: 700;
-    left: 211px;
-    letter-spacing: 1.48px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 537px;
-  }
-  
-  .ChatGpt .traduziveis {
-    height: 455px;
-    left: 64px;
-    position: absolute;
-    top: 2714px;
-    width: 1077px;
-  }
-  
-  .ChatGpt .oquesetraduz {
-    height: 205px;
-    left: 0;
-    position: absolute;
-    top: 250px;
-    width: 1085px;
-  }
-  
-  .ChatGpt .overlap-18 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .documentos {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 6px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 100px;
-    width: 106px;
-  }
-  
-  .ChatGpt .img-3 {
-    height: 38px;
-    left: 49px;
-    position: absolute;
-    top: 38px;
-    width: 38px;
-  }
-  
-  .ChatGpt .overlap-19 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 188px;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .text-wrapper-28 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 21px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 102px;
-    width: 93px;
-  }
-  
-  .ChatGpt .overlap-20 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 376px;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .website-apps {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 35px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 102px;
-    width: 77px;
-  }
-  
-  .ChatGpt .overlap-21 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 564px;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .text-wrapper-29 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 29px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 102px;
-    width: 97px;
-  }
-  
-  .ChatGpt .overlap-group-6 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 752px;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .text-wrapper-30 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 18px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 102px;
-    width: 117px;
-  }
-  
-  .ChatGpt .overlap-22 {
-    border: 1px solid;
-    border-color: #c8982a;
-    height: 205px;
-    left: 935px;
-    position: absolute;
-    top: 0;
-    width: 138px;
-  }
-  
-  .ChatGpt .text-wrapper-31 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 17px;
-    font-weight: 700;
-    left: 20px;
-    letter-spacing: 0.68px;
-    line-height: normal;
-    position: absolute;
-    top: 100px;
-    width: 117px;
-  }
-  
-  .ChatGpt .biotech {
-    height: 38px;
-    left: 41px;
-    position: absolute;
-    top: 38px;
-    width: 38px;
-  }
-  
-  .ChatGpt .text-wrapper-32 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 20px;
-    font-weight: 400;
-    left: 65px;
-    letter-spacing: 0.8px;
-    line-height: 27px;
-    position: absolute;
-    text-align: center;
-    top: 136px;
-    width: 939px;
-  }
-  
-  .ChatGpt .text-wrapper-33 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 37.7px;
-    font-weight: 700;
-    left: 209px;
-    letter-spacing: 1.51px;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 655px;
-  }
-  
-  .ChatGpt .design-component-instance-node {
-    left: 433px !important;
-    position: absolute !important;
-    top: 3247px !important;
-  }
-  
-  .ChatGpt .group-4 {
-    height: 276px;
-    left: 193px;
-    position: absolute;
-    top: 3379px;
-    width: 816px;
-  }
-  
-  .ChatGpt .group-5 {
-    height: 151px;
-    left: 0;
-    position: absolute;
-    top: 125px;
-    width: 820px;
-  }
-  
-  .ChatGpt .text-wrapper-34 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 816px;
-  }
-  
-  .ChatGpt .text-wrapper-35 {
-    color: #000000;
-    font-family: "Lato", Helvetica;
-    font-size: 18px;
-    font-weight: 400;
-    left: 111px;
-    letter-spacing: 0.72px;
-    line-height: 29.7px;
-    position: absolute;
-    text-align: center;
-    top: 121px;
-    width: 594px;
-  }
-  
-  .ChatGpt .magma-translation-3 {
+  .chatmagma .magma-translation {
     height: 54px;
-    left: 311px;
+    left: 750px;
     position: absolute;
-    top: 0;
+    top: 99px;
     width: 194px;
   }
   
+  .chatmagma .answer-space {
+    background-color: #d9d9d9;
+    height: 400px;
+    left: 114px;
+    position: absolute;
+    top: 200px;
+    width: 800px;
+    border-radius: 19px;
+
+  }
+
+
+     
+  .chatmagma .texto-resposta {
+
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 26.5px;
+
+  }
 
 
 
 
 
+  
+  .chatmagma .input-message {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 114px;
+    position: absolute;
+    top: 650px;
+    width: 650px;
+    border-radius: 27px;
+    padding: 30px;
+    text-align: left;
 
 
+    font-family: "Lato", Helvetica;
+    font-size: 15px;
+  }
 
 
-.contagem {
-
-text-align: center;
-left: 50%;
-top: 10%;
-height: 30px;
-
-}
-
-
-.oaga1 {
-
+  .chatmagma .input-messagedois {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 114px;
+    position: absolute;
+    top: 650px;
+    width: 650px;
+    border-radius: 27px;
     text-align: center;
-    left: 50%;
-    top: 10%;
-    height: 300px;
+    padding: 40px;
+  }
+
+
+  
+  .chatmagma .ask-button {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 780px;
+    position: absolute;
+    top: 650px;
+    width: 130px;
+    border-radius: 27px;
     
-    }
+  }
+
+
+  .chatmagma .textone {
+    border: 0px none;
+    height: 15px;
+    width: 94px;
+  }
+
+  .chatmagma .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 0;
+  }
+  

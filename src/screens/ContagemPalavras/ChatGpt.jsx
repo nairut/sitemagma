@@ -36,7 +36,7 @@ export function ChatGpt() {
             {
                 model: 'gpt-4',
                   messages: [
-                { role: "user", content: `Depois da resposta, escreva sempre "entendeu, Caysa e Tiago?": ${text}` }
+                { role: "user", content: ` Tiago e Caysa, se me permitirem, deixa eu responder: ${text}` }
             ]
 
       
@@ -51,20 +51,39 @@ export function ChatGpt() {
     };
 
     return (
-        <div className='ChatGpt'>
-            <textarea
-                rows={4}
-                cols={50}
-                value={inputText}
-                onChange={handleInputChange}
-                placeholder="Enter your text here..."
-            />
-            <button  className='button-portugues-instance' onClick={handleSummarizeClick} disabled={isLoading}>
-                {isLoading ? 'Summarizing...' : 'Summarize'}
-            </button>
-            <div>
-                <h2>Here is the result:</h2>
-                <p>{summary}</p>
+        <div className="chatmagma">
+            <div className="div">
+                <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png.png" />
+
+                <div className="chat-magma">
+                     Chat
+                    <br />
+                        Magma Translation
+                </div>
+
+   
+                 <textarea  className="input-message"
+                     rows={4}
+                        cols={50}
+                        value={inputText}
+                        onChange={handleInputChange}
+                        placeholder="Enter your text here..."
+                    />
+
+
+
+
+                    
+                    <button  className="ask-button"  onClick={handleSummarizeClick} disabled={isLoading}>
+                    {isLoading ? 'Summarizing...' : 'Summarize'}
+                    </button>
+                        <div   className="answer-space">
+                            
+                                <div className='texto-resposta'>
+                                 <p className='espaco'>{summary}</p>
+                                 </div>
+                        </div>
+         
             </div>
         </div>
     );
