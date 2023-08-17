@@ -252,7 +252,7 @@ export const App = () => {
 
 
       {
-        path: "/contagem",
+        path: "/chatmagma",
         element: isMobile ? <Celular /> : <ChatGpt />,
       },
 
