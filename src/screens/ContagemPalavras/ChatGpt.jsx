@@ -52,8 +52,8 @@ export function ChatGpt() {
     return (
         <div>
             <textarea
-                rows={40}
-                cols={500}
+                rows={4}
+                cols={50}
                 value={inputText}
                 onChange={handleInputChange}
                 placeholder="Enter your text here..."
