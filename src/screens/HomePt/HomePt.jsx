@@ -55,7 +55,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
             </div>
             <div className="overlap-8">
               <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-19.svg" />
-              <div className="media-filmes">Media &amp; Filmes</div>
+              <div className="media-filmes">Vídeos</div>
               <img className="next" alt="Next" src="/img/next.png" />
             </div>
             <div className="overlap-9">
