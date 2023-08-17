@@ -1,5 +1,5 @@
 .chatmagma {
-    background-color: #444654;
+    background-color: #4e4f54;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,7 +7,7 @@
   }
   
   .chatmagma .div {
-    background-color: #656772;
+    background-color: #6e717d;
     border: 1px none;
     height: 994px;
     position: relative;

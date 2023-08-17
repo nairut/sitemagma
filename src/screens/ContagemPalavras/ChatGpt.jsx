@@ -36,7 +36,7 @@ export function ChatGpt() {
             {
                 model: 'gpt-4',
                   messages: [
-                { role: "user", content: ` Tiago e Caysa, se me permitirem, deixa eu responder: ${text}` }
+                { role: "user", content: ` Responsta sempre começando com: Tiago e Caysa, se me permitirem, deixa eu responder: ${text}` }
             ]
 
       
