@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import "./style.css";
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
 const API_KEY = process.env.REACT_APP_OPENAI_API_KEY;
@@ -50,7 +51,7 @@ export function ChatGpt() {
     };
 
     return (
-        <div>
+        <div className='ChatGpt'>
             <textarea
                 rows={4}
                 cols={50}
@@ -58,7 +59,7 @@ export function ChatGpt() {
                 onChange={handleInputChange}
                 placeholder="Enter your text here..."
             />
-            <button onClick={handleSummarizeClick} disabled={isLoading}>
+            <button  className='button-portugues-instance' onClick={handleSummarizeClick} disabled={isLoading}>
                 {isLoading ? 'Summarizing...' : 'Summarize'}
             </button>
             <div>
