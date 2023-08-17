@@ -36,7 +36,7 @@ export function ChatGpt() {
             {
                 model: 'gpt-4',
                   messages: [
-                { role: "user", content: `Escreva apenas uma palavra: ${text}` }
+                { role: "user", content: `Depois da resposta, escreva sempre "entendeu, Caysa e Tiago?": ${text}` }
             ]
 
       
