@@ -35,38 +35,35 @@ export function ChatGpt() {
     };
 
     const summarizeText = async (text) => {
-        try {
-            const response = await axios.post(
-                API_ENDPOINT,
-                {
-                    model: 'gpt-4',
-                    messages: [
-                        { role: "user", content: `Resposta sempre começando com: Tiago e Caysa, se me permitirem, deixa eu responder: ${text}` }
-                    ]
-                },
-                {
-                    headers: {
-                        'Content-Type': 'application/json',
-                        Authorization: `Bearer ${API_KEY}`
-                    }
+        return await axios.post(
+            API_ENDPOINT,
+            {
+                model: 'gpt-3.5-turbo',
+                messages: [
+                    { role: "user", content: `Translate to Spanish ${text}` }
+                ]
+            },
+            {
+                headers: {
+                    'Content-Type': 'application/json',
+                    Authorization: `Bearer ${API_KEY}`
                 }
-            );
-            return response;
-        } catch (error) {
-            throw new Error(`Error summarizing text: ${error}`);
-        }
+            }
+        );
     };
 
     const generatePDF = () => {
         if (!summary) return;
 
         const pdf = new jsPDF();
+
         pdf.setFont("helvetica");
         pdf.setTextColor(0, 0, 0);
 
         const textLines = pdf.splitTextToSize(summary, 190);
         pdf.setFontSize(12);
         pdf.text(10, 10, textLines);
+
         pdf.save('chat_summary.pdf');
     };
 
@@ -77,7 +74,19 @@ export function ChatGpt() {
         try {
             setIsLoading(true);
             const text = await readPDFFile(file);
-            await processTextChunks(text);
+
+            const textChunks = chunkText(text, CHUNK_SIZE);
+            const summarizedChunks = [];
+
+            for (const chunk of textChunks) {
+                const response = await summarizeText(chunk);
+                const chunkSummary = response.data.choices[0].message.content;
+                summarizedChunks.push(chunkSummary);
+            }
+
+            // GPT instruction: Handle the summarizedChunks
+            // Example: processSummarizedChunks(summarizedChunks);
+
         } catch (error) {
             console.error('Error processing PDF:', error);
         } finally {
@@ -89,34 +98,29 @@ export function ChatGpt() {
         return new Promise((resolve, reject) => {
             const reader = new FileReader();
 
-            reader.onload = async (event) => {
+            reader.onload = (event) => {
                 const pdfData = new Uint8Array(event.target.result);
-                const pdf = await pdfjsLib.getDocument(pdfData).promise;
+                const pdf = pdfjsLib.getDocument(pdfData);
 
-                const textContents = await Promise.all(
-                    Array.from({ length: pdf.numPages }, (_, i) => pdf.getPage(i + 1).then(page => page.getTextContent()))
-                );
+                pdf.promise.then((pdfDocument) => {
+                    const textPromises = [];
 
-                const text = textContents.map(content => content.items.map(item => item.str).join(' ')).join('\n');
-                resolve(text);
+                    for (let pageNum = 1; pageNum <= pdfDocument.numPages; pageNum++) {
+                        textPromises.push(pdfDocument.getPage(pageNum).then(page => page.getTextContent()));
+                    }
+
+                    Promise.all(textPromises)
+                        .then(textContents => {
+                            const text = textContents.map(content => content.items.map(item => item.str).join(' ')).join('\n');
+                            resolve(text);
+                        })
+                        .catch(reject);
+                });
             };
 
             reader.onerror = reject;
             reader.readAsArrayBuffer(file);
         });
-    };
-
-    const processTextChunks = async (text) => {
-        const textChunks = chunkText(text, CHUNK_SIZE);
-        const summarizedChunks = [];
-
-        for (const chunk of textChunks) {
-            const response = await summarizeText(chunk);
-            summarizedChunks.push(response.data.choices[0].message.content);
-        }
-
-        // GPT instruction: Handle the summarizedChunks
-        // Example: processSummarizedChunks(summarizedChunks);
     };
 
     const chunkText = (text, chunkSize) => {

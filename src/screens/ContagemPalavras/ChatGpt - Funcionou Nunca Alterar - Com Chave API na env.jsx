@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const API_ENDPOINT = 'https://api.openai.com/v1/chat/completions';
-const API_KEY = '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'; // Make sure to handle this securely.
+const API_KEY = 'AQUI ENTRA ALGUMA CHAVE DA API DA OPENAI'; // Make sure to handle this securely.
 
 export function ChatGpt() {
     const [inputText, setInputText] = useState("");
