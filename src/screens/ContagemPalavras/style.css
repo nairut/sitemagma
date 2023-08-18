@@ -1,5 +1,5 @@
 .chatmagma {
-    background-color: #4e4f54;
+    background-color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,7 +7,7 @@
   }
   
   .chatmagma .div {
-    background-color: #6e717d;
+    background-color: #ffffff;
     border: 1px none;
     height: 994px;
     position: relative;
@@ -126,4 +126,17 @@
     position: fixed;
     top: 0;
   }
-  
+
+
+  .pdf-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.pdf-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

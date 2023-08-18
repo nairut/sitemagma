@@ -12,6 +12,9 @@ import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { ChatGpt, ContagemPalavras } from "./screens/ContagemPalavras";
 import ContagemEChatGpt from "./screens/ContagemPalavras/ContagemEChatGpt";
+import { HomePtPreco } from "./screens/HomePtPreco";
+
+
 
 
 
@@ -237,6 +240,19 @@ export const App = () => {
 
 
 
+{
+  path: "/preco-de-traducao",
+  element: isMobile ? <CelularPt /> : (
+    <HomePtPreco
+      titulo="Quanto custa a tradução?"
+      textSize="large"
+      primeiraFrase="120 Idiomas que cabem no seu bolso"
+      segundaFrase="Traduzimos em mais de 60 áreas"
+      terceiraFrase="Linguistas com Mestrado"
+    />
+  ),
+},
+
 
 
 
@@ -255,6 +271,7 @@ export const App = () => {
         path: "/chatmagma",
         element: isMobile ? <Celular /> : <ChatGpt />,
       },
+
 
 
 

@@ -1,0 +1,1 @@
+export { HomePtPreco } from "./HomePtPreco";

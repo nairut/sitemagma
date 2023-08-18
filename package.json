@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@loadable/component": "^5.15.3",
+    "@react-pdf/renderer": "^3.1.12",
     "axios": "^1.4.0",
     "framer-motion": "^10.15.2",
+    "jspdf": "^2.5.1",
     "localforage": "^1.10.0",
     "mammoth": "^1.6.0",
     "openai": "^4.0.0",

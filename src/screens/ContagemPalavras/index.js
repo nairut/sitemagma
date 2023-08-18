@@ -3,3 +3,4 @@ export { ContagemPalavras } from "./ContagemPalavras";
 
 
 
+
