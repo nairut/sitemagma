@@ -16,7 +16,7 @@ export const OrcamentoPt = ({titulo}) => {
 
         <div className="group">
           <button className="overlap-group" type="submit">
-            <div className="text-wrapper">Enviar</div>
+            <div className="orcamentobr">Enviar</div>
           </button>
         </div>
 
