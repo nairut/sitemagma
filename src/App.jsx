@@ -92,6 +92,28 @@ export const App = () => {
 
 
 
+      {
+        path: "/traducao-de-documentos",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Empresa de Tradução de Documentos"
+            textSize="large-medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+
+
+
+
+
+
+
 
 
 
