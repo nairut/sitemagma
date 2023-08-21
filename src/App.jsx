@@ -107,39 +107,54 @@ export const App = () => {
       },
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       {
-        path: "/ingles/teste",
+        path: "/preco-por-palavra",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-            titulo="testetestestestestset"
-            textSize="large"
+            titulo="Descubra rapidamente nosso Preço por Palavra"
+            textSize="medium"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
             segundaFrase="Traduzimos em mais de 60 áreas"
             terceiraFrase="Linguistas com Mestrado"
           />
         ),
+
       },
+
+      {
+        path: "/preco-por-pagina",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Descubra rapidamente nosso Preço por Página"
+            textSize="medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+      {
+        path: "/preco-por-lauda",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Descubra rapidamente nosso Preço por Lauda"
+            textSize="medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+
+
+
+
 
 
 
