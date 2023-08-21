@@ -153,39 +153,59 @@ export const App = () => {
 
 
 
-
-
-
-
-
-
       {
-        path: "pt/servicos/traducao-espanhol",
+        path: "/traducao-tecnica",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-            titulo="Serviço de Tradução de Espanhol"
+            titulo="Empresa de Tradução Técnica"
             textSize="large"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
             segundaFrase="Traduzimos em mais de 60 áreas"
             terceiraFrase="Linguistas com Mestrado"
           />
         ),
+
       },
 
 
 
       {
-        path: "/pt/servicostraducao-ingles-portugues",
+        path: "/empresa-de-legendagem",
         element: isMobile ? <CelularPt /> : (
           <HomePt
-            titulo="Tradução de Inglês para Português"
+            titulo="Empresa de Legendagem"
+            textSize="large-medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Legendamos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+      },
+
+        
+
+
+      {
+        path: "/orcamento-de-traducao",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Orçamento Grátis de Tradução"
             textSize="large"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
             segundaFrase="Traduzimos em mais de 60 áreas"
             terceiraFrase="Linguistas com Mestrado"
           />
         ),
+
       },
+
+
+
+
+
+
+
+
 
 
 
