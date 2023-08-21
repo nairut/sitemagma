@@ -97,7 +97,7 @@ export const App = () => {
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Empresa de Tradução de Documentos"
-            textSize="large-medium"
+            textSize="large"
             primeiraFrase="120 Idiomas que cabem no seu bolso"
             segundaFrase="Traduzimos em mais de 60 áreas"
             terceiraFrase="Linguistas com Mestrado"
