@@ -239,13 +239,6 @@ export const App = () => {
 
 
 
-
-
-
-
-    
-
-
       {
         path: "/traducao-para-ingles",
         element: isMobile ? <CelularPt /> : (
@@ -373,11 +366,6 @@ export const App = () => {
         element: isMobile ? <Celular /> : <Testes />,
       },
 
-
-      {
-        path: "/chatmagma",
-        element: isMobile ? <Celular /> : <ChatGpt />,
-      },
 
 
 
