@@ -40,7 +40,7 @@ export function ChatGpt() {
             {
                 model: 'gpt-4',
                 messages: [
-                    { role: "user", content: `Translate to spanish ${text}` }
+                    { role: "user", content: `Resposta sempre começando com: Tiago e Caysa, se me permitirem, deixa eu responder: ${text}` }
                 ]
             },
             {

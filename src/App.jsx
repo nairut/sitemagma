@@ -62,6 +62,51 @@ export const App = () => {
 
 
       {
+        path: "/empresa-de-traducao",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Empresa de Tradução Profissional"
+            textSize="large-medium"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+      {
+        path: "/agencia-de-traducao",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Agência de Tradução Profissional"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      {
         path: "/ingles/teste",
         element: isMobile ? <CelularPt /> : (
           <HomePt
@@ -134,6 +179,11 @@ export const App = () => {
           />
         ),
       },
+
+
+
+
+
 
 
     

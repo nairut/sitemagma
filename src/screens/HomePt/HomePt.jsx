@@ -10,7 +10,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
 
 
   const styles = {
-    fontSize: textSize === 'small' ? '25px' : textSize === 'medium' ? '41px': textSize === 'large' ? '59,8px' : 22
+    fontSize: textSize === 'small' ? '25px' : textSize === 'medium' ? '41px': textSize === 'large-medium' ? '48px': textSize === 'large' ? '59,8px' : 22
     // Other styles...
 
   };

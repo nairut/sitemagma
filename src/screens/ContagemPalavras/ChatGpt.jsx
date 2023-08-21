@@ -38,9 +38,9 @@ export function ChatGpt() {
         return await axios.post(
             API_ENDPOINT,
             {
-                model: 'gpt-3.5-turbo',
+                model: 'gpt-3.5-turbo-16k-0613',
                 messages: [
-                    { role: "user", content: `Translate to Spanish ${text}` }
+                    { role: "user", content: `Translate to spanish: ${text}` }
                 ]
             },
             {
