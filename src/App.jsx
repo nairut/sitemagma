@@ -10,8 +10,6 @@ import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
-import { ChatGpt, ContagemPalavras } from "./screens/ContagemPalavras";
-import ContagemEChatGpt from "./screens/ContagemPalavras/ContagemEChatGpt";
 import { HomePtPreco } from "./screens/HomePtPreco";
 
 
