@@ -40,8 +40,7 @@ export const ContatoPt = ({titulo}) => {
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-              <button type="submit"  className="botaoenviar" ><Link to="https://pages.magmatranslation.com/obrigado">Enviar</Link></button>
-
+              <button type="submit"  className="botaoenviar" >Enviar</button>
 
 
 
