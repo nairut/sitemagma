@@ -20,7 +20,15 @@ import { ContatoPt } from "./screens/ContatoPt";
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 
+
+
 export const App = () => {
+
+
+
+
+
+
   const isMobile = useMediaQuery({ maxWidth: 767 });
 
 
