@@ -29,7 +29,7 @@ export const ContatoPt = ({titulo}) => {
             <form  name="contato-brasil" action="/pt" method="post">
             <input type="hidden" name="form-name" value="contato-brasil" />
 
-              <input required type="text" className="nome" name="Name" placeholder="Seu Nome"    />
+              <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
 
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
