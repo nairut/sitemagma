@@ -362,13 +362,9 @@ export const App = () => {
       },
 
 
+    
       {
-        path: "/obrigado/",
-        element: isMobile ? <Celular /> : <HomePt />,
-      },
-
-      {
-        path: "/preco-de-traducao",
+        path: "/obrigado",
         element: isMobile ? <CelularPt /> : (
           <HomePt
             titulo="Orçamento Recebido!"
