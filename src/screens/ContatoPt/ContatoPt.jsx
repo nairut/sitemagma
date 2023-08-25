@@ -1,8 +1,28 @@
 import React from "react";
+import { BrowserRouter, useNavigate } from "react-router-dom"; 
 import { ButtonPortugues } from "../../components/ButtonPortugues";
 import "./style.css";
 
 export const ContatoPt = ({titulo}) => {
+
+
+  function Contact() {
+    let navigate = useNavigate()
+    const submitHandler = (e) =>{
+      e.preventDefault();
+      let myForm = document.getElementById("contato-brasil");
+      let formData = new FormData(myForm);
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => navigate('/pt'))
+        .catch((error) => alert(error));
+    }
+
+
+
   return (
     <div className="contato-pt">
       <div className="div">
