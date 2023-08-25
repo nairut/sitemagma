@@ -7,6 +7,7 @@ export const ContatoPt = ({titulo}) => {
     // You can include any form submission logic here
     // For now, just redirect to "/obrigado"
     window.location.href = "/obrigado";
+    
   };
 
   return (
@@ -32,7 +33,7 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="/" method="post"  data-netlify="true" onSubmit={handleSubmit}>
+            <form  name="contato-brasil" action="/obrigado" method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
