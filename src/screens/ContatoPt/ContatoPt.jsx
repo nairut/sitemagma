@@ -26,7 +26,7 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="/pt" method="post">
+            <form  name="contato-brasil" action="/pt" method="post"  data-netlify="true">
             <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
