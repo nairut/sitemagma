@@ -27,6 +27,7 @@ export const ContatoPt = ({titulo}) => {
 
 
             <form  name="contact-brasil" action="/pt" method="post">
+            <input type="hidden" name="form-name" value="contact" />
 
               <input required type="text" className="nome" name="name" placeholder="Seu Nome"  required  />
 
