@@ -362,6 +362,12 @@ export const App = () => {
       },
 
 
+      {
+        path: "/obrigado/",
+        element: isMobile ? <Celular /> : <HomePt />,
+      },
+
+
 
 
 
