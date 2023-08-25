@@ -39,7 +39,6 @@ export const ContatoPt = ({titulo}) => {
               <button type="submit"  className="botaoenviar" >Enviar</button>
 
 
-
             </form>
 
 
