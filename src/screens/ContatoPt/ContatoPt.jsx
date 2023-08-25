@@ -1,8 +1,13 @@
 import React from "react";
 import "./style.css";
-import { Link } from 'react-router-dom';
 
 export const ContatoPt = ({titulo}) => {
+
+  const handleSubmit = (event) => {
+    // You can include any form submission logic here
+    // For now, just redirect to "/obrigado"
+    window.location.href = "/obrigado";
+  };
 
   return (
     <div className="contato-pt">
@@ -27,9 +32,7 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="/" method="post"  data-netlify="true" 
-            onSubmit="submit">
-
+            <form  name="contato-brasil"  method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
@@ -40,9 +43,7 @@ export const ContatoPt = ({titulo}) => {
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-              <button   className="botaoenviar" >Enviar</button>
-
-
+              <button type="submit"  className="botaoenviar" >Enviar</button>
 
 
             </form>
