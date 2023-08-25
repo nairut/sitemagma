@@ -29,13 +29,13 @@ export const ContatoPt = ({titulo}) => {
             <form  name="contato-brasil" action="/pt" method="post">
             <input type="hidden" name="form-name" value="contato-brasil" />
 
-              <input required type="text" className="nome" name="Name" placeholder="Seu Nome"  required  />
+              <input required type="text" className="nome" name="Name" placeholder="Seu Nome"    />
 
-              <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  required/>
+              <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
-              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   required/>
+              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
 
-              <textarea required name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
               <button type="submit"  className="botaoenviar" >Enviar</button>
 
