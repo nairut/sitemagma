@@ -21,9 +21,6 @@ export const DesktopForm = () => {
           </button>
         </div>
 
-
-
-
           <div className="overlap">
         
           <textarea required name="message" placeholder="" className="textarea-style" cols="30" rows="10"></textarea>
