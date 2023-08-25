@@ -367,7 +367,18 @@ export const App = () => {
         element: isMobile ? <Celular /> : <HomePt />,
       },
 
-
+      {
+        path: "/preco-de-traducao",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Orçamento Recebido!"
+            textSize="large"
+            primeiraFrase="Estamos analisando com cuidado seu pedido"
+            segundaFrase="Entraremos em contato"
+            terceiraFrase=""
+          />
+        ),
+      },
 
 
 
