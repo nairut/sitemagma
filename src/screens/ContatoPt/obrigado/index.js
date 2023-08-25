@@ -1,1 +1,0 @@
-export { ContatoPt } from "./ContatoPt";

@@ -28,8 +28,8 @@ export const ContatoPt = ({titulo}) => {
 
 
             <form  name="contato-brasil" action="https://pages.magmatranslation.com" method="post"  data-netlify="true" 
-          onSubmit="submit"
-            >
+            onSubmit="submit">
+
             <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
@@ -40,7 +40,7 @@ export const ContatoPt = ({titulo}) => {
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-              <button type="submit"  className="botaoenviar" >Enviar</button>
+              <button   className="botaoenviar" >Enviar</button>
 
 
 
