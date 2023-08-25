@@ -41,6 +41,20 @@
 
  
 
+        <form  name="contato-brasil" action="/pt" method="post">
+          <input type="hidden" name="form-name" value="contato-brasil" />
+            <input required type="text" className="nome" name="nome" placeholder="Seu Nome"  required  />
+            <input required type="text" className="cargo" name="cargo" placeholder="Seu Cargo"  required/>
+            <input required type="email" className="e-mail" name="email" placeholder="Seu E-mail"   required/>
+            <textarea required name="message" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+            <button type="submit"  className="botaoenviar" >Enviar</button>
+          </form>
+
+
+
+
+
+
     <div id="app"></div>
     <script type="module" src="./src/index.jsx"></script>
 
