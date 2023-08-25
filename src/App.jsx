@@ -11,6 +11,7 @@ import { CelularPt } from "./screens/CelularPt";
 import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { HomePtPreco } from "./screens/HomePtPreco";
+import { ContatoPt } from "./screens/ContatoPt";
 
 
 
@@ -293,9 +294,9 @@ export const App = () => {
 
 {
   path: "/solicite-um-orcamento",
-  element: isMobile ? <Celular /> : <OrcamentoPt
+  element: isMobile ? <Celular /> : <ContatoPt
   
-  titulo="Orçamento Grátis"
+  titulo="Solicite um Orçamento Grátis"
   
   />,
 },
@@ -303,7 +304,7 @@ export const App = () => {
 
 {
   path: "/entre-em-contato",
-  element: isMobile ? <Celular /> : <OrcamentoPt
+  element: isMobile ? <Celular /> : <ContatoPt
   
   titulo="Entre em Contato"
   
