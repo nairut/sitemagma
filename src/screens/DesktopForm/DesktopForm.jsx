@@ -13,7 +13,7 @@ export const DesktopForm = () => {
 
       <form  name="contact" action="/" method="post">
       <input type="hidden" name="form-name" value="contact" />
-      <input required type="text" className="cargo" name="name" placeholder="Seu Cargo"  required/>
+  
 
         <div className="group">
           <button className="overlap-group" type="submit">

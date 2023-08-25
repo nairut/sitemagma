@@ -26,11 +26,11 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contact-brasil" action="/" method="post">
+            <form  name="contact-brasil" action="/pt" method="post">
 
               <input required type="text" className="nome" name="name" placeholder="Seu Nome"  required  />
 
-              <input required type="text" className="cargo" name="name" placeholder="Seu Cargo"  required/>
+              <input required type="text" className="cargo" name="cargo" placeholder="Seu Cargo"  required/>
 
               <input required type="email" className="e-mail" name="email" placeholder="Seu E-mail"   required/>
 
