@@ -27,7 +27,7 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="https://pages.magmatranslation.com" method="post"  data-netlify="true" 
+            <form  name="contato-brasil" action="/" method="post"  data-netlify="true" 
             onSubmit="submit">
 
             <input type="hidden" name="form-name" value="contato-brasil" />
