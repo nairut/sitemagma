@@ -1,4 +1,4 @@
-.iphone-SE {
+.celular-ptgrande {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,80 +6,80 @@
   width: 100%;
 }
 
-.iphone-SE .div {
+.celular-ptgrande .div {
   background-color: #ffffff;
-  height: 568px;
+  height: 800px;
   overflow: hidden;
   position: relative;
-  width: 320px;
+  width: 360px;
 }
 
-.iphone-SE .magma-translation {
+.celular-ptgrande .magma-translation {
   height: 39px;
-  left: 90px;
+  left: 110px;
   position: absolute;
   top: 20px;
   width: 140px;
 }
 
-.iphone-SE .overlap-group {
-  height: 299px;
-  left: -51px;
+.celular-ptgrande .overlap-group {
+  height: 447px;
+  left: -31px;
   position: absolute;
-  top: 90px;
+  top: 135px;
   width: 421px;
 }
 
-.iphone-SE .text-wrapper {
+.celular-ptgrande .text-wrapper {
   color: #000000;
   font-family: "Lato", Helvetica;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
   left: 28px;
-  letter-spacing: 1.6px;
-  line-height: 58.4px;
+  letter-spacing: 1.8px;
+  line-height: 65.7px;
   position: absolute;
   text-align: center;
   top: 0;
   width: 366px;
 }
 
-.iphone-SE .element-idiomas-que {
+.celular-ptgrande .element-idiomas-que {
   color: #383836;
   font-family: "Lato", Helvetica;
   font-size: 15px;
   font-weight: 700;
-  height: 106px;
+  height: 196px;
   left: 0;
   letter-spacing: 0.45px;
-  line-height: 35.3px;
+  line-height: 65.3px;
   position: absolute;
   text-align: center;
-  top: 193px;
+  top: 251px;
   width: 421px;
 }
 
-.iphone-SE .group {
+.celular-ptgrande .group {
   background-color: #0536a8;
-  height: 133px;
-  left: 0;
+  height: 152px;
+  left: -6px;
   position: absolute;
-  top: 435px;
-  width: 320px;
+  top: 648px;
+  width: 366px;
 }
 
-.iphone-SE .clique-para {
+.celular-ptgrande .clique-para {
   color: #ffffff;
   font-family: "Manrope", Helvetica;
   font-size: 26.8px;
   font-weight: 300;
-  height: 22px;
-  left: 60px;
+  height: 25px;
+  left: 69px;
   letter-spacing: 1.34px;
   line-height: 36.9px;
   position: absolute;
   text-align: center;
-  top: 54px;
+  top: 62px;
   white-space: nowrap;
-  width: 200px;
+  width: 228px;
 }

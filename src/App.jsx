@@ -12,6 +12,7 @@ import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { HomePtPreco } from "./screens/HomePtPreco";
 import { ContatoPt } from "./screens/ContatoPt";
+import { CelularPtgrande } from "./screens/CelularPtgrande/CelularPtgrande";
 
 
 
@@ -44,7 +45,7 @@ export const App = () => {
 
       {
         path: "/pt",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtgrande /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
             textSize="large"

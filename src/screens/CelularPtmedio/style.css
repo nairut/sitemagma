@@ -1,0 +1,85 @@
+.celular-ptmedio {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.celular-ptmedio .div-3 {
+  background-color: #ffffff;
+  height: 640px;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.celular-ptmedio .magma-translation-2 {
+  height: 39px;
+  left: 110px;
+  position: absolute;
+  top: 20px;
+  width: 140px;
+}
+
+.celular-ptmedio .overlap-group-3 {
+  height: 336px;
+  left: -31px;
+  position: absolute;
+  top: 76px;
+  width: 421px;
+}
+
+.celular-ptmedio .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 28px;
+  letter-spacing: 1.6px;
+  line-height: 58.4px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 366px;
+}
+
+.celular-ptmedio .element-idiomas-que-2 {
+  color: #383836;
+  font-family: "Lato", Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+  height: 106px;
+  left: 0;
+  letter-spacing: 0.45px;
+  line-height: 35.3px;
+  position: absolute;
+  text-align: center;
+  top: 230px;
+  width: 421px;
+}
+
+.celular-ptmedio .div-wrapper {
+  background-color: #0536a8;
+  height: 167px;
+  left: -12px;
+  position: absolute;
+  top: 473px;
+  width: 402px;
+}
+
+.celular-ptmedio .clique-para-3 {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 26.8px;
+  font-weight: 300;
+  height: 27px;
+  left: 76px;
+  letter-spacing: 1.34px;
+  line-height: 36.9px;
+  position: absolute;
+  text-align: center;
+  top: 68px;
+  white-space: nowrap;
+  width: 251px;
+}
