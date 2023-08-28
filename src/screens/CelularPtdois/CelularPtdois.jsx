@@ -7,7 +7,7 @@ export const CelularPtdois = () => {
       <div className="div">
         <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png.png" />
         <div className="overlap-group">
-          <div className="text-wrapper">Serviço de Tradução Profissional</div>
+          <div className="text-wrapper">Serviasdasdço de Tradução Profissional</div>
           <p className="element-idiomas-que">
             120 Idiomas que cabem no seu bolso
             <br />
