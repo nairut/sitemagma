@@ -13,6 +13,7 @@ import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { HomePtPreco } from "./screens/HomePtPreco";
 import { ContatoPt } from "./screens/ContatoPt";
 import { CelularPtgrande } from "./screens/CelularPtgrande/CelularPtgrande";
+import { CelularPtmedio } from "./screens/CelularPtmedio/CelularPtmedio";
 
 
 
@@ -45,6 +46,35 @@ export const App = () => {
 
       {
         path: "/pt",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Serviço de Tradução Profissional"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+      {
+        path: "/pt",
+        element: isMobile ? <CelularPtmedio /> : (
+          <HomePt
+            titulo="Serviço de Tradução Profissional"
+            textSize="large"
+            primeiraFrase="120 Idiomas que cabem no seu bolso"
+            segundaFrase="Traduzimos em mais de 60 áreas"
+            terceiraFrase="Linguistas com Mestrado"
+          />
+        ),
+
+      },
+
+
+      {
+        path: "/pt",
         element: isMobile ? <CelularPtgrande /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
@@ -56,6 +86,14 @@ export const App = () => {
         ),
 
       },
+
+
+
+
+
+
+
+
 
 
 
