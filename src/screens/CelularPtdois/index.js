@@ -1,0 +1,1 @@
+export { CelularPtdois } from "./CelularPtdois";
