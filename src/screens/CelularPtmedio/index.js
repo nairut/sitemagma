@@ -1,1 +1,0 @@
-export { CelularPtmedio } from "./CelularPtmedio";

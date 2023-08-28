@@ -1,18 +1,25 @@
 .iphone-SE {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+
   justify-content: center;
   width: 100%;
+
+  max-width: 767px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the component horizontally */
 }
+
 
 .iphone-SE .div {
   background-color: #ffffff;
-  height: 568px;
-  overflow: hidden;
-  position: relative;
-  width: 320px;
+  height: 767px;
+
+  width: 100%;
 }
+
+
+
+
 
 .iphone-SE .magma-translation {
   height: 39px;
@@ -33,16 +40,20 @@
 .iphone-SE .text-wrapper {
   color: #000000;
   font-family: "Lato", Helvetica;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
-  left: 28px;
+  left: 55px;
   letter-spacing: 1.6px;
   line-height: 58.4px;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 366px;
+
 }
+
+
+
+
 
 .iphone-SE .element-idiomas-que {
   color: #383836;
@@ -50,36 +61,37 @@
   font-size: 15px;
   font-weight: 700;
   height: 106px;
-  left: 0;
+  left: 100px;
   letter-spacing: 0.45px;
   line-height: 35.3px;
   position: absolute;
   text-align: center;
-  top: 193px;
-  width: 421px;
+  top: 250px;
+
 }
+
+
 
 .iphone-SE .group {
   background-color: #0536a8;
   height: 133px;
   left: 0;
+  right: 0;
   position: absolute;
-  top: 435px;
-  width: 320px;
+  width: 100%; /* Make the width 100% */
+  bottom: 0; /* Align the button to the bottom */
+  display: flex; /* Use flexbox to center the text */
+  border-radius: 0; /* Add this line to reset the border radius */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
 }
+
 
 .iphone-SE .clique-para {
   color: #ffffff;
   font-family: "Manrope", Helvetica;
   font-size: 26.8px;
   font-weight: 300;
-  height: 22px;
-  left: 60px;
   letter-spacing: 1.34px;
-  line-height: 36.9px;
-  position: absolute;
-  text-align: center;
-  top: 54px;
   white-space: nowrap;
-  width: 200px;
 }

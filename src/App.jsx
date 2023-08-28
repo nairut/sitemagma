@@ -12,8 +12,7 @@ import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { HomePtPreco } from "./screens/HomePtPreco";
 import { ContatoPt } from "./screens/ContatoPt";
-import { CelularPtgrande } from "./screens/CelularPtgrande/CelularPtgrande";
-import { CelularPtmedio } from "./screens/CelularPtmedio/CelularPtmedio";
+import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 
 
 
@@ -57,44 +56,6 @@ export const App = () => {
         ),
 
       },
-
-      {
-        path: "/ptmedio",
-        element: isMobile ? <CelularPtmedio /> : (
-          <HomePt
-            titulo="Serviço de Tradução Profissional"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-
-      },
-
-
-      {
-        path: "/ptgrande",
-        element: isMobile ? <CelularPtgrande /> : (
-          <HomePt
-            titulo="Serviço de Tradução Profissional"
-            textSize="large"
-            primeiraFrase="120 Idiomas que cabem no seu bolso"
-            segundaFrase="Traduzimos em mais de 60 áreas"
-            terceiraFrase="Linguistas com Mestrado"
-          />
-        ),
-
-      },
-
-
-
-
-
-
-
-
-
 
 
       {
@@ -334,7 +295,7 @@ export const App = () => {
 
 {
   path: "/solicite-um-orcamento",
-  element: isMobile ? <Celular /> : <ContatoPt
+  element: isMobile ? <ContatoCelularPt /> : <ContatoPt
   
   titulo="Solicite um Orçamento Grátis"
   
@@ -344,7 +305,7 @@ export const App = () => {
 
 {
   path: "/entre-em-contato",
-  element: isMobile ? <Celular /> : <ContatoPt
+  element: isMobile ? <ContatoCelularPt /> : <ContatoPt
   
   titulo="Entre em Contato"
   

@@ -1,1 +1,0 @@
-export { CelularPtgrande } from "./CelularPtgrande";

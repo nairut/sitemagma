@@ -1,22 +1,28 @@
 .iphone-SE {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+
   justify-content: center;
   width: 100%;
+
+  max-width: 767px; /* Set a maximum width if needed */
+  margin: 0 auto; /* Center the component horizontally */
 }
+
 
 .iphone-SE .div {
   background-color: #ffffff;
-  height: 568px;
-  overflow: hidden;
-  position: relative;
-  width: 320px;
+  height: 767px;
+
+  width: 100%;
 }
+
+
+
 
 .iphone-SE .magma-translation {
   height: 39px;
-  left: 90px;
+  left: 30%;
   position: absolute;
   top: 20px;
   width: 140px;
@@ -30,56 +36,67 @@
   width: 421px;
 }
 
-.iphone-SE .text-wrapper {
+.iphone-SE .frase-entrada {
   color: #000000;
   font-family: "Lato", Helvetica;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
-  left: 28px;
+  left: 60px;
   letter-spacing: 1.6px;
   line-height: 58.4px;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 366px;
+
 }
 
-.iphone-SE .element-idiomas-que {
+
+
+
+
+.iphone-SE .frases {
   color: #383836;
   font-family: "Lato", Helvetica;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: 700;
-  height: 106px;
-  left: 0;
+  height: 100px;
+  left: 86px;
   letter-spacing: 0.45px;
   line-height: 35.3px;
   position: absolute;
   text-align: center;
-  top: 193px;
-  width: 421px;
+  top: 250px;
+
 }
 
-.iphone-SE .group {
+
+
+.contato-pt .botaoenviar {
   background-color: #0536a8;
-  height: 133px;
+  height: 180px;
   left: 0;
-  position: absolute;
-  top: 435px;
-  width: 320px;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  bottom: -10px;
+  display: flex;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
 }
+
+.iphone-SE .button:hover,
+.iphone-SE .button:active {
+  background-color: #C8982A;
+}
+
 
 .iphone-SE .clique-para {
   color: #ffffff;
   font-family: "Manrope", Helvetica;
   font-size: 26.8px;
   font-weight: 300;
-  height: 22px;
-  left: 60px;
   letter-spacing: 1.34px;
-  line-height: 36.9px;
-  position: absolute;
-  text-align: center;
-  top: 54px;
   white-space: nowrap;
-  width: 200px;
 }

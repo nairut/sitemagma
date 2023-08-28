@@ -8,8 +8,8 @@ export const CelularPt = () => {
       <div className="div">
         <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png.png" />
         <div className="overlap-group">
-          <div className="text-wrapper">Serviasdasdço de Tradução Profissional</div>
-          <p className="element-idiomas-que">
+          <div className="frase-entrada">Serviço de Tradução Profissional</div>
+          <p className="frases">
             120 Idiomas que cabem no seu bolso
             <br />
             Traduzimos em mais de 60 áreas
@@ -17,9 +17,10 @@ export const CelularPt = () => {
             Linguistas com Mestrado
           </p>
         </div>
-        <div className="group">
-          <div className="clique-para">CLIQUE PARA DESCOBRIRR</div>
-        </div>
+        <Link to="/solicite-um-orcamento" className="button">
+          <div className="clique-para">DESCUBRA</div>
+        </Link>
+        
       </div>
     </div>
   );
