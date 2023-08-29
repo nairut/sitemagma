@@ -1,0 +1,1 @@
+export { CelularPtpronto } from "./CelularPtpronto";

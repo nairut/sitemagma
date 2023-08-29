@@ -13,6 +13,7 @@ import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { HomePtPreco } from "./screens/HomePtPreco";
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
+import { CelularPtpronto } from "./screens/CelularPtpronto";
 
 
 
@@ -45,7 +46,18 @@ export const App = () => {
 
       {
         path: "/pt",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+      
+        textoBotao="Descubra"
+        titulo="Serviço de Tradução Profissional"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        
+        
+        /> : (
           <HomePt
             titulo="Serviço de Tradução Profissional"
             textSize="large"
@@ -60,7 +72,16 @@ export const App = () => {
 
       {
         path: "/empresa-de-traducao",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+
+        titulo="Empresa de Tradução Profissional"
+        textSize="large-medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+
+        /> : (
           <HomePt
             titulo="Empresa de Tradução Profissional"
             textSize="large-medium"
@@ -75,7 +96,17 @@ export const App = () => {
 
       {
         path: "/agencia-de-traducao",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Agência de Tradução Profissional"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+
+
+
+        /> : (
           <HomePt
             titulo="Agência de Tradução Profissional"
             textSize="large"
@@ -91,7 +122,15 @@ export const App = () => {
 
       {
         path: "/traducao-de-documentos",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Empresa de Tradução de Documentos"
+        textSize="large-medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Empresa de Tradução de Documentos"
             textSize="large-medium"
@@ -106,7 +145,15 @@ export const App = () => {
 
       {
         path: "/preco-por-palavra",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Custo do Preço por Palavra de Tradução"
+        textSize="medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Descubra rapidamente nosso Preço por Palavra"
             textSize="medium"
@@ -120,7 +167,15 @@ export const App = () => {
 
       {
         path: "/preco-por-pagina",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto
+        textoBotao="Descubra"
+        titulo="Custo do Preço por Página de Tradução"
+        textSize="medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Descubra rapidamente nosso Preço por Página"
             textSize="medium"
@@ -135,7 +190,15 @@ export const App = () => {
 
       {
         path: "/preco-por-lauda",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Custo do Preço por Página de Tradução"
+        textSize="medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Descubra rapidamente nosso Preço por Lauda"
             textSize="medium"
@@ -152,7 +215,15 @@ export const App = () => {
 
       {
         path: "/traducao-tecnica",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto
+        textoBotao="Descubra"
+        titulo="Empresa de Tradução Técnica"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Empresa de Tradução Técnica"
             textSize="large"
@@ -168,7 +239,15 @@ export const App = () => {
 
       {
         path: "/empresa-de-legendagem",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Empresa de Legendagem"
+        textSize="large-medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Legendamos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Empresa de Legendagem"
             textSize="large-medium"
@@ -184,7 +263,15 @@ export const App = () => {
 
       {
         path: "/orcamento-de-traducao",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Orçamento de Tradução"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Orçamento Grátis de Tradução"
             textSize="large"
@@ -208,7 +295,15 @@ export const App = () => {
 
       {
         path: "traducao-espanhol-portugues",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Tradução de Espanhol para Português"
+        textSize="medium"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Tradução de Espanhol para Português"
             textSize="medium"
@@ -222,7 +317,16 @@ export const App = () => {
 
       {
         path: "/traducao-para-espanhol",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto
+        textoBotao="Descubra"
+        titulo="Serviço de Tradução para Espanhol"
+        textSize="large"
+        textCollor="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Serviço de Tradução para Espanhol"
             textSize="large"
@@ -238,7 +342,15 @@ export const App = () => {
 
       {
         path: "/traducao-para-ingles",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Serviço de Tradução para Inglês"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Serviço de Tradução para Inglês"
             textSize="large"
@@ -253,7 +365,15 @@ export const App = () => {
       
       {
         path: "/traducao-ingles-portugues",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto
+        textoBotao="Descubra"
+        titulo="Tradução de Inglês para Português"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Tradução de Inglês para Português"
             textSize="large"
@@ -267,7 +387,15 @@ export const App = () => {
 
       {
         path: "/traducao-de-alemao",
-        element: isMobile ? <CelularPt /> : (
+        element: isMobile ? <CelularPtpronto 
+        textoBotao="Descubra"
+        titulo="Serviço de Tradução do Alemão"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        /> : (
           <HomePt
             titulo="Serviço de Tradução do Alemão"
             textSize="large"
@@ -285,7 +413,10 @@ export const App = () => {
 
 
       {path:"/depoimentos",
-      element: isMobile ? <Celular /> :<Depoimentos/>,
+      element: isMobile ? <CelularPtpronto 
+      textoBotao="Descubra"
+      
+      /> :<Depoimentos/>,
       },
 
 
@@ -321,7 +452,20 @@ export const App = () => {
 
 {
   path: "/promocoes",
-  element: isMobile ? <CelularPt /> : (
+  element: isMobile ? <CelularPtpronto 
+  textoBotao="Descubra"
+  titulo="Serviço de Tradução Profissional"
+  textSize="large"
+  textCollor="large"
+  primeiraFrase={<span style={{ fontSize: '23px', color: 'red' }}>Cupom: 15% Off no Cupon DESCONTO15</span>}
+  segundaFrase='Insira o cupon DESCONTO15 na mensagem'
+
+  textoBotao="APROVEITE"
+  
+  
+  
+  
+  /> : (
     <HomePt
       titulo="Serviço de Tradução Profissional"
       textSize="large"
@@ -339,7 +483,17 @@ export const App = () => {
 
 {
   path: "/preco-de-traducao",
-  element: isMobile ? <CelularPt /> : (
+  element: isMobile ? <CelularPtpronto
+  textoBotao="Descubra"
+  titulo="Quanto custa a tradução?"
+  textSize="large"
+  primeiraFrase="120 Idiomas que cabem no seu bolso"
+  segundaFrase="Traduzimos em mais de 60 áreas"
+  terceiraFrase="Linguistas com Mestrado"
+  
+  
+  
+  /> : (
     <HomePtPreco
       titulo="Quanto custa a tradução?"
       textSize="large"

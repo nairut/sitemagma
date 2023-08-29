@@ -1,0 +1,921 @@
+.celular-ptpronto {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .celular-ptpronto .div {
+    background-color: #ffffff;
+    height: 5252px;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+  }
+  
+  .celular-ptpronto .magma-translation {
+    height: 39px;
+    left: 90px;
+    position: absolute;
+    top: 20px;
+    width: 140px;
+  }
+  
+  .celular-ptpronto .overlap {
+    height: 299px;
+    left: -51px;
+    position: absolute;
+    top: 90px;
+    width: 421px;
+  }
+  
+  .celular-ptpronto .text-wrapper {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 40px;
+    font-weight: 700;
+    left: 28px;
+    letter-spacing: 1.6px;
+    line-height: 58.4px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 366px;
+  }
+  
+  .celular-ptpronto .element-idiomas-que {
+    color: #383836;
+    font-family: "Lato", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    height: 106px;
+    left: 0;
+    letter-spacing: 0.45px;
+    line-height: 35.3px;
+    position: absolute;
+    text-align: center;
+    top: 193px;
+    width: 421px;
+  }
+  
+  .celular-ptpronto .button-portugues-instance {
+    height: 48px !important;
+    left: 45px !important;
+    position: absolute !important;
+    top: 422px !important;
+    width: 230px !important;
+    text-align: center;
+  }
+
+
+  .celular-ptpronto .centered-button {
+    text-align: center;
+  }
+  
+  .celular-ptpronto .design-component-instance-node {
+    height: 8px !important;
+    left: 23px !important;
+    top: 19px !important;
+    width: 184px !important;
+  }
+  
+  .celular-ptpronto .button-portugues-2 {
+    height: 48px !important;
+    left: 45px !important;
+    position: absolute !important;
+    top: 2404px !important;
+    width: 230px !important;
+  }
+  
+  .celular-ptpronto .button-portugues-3 {
+    height: 48px !important;
+    left: 57px !important;
+    position: absolute !important;
+    top: 3425px !important;
+    width: 230px !important;
+  }
+  
+  .celular-ptpronto .button-portugues-4 {
+    height: 48px !important;
+    left: 45px !important;
+    position: absolute !important;
+    top: 4607px !important;
+    width: 230px !important;
+  }
+  
+  .celular-ptpronto .agncia-de-traduo {
+    height: 190px;
+    left: 55px;
+    position: absolute;
+    top: 502px;
+    width: 220px;
+  }
+  
+  .celular-ptpronto .text-wrapper-2 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 37px;
+    font-weight: 700;
+    left: 22px;
+    letter-spacing: 1.48px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 753px;
+    white-space: nowrap;
+    width: 266px;
+  }
+  
+  .celular-ptpronto .p {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 15px;
+    font-weight: 300;
+    left: 43px;
+    letter-spacing: 0.6px;
+    line-height: 20.3px;
+    position: absolute;
+    text-align: center;
+    top: 878px;
+    width: 223px;
+  }
+  
+  .celular-ptpronto .group {
+    height: 406px;
+    left: 18px;
+    position: absolute;
+    top: 1001px;
+    width: 291px;
+  }
+  
+  .celular-ptpronto .text-wrapper-3 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.64px;
+    line-height: 26.4px;
+    position: absolute;
+    text-align: center;
+    top: 219px;
+    width: 285px;
+  }
+  
+  .celular-ptpronto .text-wrapper-4 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 88px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 149px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .text-wrapper-5 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 71px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 111px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .empresa-de-traduo {
+    height: 84px;
+    left: 94px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .celular-ptpronto .estrelas {
+    height: 24px;
+    left: 68px;
+    position: absolute;
+    top: 382px;
+    width: 150px;
+  }
+  
+  .celular-ptpronto .star {
+    height: 19px;
+    left: 3px;
+    position: absolute;
+    top: 2px;
+    width: 23px;
+  }
+  
+  .celular-ptpronto .img {
+    height: 19px;
+    left: 33px;
+    position: absolute;
+    top: 2px;
+    width: 23px;
+  }
+  
+  .celular-ptpronto .star-2 {
+    height: 19px;
+    left: 63px;
+    position: absolute;
+    top: 2px;
+    width: 23px;
+  }
+  
+  .celular-ptpronto .star-3 {
+    height: 19px;
+    left: 93px;
+    position: absolute;
+    top: 2px;
+    width: 23px;
+  }
+  
+  .celular-ptpronto .star-4 {
+    height: 19px;
+    left: 123px;
+    position: absolute;
+    top: 2px;
+    width: 23px;
+  }
+  
+  .celular-ptpronto .group-2 {
+    height: 403px;
+    left: 17px;
+    position: absolute;
+    top: 1474px;
+    width: 291px;
+  }
+  
+  .celular-ptpronto .text-wrapper-6 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.64px;
+    line-height: 26.2px;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    width: 285px;
+  }
+  
+  .celular-ptpronto .overlap-group {
+    height: 68px;
+    left: 4px;
+    position: absolute;
+    top: 113px;
+    width: 275px;
+  }
+  
+  .celular-ptpronto .text-wrapper-7 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 60px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 38px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .text-wrapper-8 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 275px;
+  }
+  
+  .celular-ptpronto .empresa-de-traduo-2 {
+    height: 84px;
+    left: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .celular-ptpronto .estrelas-2 {
+    height: 24px;
+    left: 68px;
+    position: absolute;
+    top: 379px;
+    width: 150px;
+  }
+  
+  .celular-ptpronto .group-3 {
+    height: 395px;
+    left: 18px;
+    position: absolute;
+    top: 1942px;
+    width: 291px;
+  }
+  
+  .celular-ptpronto .text-wrapper-9 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.64px;
+    line-height: 21.4px;
+    position: absolute;
+    text-align: center;
+    top: 218px;
+    width: 285px;
+  }
+  
+  .celular-ptpronto .text-wrapper-10 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 113px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 149px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .marcelo-soares {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 75px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 111px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .empresa-de-traduo-3 {
+    height: 84px;
+    left: 101px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 84px;
+  }
+  
+  .celular-ptpronto .estrelas-3 {
+    height: 24px;
+    left: 68px;
+    position: absolute;
+    top: 371px;
+    width: 150px;
+  }
+  
+  .celular-ptpronto .group-4 {
+    height: 849px;
+    left: 6px;
+    position: absolute;
+    top: 2519px;
+    width: 324px;
+  }
+  
+  .celular-ptpronto .overlap-2 {
+    background-image: url(../../../static/img/rectangle-36.svg);
+    background-size: 100% 100%;
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-11 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 51px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .law {
+    height: 38px;
+    left: 57px;
+    position: absolute;
+    top: 31px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-3 {
+    background-image: url(../../../static/img/rectangle-36.svg);
+    background-size: 100% 100%;
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 142px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .media-filmes {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 19px;
+    font-weight: 700;
+    left: 8px;
+    letter-spacing: 0.76px;
+    line-height: normal;
+    position: absolute;
+    top: 96px;
+  }
+  
+  .celular-ptpronto .next {
+    height: 38px;
+    left: 57px;
+    position: absolute;
+    top: 28px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-4 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 0;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-12 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .img-2 {
+    height: 38px;
+    left: 56px;
+    position: absolute;
+    top: 27px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-5 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 142px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-13 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 24px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .overlap-6 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 284px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-14 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 4px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .overlap-7 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 284px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-15 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 32px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .money-bag-pounds {
+    height: 38px;
+    left: 49px;
+    position: absolute;
+    top: 27px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-8 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 568px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .overlap-9 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 568px;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .overlap-group-wrapper {
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 426px;
+    width: 154px;
+  }
+  
+  .celular-ptpronto .overlap-group-2 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 139px;
+    position: relative;
+    width: 152px;
+  }
+  
+  .celular-ptpronto .text-wrapper-16 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 19px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .overlap-wrapper {
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 426px;
+    width: 154px;
+  }
+  
+  .celular-ptpronto .text-wrapper-17 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 103px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .div-wrapper {
+    height: 139px;
+    left: 0;
+    position: absolute;
+    top: 710px;
+    width: 154px;
+  }
+  
+  .celular-ptpronto .text-wrapper-18 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 12px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .group-5 {
+    height: 139px;
+    left: 156px;
+    position: absolute;
+    top: 710px;
+    width: 154px;
+  }
+  
+  .celular-ptpronto .text-wrapper-19 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 16px;
+    letter-spacing: 0.8px;
+    line-height: normal;
+    position: absolute;
+    top: 99px;
+    white-space: nowrap;
+  }
+  
+  .celular-ptpronto .text-wrapper-20 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 35px;
+    font-weight: 700;
+    left: 15px;
+    letter-spacing: 1.4px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 3567px;
+    width: 291px;
+  }
+  
+  .celular-ptpronto .text-wrapper-21 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 15px;
+    font-weight: 500;
+    left: 20px;
+    letter-spacing: 0.6px;
+    line-height: 20.3px;
+    position: absolute;
+    text-align: center;
+    top: 3699px;
+    width: 280px;
+  }
+  
+  .celular-ptpronto .group-6 {
+    height: 626px;
+    left: 20px;
+    position: absolute;
+    top: 3886px;
+    width: 292px;
+  }
+  
+  .celular-ptpronto .overlap-10 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 0;
+    position: absolute;
+    top: 212px;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .website-apps {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 35px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 77px;
+  }
+  
+  .celular-ptpronto .img-3 {
+    height: 38px;
+    left: 49px;
+    position: absolute;
+    top: 38px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-11 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 142px;
+    position: absolute;
+    top: 212px;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .text-wrapper-22 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 29px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 97px;
+  }
+  
+  .celular-ptpronto .overlap-12 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 0;
+    position: absolute;
+    top: 421px;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .text-wrapper-23 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 18px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 117px;
+  }
+  
+  .celular-ptpronto .overlap-13 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 142px;
+    position: absolute;
+    top: 421px;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .text-wrapper-24 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    width: 117px;
+  }
+  
+  .celular-ptpronto .biotech {
+    height: 38px;
+    left: 41px;
+    position: absolute;
+    top: 38px;
+    width: 38px;
+  }
+  
+  .celular-ptpronto .overlap-14 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .documentos {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 6px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+    width: 106px;
+  }
+  
+  .celular-ptpronto .overlap-15 {
+    border: 1px solid;
+    border-color: #c8982a;
+    height: 205px;
+    left: 142px;
+    position: absolute;
+    top: 0;
+    width: 138px;
+  }
+  
+  .celular-ptpronto .text-wrapper-25 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 21px;
+    letter-spacing: 0.68px;
+    line-height: normal;
+    position: absolute;
+    top: 102px;
+    width: 93px;
+  }
+  
+  .celular-ptpronto .magma-translation-2 {
+    height: 54px;
+    left: 63px;
+    position: absolute;
+    top: 4750px;
+    width: 194px;
+  }
+  
+  .celular-ptpronto .group-7 {
+    height: 425px;
+    left: 23px;
+    position: absolute;
+    top: 4899px;
+    width: 278px;
+  }
+  
+  .celular-ptpronto .overlap-16 {
+    height: 425px;
+    position: relative;
+    width: 274px;
+  }
+  
+  .celular-ptpronto .text-wrapper-26 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 274px;
+  }
+  
+  .celular-ptpronto .text-wrapper-27 {
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    left: 37px;
+    letter-spacing: 0.72px;
+    line-height: 29.7px;
+    position: absolute;
+    text-align: center;
+    top: 244px;
+    width: 199px;
+  }
+  
