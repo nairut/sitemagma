@@ -59,7 +59,7 @@ export const CelularPtpronto =  ({titulo, primeiraFrase, segundaFrase, terceiraF
           textoBotao={textoBotao} to="/solicite-um-orcamento"
         />
         <img className="agncia-de-traduo" alt="Agncia de traduo" src="/img/ag-ncia-de-tradu-o.png" />
-        <div className="text-wrapper-2">Qualidade que dá gosto</div>
+        <div className="text-wrapper-2">Depoimentos</div>
         <p className="p">Cada tradução passa por uma revisão minuciosa e validação da nossa equipe</p>
         <div className="group">
           <p className="text-wrapper-3">
