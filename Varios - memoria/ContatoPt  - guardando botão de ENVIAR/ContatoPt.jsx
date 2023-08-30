@@ -33,7 +33,7 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="/obrigado" method="post"  data-netlify="true" onSubmit={handleSubmit}>
+            <form  name="contato-brasil" action="/obrigado" method="post" enctype="multipart/form-data"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
@@ -44,7 +44,16 @@ export const ContatoPt = ({titulo}) => {
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-              <button type="submit"  className="botaoenviar" >Enviar</button>
+
+                  <label>
+                    
+                    <input className="escondendo-file" name="file" type="file"  />
+                    <div class="file">Deseja enviar um Arquivo?</div>
+                  </label>
+
+
+
+                <button type="submit"  className="botaoenviar" >Enviar</button>
 
 
             </form>

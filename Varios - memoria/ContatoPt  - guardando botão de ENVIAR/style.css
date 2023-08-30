@@ -668,7 +668,46 @@
 }
 
 
+.contato-pt .file {
+  background-color: #022474;
+  border-radius: 13px;
+  height: 26px;
+  left: 720px;
+  position: absolute;
+  top: 490px;
+  width: 280px;
+  border: none;
+  color: white; /* Adding text color */
+  font-size: 18px; /* Adding font size */
+  z-index: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center; /* Add this line for vertical alignment */
+  
+}
 
+
+.contato-pt .escondendo-file {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 0;
+
+  border-radius: 13px;
+  height: 26px;
+  left: 720px;
+  position: absolute;
+  top: 490px;
+  width: 280px;
+  border: none;
+  color: white; /* Adding text color */
+  font-size: 20px; /* Adding font size */
+
+
+
+}
 
 
 .contato-pt .botaoenviar {
@@ -677,7 +716,7 @@
   height: 55px;
   left: 689px;
   position: absolute;
-  top: 490px;
+  top: 550px;
   width: 358px;
   border: none;
   color: white; /* Adding text color */
