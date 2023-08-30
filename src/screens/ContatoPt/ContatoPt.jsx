@@ -46,7 +46,7 @@ export const ContatoPt = ({titulo}) => {
           
 
                   <label>
-                    <span>Add file:</span>
+                    
                     <input className="escondendo-file" name="file" type="file"  />
                     <div class="file">Deseja enviar um Arquivo?</div>
                   </label>
