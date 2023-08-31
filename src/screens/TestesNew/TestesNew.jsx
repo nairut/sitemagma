@@ -1,8 +1,8 @@
 import React from "react";
 import { ButtonPortugues } from "../../components/ButtonPortugues";
-import "./asstyle.css";
+import "./style.css";
 
-export const Testes = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, textCollor, textSize,
+export const TestesNew = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, textCollor, textSize,
   textoBotao
 
 
@@ -17,13 +17,27 @@ export const Testes = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
 
 
   return (
-    <div className="testess-vi">
+    <div className="testes-new">
       <div className="div-2">
         <div className="overlap-6">
+          
           <img className="servio-de-traduo" alt="Servio de traduo" src="/img/magma-translation-png-1.png" />
           <div className="chamadadeentrada">
             <div className="overlap-group-3">
-              <img className="agncia-de-traduo" alt="Agência de Tradução" src="/img/ag-ncia-de-tradu-o.png" />
+
+
+
+
+
+      <video autoPlay loop muted playsInline width="600"   className="video">
+        <source
+          src="https://res.cloudinary.com/mkpill/video/upload/v1691752606/ai_pill_5352472919.webm"
+          type="video/webm"
+        />
+        Your browser does not support the video tag.
+      </video>
+
+
               <div className="textoebotao">
                 <div className="text-wrapper-7" style={styles} >{titulo}</div>
                 <p className="element-idiomas-que" >

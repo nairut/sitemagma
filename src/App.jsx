@@ -10,10 +10,11 @@ import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
-import { HomePtPreco } from "./screens/HomePtPreco";
+
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
+import { TestesNew } from "./screens/TestesNew/TestesNew";
 
 
 
@@ -494,7 +495,7 @@ export const App = () => {
   
   
   /> : (
-    <HomePtPreco
+    <HomePt
       titulo="Quanto custa a tradução?"
       textSize="large"
       primeiraFrase="120 Idiomas que cabem no seu bolso"
@@ -514,7 +515,17 @@ export const App = () => {
 
       {
         path: "/testes",
-        element: isMobile ? <Celular /> : <Testes />,
+        element: isMobile ? <Celular /> : <TestesNew 
+        
+        
+        
+        titulo="Serviço de Tradução Profissional"
+        textSize="large"
+        primeiraFrase="120 Idiomas que cabem no seu bolso"
+        segundaFrase="Traduzimos em mais de 60 áreas"
+        terceiraFrase="Linguistas com Mestrado"
+        
+        />,
       },
 
 
