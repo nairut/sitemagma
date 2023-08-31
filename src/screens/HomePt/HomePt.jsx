@@ -26,6 +26,11 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
               <img className="agncia-de-traduo" alt="Agência de Tradução" src="/img/ag-ncia-de-tradu-o.png" />
               <div className="textoebotao">
                 <div className="text-wrapper-7" style={styles} >{titulo}</div>
+                <video>
+    <source src="https://res.cloudinary.com/mkpill/video/upload/v1691752606/ai_pill_5352472919.webm" type="video/webm" />
+    <source src="/video-example.mp4" type="video/mp4" />
+    Sorry, your browser doesn't support videos.
+</video>
                 <p className="element-idiomas-que" >
                   {primeiraFrase}
                   <br />
