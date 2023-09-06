@@ -522,7 +522,6 @@ export const App = () => {
         
         titulo="Serviço de Tradução Profissional"
         textSize="large"
-        
         primeiraFrase="120 Idiomas que cabem no seu bolso"
         segundaFrase="Traduzimos em mais de 60 áreas"
         terceiraFrase="Linguistas com Mestrado"

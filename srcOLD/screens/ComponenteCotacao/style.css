@@ -1,0 +1,33 @@
+.ComponenteCotacao {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .ComponenteCotacao .div {
+    background-color: #ffffff;
+    height: 1682px;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .ComponenteCotacao .rectangle {
+    background-color: #d9d9d9;
+    height: 61px;
+    left: 61px;
+    position: absolute;
+    top: 121px;
+    width: 497px;
+  }
+  
+  .ComponenteCotacao .rectangle-2 {
+    background-color: #d9d9d9;
+    height: 61px;
+    left: 600px;
+    position: absolute;
+    top: 121px;
+    width: 497px;
+  }
+

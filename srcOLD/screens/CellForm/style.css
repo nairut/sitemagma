@@ -1,0 +1,122 @@
+.cell-form {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cell-form .div-3 {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 912px;
+  position: relative;
+  width: 430px;
+}
+
+.cell-form .text-wrapper-28 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 45px;
+  font-weight: 700;
+  left: 28px;
+  letter-spacing: 1.8px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 117px;
+  width: 366px;
+}
+
+.cell-form .send-wrapper {
+  background-color: #0536a8;
+  height: 266px;
+  left: 0;
+  position: absolute;
+  top: 646px;
+  width: 430px;
+}
+
+.cell-form .send {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 26.8px;
+  font-weight: 300;
+  height: 44px;
+  left: 81px;
+  letter-spacing: 1.34px;
+  line-height: 17.4px;
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  width: 268px;
+}
+
+.cell-form .magma-translation-4 {
+  height: 54px;
+  left: 118px;
+  position: absolute;
+  top: 34px;
+  width: 194px;
+}
+
+.cell-form .overlap-18 {
+  height: 83px;
+  left: 62px;
+  position: absolute;
+  top: 438px;
+  width: 296px;
+}
+
+.cell-form .rectangle-8 {
+  background-color: #ffffff;
+  border: 0.7px solid;
+  border-color: #000000;
+  border-radius: 4px;
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: 17px;
+  width: 296px;
+}
+
+.cell-form .overlap-group-wrapper {
+  height: 36px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 78px;
+}
+
+.cell-form .div-wrapper {
+  background-color: #ffffff;
+  height: 36px;
+  position: relative;
+  width: 76px;
+}
+
+.cell-form .text-wrapper-29 {
+  color: #0a3749;
+  font-family: "Nunito", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  left: 3px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+  width: 67px;
+}
+
+.cell-form .just-send-us-your-e {
+  color: #000000;
+  font-family: "Nunito", Helvetica;
+  font-size: 22px;
+  font-weight: 500;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 347px;
+}

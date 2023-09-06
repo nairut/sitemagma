@@ -1,0 +1,2 @@
+export { Testes } from "./Testes";
+

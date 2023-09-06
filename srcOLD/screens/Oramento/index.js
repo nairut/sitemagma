@@ -1,0 +1,1 @@
+export { Oramento } from "./Oramento";

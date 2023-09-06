@@ -1,0 +1,786 @@
+.depoimentos {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.depoimentos .div-2 {
+  background-color: #ffffff;
+  border: 0.99px none;
+  height: 2466px;
+  position: relative;
+  width: 1201px;
+}
+
+.depoimentos .magma-translation-3 {
+  height: 54px;
+  left: 64px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.depoimentos .text-wrapper-7 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 193px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 2169px;
+  width: 816px;
+}
+
+.depoimentos .text-wrapper-8 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 381px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  top: 2283px;
+  width: 444px;
+  text-align: center;
+}
+
+.depoimentos .magma-translation-4 {
+  height: 54px;
+  left: 504px;
+  position: absolute;
+  top: 2045px;
+  width: 194px;
+}
+
+.depoimentos .text-wrapper-9 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 121px;
+  letter-spacing: 0.64px;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 419px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-10 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 459px;
+  letter-spacing: 0.64px;
+  line-height: 26.2px;
+  position: absolute;
+  text-align: center;
+  top: 418px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-11 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 795px;
+  letter-spacing: 0.64px;
+  line-height: 21.4px;
+  position: absolute;
+  text-align: center;
+  top: 418px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-12 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37px;
+  font-weight: 700;
+  left: 334px;
+  letter-spacing: 1.48px;
+  line-height: normal;
+  position: absolute;
+  top: 112px;
+  width: 537px;
+}
+
+.depoimentos .text-wrapper-13 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 204px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 349px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-14 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 566px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 349px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-15 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 876px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 349px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-16 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 193px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 311px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-17 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 552px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 311px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-18 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 852px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 311px;
+  white-space: nowrap;
+}
+
+.depoimentos .ellipse {
+  height: 84px;
+  left: 215px;
+  object-fit: cover;
+  position: absolute;
+  top: 201px;
+  width: 84px;
+}
+
+.depoimentos .ellipse-2 {
+  height: 84px;
+  left: 559px;
+  object-fit: cover;
+  position: absolute;
+  top: 199px;
+  width: 84px;
+}
+
+.depoimentos .ellipse-3 {
+  height: 84px;
+  left: 924px;
+  object-fit: cover;
+  position: absolute;
+  top: 201px;
+  width: 84px;
+}
+
+.depoimentos .star {
+  height: 19px;
+  left: 196px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-2 {
+  height: 19px;
+  left: 529px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-3 {
+  height: 19px;
+  left: 867px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-4 {
+  height: 19px;
+  left: 226px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-5 {
+  height: 19px;
+  left: 559px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-6 {
+  height: 19px;
+  left: 897px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-7 {
+  height: 19px;
+  left: 256px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-8 {
+  height: 19px;
+  left: 589px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-9 {
+  height: 19px;
+  left: 927px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-10 {
+  height: 19px;
+  left: 286px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-11 {
+  height: 19px;
+  left: 619px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-12 {
+  height: 19px;
+  left: 957px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-13 {
+  height: 19px;
+  left: 316px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-14 {
+  height: 19px;
+  left: 649px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .star-15 {
+  height: 19px;
+  left: 987px;
+  position: absolute;
+  top: 632px;
+  width: 23px;
+}
+
+.depoimentos .text-wrapper-19 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37.7px;
+  font-weight: 700;
+  left: 248px;
+  letter-spacing: 1.51px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 738px;
+  width: 706px;
+}
+
+.depoimentos .zapier-png {
+  height: 70px;
+  left: 102px;
+  position: absolute;
+  top: 839px;
+  width: 101px;
+}
+
+.depoimentos .abbott-png {
+  height: 70px;
+  left: 102px;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .zf-png {
+  height: 70px;
+  left: 230px;
+  position: absolute;
+  top: 839px;
+  width: 101px;
+}
+
+.depoimentos .anton-paar-png {
+  height: 70px;
+  left: 230px;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .crowdin-png {
+  height: 70px;
+  left: 358px;
+  position: absolute;
+  top: 839px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-5 {
+  height: 70px;
+  left: 358px;
+  object-fit: cover;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .cloudwords-png {
+  height: 70px;
+  left: 486px;
+  position: absolute;
+  top: 839px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-6 {
+  height: 70px;
+  left: 486px;
+  object-fit: cover;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-7 {
+  height: 79px;
+  left: 614px;
+  object-fit: cover;
+  position: absolute;
+  top: 839px;
+  width: 111px;
+}
+
+.depoimentos .rectangle-8 {
+  height: 70px;
+  left: 614px;
+  object-fit: cover;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-9 {
+  height: 70px;
+  left: 742px;
+  object-fit: cover;
+  position: absolute;
+  top: 839px;
+  width: 101px;
+}
+
+.depoimentos .evoltz-png {
+  height: 70px;
+  left: 742px;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-10 {
+  height: 70px;
+  left: 864px;
+  object-fit: cover;
+  position: absolute;
+  top: 839px;
+  width: 107px;
+}
+
+.depoimentos .jungheinrich-png {
+  height: 70px;
+  left: 870px;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .rectangle-11 {
+  height: 70px;
+  left: 984px;
+  object-fit: cover;
+  position: absolute;
+  top: 839px;
+  width: 115px;
+}
+
+.depoimentos .shopee-png {
+  height: 70px;
+  left: 998px;
+  position: absolute;
+  top: 955px;
+  width: 101px;
+}
+
+.depoimentos .button-portugues-instance {
+  left: 433px !important;
+  position: absolute !important;
+  top: 1110px !important;
+}
+
+.depoimentos .design-component-instance-node {
+  left: 433px !important;
+  position: absolute !important;
+  top: 1821px !important;
+}
+
+.depoimentos .text-wrapper-20 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 121px;
+  letter-spacing: 0.64px;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 1470px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-21 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 459px;
+  letter-spacing: 0.64px;
+  line-height: 26.2px;
+  position: absolute;
+  text-align: center;
+  top: 1469px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-22 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 795px;
+  letter-spacing: 0.64px;
+  line-height: 21.4px;
+  position: absolute;
+  text-align: center;
+  top: 1469px;
+  width: 285px;
+}
+
+.depoimentos .text-wrapper-23 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 209px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  white-space: nowrap;
+}
+
+.depoimentos .overlap-group-3 {
+  height: 68px;
+  left: 493px;
+  position: absolute;
+  top: 1362px;
+  width: 218px;
+}
+
+.depoimentos .text-wrapper-24 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 30px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-25 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.depoimentos .text-wrapper-26 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 926px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 1400px;
+  white-space: nowrap;
+}
+
+.depoimentos .text-wrapper-27 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 192px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 1362px;
+  white-space: nowrap;
+}
+
+.depoimentos .marcelo-soares {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 887px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 1362px;
+  white-space: nowrap;
+}
+
+.depoimentos .ellipse-4 {
+  height: 84px;
+  left: 215px;
+  object-fit: cover;
+  position: absolute;
+  top: 1252px;
+  width: 84px;
+}
+
+.depoimentos .ellipse-5 {
+  height: 84px;
+  left: 559px;
+  object-fit: cover;
+  position: absolute;
+  top: 1250px;
+  width: 84px;
+}
+
+.depoimentos .ellipse-6 {
+  height: 84px;
+  left: 924px;
+  object-fit: cover;
+  position: absolute;
+  top: 1252px;
+  width: 84px;
+}
+
+.depoimentos .star-16 {
+  height: 19px;
+  left: 196px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-17 {
+  height: 19px;
+  left: 529px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-18 {
+  height: 19px;
+  left: 867px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-19 {
+  height: 19px;
+  left: 226px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-20 {
+  height: 19px;
+  left: 559px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-21 {
+  height: 19px;
+  left: 897px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-22 {
+  height: 19px;
+  left: 256px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-23 {
+  height: 19px;
+  left: 589px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-24 {
+  height: 19px;
+  left: 927px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-25 {
+  height: 19px;
+  left: 286px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-26 {
+  height: 19px;
+  left: 619px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-27 {
+  height: 19px;
+  left: 957px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-28 {
+  height: 19px;
+  left: 316px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-29 {
+  height: 19px;
+  left: 649px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}
+
+.depoimentos .star-30 {
+  height: 19px;
+  left: 987px;
+  position: absolute;
+  top: 1683px;
+  width: 23px;
+}

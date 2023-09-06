@@ -1,0 +1,27 @@
+.frame {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .h-1-wrapper {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 1056px;
+  position: relative;
+  width: 1014px;
+}
+
+.frame .text-wrapper {
+  color: #000000;
+  font-family: "Nunito-Medium", Helvetica;
+  font-size: 64px;
+  font-weight: 500;
+  left: 131px;
+  letter-spacing: 8.64px;
+  line-height: normal;
+  position: absolute;
+  top: 440px;
+}

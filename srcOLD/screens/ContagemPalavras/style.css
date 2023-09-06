@@ -1,0 +1,142 @@
+.chatmagma {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .chatmagma .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 994px;
+    position: relative;
+    width: 1200px;
+  }
+  
+  .chatmagma .chat-magma {
+    color: #000000;
+    font-family: "Lato-Bold", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 114px;
+    letter-spacing: 2.39px;
+    line-height: normal;
+    position: absolute;
+    top: 50px;
+    width: 599px;
+  }
+  
+  .chatmagma .magma-translation {
+    height: 54px;
+    left: 750px;
+    position: absolute;
+    top: 99px;
+    width: 194px;
+  }
+  
+  .chatmagma .answer-space {
+    background-color: #d9d9d9;
+    height: 400px;
+    left: 114px;
+    position: absolute;
+    top: 200px;
+    width: 800px;
+    border-radius: 19px;
+
+  }
+
+
+     
+  .chatmagma .texto-resposta {
+
+    color: #000000;
+    font-family: "Lato", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 26.5px;
+
+  }
+
+
+
+
+
+  
+  .chatmagma .input-message {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 114px;
+    position: absolute;
+    top: 650px;
+    width: 650px;
+    border-radius: 27px;
+    padding: 30px;
+    text-align: left;
+
+
+    font-family: "Lato", Helvetica;
+    font-size: 15px;
+  }
+
+
+  .chatmagma .input-messagedois {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 114px;
+    position: absolute;
+    top: 650px;
+    width: 650px;
+    border-radius: 27px;
+    text-align: center;
+    padding: 40px;
+  }
+
+
+  
+  .chatmagma .ask-button {
+    background-color: #d9d9d9;
+    height: 82px;
+    left: 780px;
+    position: absolute;
+    top: 650px;
+    width: 130px;
+    border-radius: 27px;
+    
+  }
+
+
+  .chatmagma .textone {
+    border: 0px none;
+    height: 15px;
+    width: 94px;
+  }
+
+  .chatmagma .text-wrapper {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 0;
+  }
+
+
+  .pdf-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.pdf-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
