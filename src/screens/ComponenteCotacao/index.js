@@ -1,0 +1,1 @@
+export { ComponenteCotacao } from "./ComponenteCotacao";

@@ -689,3 +689,25 @@
 .contato-pt .botaoenviar:hover {
   background-color: #0536a8; /* Change to green on hover */
 }
+
+
+
+
+.contato-pt .cotacao {
+
+  border-radius: 13px;
+  height: 55px;
+  left: 200px;
+  position: absolute;
+  top: 490px;
+  width: 358px;
+  border: none;
+  color: white; /* Adding text color */
+  font-size: 20px; /* Adding font size */
+  
+}
+
+/* Hover state */
+.contato-pt .cotacao:hover {
+  background-color: #636770; /* Change to green on hover */
+}

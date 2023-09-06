@@ -15,6 +15,7 @@ import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
 import { TestesNew } from "./screens/TestesNew/TestesNew";
+import { ComponenteCotacao } from "./screens/ComponenteCotacao";
 
 
 
@@ -526,6 +527,12 @@ export const App = () => {
         terceiraFrase="Linguistas com Mestrado"
         
         />,
+      },
+
+
+      {
+        path: "/componente",
+        element: isMobile ? <Celular /> : <ComponenteCotacao />,
       },
 
 

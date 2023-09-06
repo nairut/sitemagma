@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { ComponenteCotacao } from "../ComponenteCotacao";
 
 export const ContatoPt = ({titulo}) => {
 
@@ -15,11 +16,13 @@ export const ContatoPt = ({titulo}) => {
       <div className="div">
         <div className="overlap">
           <img className="servio-de-traduo" alt="Servio de traduo" src="/img/magma-translation-png-1.png" />
+          
           <div className="overlap-group">
             <div className="chamadadeentrada">
               <div className="textoebotao">
                 <div className="overlap-group-2">
                   <div className="text-wrapper">{titulo}</div>
+                  
                   <p className="element-idiomas-que">
                     120 Idiomas que cabem no seu bolso
                     <br />
@@ -33,6 +36,8 @@ export const ContatoPt = ({titulo}) => {
             <div className="rectangle" />
 
 
+
+
             <form  name="contato-brasil" action="/obrigado" method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
@@ -43,8 +48,16 @@ export const ContatoPt = ({titulo}) => {
               <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+
+              <div className="cotacao" >
+            <ComponenteCotacao  />
+
+            </div> 
           
               <button type="submit"  className="botaoenviar" >Enviar</button>
+
+
+
 
 
             </form>
