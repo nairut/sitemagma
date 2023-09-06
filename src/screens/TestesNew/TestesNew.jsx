@@ -1,235 +1,167 @@
 import React from "react";
-import { ButtonPortugues } from "../../components/ButtonPortugues";
 import "./style.css";
 
-export const TestesNew = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, textCollor, textSize,
-  textoBotao
+export const TestesNew = ({titulo}) => {
 
-
-}) => {
-
-
-  const styles = {
-    fontSize: textSize === 'small' ? '25px' : textSize === 'medium' ? '41px': textSize === 'large-medium' ? '48px': textSize === 'large' ? '59,8px' : 22
-    // Other styles...
-
+  const handleSubmit = (event) => {
+    // You can include any form submission logic here
+    // For now, just redirect to "/obrigado"
+    window.location.href = "/obrigado";
+    
   };
-
 
   return (
     <div className="testes-new">
-      <div className="div-2">
-        <div className="overlap-6">
-          
+      <div className="div">
+        <div className="overlap">
           <img className="servio-de-traduo" alt="Servio de traduo" src="/img/magma-translation-png-1.png" />
-          <div className="chamadadeentrada">
-            <div className="overlap-group-3">
-
-
-
-
-
-      <video autoPlay loop muted playsInline width="600"   className="video">
-        <source
-          src="https://res.cloudinary.com/mkpill/video/upload/v1691752606/ai_pill_5352472919.webm"
-          type="video/webm"
-        />
-        Your browser does not support the video tag.
-      </video>
-
-
+          <div className="overlap-group">
+            <div className="chamadadeentrada">
               <div className="textoebotao">
-                <div className="text-wrapper-7" style={styles} >{titulo}</div>
-                <p className="element-idiomas-que" >
-                  {primeiraFrase}
-                  <br />
-                  {segundaFrase}
-                  <br />
-                  {terceiraFrase}
-                </p>
-                <ButtonPortugues className="button-portugues-instance" 
-                property1="default" 
-                textoBotao={textoBotao} to="/solicite-um-orcamento" />
+                <div className="overlap-group-2">
+                  <div className="text-wrapper">{titulo}</div>
+                  <p className="element-idiomas-que">
+                    120 Idiomas que cabem no seu bolso
+                    <br />
+                    Linguistas com Mestrado
+                    <br />
+                    Traduzimos em mais de 60 áreas
+                  </p>
+                </div>
               </div>
-
-              
             </div>
+            <div className="rectangle" />
+
+
+            <form  name="contato-brasil" action="/obrigado" method="post"  data-netlify="true" onSubmit={handleSubmit}>
+            <input type="hidden" name="form-name" value="contato-brasil" />
+
+              <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
+
+              <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
+
+              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
+
+              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+
+
+
+        <select className="cotacao"     type="text"  placeholder="Deixe sua mensagem"  name="selectedFruit">
+          <option value="apple">Apple</option>
+          <option value="banana">Banana</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+          <option value="orange">Orange</option>
+        </select>
+
+
+
+
+          
+              <button type="submit"  className="botaoenviar" >Enviar</button>
+
+
+            </form>
+
+
+
+
+            
+
+
           </div>
+        </div>
+        <div className="group">
+          <div className="text-wrapper-2">Você sabia?</div>
+          <p className="como-relatado-pela">
+            Como relatado pela CSA Research, a preferência <br />
+            pelo idioma nativo varia de acordo com a oferta:
+          </p>
+          <div className="text-wrapper-3">71%</div>
+          <div className="text-wrapper-4">71%</div>
+          <p className="j">
+            <span className="span">JÁ</span>
+            <span className="text-wrapper-5">71%</span>
+          </p>
+          <p className="dos-consumidores">
+            dos consumidores fazem
+            <br />
+            uma pesquisa on-line antes
+            <br /> de fazer uma compra
+          </p>
+          <p className="p">Quando falamos em produtos, o valor aumenta para</p>
+          <p className="text-wrapper-6">dizem que informações em seu idioma nativo é mais importante do que o preço</p>
         </div>
         <div className="nossas-parcerias">
-          <div className="text-wrapper-8">Nossas Parcerias</div>
+          <div className="text-wrapper-7">Nossas Parcerias</div>
           <img className="empresa-de-traduo" alt="Empresa de traduo" src="/img/empresa-de-tradu-o-parcerias.png" />
         </div>
-        <div className="setores">
-          <p className="text-wrapper-9">Veja alguns dos nossos setores de atuação</p>
-          <div className="setores-de-servio-de">
-            <div className="overlap-7">
-              <div className="text-wrapper-10">Legal</div>
-              <img className="law" alt="Law" src="/img/law.png" />
-            </div>
-            <div className="overlap-8">
-              <img className="rectangle-5" alt="Rectangle" src="/img/rectangle-19.svg" />
-              <div className="media-filmes">Vídeos</div>
-              <img className="next" alt="Next" src="/img/next.png" />
-            </div>
-            <div className="overlap-9">
-              <div className="text-wrapper-11">Médica</div>
-              <img className="img-2" alt="Medical bag" src="/img/medical-bag.png" />
-            </div>
-            <div className="overlap-10">
-              <div className="text-wrapper-12">E-Learning</div>
-              <img className="img-2" alt="Mba" src="/img/mba.png" />
-            </div>
-            <div className="overlap-11">
-              <div className="text-wrapper-13">Empresarial</div>
-              <img className="img-2" alt="Manufacturing" src="/img/manufacturing.png" />
-            </div>
-            <div className="overlap-12">
-              <div className="text-wrapper-14">Automotiva</div>
-              <img className="img-2" alt="Tesla model x" src="/img/tesla-model-x.png" />
-            </div>
-            <div className="overlap-group-4">
-              <div className="text-wrapper-15">Financeira</div>
-              <img className="money-bag-pounds" alt="Money bag pounds" src="/img/money-bag-pounds.png" />
-            </div>
-            <div className="overlap-13">
-              <div className="text-wrapper-16">Marketing</div>
-              <img className="img-2" alt="Commercial" src="/img/commercial.png" />
-            </div>
-            <div className="overlap-14">
-              <div className="text-wrapper-13">IT &amp; Software</div>
-              <img className="img-2" alt="Programming flag" src="/img/programming-flag.png" />
-            </div>
-            <div className="overlap-15">
-              <div className="text-wrapper-17">Ciências</div>
-              <img className="img-2" alt="Biotech" src="/img/biotech.png" />
-            </div>
-            <div className="overlap-16">
-              <div className="text-wrapper-15">Turismo</div>
-              <img className="img-2" alt="Plane" src="/img/plane.png" />
-            </div>
-            <div className="overlap-17">
-              <div className="text-wrapper-18">E-commerce</div>
-              <img className="img-2" alt="Buy" src="/img/buy.png" />
-            </div>
-          </div>
-        </div>
-        <ButtonPortugues className="botao-brasileiro" 
-        property1="default"
-         to="/solicite-um-orcamento" 
-          textoBotao={textoBotao} />
-        <div className="depoimentos">
-          <div className="osdepoimentos">
-            <p className="text-wrapper-19">
+        <div className="group-wrapper">
+          <div className="group-2">
+            <p className="text-wrapper-8">
               Na Magma Translation, encontramos profissionalismo e precisão em cada projeto. Anton Paar agradece pela
               parceria e recomenda seus excelentes serviços de tradução.
             </p>
-            <p className="text-wrapper-20">
+            <p className="text-wrapper-9">
               A Magma Translation tem sido uma aliada inestimável na nossa missão de difundir conhecimento. O Museu do
               Amanhã agradece pela excelência e dedicação em cada tradução.
             </p>
-            <p className="text-wrapper-21">
+            <p className="text-wrapper-10">
               Com a expertise da Magma Translation, a Ambev elevou sua comunicação global a novos patamares. Valorizamos
               e recomendamos seus impecáveis serviços de tradução.
             </p>
-            <div className="text-wrapper-22">Anton Paar</div>
-            <div className="overlap-group-5">
-              <div className="text-wrapper-23">Museu do Amanhã</div>
-              <div className="text-wrapper-24">Ricardo de Aquino Silva</div>
+            <div className="text-wrapper-11">Anton Paar</div>
+            <div className="overlap-group-3">
+              <div className="text-wrapper-12">Museu do Amanhã</div>
+              <div className="text-wrapper-13">Ricardo de Aquino</div>
             </div>
-            <div className="text-wrapper-25">Ambev</div>
-            <div className="text-wrapper-26">Elisabeth Vogel</div>
+            <div className="text-wrapper-14">Ambev</div>
+            <div className="text-wrapper-15">Elisabeth Vogel</div>
             <div className="marcelo-soares"> Marcelo Soares</div>
-            <img
-              className="empresa-de-traduo-2"
-              alt="Empresa de traduo"
-              src="/img/empresa-de-tradu-o-depoimentos3.png"
-            />
-            <img
-              className="empresa-de-traduo-3"
-              alt="Empresa de traduo"
-              src="/img/empresa-de-tradu-o-depoimentos2.png"
-            />
-            <img
-              className="empresa-de-traduo-4"
-              alt="Empresa de traduo"
-              src="/img/empresa-de-tradu-o-depoimentos.png"
-            />
+            <img className="ellipse" alt="Ellipse" src="/img/empresa-de-tradu-o-depoimentos3.png" />
+            <img className="img" alt="Ellipse" src="/img/empresa-de-tradu-o-depoimentos2.png" />
+            <img className="ellipse-2" alt="Ellipse" src="/img/empresa-de-tradu-o-depoimentos.png" />
+            <img className="star" alt="Star" src="/img/image.svg" />
+            <img className="star-2" alt="Star" src="/img/image.svg" />
+            <img className="star-3" alt="Star" src="/img/image.svg" />
+            <img className="star-4" alt="Star" src="/img/image.svg" />
+            <img className="star-5" alt="Star" src="/img/image.svg" />
+            <img className="star-6" alt="Star" src="/img/image.svg" />
+            <img className="star-7" alt="Star" src="/img/image.svg" />
+            <img className="star-8" alt="Star" src="/img/image.svg" />
+            <img className="star-9" alt="Star" src="/img/image.svg" />
+            <img className="star-10" alt="Star" src="/img/image.svg" />
+            <img className="star-11" alt="Star" src="/img/image.svg" />
+            <img className="star-12" alt="Star" src="/img/image.svg" />
+            <img className="star-13" alt="Star" src="/img/image.svg" />
+            <img className="star-14" alt="Star" src="/img/image.svg" />
+            <img className="star-15" alt="Star" src="/img/image.svg" />
           </div>
-          <div className="estrelas">
-            <img className="star" alt="Star" src="/img/star-16.svg" />
-            <img className="star-2" alt="Star" src="/img/star-16.svg" />
-            <img className="star-3" alt="Star" src="/img/star-16.svg" />
-            <img className="star-4" alt="Star" src="/img/star-16.svg" />
-            <img className="star-5" alt="Star" src="/img/star-16.svg" />
-          </div>
-          <div className="estrelas-2">
-            <img className="star" alt="Star" src="/img/star-16.svg" />
-            <img className="star-2" alt="Star" src="/img/star-16.svg" />
-            <img className="star-3" alt="Star" src="/img/star-16.svg" />
-            <img className="star-4" alt="Star" src="/img/star-16.svg" />
-            <img className="star-5" alt="Star" src="/img/star-16.svg" />
-          </div>
-          <div className="estrelas-3">
-            <img className="star" alt="Star" src="/img/star-16.svg" />
-            <img className="star-2" alt="Star" src="/img/star-16.svg" />
-            <img className="star-3" alt="Star" src="/img/star-16.svg" />
-            <img className="star-4" alt="Star" src="/img/star-16.svg" />
-            <img className="star-5" alt="Star" src="/img/star-16.svg" />
-          </div>
-          <p className="cada-tradu-o-passa">
-            Cada tradução passa por uma revisão minuciosa e validação tanto pela nossa <br />
-            equipe de editores externos profissionais quanto pelos nossos especialistas internos em idiomas.
-          </p>
-          <div className="text-wrapper-27">Qualidade que dá gosto</div>
         </div>
-        <div className="traduziveis">
-          <div className="oquesetraduz">
-            <div className="overlap-18">
-              <div className="documentos"> Documentos</div>
-              <img className="img-3" alt="Pdf" src="/img/pdf.png" />
-            </div>
-            <div className="overlap-19">
-              <div className="text-wrapper-28">Marketing e Anúncios</div>
-              <img className="img-3" alt="Goal" src="/img/goal.png" />
-            </div>
-            <div className="overlap-20">
-              <div className="website-apps">Website &amp; Apps</div>
-              <img className="img-3" alt="Website" src="/img/website.png" />
-            </div>
-            <div className="overlap-21">
-              <div className="text-wrapper-29">Vídeos</div>
-              <img className="img-3" alt="Video camera" src="/img/video-camera.png" />
-            </div>
-            <div className="overlap-group-6">
-              <div className="text-wrapper-30">Descrições de produtos</div>
-              <img className="img-3" alt="E commerce" src="/img/e-commerce.png" />
-            </div>
-            <div className="overlap-22">
-              <div className="text-wrapper-31">Artigos e muito mais</div>
-              <img className="biotech" alt="Biotech" src="/img/biotech.png" />
-            </div>
-          </div>
-          <p className="text-wrapper-32">
-            Nossos tradutores proficientes têm a capacidade de traduzir qualquer tipo de documento, com suporte aos
-            tipos de arquivo abaixo mencionados.
-          </p>
-          <p className="text-wrapper-33">O que você pode traduzir?</p>
-        </div>
-        <ButtonPortugues className="design-component-instance-node" 
-        property1="default"
-         to="/solicite-um-orcamento"
-          textoBotao={textoBotao} />
-        <div className="group-4">
-          <div className="group-5">
-            <p className="text-wrapper-34">
+        <div className="group-3">
+          <div className="group-4">
+            <p className="text-wrapper-16">
               MAGMA é um fornecedor global de soluções de localização, permitindo que marcas estabeleçam uma presença
               autêntica em diversos mercados ao redor do mundo.
             </p>
-            <p className="text-wrapper-35">Magma Translation | Todos os direitos reservados. ©Magma™</p>
+            <p className="text-wrapper-17">Magma Translation | Todos os direitos reservados. ©Magma™</p>
           </div>
-          <img className="magma-translation-3" alt="Magma translation" src="/img/magma-translation-png-1.png" />
+          <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png-1.png" />
         </div>
+        <p className="text-wrapper-18">O que dizem nossos clientes</p>
       </div>
     </div>
   );
