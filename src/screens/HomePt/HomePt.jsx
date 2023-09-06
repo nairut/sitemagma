@@ -47,7 +47,7 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
           <img className="empresa-de-traduo" alt="Empresa de traduo" src="/img/empresa-de-tradu-o-parcerias.png" />
         </div>
         <div className="setores">
-          <p className="text-wrapper-9">Veja alguns dos nossos setores de atuaçãoAAA</p>
+          <p className="text-wrapper-9">Veja alguns dos nossos setores de atuação</p>
           <div className="setores-de-servio-de">
             <div className="overlap-7">
               <div className="text-wrapper-10">Legal</div>
