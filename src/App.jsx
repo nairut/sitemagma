@@ -16,6 +16,7 @@ import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
 import { TestesNew } from "./screens/TestesNew/TestesNew";
 import { ComponenteCotacao } from "./screens/ComponenteCotacao";
+import { ContagemPalavrasDocx } from "./screens/Testes/Conta palarvas de word   - nunca alterar";
 
 
 
@@ -517,18 +518,19 @@ export const App = () => {
       {
         path: "/testes",
         element: isMobile ? <Celular /> : <TestesNew 
-        
-        
-        
-        titulo="Serviço de Tradução Profissional"
-        textSize="large"
-        
-        primeiraFrase="120 Idiomas que cabem no seu bolso"
-        segundaFrase="Traduzimos em mais de 60 áreas"
-        terceiraFrase="Linguistas com Mestrado"
-        
+      
         />,
       },
+
+  
+
+      {
+        path: "/contagem",
+        element: isMobile ? <Celular /> : <ContagemPalavrasDocx 
+      
+        />,
+      },
+
 
 
       {

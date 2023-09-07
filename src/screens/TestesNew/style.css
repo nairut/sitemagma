@@ -1,4 +1,4 @@
-.testes-new {
+.componente-cotacao {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -6,704 +6,190 @@
   width: 100%;
 }
 
-.testes-new .div {
+
+
+
+.componente-cotacao .frame-wrapper {
   background-color: #ffffff;
-  height: 3058px;
-  position: relative;
+  height: 375px;
   width: 1200px;
 }
 
-.testes-new .overlap {
-  height: 797px;
-  left: 64px;
-  position: absolute;
-  top: 0;
-  width: 1136px;
-}
-
-.testes-new .servio-de-traduo {
-  height: 54px;
-  left: 0;
-  position: absolute;
-  top: 40px;
-  width: 194px;
-}
-
-.testes-new .overlap-group {
-  height: 797px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1136px;
-}
-
-.testes-new .chamadadeentrada {
-  height: 311px;
-  left: 0;
-  position: absolute;
-  top: 187px;
-  width: 689px;
-}
-
-.testes-new .textoebotao {
-  height: 311px;
-  width: 693px;
-}
-
-.testes-new .overlap-group-2 {
-  height: 311px;
+.componente-cotacao .frame {
+  background-color: #c8982ae3;
+  border-radius: 23px;
+  height: 324px;
+  left: 95px;
   position: relative;
-  width: 689px;
+  top: 26px;
+  width: 1010px;
 }
 
-.testes-new .text-wrapper {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 59.8px;
-  font-weight: 700;
-  left: 0;
-  letter-spacing: 2.39px;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  width: 599px;
-}
-
-.testes-new .element-idiomas-que {
-  color: #383836;
-  font-family: "Lato", Helvetica;
-  font-size: 21.5px;
-  font-weight: 700;
-  height: 130px;
-  left: 0;
-  letter-spacing: 0.65px;
-  line-height: 43.1px;
-  position: absolute;
-  top: 181px;
-  width: 689px;
-}
-
-.testes-new .rectangle {
-  background-color: #c8982a;
-  height: 797px;
-  left: 621px;
-  position: absolute;
-  top: 0;
-  width: 515px;
-}
-
-.testes-new .nome {
-  background-color: #d9d9d9;
-  border-radius: 13px;
-  height: 46px;
-  left: 689px;
-  position: absolute;
-  top: 187px;
-  width: 358px;
-  border: none;
-  outline: none;
-}
-
-.testes-new .cargo {
-  background-color: #d9d9d9;
-  border-radius: 12px;
-  height: 46px;
-  left: 689px;
-  position: absolute;
-  top: 254px;
-  width: 358px;
-  border: none;
-  outline: none;
-}
-
-.testes-new .e-mail {
-  background-color: #d9d9d9;
-  border-radius: 12px;
-  height: 46px;
-  left: 689px;
-  position: absolute;
-  top: 321px;
-  width: 358px;
-  border: none;
-  outline: none;
-}
-
-.testes-new .mensagem {
-  background-color: #d9d9d9;
-  border-radius: 12px;
-  height: 73px;
-  left: 689px;
-  position: absolute;
-  top: 388px;
-  width: 358px;
-  border: none;
-  outline: none;
-}
-
-.testes-new .button-portugues-instance {
-  left: 689px !important;
-  position: absolute !important;
-  top: 498px !important;
-  width: 358px !important;
-}
-
-.testes-new .design-component-instance-node {
-  left: 36px !important;
-  width: 286px !important;
-}
-
-.testes-new .group {
-  height: 527px;
-  left: 78px;
-  position: absolute;
-  top: 911px;
-  width: 1059px;
-}
-
-.testes-new .text-wrapper-2 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 59.8px;
-  font-weight: 400;
-  left: 346px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-}
-
-.testes-new .como-relatado-pela {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 30px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 115px;
-  width: 1031px;
-}
-
-.testes-new .text-wrapper-3 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 100px;
-  font-weight: 400;
-  left: 60px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 242px;
-}
-
-.testes-new .text-wrapper-4 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 100px;
-  font-weight: 400;
-  left: 437px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 401px;
-  width: 185px;
-}
-
-.testes-new .j {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 30px;
-  font-weight: 400;
-  left: 788px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 242px;
-}
-
-.testes-new .span {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 30px;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-.testes-new .text-wrapper-5 {
-  font-size: 100px;
-}
-
-.testes-new .dos-consumidores {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 60px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 455px;
-  width: 353px;
-}
-
-.testes-new .p {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 437px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 320px;
-  width: 219px;
-}
-
-.testes-new .text-wrapper-6 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 773px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 455px;
-  width: 270px;
-}
-
-.testes-new .nossas-parcerias {
-  height: 286px;
-  left: 101px;
-  position: absolute;
-  top: 1595px;
-  width: 999px;
-}
-
-.testes-new .text-wrapper-7 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 37.7px;
-  font-weight: 700;
-  left: 146px;
-  letter-spacing: 1.51px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 706px;
-}
-
-.testes-new .empresa-de-traduo {
-  height: 186px;
-  left: 0;
-  position: absolute;
-  top: 100px;
-  width: 997px;
-}
-
-.testes-new .group-wrapper {
-  height: 455px;
-  left: 114px;
-  position: absolute;
-  top: 2145px;
-  width: 959px;
-}
-
-.testes-new .group-2 {
-  height: 455px;
-  position: relative;
-  width: 977px;
-}
-
-.testes-new .text-wrapper-8 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0.64px;
-  line-height: 26.4px;
-  position: absolute;
-  text-align: center;
-  top: 221px;
-  width: 285px;
-}
-
-.testes-new .text-wrapper-9 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 338px;
-  letter-spacing: 0.64px;
-  line-height: 26.2px;
-  position: absolute;
-  text-align: center;
-  top: 220px;
-  width: 285px;
-}
-
-.testes-new .text-wrapper-10 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 674px;
-  letter-spacing: 0.64px;
-  line-height: 21.4px;
-  position: absolute;
-  text-align: center;
-  top: 220px;
-  width: 285px;
-}
-
-.testes-new .text-wrapper-11 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 88px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 151px;
-  white-space: nowrap;
-}
-
-.testes-new .overlap-group-3 {
-  height: 68px;
-  left: 372px;
-  position: absolute;
-  top: 113px;
-  width: 218px;
-}
-
-.testes-new .text-wrapper-12 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 30px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 38px;
-  white-space: nowrap;
-}
-
-.testes-new .text-wrapper-13 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 30;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-}
-
-.testes-new .text-wrapper-14 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 805px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 151px;
-  white-space: nowrap;
-}
-
-.testes-new .text-wrapper-15 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 71px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 113px;
-  white-space: nowrap;
-}
-
-.testes-new .marcelo-soares {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 766px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 113px;
-  white-space: nowrap;
-}
-
-.testes-new .ellipse {
-  height: 84px;
-  left: 94px;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 84px;
-}
-
-.testes-new .img {
-  height: 84px;
-  left: 438px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 84px;
-}
-
-.testes-new .ellipse-2 {
-  height: 84px;
-  left: 803px;
-  object-fit: cover;
-  position: absolute;
-  top: 2px;
-  width: 84px;
-}
-
-.testes-new .star {
-  height: 19px;
-  left: 75px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-2 {
-  height: 19px;
-  left: 408px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-3 {
-  height: 19px;
-  left: 746px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-4 {
-  height: 19px;
-  left: 105px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-5 {
-  height: 19px;
-  left: 438px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-6 {
-  height: 19px;
-  left: 776px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-7 {
-  height: 19px;
-  left: 135px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-8 {
-  height: 19px;
-  left: 468px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-9 {
-  height: 19px;
-  left: 806px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-10 {
-  height: 19px;
-  left: 165px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-11 {
-  height: 19px;
-  left: 498px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-12 {
-  height: 19px;
-  left: 836px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-13 {
-  height: 19px;
-  left: 195px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-14 {
-  height: 19px;
-  left: 528px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .star-15 {
-  height: 19px;
-  left: 866px;
-  position: absolute;
-  top: 433px;
-  width: 23px;
-}
-
-.testes-new .group-3 {
-  height: 276px;
-  left: 205px;
-  position: absolute;
-  top: 2706px;
-  width: 816px;
-}
-
-.testes-new .group-4 {
-  height: 151px;
-  left: 0;
-  position: absolute;
-  top: 125px;
-  width: 820px;
-}
-
-.testes-new .text-wrapper-16 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  width: 816px;
-}
-
-.testes-new .text-wrapper-17 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 18px;
-  font-weight: 400;
-  left: 111px;
-  letter-spacing: 0.72px;
-  line-height: 29.7px;
-  position: absolute;
-  text-align: center;
-  top: 121px;
-  width: 594px;
-}
-
-.testes-new .magma-translation {
-  height: 54px;
-  left: 311px;
-  position: absolute;
-  top: 0;
-  width: 194px;
-}
-
-.testes-new .text-wrapper-18 {
-  color: #000000;
-  font-family: "Lato", Helvetica;
-  font-size: 37.7px;
-  font-weight: 700;
-  left: 343px;
-  letter-spacing: 1.51px;
-  line-height: 62.2px;
-  position: absolute;
-  text-align: center;
-  top: 1986px;
-  white-space: nowrap;
-}
-
-
-
-
-
-.testes-new .botaoenviar {
-  background-color: #022474;
-  border-radius: 13px;
-  height: 55px;
-  left: 689px;
-  position: absolute;
-  top: 490px;
-  width: 358px;
-  border: none;
-  color: white; /* Adding text color */
-  font-size: 20px; /* Adding font size */
+.componente-cotacao .de {
   
-}
-
-/* Hover state */
-.testes-new .botaoenviar:hover {
-  background-color: #0536a8; /* Change to green on hover */
-}
-
-
-
-
-.testes-new .cotacao {
-  background-color: #2454c2;
-  border-radius: 13px;
-  height: 55px;
-  left: 200px;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 33px;
   position: absolute;
-  top: 100px;
-  width: 358px;
-  border: none;
-  color: rgb(199, 59, 59); /* Adding text color */
-  font-size: 20px; /* Adding font size */
-  
+  top: 66px;
+  width: 283px;
 }
 
+
+.componente-cotacao .deCOPIA {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 33px;
+  position: absolute;
+  top: 66px;
+  width: 283px;
+}
+
+.componente-cotacao .assunto {
+
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 33px;
+  position: absolute;
+  top: 183px;
+  width: 283px;
+}
+
+
+.componente-cotacao .assuntoCOPIA {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 33px;
+  position: absolute;
+  top: 183px;
+  width: 283px;
+}
+
+
+
+.componente-cotacao .para {
+
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 363px;
+  position: absolute;
+  top: 66px;
+  width: 283px;
+}
+
+
+.componente-cotacao .paraCOPIA {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 363px;
+  position: absolute;
+  top: 66px;
+  width: 283px;
+}
+
+.componente-cotacao .entrega {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 363px;
+  position: absolute;
+  top: 183px;
+  width: 283px;
+}
+
+.componente-cotacao .palavras {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 693px;
+  position: absolute;
+  top: 66px;
+  width: 283px;
+}
+
+.componente-cotacao .rectangle {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 693px;
+  position: absolute;
+  top: 183px;
+  width: 283px;
+}
+
+.componente-cotacao .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.componente-cotacao .div {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 363px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.componente-cotacao .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 693px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 34px;
+  white-space: nowrap;
+}
+
+.componente-cotacao .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 43px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 149px;
+  white-space: nowrap;
+}
+
+.componente-cotacao .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 363px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 149px;
+  white-space: nowrap;
+}

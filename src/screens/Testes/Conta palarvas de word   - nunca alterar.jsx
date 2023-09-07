@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import mammoth from 'mammoth';
 
-export const Testes = () => {
+export const ContagemPalavrasDocx = () => {
   const [selectedFile, setSelectedFile] = useState(null);
   const [wordCount, setWordCount] = useState(0);
   const [errorMessage, setErrorMessage] = useState('');
