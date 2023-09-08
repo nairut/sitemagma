@@ -2,7 +2,7 @@ import React from 'react';
 import CreatableSelect from "react-select/creatable";
 import "./style.css";
 
-export const ComponenteCotacao = ({ onLanguageChange }) => {
+export const ComponenteCotacaoDois = ({ onLanguageChange }) => {
   const options = [
     { value: "alemão", label: "Alemão", color: "#FF8B00" },
     { value: "português", label: "Português", color: "#36B37E" },

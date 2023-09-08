@@ -1,0 +1,1 @@
+export { CotacaoDois } from "./CotacaoDois";

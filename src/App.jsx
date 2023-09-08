@@ -17,6 +17,9 @@ import { CelularPtpronto } from "./screens/CelularPtpronto";
 import { TestesNew } from "./screens/TestesNew/TestesNew";
 import { ComponenteCotacao } from "./screens/ComponenteCotacao";
 import { ContagemPalavrasDocx } from "./screens/Testes/Conta palarvas de word   - nunca alterar";
+import { Multiform } from "./screens/Multiform";
+import { Cotacao } from "./screens/Cotacao/Cotacao";
+
 
 
 
@@ -522,7 +525,23 @@ export const App = () => {
         />,
       },
 
-  
+
+      {
+        path: "/multiform",
+        element: isMobile ? <Celular /> : <Multiform 
+      
+        />,
+      },
+
+      {
+        path: "/cotacao",
+        element: isMobile ? <Celular /> : <Cotacao 
+      
+        />,
+      },
+
+
+
 
       {
         path: "/contagem",

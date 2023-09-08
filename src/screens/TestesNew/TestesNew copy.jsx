@@ -4,9 +4,6 @@ import { ContagemPalavrasDocx } from '../Testes/Conta palarvas de word   - nunca
 import "./style.css";
 import { ComponenteCotacaoDois } from '../ComponenteCotacao/ComponenteCotacaoDois';
 import { ComponenteAssunto } from '../ComponenteCotacao/ComponenteAssunto';
-import { Cotacao } from '../Cotacao/Cotacao';
-import { CotacaoDois } from '../CotacaoDois/CotacaoDois';
-import { CotacaoTres } from '../CotacaoTres/CotacaoTres';
 
 export const TestesNew = () => {
   const [selectedLanguages, setSelectedLanguages] = useState([]);
@@ -15,11 +12,15 @@ export const TestesNew = () => {
     setSelectedLanguages(selectedLanguages);
   };
 
+
+
+ 
   const [selectedLanguagesPara, setSelectedLanguagesPara] = useState([]);
 
   const handleLanguageChangePara = (selectedLanguagesPara) => {
     setSelectedLanguagesPara(selectedLanguagesPara);
   };
+
 
   const [selectedAssunto, setSelectedAssunto] = useState([]);
 
@@ -54,11 +55,11 @@ export const TestesNew = () => {
   const [page, setPage] = useState(0);
   const PageDisplay = () => {
     if (page === 0) {
-      return <div className="de" > <Cotacao/>   </div>;
+      return <div className="de" ><ComponenteCotacao onLanguageChange={handleLanguageChange} /></div>;
     } else if (page === 1) {
-      return <div className="para" >  <CotacaoDois/>  </div>;
+      return <div className="para" ><ComponenteCotacaoDois onLanguageChange={handleLanguageChangePara} /></div>;
     } else {
-      return <div className="assunto">  <CotacaoTres/>  </div>;
+      return <div className="assunto"><ComponenteAssunto onLanguageChange={handleAssunto} /></div>;
     }
   };
 
@@ -71,18 +72,33 @@ export const TestesNew = () => {
 
   return (
 
-
-    <div className='testesNew'>
-
-<div className='div-2 '>
-
+    <div className="componente-cotacao">
+      <div className="frame-wrapper">
+        <div className="frame">
 
 
-          <div >{PageDisplay()}</div>
 
-          <div className='parabotao'>
 
-            <button className='texto-45'
+          <div className="body">{PageDisplay()}</div>
+          <div className="entrega" />
+          <div className="palavras" />
+          <div className="rectangle" />
+          <div className="text-wrapper">Idioma de Origem</div>
+          <div className="div">Traduzir para</div>
+          <div className="text-wrapper-2">Contagem de palavras</div>
+          <div className="text-wrapper-3">Assunto</div>
+          <div className="text-wrapper-4">Data de entrega</div>
+
+          <div className="footer">
+          <button
+            disabled={page == 0}
+            onClick={() => {
+              setPage((currPage) => currPage - 1);
+            }}
+          >
+            Prev
+          </button>
+          <button
             onClick={() => {
               if (page === FormTitles.length - 1) {
                 alert("FORM SUBMITTED");
@@ -93,15 +109,30 @@ export const TestesNew = () => {
             }}
           >
             {page === FormTitles.length - 1 ? "Submit" : "Next"}
-
           </button>
-          </div>
-          </div>
+
+
+          
 
 
 
+
+          
+        </div>
+
+
+
+
+        </div>
+
+
+      <h1>TesteNew Component</h1>
+  
+      
+
+      
       {/* The form to display selected languages */}
-      <form className='formnow'
+      <form
         name="contato-brasil"
         action="/obrigado"
         method="post"
@@ -112,14 +143,19 @@ export const TestesNew = () => {
 
         <label>E-mail:</label>
         <input type="email" name="E-mail" placeholder="Seu E-mail" />
+
         <label>Mensagem:</label>
         <textarea name="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
+
         <input  hidden name="De" value={JSON.stringify(selectedLanguages)} />
         <input hidden name="Para" value={JSON.stringify(selectedLanguagesPara)} />
         <input hidden name="assunto" value={JSON.stringify(selectedAssunto)} />
+
         <button type="submit" className="botaoenviar">Enviar</button>
       </form>
-      </div>
 
+
+      </div>
+    </div>
   );
 };

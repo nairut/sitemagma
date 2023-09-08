@@ -1,4 +1,6 @@
-.componente-cotacao {
+
+.testesNew {
+  position: absolute;
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -7,189 +9,48 @@
 }
 
 
-
-
-.componente-cotacao .frame-wrapper {
+.testesNew .div-2 {
   background-color: #ffffff;
-  height: 375px;
+  height: 3796px;
+  position: relative;
   width: 1200px;
 }
 
-.componente-cotacao .frame {
-  background-color: #c8982ae3;
-  border-radius: 23px;
-  height: 324px;
-  left: 95px;
+
+.testesNew .parabotao {
+
+  height: 44px;
+  left: 862px;
+  position: absolute;
+  top: 450px;
+  width: 20px;
+}
+
+
+
+.testesNew .texto-45 {
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 132px;
+  height: 44px;
+  top: 236px;
   position: relative;
-  top: 26px;
-  width: 1010px;
-}
-
-.componente-cotacao .de {
   
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 33px;
-  position: absolute;
-  top: 66px;
-  width: 283px;
-}
-
-
-.componente-cotacao .deCOPIA {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 33px;
-  position: absolute;
-  top: 66px;
-  width: 283px;
-}
-
-.componente-cotacao .assunto {
-
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 33px;
-  position: absolute;
-  top: 183px;
-  width: 283px;
-}
-
-
-.componente-cotacao .assuntoCOPIA {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 33px;
-  position: absolute;
-  top: 183px;
-  width: 283px;
 }
 
 
 
-.componente-cotacao .para {
-
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 363px;
+.testesNew .formnow {
   position: absolute;
-  top: 66px;
-  width: 283px;
-}
-
-
-.componente-cotacao .paraCOPIA {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 363px;
-  position: absolute;
-  top: 66px;
-  width: 283px;
-}
-
-.componente-cotacao .entrega {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 363px;
-  position: absolute;
-  top: 183px;
-  width: 283px;
-}
-
-.componente-cotacao .palavras {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 693px;
-  position: absolute;
-  top: 66px;
-  width: 283px;
-}
-
-.componente-cotacao .rectangle {
-  border: 2px solid;
-  border-color: #000000;
-  border-radius: 10px;
-  height: 61px;
-  left: 693px;
-  position: absolute;
-  top: 183px;
-  width: 283px;
-}
-
-.componente-cotacao .text-wrapper {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  left: 43px;
+  left: 25px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 34px;
+  top: 800px;
   white-space: nowrap;
-}
-
-.componente-cotacao .div {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 363px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 34px;
-  white-space: nowrap;
-}
-
-.componente-cotacao .text-wrapper-2 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 693px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 34px;
-  white-space: nowrap;
-}
-
-.componente-cotacao .text-wrapper-3 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 43px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 149px;
-  white-space: nowrap;
-}
-
-.componente-cotacao .text-wrapper-4 {
-  color: #000000;
-  font-family: "Inter", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  left: 363px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 149px;
-  white-space: nowrap;
+  
 }

@@ -1,0 +1,1159 @@
+.cotacao-dois {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cotacao-dois .div-3 {
+  background-color: #ffffff;
+  height: 3796px;
+  position: relative;
+  width: 1200px;
+}
+
+.cotacao-dois .text-wrapper-74 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 574px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 445px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .text-wrapper-75 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 572px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 567px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .text-wrapper-76 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 572px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .assunto-7 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 572px;
+  position: absolute;
+  top: 362px;
+  width: 422px;
+}
+
+.cotacao-dois .assunto-8 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 574px;
+  position: absolute;
+  top: 480px;
+  width: 422px;
+}
+
+.cotacao-dois .assunto-9 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 574px;
+  position: absolute;
+  top: 602px;
+  width: 422px;
+}
+
+.cotacao-dois .text-wrapper-77 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 59.8px;
+  font-weight: 700;
+  left: 188px;
+  letter-spacing: 2.39px;
+  line-height: normal;
+  position: absolute;
+  top: 136px;
+  width: 824px;
+}
+
+.cotacao-dois .servio-de-traduo-3 {
+  height: 54px;
+  left: 64px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.cotacao-dois .text-wrapper-78 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 572px;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  position: absolute;
+  top: 258px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .group-7 {
+  height: 471px;
+  left: 118px;
+  position: absolute;
+  top: 259px;
+  width: 295px;
+}
+
+.cotacao-dois .overlap-38 {
+  height: 471px;
+  left: 52px;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.cotacao-dois .overlap-39 {
+  height: 471px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.cotacao-dois .text-wrapper-79 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 121px;
+  width: 237px;
+}
+
+.cotacao-dois .text-wrapper-80 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 360px;
+  width: 237px;
+}
+
+.cotacao-dois .vector-6 {
+  height: 471px;
+  left: 236px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.cotacao-dois .text-wrapper-81 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 239px;
+  width: 203px;
+}
+
+.cotacao-dois .ellipse-7 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 2px;
+  position: absolute;
+  top: 116px;
+  width: 33px;
+}
+
+.cotacao-dois .ellipse-8 {
+  background-color: #2a0aef;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 237px;
+  width: 33px;
+}
+
+.cotacao-dois .overlap-group-9 {
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 270px;
+  width: 33px;
+}
+
+.cotacao-dois .ellipse-9 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 87px;
+  width: 33px;
+}
+
+.cotacao-dois .vector-7 {
+  height: 88px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.cotacao-dois .vector-8 {
+  height: 88px;
+  left: 18px;
+  position: absolute;
+  top: 149px;
+  width: 1px;
+}
+
+.cotacao-dois .group-8 {
+  height: 44px;
+  left: 862px;
+  position: absolute;
+  top: 686px;
+  width: 134px;
+}
+
+.cotacao-dois .overlap-40 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 44px;
+  position: relative;
+  width: 132px;
+}
+
+.cotacao-dois .text-wrapper-82 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .nossas-parcerias-3 {
+  height: 286px;
+  left: 101px;
+  position: absolute;
+  top: 780px;
+  width: 999px;
+}
+
+.cotacao-dois .text-wrapper-83 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37.7px;
+  font-weight: 700;
+  left: 146px;
+  letter-spacing: 1.51px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 706px;
+}
+
+.cotacao-dois .empresa-de-traduo-9 {
+  height: 186px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 997px;
+}
+
+.cotacao-dois .setores-3 {
+  height: 447px;
+  left: 63px;
+  position: absolute;
+  top: 1259px;
+  width: 1074px;
+}
+
+.cotacao-dois .text-wrapper-84 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37px;
+  font-weight: 700;
+  left: 110px;
+  letter-spacing: 1.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 853px;
+}
+
+.cotacao-dois .setores-de-servio-de-3 {
+  height: 346px;
+  left: 0;
+  position: absolute;
+  top: 101px;
+  width: 1096px;
+}
+
+.cotacao-dois .overlap-41 {
+  background-image: url(../../../static/img/rectangle-19.svg);
+  background-size: 100% 100%;
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-85 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 51px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .law-3 {
+  height: 38px;
+  left: 57px;
+  position: absolute;
+  top: 31px;
+  width: 38px;
+}
+
+.cotacao-dois .overlap-42 {
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 207px;
+  width: 157px;
+}
+
+.cotacao-dois .rectangle-3 {
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .media-filmes-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 96px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .next-3 {
+  height: 38px;
+  left: 57px;
+  position: absolute;
+  top: 28px;
+  width: 38px;
+}
+
+.cotacao-dois .overlap-43 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 184px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-86 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 37px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .img-6 {
+  height: 38px;
+  left: 56px;
+  position: absolute;
+  top: 27px;
+  width: 38px;
+}
+
+.cotacao-dois .overlap-44 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 184px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-87 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 24px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-group-10 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 368px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-88 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-45 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 368px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-89 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 19px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-46 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 552px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-90 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 32px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .money-bag-pounds-3 {
+  height: 38px;
+  left: 49px;
+  position: absolute;
+  top: 27px;
+  width: 38px;
+}
+
+.cotacao-dois .overlap-47 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 552px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-91 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 103px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-48 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 736px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .overlap-49 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 736px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-92 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 12px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-50 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 920px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-dois .overlap-51 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 920px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-dois .text-wrapper-93 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .botao-brasileiro-3 {
+  left: 432px !important;
+  position: absolute !important;
+  top: 1798px !important;
+}
+
+.cotacao-dois .depoimentos-3 {
+  height: 651px;
+  left: 120px;
+  position: absolute;
+  top: 1960px;
+  width: 963px;
+}
+
+.cotacao-dois .osdepoimentos-3 {
+  height: 360px;
+  left: 0;
+  position: absolute;
+  top: 207px;
+  width: 977px;
+}
+
+.cotacao-dois .text-wrapper-94 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.64px;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 221px;
+  width: 285px;
+}
+
+.cotacao-dois .text-wrapper-95 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 338px;
+  letter-spacing: 0.64px;
+  line-height: 26.2px;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  width: 285px;
+}
+
+.cotacao-dois .text-wrapper-96 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 674px;
+  letter-spacing: 0.64px;
+  line-height: 21.4px;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  width: 285px;
+}
+
+.cotacao-dois .text-wrapper-97 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 151px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .overlap-group-11 {
+  height: 68px;
+  left: 342px;
+  position: absolute;
+  top: 113px;
+  width: 275px;
+}
+
+.cotacao-dois .text-wrapper-98 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 60px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .text-wrapper-99 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 275px;
+}
+
+.cotacao-dois .text-wrapper-100 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 805px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 151px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .text-wrapper-101 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .marcelo-soares-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 766px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.cotacao-dois .empresa-de-traduo-10 {
+  height: 84px;
+  left: 94px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 84px;
+}
+
+.cotacao-dois .empresa-de-traduo-11 {
+  height: 84px;
+  left: 438px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.cotacao-dois .empresa-de-traduo-12 {
+  height: 84px;
+  left: 803px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 84px;
+}
+
+.cotacao-dois .estrelas-7 {
+  height: 24px;
+  left: 72px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-dois .star-11 {
+  height: 19px;
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-dois .star-12 {
+  height: 19px;
+  left: 33px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-dois .star-13 {
+  height: 19px;
+  left: 63px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-dois .star-14 {
+  height: 19px;
+  left: 93px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-dois .star-15 {
+  height: 19px;
+  left: 123px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-dois .estrelas-8 {
+  height: 24px;
+  left: 405px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-dois .estrelas-9 {
+  height: 24px;
+  left: 760px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-dois .cada-tradu-o-passa-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0.8px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+}
+
+.cotacao-dois .text-wrapper-102 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37px;
+  font-weight: 700;
+  left: 211px;
+  letter-spacing: 1.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 537px;
+}
+
+.cotacao-dois .traduziveis-3 {
+  height: 455px;
+  left: 63px;
+  position: absolute;
+  top: 2757px;
+  width: 1077px;
+}
+
+.cotacao-dois .oquesetraduz-3 {
+  height: 205px;
+  left: 0;
+  position: absolute;
+  top: 250px;
+  width: 1085px;
+}
+
+.cotacao-dois .overlap-group-12 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .documentos-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 6px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  width: 106px;
+}
+
+.cotacao-dois .img-7 {
+  height: 38px;
+  left: 49px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.cotacao-dois .overlap-52 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 188px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .text-wrapper-103 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 21px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 93px;
+}
+
+.cotacao-dois .overlap-53 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 376px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .website-apps-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 35px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 77px;
+}
+
+.cotacao-dois .overlap-54 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 564px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .text-wrapper-104 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 29px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 97px;
+}
+
+.cotacao-dois .overlap-55 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 752px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .text-wrapper-105 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 18px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 117px;
+}
+
+.cotacao-dois .overlap-56 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 935px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-dois .text-wrapper-106 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  width: 117px;
+}
+
+.cotacao-dois .biotech-3 {
+  height: 38px;
+  left: 41px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.cotacao-dois .text-wrapper-107 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0.8px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 136px;
+  width: 939px;
+}
+
+.cotacao-dois .text-wrapper-108 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37.7px;
+  font-weight: 700;
+  left: 209px;
+  letter-spacing: 1.51px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 655px;
+}
+
+.cotacao-dois .botao-brasileiro-4 {
+  left: 432px !important;
+  position: absolute !important;
+  top: 3290px !important;
+}
+
+.cotacao-dois .group-9 {
+  height: 276px;
+  left: 192px;
+  position: absolute;
+  top: 3422px;
+  width: 816px;
+}
+
+.cotacao-dois .group-10 {
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 125px;
+  width: 820px;
+}
+
+.cotacao-dois .text-wrapper-109 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 816px;
+}
+
+.cotacao-dois .text-wrapper-110 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 111px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 121px;
+  width: 594px;
+}
+
+.cotacao-dois .magma-translation-3 {
+  height: 54px;
+  left: 311px;
+  position: absolute;
+  top: 0;
+  width: 194px;
+}

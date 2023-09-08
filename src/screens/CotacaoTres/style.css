@@ -1,0 +1,1159 @@
+.cotacao-tres {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cotacao-tres .div {
+  background-color: #ffffff;
+  height: 3796px;
+  position: relative;
+  width: 1200px;
+}
+
+.cotacao-tres .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 574px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 445px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .text-wrapper-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 572px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 567px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 572px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .assunto {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 572px;
+  position: absolute;
+  top: 362px;
+  width: 422px;
+}
+
+.cotacao-tres .assunto-2 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 574px;
+  position: absolute;
+  top: 480px;
+  width: 422px;
+}
+
+.cotacao-tres .assunto-3 {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 61px;
+  left: 574px;
+  position: absolute;
+  top: 602px;
+  width: 422px;
+}
+
+.cotacao-tres .text-wrapper-4 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 59.8px;
+  font-weight: 700;
+  left: 188px;
+  letter-spacing: 2.39px;
+  line-height: normal;
+  position: absolute;
+  top: 136px;
+  width: 824px;
+}
+
+.cotacao-tres .servio-de-traduo {
+  height: 54px;
+  left: 64px;
+  position: absolute;
+  top: 40px;
+  width: 194px;
+}
+
+.cotacao-tres .text-wrapper-5 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 35px;
+  font-weight: 700;
+  left: 572px;
+  letter-spacing: 1.4px;
+  line-height: normal;
+  position: absolute;
+  top: 258px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .group {
+  height: 471px;
+  left: 118px;
+  position: absolute;
+  top: 259px;
+  width: 295px;
+}
+
+.cotacao-tres .overlap {
+  height: 471px;
+  left: 52px;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.cotacao-tres .overlap-group {
+  height: 471px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 238px;
+}
+
+.cotacao-tres .text-wrapper-6 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 121px;
+  width: 237px;
+}
+
+.cotacao-tres .text-wrapper-7 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 360px;
+  width: 237px;
+}
+
+.cotacao-tres .vector {
+  height: 471px;
+  left: 236px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.cotacao-tres .text-wrapper-8 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 239px;
+  width: 203px;
+}
+
+.cotacao-tres .ellipse {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 2px;
+  position: absolute;
+  top: 116px;
+  width: 33px;
+}
+
+.cotacao-tres .ellipse-2 {
+  background-color: #ffffff;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 237px;
+  width: 33px;
+}
+
+.cotacao-tres .overlap-2 {
+  height: 120px;
+  left: 0;
+  position: absolute;
+  top: 270px;
+  width: 33px;
+}
+
+.cotacao-tres .ellipse-3 {
+  background-color: #2a0aef;
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 16.5px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 87px;
+  width: 33px;
+}
+
+.cotacao-tres .img {
+  height: 88px;
+  left: 16px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.cotacao-tres .vector-2 {
+  height: 88px;
+  left: 18px;
+  position: absolute;
+  top: 149px;
+  width: 1px;
+}
+
+.cotacao-tres .overlap-wrapper {
+  height: 44px;
+  left: 862px;
+  position: absolute;
+  top: 686px;
+  width: 134px;
+}
+
+.cotacao-tres .div-wrapper {
+  border: 2px solid;
+  border-color: #000000;
+  border-radius: 10px;
+  height: 44px;
+  position: relative;
+  width: 132px;
+}
+
+.cotacao-tres .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 35px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .nossas-parcerias {
+  height: 286px;
+  left: 100px;
+  position: absolute;
+  top: 780px;
+  width: 999px;
+}
+
+.cotacao-tres .text-wrapper-10 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37.7px;
+  font-weight: 700;
+  left: 146px;
+  letter-spacing: 1.51px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 706px;
+}
+
+.cotacao-tres .empresa-de-traduo {
+  height: 186px;
+  left: 0;
+  position: absolute;
+  top: 100px;
+  width: 997px;
+}
+
+.cotacao-tres .setores {
+  height: 447px;
+  left: 62px;
+  position: absolute;
+  top: 1259px;
+  width: 1074px;
+}
+
+.cotacao-tres .p {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37px;
+  font-weight: 700;
+  left: 110px;
+  letter-spacing: 1.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 853px;
+}
+
+.cotacao-tres .setores-de-servio-de {
+  height: 346px;
+  left: 0;
+  position: absolute;
+  top: 101px;
+  width: 1096px;
+}
+
+.cotacao-tres .overlap-3 {
+  background-image: url(../../../static/img/rectangle-19.svg);
+  background-size: 100% 100%;
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-11 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 51px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .law {
+  height: 38px;
+  left: 57px;
+  position: absolute;
+  top: 31px;
+  width: 38px;
+}
+
+.cotacao-tres .overlap-4 {
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 207px;
+  width: 157px;
+}
+
+.cotacao-tres .rectangle {
+  height: 139px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .media-filmes {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 8px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 96px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .next {
+  height: 38px;
+  left: 57px;
+  position: absolute;
+  top: 28px;
+  width: 38px;
+}
+
+.cotacao-tres .overlap-5 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 184px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-12 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 37px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .img-2 {
+  height: 38px;
+  left: 56px;
+  position: absolute;
+  top: 27px;
+  width: 38px;
+}
+
+.cotacao-tres .overlap-6 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 184px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-13 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 24px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-7 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 368px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-14 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 4px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-8 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 368px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-15 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 19px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-9 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 552px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-16 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 32px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .money-bag-pounds {
+  height: 38px;
+  left: 49px;
+  position: absolute;
+  top: 27px;
+  width: 38px;
+}
+
+.cotacao-tres .overlap-10 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 552px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-17 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 26px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 103px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-11 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 736px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .overlap-group-2 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 736px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-18 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 12px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-12 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 920px;
+  position: absolute;
+  top: 0;
+  width: 152px;
+}
+
+.cotacao-tres .overlap-13 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 139px;
+  left: 920px;
+  position: absolute;
+  top: 207px;
+  width: 152px;
+}
+
+.cotacao-tres .text-wrapper-19 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 16px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 99px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .botao-brasileiro {
+  left: 431px !important;
+  position: absolute !important;
+  top: 1798px !important;
+}
+
+.cotacao-tres .depoimentos {
+  height: 651px;
+  left: 119px;
+  position: absolute;
+  top: 1960px;
+  width: 963px;
+}
+
+.cotacao-tres .osdepoimentos {
+  height: 360px;
+  left: 0;
+  position: absolute;
+  top: 207px;
+  width: 977px;
+}
+
+.cotacao-tres .text-wrapper-20 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.64px;
+  line-height: 26.4px;
+  position: absolute;
+  text-align: center;
+  top: 221px;
+  width: 285px;
+}
+
+.cotacao-tres .text-wrapper-21 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 338px;
+  letter-spacing: 0.64px;
+  line-height: 26.2px;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  width: 285px;
+}
+
+.cotacao-tres .text-wrapper-22 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 674px;
+  letter-spacing: 0.64px;
+  line-height: 21.4px;
+  position: absolute;
+  text-align: center;
+  top: 220px;
+  width: 285px;
+}
+
+.cotacao-tres .text-wrapper-23 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 88px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 151px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .overlap-group-3 {
+  height: 68px;
+  left: 342px;
+  position: absolute;
+  top: 113px;
+  width: 275px;
+}
+
+.cotacao-tres .text-wrapper-24 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 60px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 38px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .text-wrapper-25 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 275px;
+}
+
+.cotacao-tres .text-wrapper-26 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 805px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 151px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .text-wrapper-27 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 71px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .marcelo-soares {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 766px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 113px;
+  white-space: nowrap;
+}
+
+.cotacao-tres .empresa-de-traduo-2 {
+  height: 84px;
+  left: 94px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 84px;
+}
+
+.cotacao-tres .empresa-de-traduo-3 {
+  height: 84px;
+  left: 438px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.cotacao-tres .empresa-de-traduo-4 {
+  height: 84px;
+  left: 803px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 84px;
+}
+
+.cotacao-tres .estrelas {
+  height: 24px;
+  left: 72px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-tres .star {
+  height: 19px;
+  left: 3px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-tres .star-2 {
+  height: 19px;
+  left: 33px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-tres .star-3 {
+  height: 19px;
+  left: 63px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-tres .star-4 {
+  height: 19px;
+  left: 93px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-tres .star-5 {
+  height: 19px;
+  left: 123px;
+  position: absolute;
+  top: 2px;
+  width: 23px;
+}
+
+.cotacao-tres .estrelas-2 {
+  height: 24px;
+  left: 405px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-tres .estrelas-3 {
+  height: 24px;
+  left: 760px;
+  position: absolute;
+  top: 627px;
+  width: 150px;
+}
+
+.cotacao-tres .cada-tradu-o-passa {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 21px;
+  letter-spacing: 0.8px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+}
+
+.cotacao-tres .text-wrapper-28 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37px;
+  font-weight: 700;
+  left: 211px;
+  letter-spacing: 1.48px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 537px;
+}
+
+.cotacao-tres .traduziveis {
+  height: 455px;
+  left: 62px;
+  position: absolute;
+  top: 2757px;
+  width: 1077px;
+}
+
+.cotacao-tres .oquesetraduz {
+  height: 205px;
+  left: 0;
+  position: absolute;
+  top: 250px;
+  width: 1085px;
+}
+
+.cotacao-tres .overlap-14 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .documentos {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 6px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  width: 106px;
+}
+
+.cotacao-tres .img-3 {
+  height: 38px;
+  left: 49px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.cotacao-tres .overlap-group-4 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 188px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .text-wrapper-29 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 21px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 93px;
+}
+
+.cotacao-tres .overlap-15 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 376px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .website-apps {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 35px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 77px;
+}
+
+.cotacao-tres .overlap-16 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 564px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .text-wrapper-30 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 29px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 97px;
+}
+
+.cotacao-tres .overlap-17 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 752px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .text-wrapper-31 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 18px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 102px;
+  width: 117px;
+}
+
+.cotacao-tres .overlap-18 {
+  border: 1px solid;
+  border-color: #c8982a;
+  height: 205px;
+  left: 935px;
+  position: absolute;
+  top: 0;
+  width: 138px;
+}
+
+.cotacao-tres .text-wrapper-32 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 17px;
+  font-weight: 700;
+  left: 20px;
+  letter-spacing: 0.68px;
+  line-height: normal;
+  position: absolute;
+  top: 100px;
+  width: 117px;
+}
+
+.cotacao-tres .biotech {
+  height: 38px;
+  left: 41px;
+  position: absolute;
+  top: 38px;
+  width: 38px;
+}
+
+.cotacao-tres .text-wrapper-33 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0.8px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 136px;
+  width: 939px;
+}
+
+.cotacao-tres .text-wrapper-34 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 37.7px;
+  font-weight: 700;
+  left: 209px;
+  letter-spacing: 1.51px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 655px;
+}
+
+.cotacao-tres .button-portugues-instance {
+  left: 431px !important;
+  position: absolute !important;
+  top: 3290px !important;
+}
+
+.cotacao-tres .group-2 {
+  height: 276px;
+  left: 191px;
+  position: absolute;
+  top: 3422px;
+  width: 816px;
+}
+
+.cotacao-tres .group-3 {
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 125px;
+  width: 820px;
+}
+
+.cotacao-tres .text-wrapper-35 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 816px;
+}
+
+.cotacao-tres .text-wrapper-36 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  left: 111px;
+  letter-spacing: 0.72px;
+  line-height: 29.7px;
+  position: absolute;
+  text-align: center;
+  top: 121px;
+  width: 594px;
+}
+
+.cotacao-tres .magma-translation {
+  height: 54px;
+  left: 311px;
+  position: absolute;
+  top: 0;
+  width: 194px;
+}
