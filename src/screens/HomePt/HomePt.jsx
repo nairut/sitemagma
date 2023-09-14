@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonPortugues } from "../../components/ButtonPortugues";
 import "./style.css";
-import { TestesNew } from "../TestesNew/TestesNew";
+
 
 export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, textCollor, textSize,
   textoBotao
@@ -23,10 +23,8 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
         <div className="overlap-6">
           <img className="servio-de-traduo" alt="Servio de traduo" src="/img/magma-translation-png-1.png" />
           <div className="chamadadeentrada">
-
             <div className="overlap-group-3">
               <img className="agncia-de-traduo" alt="Agência de Tradução" src="/img/ag-ncia-de-tradu-o.png" />
-        
               <div className="textoebotao">
                 <div className="text-wrapper-7" style={styles} >{titulo}</div>
                 <p className="element-idiomas-que" >
@@ -40,8 +38,6 @@ export const HomePt = ({titulo, primeiraFrase, segundaFrase, terceiraFrase, text
                 property1="default" 
                 textoBotao={textoBotao} to="/solicite-um-orcamento" />
               </div>
-
-              
             </div>
           </div>
         </div>

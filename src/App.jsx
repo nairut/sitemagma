@@ -10,7 +10,6 @@ import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
 import { Testes } from "./screens/Testes";
 import { OrcamentoPt } from "./screens/OrcamentoPt";
-
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
