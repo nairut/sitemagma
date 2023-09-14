@@ -8,16 +8,15 @@ import React, { useEffect } from "react";
 import { Depoimentos } from "./screens/Depoimentos";
 import { HomePt } from "./screens/HomePt/HomePt";
 import { CelularPt } from "./screens/CelularPt";
-import { Testes } from "./screens/Testes";
+
 import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
-import { TestesNew } from "./screens/TestesNew/TestesNew";
-import { ComponenteCotacao } from "./screens/ComponenteCotacao";
-import { ContagemPalavrasDocx } from "./screens/Testes/Conta palarvas de word   - nunca alterar";
-import { Multiform } from "./screens/Multiform";
-import { Cotacao } from "./screens/Cotacao/Cotacao";
+
+
+
+
 
 
 
@@ -517,44 +516,7 @@ export const App = () => {
 
       /////////////////Abaixo tudo de teste ////////////////////////////////
 
-      {
-        path: "/testes",
-        element: isMobile ? <Celular /> : <TestesNew 
-      
-        />,
-      },
 
-
-      {
-        path: "/multiform",
-        element: isMobile ? <Celular /> : <ComponenteCotacao 
-      
-        />,
-      },
-
-      {
-        path: "/form",
-        element: isMobile ? <Celular /> : <Form/> 
-      
-        
-      },
-
-
-
-
-      {
-        path: "/contagem",
-        element: isMobile ? <Celular /> : <ContagemPalavrasDocx 
-      
-        />,
-      },
-
-
-
-      {
-        path: "/componente",
-        element: isMobile ? <Celular /> : <ComponenteCotacao />,
-      },
 
 
     
