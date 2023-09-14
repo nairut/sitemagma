@@ -1,5 +1,5 @@
 import React from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, Form, RouterProvider } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
 import { Celular } from "./screens/Celular";
 import { DesktopForm } from "./screens/DesktopForm";
@@ -528,16 +528,16 @@ export const App = () => {
 
       {
         path: "/multiform",
-        element: isMobile ? <Celular /> : <Multiform 
+        element: isMobile ? <Celular /> : <ComponenteCotacao 
       
         />,
       },
 
       {
-        path: "/cotacao",
-        element: isMobile ? <Celular /> : <Cotacao 
+        path: "/form",
+        element: isMobile ? <Celular /> : <Form/> 
       
-        />,
+        
       },
 
 

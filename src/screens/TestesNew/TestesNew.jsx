@@ -1,32 +1,45 @@
 import React, { useState } from 'react';
-import { ComponenteCotacao } from '../ComponenteCotacao';
-import { ContagemPalavrasDocx } from '../Testes/Conta palarvas de word   - nunca alterar';
 import "./style.css";
-import { ComponenteCotacaoDois } from '../ComponenteCotacao/ComponenteCotacaoDois';
-import { ComponenteAssunto } from '../ComponenteCotacao/ComponenteAssunto';
 import { Cotacao } from '../Cotacao/Cotacao';
 import { CotacaoDois } from '../CotacaoDois/CotacaoDois';
 import { CotacaoTres } from '../CotacaoTres/CotacaoTres';
+import { ComponenteCotacao } from '../ComponenteCotacao';
 
 export const TestesNew = () => {
   const [selectedLanguages, setSelectedLanguages] = useState([]);
+  const [selectedLanguagesPara, setSelectedLanguagesPara] = useState([]);
+  const [selectedAssunto, setSelectedAssunto] = useState([]);
+  const [page, setPage] = useState(0);
+
+
+  const [formData, setFormData] = useState({
+    email: "",
+    password: "",
+    confirmPassword: "",
+    firstName: "",
+    lastName: "",
+    username: "",
+    nationality: "",
+    other: "",
+  });
+
+
+
+  
+
+  const FormTitles = ["Sign Up", "Personal Info", "Other"];
 
   const handleLanguageChange = (selectedLanguages) => {
     setSelectedLanguages(selectedLanguages);
   };
 
-  const [selectedLanguagesPara, setSelectedLanguagesPara] = useState([]);
-
   const handleLanguageChangePara = (selectedLanguagesPara) => {
     setSelectedLanguagesPara(selectedLanguagesPara);
   };
 
-  const [selectedAssunto, setSelectedAssunto] = useState([]);
-
   const handleAssunto = (selectedAssunto) => {
     setSelectedAssunto(selectedAssunto);
   };
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -36,90 +49,72 @@ export const TestesNew = () => {
     formData.append("SelectedLanguages", JSON.stringify(selectedLanguages));
 
     const formDataPara = new FormData(event.target);
-    formData.append("SelectedLanguagesPara", JSON.stringify(selectedLanguagesPara));
-
+    formDataPara.append("SelectedLanguagesPara", JSON.stringify(selectedLanguagesPara));
 
     const formDataAssunto = new FormData(event.target);
-    formData.append("SelectedAssunto", JSON.stringify(selectedAssunto));
+    formDataAssunto.append("SelectedAssunto", JSON.stringify(selectedAssunto));
 
-    // Send the form data to the server or perform any other actions
-    // For now, you can console.log the form data
-    console.log("Form Data:", formData);
+    // Determine if it's the last page
+    const isLastPage = page === FormTitles.length - 1;
 
-    // Optionally, you can redirect to a "Thank You" page
-    window.location.href = "/obrigado";
-  };
+    if (isLastPage) {
+      // Send the form data to the server or perform any other actions
+      // For now, you can console.log the form data
+      console.log("Form Data:", formData);
 
-
-  const [page, setPage] = useState(0);
-  const PageDisplay = () => {
-    if (page === 0) {
-      return <div className="de" > <Cotacao/>   </div>;
-    } else if (page === 1) {
-      return <div className="para" >  <CotacaoDois/>  </div>;
+      // Optionally, you can redirect to a "Thank You" page
+      window.location.href = "/obrigado";
     } else {
-      return <div className="assunto">  <CotacaoTres/>  </div>;
+      // Move to the next page
+      setPage((currPage) => currPage + 1);
     }
   };
 
-
-
-  const FormTitles = ["Sign Up", "Personal Info", "Other"];
-
-
-
+  const PageDisplay = () => {
+    if (page === 0) {
+      return <div className="de"> <Cotacao/> </div>;
+    } else if (page === 1) {
+      return <div className="para"> <CotacaoDois/> </div>;
+    } else {
+      return <div className="assunto"> <CotacaoTres/> </div>;
+    }
+  };
 
   return (
-
-
     <div className='testesNew'>
-
-<div className='div-2 '>
-
+      <div className='div-2'>
 
 
-          <div >{PageDisplay()}</div>
 
-          <div className='parabotao'>
+        <div>{PageDisplay()}</div>
 
-            <button className='texto-45'
-            onClick={() => {
-              if (page === FormTitles.length - 1) {
-                alert("FORM SUBMITTED");
-                console.log(formData);
-              } else {
-                setPage((currPage) => currPage + 1);
-              }
-            }}
+
+        
+        <div className='parabotao'>
+          {/* The form to display selected languages */}
+          <form
+            name="contato-brasil"
+            action="/obrigado"
+            method="post"
+            data-netlify="true"
+            onSubmit={handleSubmit}
           >
-            {page === FormTitles.length - 1 ? "Submit" : "Next"}
-
-          </button>
-          </div>
-          </div>
-
-
-
-      {/* The form to display selected languages */}
-      <form className='formnow'
-        name="contato-brasil"
-        action="/obrigado"
-        method="post"
-        data-netlify="true"
-        onSubmit={handleSubmit}
-      >
+            <input hidden type="email" name="E-mail" placeholder="Seu E-mail" />
+            <textarea hidden name="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
+            <input  name="De" value={JSON.stringify(selectedLanguages)} />
+            <input hidden name="Para" value={JSON.stringify(selectedLanguagesPara)} />
+            <input hidden name="assunto" value={JSON.stringify(selectedAssunto)} />
 
 
-        <label>E-mail:</label>
-        <input type="email" name="E-mail" placeholder="Seu E-mail" />
-        <label>Mensagem:</label>
-        <textarea name="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
-        <input  hidden name="De" value={JSON.stringify(selectedLanguages)} />
-        <input hidden name="Para" value={JSON.stringify(selectedLanguagesPara)} />
-        <input hidden name="assunto" value={JSON.stringify(selectedAssunto)} />
-        <button type="submit" className="botaoenviar">Enviar</button>
-      </form>
+            <input hidden name="De" value={selectedLanguages.join(', ')} />
+<input hidden name="Para" value={selectedLanguagesPara.join(', ')} />
+
+            <button type="submit" className='texto-45'>
+              {page === FormTitles.length - 1 ? "Enviar" : "Próximo"}
+            </button>
+          </form>
+        </div>
       </div>
-
+    </div>
   );
 };

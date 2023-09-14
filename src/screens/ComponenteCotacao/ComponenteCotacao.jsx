@@ -45,6 +45,13 @@ export const ComponenteCotacao = ({ onLanguageChange }) => {
     }),
   };
 
+
+
+
+
+
+  
+
   const handleChange = (selectedOption, actionMeta) => {
     // Call the callback function with the selected options
     onLanguageChange(selectedOption);
