@@ -518,44 +518,6 @@ export const App = () => {
 
       /////////////////Abaixo tudo de teste ////////////////////////////////
 
-      {
-        path: "/testes",
-        element: isMobile ? <Celular /> : <TestesNew 
-      
-        />,
-      },
-
-
-      {
-        path: "/multiform",
-        element: isMobile ? <Celular /> : <ComponenteCotacao 
-      
-        />,
-      },
-
-      {
-        path: "/form",
-        element: isMobile ? <Celular /> : <Form/> 
-      
-        
-      },
-
-
-
-
-      {
-        path: "/contagem",
-        element: isMobile ? <Celular /> : <ContagemPalavrasDocx 
-      
-        />,
-      },
-
-
-
-      {
-        path: "/componente",
-        element: isMobile ? <Celular /> : <ComponenteCotacao />,
-      },
 
 
     

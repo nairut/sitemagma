@@ -12,9 +12,6 @@ export const TestesNew = () => {
     setSelectedLanguages(selectedLanguages);
   };
 
-
-
- 
   const [selectedLanguagesPara, setSelectedLanguagesPara] = useState([]);
 
   const handleLanguageChangePara = (selectedLanguagesPara) => {
