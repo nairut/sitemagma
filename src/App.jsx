@@ -13,7 +13,7 @@ import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
-import { Cotacao } from "./screens/Cotacao/Cotacao";
+
 
 
 
@@ -520,10 +520,6 @@ export const App = () => {
 
 
 
-      {
-        path: "/cotacao",
-        element: isMobile ? <Celular /> : <Cotacao />,
-      },
 
 
 
