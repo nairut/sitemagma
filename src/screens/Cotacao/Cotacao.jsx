@@ -106,7 +106,7 @@ export const Cotacao = () => {
             <div className="overlap-group-5">
               <div className="text-wrapper-42">Selecione o Idioma</div>
 
-              <ComponenteCotacao onLanguageChange={handleLanguageChange} />
+       
 
 
 
@@ -119,7 +119,7 @@ export const Cotacao = () => {
           >
             <input hidden type="email" name="E-mail" placeholder="Seu E-mail" />
             <textarea hidden name="Mensagem" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
-            <input  name="De" value={JSON.stringify(selectedLanguages)} />
+            <input hidden name="De" value={JSON.stringify(selectedLanguages)} />
             <input hidden name="Para" value={JSON.stringify(selectedLanguagesPara)} />
             <input hidden name="assunto" value={JSON.stringify(selectedAssunto)} />
 
@@ -127,7 +127,7 @@ export const Cotacao = () => {
             <input hidden name="De" value={selectedLanguages.join(', ')} />
 <input hidden name="Para" value={selectedLanguagesPara.join(', ')} />
 
-            <button type="submit" className='texto-45'>
+            <button hidden type="submit" className='texto-45'>
               {page === FormTitles.length - 1 ? "Enviar" : "Próximo"}
             </button>
           </form>
