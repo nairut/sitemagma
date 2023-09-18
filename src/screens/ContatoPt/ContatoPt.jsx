@@ -19,6 +19,16 @@ export const ContatoPt = ({titulo}) => {
     
   };
 
+  const handleEmailChange = (e) => {
+    const newEmail = e.target.value;
+    setEmail(newEmail);
+
+    // Clear the error message when the user changes the email
+    if (newEmail && errorMessage) {
+      setErrorMessage("");
+    }
+  };
+
   return (
     <div className="contato-pt">
       <div className="div">
@@ -49,7 +59,7 @@ export const ContatoPt = ({titulo}) => {
 
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
-              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail" value={email} onChange={(e) => setEmail(e.target.value)} />
+              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail" value={email} onChange={handleEmailChange} />
 
               {errorMessage && <p className="error-message">{errorMessage}</p>}
 
