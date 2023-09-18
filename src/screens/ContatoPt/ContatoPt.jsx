@@ -1,31 +1,28 @@
 import React from "react";
 import "./style.css";
-import React, { useState } from "react";
 
 export const ContatoPt = ({titulo}) => {
 
-  const [email, setEmail] = useState("");
-  
-  const isEmailInvalid = email.includes("hotmail") || email.includes("gmail") || email.includes("yahoo");
-  const [errorMessage, setErrorMessage] = useState(""); // Added state for error message
+
 
   const handleSubmit = (event) => {
-
-        // Validate the email
-        if (isEmailInvalid) {
-          alert("Desculpe, você não pode enviar com um email do Hotmail, Gmail ou Yahoo.");
-        } else {
-          // You can include any form submission logic here
-          // For now, just redirect to "/obrigado"
-          window.location.href = "/obrigado";
-        }
+    event.preventDefault(); // Prevent the default form submission behavior
     
+    // Get the email input value
+    const email = event.target.elements['E-mail'].value.toLowerCase(); // Convert to lowercase for case insensitivity
+    
+    // Check if the email contains "hotmail," "gmail," or "yahoo"
+    if (email.includes('hotmail') || email.includes('gmail') || email.includes('yahoo')) {
+      // Redirect to "/obrigadodois" for the specified email domains
+      window.location.href = "/obrigadodois";
+    } else {
+      // Redirect to "/obrigado" for other email domains
+      window.location.href = "/obrigado";
+    }
   };
 
-  const handleEmailChange = (e) => {
-    const newEmail = e.target.value;
-    setEmail(newEmail);
-  };
+
+  
 
   return (
     <div className="contato-pt">
@@ -57,19 +54,11 @@ export const ContatoPt = ({titulo}) => {
 
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
-              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail" value={email} onChange={handleEmailChange} />
-            
-{errorMessage && <p className="error-message">{errorMessage}</p>}
-
+              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-
-
-                     {/* Disable the submit button if the email is invalid */}
-        <button type="submit" className="botaoenviar" disabled={isEmailInvalid}>
-          Enviar
-        </button>
+              <button type="submit"  className="botaoenviar" >Enviar</button>
 
 
             </form>
