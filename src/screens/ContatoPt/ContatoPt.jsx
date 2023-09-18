@@ -5,28 +5,26 @@ import React, { useState } from "react";
 export const ContatoPt = ({titulo}) => {
 
   const [email, setEmail] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
+  
+  const isEmailInvalid = email.includes("hotmail") || email.includes("gmail") || email.includes("yahoo");
+  const [errorMessage, setErrorMessage] = useState(""); // Added state for error message
 
   const handleSubmit = (event) => {
-    // Validate the email
-    if (email.includes("hotmail") || email.includes("gmail") || email.includes("yahoo")) {
-      setErrorMessage("Desculpe, você não pode enviar com um email do Hotmail, Gmail ou Yahoo.");
-    } else {
-      // You can include any form submission logic here
-      // For now, just redirect to "/obrigado"
-      window.location.href = "/obrigado";
-    }
+
+        // Validate the email
+        if (isEmailInvalid) {
+          alert("Desculpe, você não pode enviar com um email do Hotmail, Gmail ou Yahoo.");
+        } else {
+          // You can include any form submission logic here
+          // For now, just redirect to "/obrigado"
+          window.location.href = "/obrigado";
+        }
     
   };
 
   const handleEmailChange = (e) => {
     const newEmail = e.target.value;
     setEmail(newEmail);
-
-    // Clear the error message when the user changes the email
-    if (newEmail && errorMessage) {
-      setErrorMessage("");
-    }
   };
 
   return (
@@ -60,12 +58,18 @@ export const ContatoPt = ({titulo}) => {
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
               <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail" value={email} onChange={handleEmailChange} />
+            
+{errorMessage && <p className="error-message">{errorMessage}</p>}
 
-              {errorMessage && <p className="error-message">{errorMessage}</p>}
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
-              <button type="submit"  className="botaoenviar" >Enviar</button>
+
+
+                     {/* Disable the submit button if the email is invalid */}
+        <button type="submit" className="botaoenviar" disabled={isEmailInvalid}>
+          Enviar
+        </button>
 
 
             </form>
