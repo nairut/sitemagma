@@ -14,7 +14,7 @@ export const ContatoPt = ({titulo}) => {
     // Check if the email contains "hotmail," "gmail," or "yahoo"
     if (email.includes('hotmail') || email.includes('gmail') || email.includes('yahoo')) {
       // Redirect to "/obrigadodois" for the specified email domains
-      window.location.href = "/obrigadodois";
+      window.location.href = "/um-obrigado-da-magma";
     } else {
       // Redirect to "/obrigado" for other email domains
       window.location.href = "/obrigado";

@@ -519,12 +519,6 @@ export const App = () => {
 
 
 
-
-
-
-
-      
-
     
       {
         path: "/obrigado",
@@ -538,6 +532,22 @@ export const App = () => {
           />
         ),
       },
+
+
+      {
+        path: "/um-obrigado-da-magma",
+        element: isMobile ? <CelularPt /> : (
+          <HomePt
+            titulo="Orçamento Recebido!"
+            textSize="large"
+            primeiraFrase="A Magma Agradece seu contato"
+            segundaFrase="Entraremos em contato"
+            terceiraFrase=""
+          />
+        ),
+      },
+
+
 
 
 
