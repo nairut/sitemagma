@@ -5,12 +5,12 @@ import ReactWhatsapp from 'react-whatsapp';
 export const ContatoPt = ({titulo}) => {
 
 
-  <ReactWhatsapp number="1-212-736-5000" message="Hello World!!!" />
+
 
 
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+
     
     // Get the email input value
     const email = event.target.elements['E-mail'].value.toLowerCase(); // Convert to lowercase for case insensitivity
@@ -44,6 +44,9 @@ export const ContatoPt = ({titulo}) => {
                     Linguistas com Mestrado
                     <br />
                     Traduzimos em mais de 60 áreas
+
+
+
                   </p>
                 </div>
               </div>
