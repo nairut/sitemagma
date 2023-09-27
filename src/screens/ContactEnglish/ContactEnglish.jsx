@@ -51,8 +51,8 @@ export const ContactEnglish = () => {
             <div className="rectangle" />
 
 
-            <form  name="contact-english-br" action="/thank-you" method="post"  data-netlify="true" onSubmit={handleSubmit}>
-            <input type="hidden" name="form-name" value="contact-english-br" />
+            <form  name="contato-brasil" action="/thank-you" method="post"  data-netlify="true" onSubmit={handleSubmit}>
+            <input type="hidden" name="form-name" value="contato-brasil" />
 
               <input required type="text" className="nome" name="Nome" placeholder="Your Name"    />
 
@@ -62,6 +62,9 @@ export const ContactEnglish = () => {
 
               <textarea name="Messagem" placeholder="Write your message" className="mensagem" cols="30" rows="10"></textarea>
           
+              <input hidden type="email" name="Campanha INGLES BRASIL"   />
+
+
               <button type="submit"  className="botaoenviar" >Send</button>
 
             </form>
