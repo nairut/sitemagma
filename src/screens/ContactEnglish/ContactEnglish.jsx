@@ -62,7 +62,7 @@ export const ContactEnglish = () => {
 
               <textarea name="Message" placeholder="Write your message" className="mensagem" cols="30" rows="10"></textarea>
           
-              <input hidden type="email" name="Campanha INGLES BRASIL"   />
+              <select hidden   className="cotacao" name="Inglês Brasil"></select>
 
 
               <button type="submit"  className="botaoenviar" >Send</button>
