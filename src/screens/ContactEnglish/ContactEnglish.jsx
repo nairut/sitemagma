@@ -21,7 +21,7 @@ export const ContactEnglish = ({titulo}) => {
       window.location.href = "/um-obrigado-da-magma";
     } else {
       // Redirect to "/obrigado" for other email domains
-      window.location.href = "/obrigado";
+      window.location.href = "/thank-you";
     }
   };
 
@@ -54,18 +54,18 @@ export const ContactEnglish = ({titulo}) => {
             <div className="rectangle" />
 
 
-            <form  name="contato-brasil" action="/obrigado" method="post"  data-netlify="true" onSubmit={handleSubmit}>
+            <form  name="contact-english-br" action="/thank-you" method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
-              <input required type="text" className="nome" name="Nome" placeholder="Seu Nome"    />
+              <input required type="text" className="nome" name="Nome" placeholder="Your Name"    />
 
-              <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
+              <input required type="text" className="cargo" name="Cargo" placeholder="Your job title"  />
 
-              <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
+              <input required type="email" className="e-mail" name="E-mail" placeholder="Your E-mail"   />
 
-              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="Message" cols="30" rows="10"></textarea>
           
-              <button type="submit"  className="botaoenviar" >Enviar</button>
+              <button type="submit"  className="botaoenviar" >Send</button>
 
             </form>
 
