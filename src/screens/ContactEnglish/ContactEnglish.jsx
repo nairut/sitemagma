@@ -54,13 +54,13 @@ export const ContactEnglish = () => {
             <form  name="contato-brasil" action="/thank-you" method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
-              <input required type="text" className="nome" name="Nome" placeholder="Your Name"    />
+              <input required type="text" className="nome" name="Name" placeholder="Your Name"    />
 
-              <input required type="text" className="cargo" name="Cargo" placeholder="Your job title"  />
+              <input required type="text" className="cargo" name="Your job title" placeholder="Your job title"  />
 
               <input required type="email" className="e-mail" name="E-mail" placeholder="Your E-mail"   />
 
-              <textarea name="Messagem" placeholder="Write your message" className="mensagem" cols="30" rows="10"></textarea>
+              <textarea name="Message" placeholder="Write your message" className="mensagem" cols="30" rows="10"></textarea>
           
               <input hidden type="email" name="Campanha INGLES BRASIL"   />
 
