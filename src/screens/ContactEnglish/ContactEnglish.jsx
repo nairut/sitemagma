@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import ReactWhatsapp from 'react-whatsapp';
 
-export const ContactEnglish = ({titulo}) => {
+export const ContactEnglish = () => {
 
 
 
@@ -37,16 +37,13 @@ export const ContactEnglish = ({titulo}) => {
             <div className="chamadadeentrada">
               <div className="textoebotao">
                 <div className="overlap-group-2">
-                  <div className="text-wrapper">{titulo}</div>
+                  <div className="text-wrapper">Request a Free Quote</div>
                   <p className="element-idiomas-que">
                   120 Languages that fit in your pocket
                     <br />
                     Linguists with Master's degrees
                     <br />
                     We translate in more than 60 areas
-
-
-
                   </p>
                 </div>
               </div>
@@ -63,7 +60,7 @@ export const ContactEnglish = ({titulo}) => {
 
               <input required type="email" className="e-mail" name="E-mail" placeholder="Your E-mail"   />
 
-              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
+              <textarea name="Messagem" placeholder="Write your message" className="mensagem" cols="30" rows="10"></textarea>
           
               <button type="submit"  className="botaoenviar" >Send</button>
 
