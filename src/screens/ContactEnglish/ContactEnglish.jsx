@@ -20,7 +20,7 @@ export const ContactEnglish = () => {
       // Redirect to "/obrigadodois" for the specified email domains
       window.location.href = "/um-obrigado-da-magma";
     } else {
-      // Redirect to "/obrigado" for other email domains
+      // Redirect to "/thank-you" for other email domains
       window.location.href = "/thank-you";
     }
   };
