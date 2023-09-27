@@ -63,7 +63,7 @@ export const ContactEnglish = ({titulo}) => {
 
               <input required type="email" className="e-mail" name="E-mail" placeholder="Your E-mail"   />
 
-              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="Message" cols="30" rows="10"></textarea>
+              <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
           
               <button type="submit"  className="botaoenviar" >Send</button>
 
