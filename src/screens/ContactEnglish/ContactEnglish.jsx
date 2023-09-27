@@ -54,7 +54,7 @@ export const ContactEnglish = () => {
             <form  name="contato-brasil" action="/thank-you" method="post"  data-netlify="true" onSubmit={handleSubmit}>
             <input type="hidden" name="form-name" value="contato-brasil" />
 
-              <input required type="text" className="nome" name="Name" placeholder="Your Name"    />
+              <input required type="text" className="nome" name="Camapnha Ingles Brasil  - Name" placeholder="Your Name"    />
 
               <input required type="text" className="cargo" name="Your job title" placeholder="Your job title"  />
 
