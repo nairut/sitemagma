@@ -1,1 +1,0 @@
-export { Obrigado } from "./Obrigado";

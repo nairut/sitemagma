@@ -13,6 +13,8 @@ import { OrcamentoPt } from "./screens/OrcamentoPt";
 import { ContatoPt } from "./screens/ContatoPt";
 import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
+import { ContactEnglish } from "./screens/ContactEnglish";
+import { ThankYou } from "./screens/ThankYou";
 
 
 
@@ -43,8 +45,17 @@ export const App = () => {
 
       {
         path: "/desktop-form",
-        element: isMobile ? <Celular /> : <DesktopForm />,
+        element: isMobile ? <Celular /> : <ContactEnglish />,
       },
+
+
+      {
+        path: "/thank-you",
+        element: isMobile ? <Celular /> : <ThankYou />,
+      },
+
+
+
 
 
       //////////////////////Abaixo tudo de Português//////////////////////////////
