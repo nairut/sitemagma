@@ -15,6 +15,7 @@ import { ContatoCelularPt } from "./screens/ContatoCelularPt";
 import { CelularPtpronto } from "./screens/CelularPtpronto";
 import { ContactEnglish } from "./screens/ContactEnglish";
 import { ThankYou } from "./screens/ThankYou";
+import { Testes } from "./screens/Testes/Testes";
 
 
 
@@ -526,6 +527,26 @@ export const App = () => {
 
 
       /////////////////Abaixo tudo de teste ////////////////////////////////
+
+
+
+
+          
+      {
+        path: "/teste",
+        element: isMobile ? <CelularPt /> : (
+          <Testes
+            titulo="Orçamento Recebido!"
+            textSize="large"
+            primeiraFrase="Estamos analisando com cuidado seu pedido"
+            segundaFrase="Entraremos em contato"
+            terceiraFrase=""
+          />
+        ),
+      },
+
+
+
 
 
 
