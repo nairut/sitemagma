@@ -1,11 +1,8 @@
 import React from "react";
-
+import "./styleContato.css";
 import ReactWhatsapp from 'react-whatsapp';
 
 export const ContatoPt = ({titulo}) => {
-
-
-
 
 
 
@@ -29,7 +26,7 @@ export const ContatoPt = ({titulo}) => {
   
 
   return (
-    <div className="contato-pt">
+    <div className="contato-ptcomputador">
       <div className="div">
         <div className="overlap">
           <img className="servio-de-traduo" alt="Servio de traduo" src="/img/magma-translation-png-1.png" />
@@ -61,7 +58,7 @@ export const ContatoPt = ({titulo}) => {
 
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
-              <input required type="text" className="cargo" name="WhatsPreenchido" placeholder="Seu Whatsapp (opcional)"  />
+              <input required type="text" className="whats" name="WhatsPreenchido" placeholder="Seu Whatsapp (opcional)"  />
 
               <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
 
