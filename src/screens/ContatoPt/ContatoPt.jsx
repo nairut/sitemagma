@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+
 import ReactWhatsapp from 'react-whatsapp';
 
 export const ContatoPt = ({titulo}) => {
@@ -61,6 +61,8 @@ export const ContatoPt = ({titulo}) => {
 
               <input required type="text" className="cargo" name="Cargo" placeholder="Seu Cargo"  />
 
+              <input required type="text" className="cargo" name="WhatsPreenchido" placeholder="Seu Whatsapp (opcional)"  />
+
               <input required type="email" className="e-mail" name="E-mail" placeholder="Seu E-mail"   />
 
               <textarea name="Messagem" placeholder="Deixe sua mensagem" className="mensagem" cols="30" rows="10"></textarea>
@@ -68,12 +70,6 @@ export const ContatoPt = ({titulo}) => {
               <button type="submit"  className="botaoenviar" >Enviar</button>
 
             </form>
-
-
-
-
-            
-
 
           </div>
         </div>
