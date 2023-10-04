@@ -77,10 +77,10 @@ export const ContatoPt = ({titulo}) => {
             pelo idioma nativo varia de acordo com a oferta:
           </p>
           <div className="text-wrapper-3">71%</div>
-          <div className="text-wrapper-4">71%</div>
+          <div className="text-wrapper-4">76%</div>
           <p className="j">
             <span className="span">JÁ</span>
-            <span className="text-wrapper-5">71%</span>
+            <span className="text-wrapper-5">50%</span>
           </p>
           <p className="dos-consumidores">
             dos consumidores fazem
