@@ -61,6 +61,9 @@ export const Academy = () => {
               <a className="link-4" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
                 <p className="text-wrapper-52">Clique e destrave seu futuro</p>
               </a>
+
+
+              
             </div>
             <a className="link-5" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
               <p className="text-wrapper-53">Clique e destrave seu futuro</p>
@@ -125,10 +128,17 @@ export const Academy = () => {
         </div>
         <div className="overlap-32">
           <div className="overlap-33">
-            <a className="link-6" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
-              <p className="text-wrapper-52">Clique e destrave seu futuro</p>
-            </a>
+
+
+
+
+
+
+
             <div className="overlap-34">
+            <a className="link-6" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+                <p className="text-wrapper-52">Clique e destrave seu futuro</p>
+            </a>
               <p className="saia-do-ZERO-e-torne-2">
                 Saia do ZERO e torne-se um tradutor de sucesso
                 <br />
