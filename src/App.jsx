@@ -16,6 +16,9 @@ import { CelularPtpronto } from "./screens/CelularPtpronto";
 import { ContactEnglish } from "./screens/ContactEnglish";
 import { ThankYou } from "./screens/ThankYou";
 import { Testes } from "./screens/Testes/Testes";
+import { Zlanding } from "./screens/Zlanding";
+import { Academy } from "./screens/Academy/Academy";
+import { Celularacademy } from "./screens/Celularacademy/Celularacademy";
 
 
 
@@ -521,6 +524,18 @@ export const App = () => {
 },
 
 
+{
+  path: "/academy",
+  element: isMobile ? <Celularacademy /> : (
+    <Academy
+      titulo="Orçamento Recebido!"
+      textSize="large"
+      primeiraFrase="Estamos analisando com cuidado seu pedido"
+      segundaFrase="Entraremos em contato"
+      terceiraFrase=""
+    />
+  ),
+},
 
 
 
@@ -529,7 +544,7 @@ export const App = () => {
       /////////////////Abaixo tudo de teste ////////////////////////////////
 
 
-
+      
 
           
       {
@@ -544,6 +559,22 @@ export const App = () => {
           />
         ),
       },
+
+
+      {
+        path: "/zlanding",
+        element: isMobile ? <CelularPt /> : (
+          <Zlanding
+            titulo="Orçamento Recebido!"
+            textSize="large"
+            primeiraFrase="Estamos analisando com cuidado seu pedido"
+            segundaFrase="Entraremos em contato"
+            terceiraFrase=""
+          />
+        ),
+      },
+
+
 
 
 

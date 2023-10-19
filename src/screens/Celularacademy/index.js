@@ -1,0 +1,1 @@
+export { Celularacademy } from "./Celularacademy";
