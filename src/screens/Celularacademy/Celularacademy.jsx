@@ -27,7 +27,14 @@ export const Celularacademy = () => {
             25 - 26 de novembro&nbsp;&nbsp;e 9 de dezembro!
           </p>
           <p className="p">Vem comigo que eu te ensino como usar seu idioma para ganhar em dolar fora do brasil</p>
-          <div className="whatsapp-video" />
+
+
+
+          <iframe  className="whatsapp-video" width="944" height="531" src="https://www.youtube.com/embed/dRVKnNT_sls" title="Comece uma nova carreira: Tradutor!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
           <p className="saia-do-ZERO-e-torne">
             Saia do ZERO e torne-se um tradutor de sucesso
             <br />
