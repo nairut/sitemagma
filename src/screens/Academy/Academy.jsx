@@ -152,8 +152,15 @@ export const Academy = () => {
                 <br />
                 Tecnologias obrigatórias para ingressar no mercado
               </p>
-              <div className="whatsapp-video-2" />
+
+              <iframe  className="whatsapp-video-2" width="944" height="531" src="https://www.youtube.com/embed/dRVKnNT_sls" title="Comece uma nova carreira: Tradutor!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
             </div>
+
+
+
           </div>
           <p className="se-voc-domina-um">Se você domina um segundo idioma, você pode ser&nbsp;&nbsp;tradutor</p>
           <p className="text-wrapper-62">Comece uma nova profissão e ganhe em dólar e euro!</p>
