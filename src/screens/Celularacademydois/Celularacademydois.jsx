@@ -28,8 +28,8 @@ export const Celularacademydois = () => {
         <img className="line-2" alt="Line" src="/img/line-5.svg" />
         <div className="overlap">
           <div className="mask-group">
-            <img className="group-2" alt="Group" src="/img/mask-group-7.png" />
-            <img className="group-3" alt="Group" src="/img/group-1.png" />
+            <img className="group-2" alt="Group" src="/img/mask-group-6.png" />
+            <img className="group-3" alt="Group" src="/img/mask-group-6.png" />
           </div>
           <div className="element">
             <div className="all-wrapper">
