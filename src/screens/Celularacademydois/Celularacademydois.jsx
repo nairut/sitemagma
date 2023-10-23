@@ -500,8 +500,8 @@ export const Celularacademydois = () => {
           <div className="frame-5">
             <p className="text-wrapper-23">
               
-            "Aula extra: como evitar golpes
-Aula extra: como usar as plataformas de e-mail marketing"
+            Aula extra: como evitar golpes
+Aula extra: como usar as plataformas de e-mail marketing
               
               
               </p>
