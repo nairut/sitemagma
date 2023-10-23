@@ -19,6 +19,9 @@ import { Testes } from "./screens/Testes/Testes";
 import { Zlanding } from "./screens/Zlanding";
 import { Academy } from "./screens/Academy/Academy";
 import { Celularacademy } from "./screens/Celularacademy/Celularacademy";
+import { Turian } from "./screens/Turian/Turian";
+import { Um } from "./screens/Um";
+import { Celularacademydois } from "./screens/Celularacademydois";
 
 
 
@@ -526,7 +529,7 @@ export const App = () => {
 
 {
   path: "/academy",
-  element: isMobile ? <Celularacademy /> : (
+  element: isMobile ? <Celularacademydois /> : (
     <Academy
       titulo="Orçamento Recebido!"
       textSize="large"
@@ -542,6 +545,8 @@ export const App = () => {
 
 
       /////////////////Abaixo tudo de teste ////////////////////////////////
+
+
 
 
       

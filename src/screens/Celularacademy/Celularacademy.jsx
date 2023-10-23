@@ -9,7 +9,6 @@ export const Celularacademy = () => {
           <p className="minhas-notas-fiscais">
             Minhas notas fiscais internacionais, em 2015.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mais de 8 anos atrás.
           </p>
-          <div className="rectangle" />
           <p className="profiss-o-tradutor">
             <span className="text-wrapper">Profissão </span>
             <span className="span">Tradutor</span>
@@ -21,20 +20,15 @@ export const Celularacademy = () => {
             <span className="span">segundo idioma</span>
             <span className="text-wrapper"> pode se tornar tradutor.</span>
           </p>
-          <div className="rectangle-2" />
-          <p className="imers-o-dias-para">
-            Imersão 3 dias para entrar no Mercado <br />
-            25 - 26 de novembro&nbsp;&nbsp;e 9 de dezembro!
-          </p>
+          <div className="overlap-group">
+            <div className="rectangle" />
+            <p className="imers-o-dias-para">
+              Imersão 3 dias para entrar no Mercado <br />
+              25 - 26 de novembro&nbsp;&nbsp;e 9 de dezembro!
+            </p>
+          </div>
           <p className="p">Vem comigo que eu te ensino como usar seu idioma para ganhar em dolar fora do brasil</p>
-
-
-
-          <iframe  className="whatsapp-video" width="944" height="531" src="https://www.youtube.com/embed/dRVKnNT_sls" title="Comece uma nova carreira: Tradutor!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
-
-
+          <div className="whatsapp-video" />
           <p className="saia-do-ZERO-e-torne">
             Saia do ZERO e torne-se um tradutor de sucesso
             <br />
@@ -74,14 +68,14 @@ export const Celularacademy = () => {
         <img className="PO-4" alt="Po" src="/img/po-580-1-1.png" />
         <div className="text-wrapper-11">E quem sou eu?</div>
         <div className="imagens">
-          <div className="overlap-group">
+          <div className="overlap-group-2">
             <div className="div-absolute" />
-            <div className="frame-wrapper">
+            <div className="frame">
               <div className="servio-de-trado-wrapper">
                 <img
                   className="servio-de-trado"
                   alt="Servio de trado"
-                  src="/img/servi-o-de-trad-o-profissional-1-2.png"
+                  src="/img/servi-o-de-trad-o-profissional-1.png"
                 />
               </div>
             </div>
@@ -289,7 +283,7 @@ export const Celularacademy = () => {
         <div className="overlap-3">
           <div className="overlap-4">
             <div className="overlap-5">
-              <div className="rectangle-3" />
+              <div className="rectangle-2" />
               <p className="text-wrapper-17">CVE- Círculo Virtuoso da Experiência – Sua entrada no Mercado</p>
               <div className="flexcontainer-2">
                 <p className="span-wrapper">
@@ -340,7 +334,6 @@ export const Celularacademy = () => {
               </div>
               <div className="overlap-group-wrapper">
                 <div className="overlap-8">
-                  <div className="rectangle-4" />
                   <p className="text-wrapper-21">Marketing da Sedução – Como se apresentar para seu Recrutador</p>
                   <div className="flexcontainer-5">
                     <p className="text-2">
@@ -357,7 +350,7 @@ export const Celularacademy = () => {
                   </div>
                 </div>
               </div>
-              <div className="group-2">
+              <div className="div-wrapper">
                 <div className="overlap-9">
                   <div className="text-wrapper-22">CLE: Crescimento Linear Estruturado</div>
                   <div className="flexcontainer-6">
@@ -376,7 +369,7 @@ export const Celularacademy = () => {
                 </div>
               </div>
             </div>
-            <div className="group-3">
+            <div className="group-2">
               <div className="overlap-10">
                 <p className="text-wrapper-23">Cat Tool – Sem elas você não é tradutor.</p>
                 <div className="flexcontainer-7">
@@ -394,33 +387,33 @@ export const Celularacademy = () => {
             </div>
           </div>
           <div className="overlap-11">
-            <div className="group-4">
-              <div className="overlap-7">
+            <div className="group-3">
+              <div className="overlap-12">
                 <div className="text-wrapper-24">Partindo para a prática</div>
                 <p className="text-wrapper-25">Primeiro projeto. O início de sua experiência.</p>
               </div>
             </div>
-            <div className="overlap-12">
-              <div className="group-5">
-                <div className="overlap-13">
+            <div className="overlap-13">
+              <div className="group-4">
+                <div className="overlap-14">
                   <p className="text-wrapper-26">Precificação – Quanto cobrar por seu trabalho</p>
-                  <div className="flexcontainer-8">
-                    <p className="text-2">
-                      <span className="text-wrapper-18">
-                        Os preços do mercado e o que vai cobrar por seu trabalho.
-                        <br />
-                      </span>
-                    </p>
-                    <p className="text-2">
-                      <span className="text-wrapper-18">
-                        Te entregamos o OURO. Sua estratégia para se colocar no Mercado de tradução.
-                      </span>
-                    </p>
-                  </div>
                 </div>
               </div>
-              <div className="group-6">
-                <div className="overlap-14">
+              <div className="flexcontainer-8">
+                <p className="span-wrapper">
+                  <span className="text-wrapper-18">
+                    Os preços do mercado e o que vai cobrar por seu trabalho.
+                    <br />
+                  </span>
+                </p>
+                <p className="span-wrapper">
+                  <span className="text-wrapper-18">
+                    Te entregamos o OURO. Sua estratégia para se colocar no Mercado de tradução.
+                  </span>
+                </p>
+              </div>
+              <div className="group-5">
+                <div className="overlap-15">
                   <p className="text-wrapper-27">Mercado de Tradução - Informação é poder</p>
                   <div className="flexcontainer-9">
                     <p className="text-2">
@@ -443,33 +436,22 @@ export const Celularacademy = () => {
                   </div>
                 </div>
               </div>
-              <div className="group-7">
-                <div className="overlap-15">
-                  <div className="rectangle-5" />
-                  <p className="text-wrapper-28">As Profissões dentro da Profissão</p>
-                  <p className="tradu-o-t-cnica">
-                    Tradução técnica, Localização, audiovisual, MTPE (Machine Translation Post Editing), Legendagem,
-                    Transcriação, Revisão, editorial e tradução juramentada.
-                    <br />
-                    Conheça todas as áreas que você pode atuar no Mercado de Tradução.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-        <div className="group-8">
-          <div className="group-9">
-            <p className="text-wrapper-29">Magma Translation | Todos os direitos reservados. ©Magma™</p>
+        <div className="group-6">
+          <div className="group-7">
+            <p className="text-wrapper-28">Magma Translation | Todos os direitos reservados. ©Magma™</p>
           </div>
-          <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png-2x.png" />
+          <img className="magma-translation" alt="Magma translation" src="/img/magma-translation-png.png" />
         </div>
-        <div className="text-wrapper-30">Módulos do Curso</div>
+        <div className="text-wrapper-29">Módulos do Curso</div>
         <div className="overlap-16">
           <div className="overlap-17">
-            <div className="group-10">
+            <div className="group-8">
               <div className="overlap-18">
-                <div className="text-wrapper-31">Bônus:</div>
+                <div className="rectangle-3" />
+                <div className="text-wrapper-30">Bônus:</div>
                 <div className="flexcontainer-10">
                   <p className="text-2">
                     <span className="text-wrapper-18">
@@ -484,9 +466,9 @@ export const Celularacademy = () => {
                 </div>
               </div>
             </div>
-            <div className="group-11">
+            <div className="group-9">
               <div className="overlap-19">
-                <div className="text-wrapper-32">Super Bônus:</div>
+                <div className="text-wrapper-31">Super Bônus:</div>
                 <div className="flexcontainer-11">
                   <p className="text-2">
                     <span className="text-wrapper-18">
@@ -504,13 +486,29 @@ export const Celularacademy = () => {
             </div>
           </div>
           <div className="overlap-20">
-            <div className="group-12">
+            <div className="group-10">
               <div className="overlap-21">
-                <p className="text-wrapper-33">Bônus Exclusivo curso Profissão Tradutor – do Zero ao Sucesso!</p>
+                <p className="text-wrapper-32">Bônus Exclusivo curso Profissão Tradutor – do Zero ao Sucesso!</p>
                 <div className="flexcontainer-12">
                   <p className="text-3">
-                    <span className="text-wrapper-34">
+                    <span className="text-wrapper-33">
                       Experiência Magma Translation.
+                      <br />
+                    </span>
+                  </p>
+                  <p className="text-3">
+                    <span className="text-wrapper-34">
+                      <br />
+                    </span>
+                  </p>
+                  <p className="text-3">
+                    <span className="text-wrapper-35">
+                      Seu currículo com experiência profissional de uma <br />
+                    </span>
+                  </p>
+                  <p className="text-3">
+                    <span className="text-wrapper-35">
+                      empresa consolidada no mercado nacional e internacional.
                       <br />
                     </span>
                   </p>
@@ -520,38 +518,22 @@ export const Celularacademy = () => {
                     </span>
                   </p>
                   <p className="text-3">
-                    <span className="text-wrapper-36">
-                      Seu currículo com experiência profissional de uma <br />
-                    </span>
-                  </p>
-                  <p className="text-3">
-                    <span className="text-wrapper-36">
-                      empresa consolidada no mercado nacional e internacional.
+                    <span className="text-wrapper-35">
                       <br />
                     </span>
                   </p>
                   <p className="text-3">
-                    <span className="text-wrapper-36">
+                    <span className="text-wrapper-35">
                       <br />
                     </span>
                   </p>
                   <p className="text-3">
-                    <span className="text-wrapper-36">
+                    <span className="text-wrapper-35">
                       <br />
                     </span>
                   </p>
                   <p className="text-3">
-                    <span className="text-wrapper-36">
-                      <br />
-                    </span>
-                  </p>
-                  <p className="text-3">
-                    <span className="text-wrapper-36">
-                      <br />
-                    </span>
-                  </p>
-                  <p className="text-3">
-                    <span className="text-wrapper-36">{""}</span>
+                    <span className="text-wrapper-35">{""}</span>
                   </p>
                 </div>
               </div>
@@ -559,39 +541,39 @@ export const Celularacademy = () => {
             <div className="flexcontainer-wrapper">
               <div className="flexcontainer-13">
                 <p className="text-4">
-                  <span className="text-wrapper-37">
+                  <span className="text-wrapper-36">
                     <br />
                   </span>
                 </p>
                 <p className="text-4">
-                  <span className="text-wrapper-38">
+                  <span className="text-wrapper-37">
                     Avaliação positiva Magma Translation nas Plataformas de Job.
                     <br />
                   </span>
                 </p>
                 <p className="text-4">
-                  <span className="text-wrapper-38">
+                  <span className="text-wrapper-37">
                     <br />
                   </span>
                 </p>
                 <p className="text-4">
-                  <span className="text-wrapper-37">
+                  <span className="text-wrapper-36">
                     Você escolhe seu hotel e restaurante pela avaliação dos usuários.
                     <br />
                   </span>
                 </p>
                 <p className="text-4">
-                  <span className="text-wrapper-37">Seu recrutador escolhe você pelas avaliações nas plataformas.</span>
+                  <span className="text-wrapper-36">Seu recrutador escolhe você pelas avaliações nas plataformas.</span>
                 </p>
               </div>
             </div>
             <a className="link-2" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
-              <p className="text-wrapper-3">Clique e destrave seu futuro</p>
+              <p className="text-wrapper-38">Clique e destrave seu futuro</p>
             </a>
           </div>
         </div>
         <div className="text-wrapper-39">Bônus</div>
-        <div className="group-13">
+        <div className="group-11">
           <div className="overlap-22">
             <div className="text-wrapper-40">Revisão, Perguntas e Respostas</div>
             <div className="flexcontainer-14">
@@ -625,24 +607,34 @@ export const Celularacademy = () => {
             </div>
           </div>
         </div>
-        <div className="group-14">
+        <div className="group-12">
           <div className="overlap-23">
+            <div className="rectangle-4" />
             <p className="text-wrapper-41">Aula extra: Como evitar golpes</p>
             <p className="text-wrapper-42">Aula extra: Como usar a plataforma de E-mail Marketing.</p>
           </div>
         </div>
+        <div className="group-13">
+          <p className="text-wrapper-43">As Profissões dentro da Profissão</p>
+          <p className="tradu-o-t-cnica">
+            Tradução técnica, Localização, audiovisual, MTPE (Machine Translation Post Editing), Legendagem,
+            Transcriação, Revisão, editorial e tradução juramentada.
+            <br />
+            Conheça todas as áreas que você pode atuar no Mercado de Tradução.
+          </p>
+        </div>
         <div className="overlap-24">
-          <div className="group-15">
+          <div className="group-14">
             <div className="overlap-25">
-              <div className="text-wrapper-43">Tudo isso por apenas</div>
+              <div className="text-wrapper-44">Tudo isso por apenas</div>
               <div className="overlap-26">
                 <div className="overlap-27">
-                  <div className="text-wrapper-44">997,00 R$</div>
+                  <div className="text-wrapper-45">997,00 R$</div>
                   <div className="overlap-28">
-                    <div className="text-wrapper-45">1997,00 R$</div>
-                    <p className="text-wrapper-46">Valor para as próximas turmas</p>
-                    <div className="group-16">
-                      <div className="overlap-group-2">
+                    <div className="text-wrapper-46">1997,00 R$</div>
+                    <p className="text-wrapper-47">Valor para as próximas turmas</p>
+                    <div className="group-15">
+                      <div className="overlap-group-3">
                         <img className="line-2" alt="Line" src="/img/line-4.svg" />
                         <img className="line-3" alt="Line" src="/img/line-3.svg" />
                       </div>
@@ -654,7 +646,7 @@ export const Celularacademy = () => {
             </div>
           </div>
           <a className="link-3" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
-            <p className="text-wrapper-47">Clique e destrave seu futuro</p>
+            <p className="text-wrapper-48">Clique e destrave seu futuro</p>
           </a>
         </div>
       </div>

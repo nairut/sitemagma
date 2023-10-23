@@ -1,0 +1,31 @@
+.turian {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.turian .vectary-texture-wrapper {
+  background-color: #ffffff;
+  height: 3143px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.turian .vectary-texture {
+  height: 2333px;
+  left: -781px;
+  position: relative;
+  top: -599px;
+  width: 3002px;
+}
+
+.turian .img {
+  height: 1734px;
+  left: 781px;
+  object-fit: cover;
+  position: absolute;
+  top: 599px;
+  width: 1440px;
+}

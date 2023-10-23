@@ -1,0 +1,1 @@
+export { Tres } from "./Tres";

@@ -1,0 +1,33 @@
+.um {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.um .div-2 {
+  background-color: #ffffff;
+  height: 1300px;
+  position: relative;
+  width: 1440px;
+}
+
+.um .img {
+  height: 368px;
+  left: 291px;
+  object-fit: cover;
+  position: absolute;
+  top: 328px;
+  width: 858px;
+}
+
+.um .scrollbar-2 {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1384px;
+  position: absolute;
+  top: 40px;
+  width: 24px;
+}

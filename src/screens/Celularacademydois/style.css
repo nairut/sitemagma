@@ -1,0 +1,1137 @@
+.celularacademydois {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.celularacademydois .div {
+  background-color: #ffffff;
+  height: 7723px;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.celularacademydois .frame {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  left: 0;
+  position: absolute;
+  top: 7594px;
+  width: 360px;
+}
+
+.celularacademydois .magma-translation {
+  height: 40.63px;
+  position: relative;
+  width: 144.85px;
+}
+
+.celularacademydois .group {
+  height: 22.38px;
+  position: relative;
+  transform: rotate(0.13deg);
+  width: 303.48px;
+}
+
+.celularacademydois .text-wrapper {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 9.2px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.37px;
+  line-height: 15.3px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 301px;
+}
+
+.celularacademydois .line {
+  height: 1px;
+  left: 95px;
+  object-fit: cover;
+  position: absolute;
+  top: 3972px;
+  width: 170px;
+}
+
+.celularacademydois .minhas-notas-fiscais {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 60px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1182px;
+  width: 239px;
+}
+
+.celularacademydois .text-wrapper-2 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 98px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 1286px;
+  white-space: nowrap;
+}
+
+.celularacademydois .text-wrapper-3 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  left: 108px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 1126px;
+  white-space: nowrap;
+}
+
+.celularacademydois .image {
+  height: 208px;
+  left: 8px;
+  position: absolute;
+  top: 1343px;
+  width: 345px;
+}
+
+.celularacademydois .img {
+  height: 208px;
+  left: 7px;
+  position: absolute;
+  top: 1559px;
+  width: 346px;
+}
+
+.celularacademydois .p {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 75px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1798px;
+  width: 211px;
+}
+
+.celularacademydois .PO {
+  height: 177px;
+  left: 7px;
+  position: absolute;
+  top: 1903px;
+  width: 346px;
+}
+
+.celularacademydois .PO-2 {
+  height: 182px;
+  left: 7px;
+  position: absolute;
+  top: 2088px;
+  width: 346px;
+}
+
+.celularacademydois .PO-3 {
+  height: 169px;
+  left: 7px;
+  position: absolute;
+  top: 2278px;
+  width: 346px;
+}
+
+.celularacademydois .PO-4 {
+  height: 174px;
+  left: 7px;
+  position: absolute;
+  top: 2455px;
+  width: 346px;
+}
+
+.celularacademydois .text-wrapper-4 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 34.6px;
+  font-weight: 700;
+  left: 25px;
+  letter-spacing: 1.38px;
+  line-height: normal;
+  position: absolute;
+  top: 2684px;
+  white-space: nowrap;
+}
+
+.celularacademydois .line-2 {
+  height: 1px;
+  left: 95px;
+  object-fit: cover;
+  position: absolute;
+  top: 1086px;
+  width: 170px;
+}
+
+.celularacademydois .overlap {
+  height: 654px;
+  left: 15px;
+  position: absolute;
+  top: 32px;
+  width: 330px;
+}
+
+.celularacademydois .mask-group {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 7.55px;
+  left: 151px;
+  position: absolute;
+  top: 0;
+}
+
+.celularacademydois .group-2 {
+  height: 28.39px;
+  margin-left: -16917px;
+  margin-top: -1555px;
+  position: relative;
+  width: 28px;
+}
+
+.celularacademydois .group-3 {
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.celularacademydois .element {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 36px;
+  left: 0;
+  position: absolute;
+  top: 28px;
+}
+
+.celularacademydois .all-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 48px;
+  position: relative;
+}
+
+.celularacademydois .div-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 28px;
+  position: relative;
+}
+
+.celularacademydois .imerso {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 36px;
+  position: relative;
+}
+
+.celularacademydois .vemcomigo {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.celularacademydois .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.celularacademydois .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.celularacademydois .text-wrapper-5 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 12.5px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.celularacademydois .profiss-o-tradutor {
+  color: transparent;
+  font-family: "Lato", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 248px;
+}
+
+.celularacademydois .span {
+  color: #000000;
+  font-weight: 700;
+}
+
+.celularacademydois .text-wrapper-6 {
+  color: #c8982a;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: -0.36px;
+}
+
+.celularacademydois .text-wrapper-7 {
+  color: #c8982a;
+  font-weight: 700;
+}
+
+.celularacademydois .line-3 {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+  width: 170.29px;
+}
+
+.celularacademydois .curso-com-caysa-biel {
+  color: transparent;
+  font-family: "Lato", Helvetica;
+  font-size: 10.2px;
+  font-weight: 400;
+  letter-spacing: 0.41px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.celularacademydois .text-wrapper-8 {
+  color: #000000;
+  font-size: 9.9px;
+  font-weight: 700;
+  letter-spacing: 0.39px;
+}
+
+.celularacademydois .text-wrapper-9 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+}
+
+.celularacademydois .text-wrapper-10 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  text-decoration: underline;
+}
+
+.celularacademydois .text-wrapper-11 {
+  color: #040404;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 0.56px;
+  text-decoration: underline;
+}
+
+.celularacademydois .qualquer-pessoa-com {
+  color: transparent;
+  font-family: "Lato", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: 329px;
+}
+
+.celularacademydois .text-wrapper-12 {
+  color: #000000;
+}
+
+.celularacademydois .text-wrapper-13 {
+  color: #c8982a;
+}
+
+.celularacademydois .vem-comigo-que-eu {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  line-height: 24.6px;
+  position: relative;
+  text-align: center;
+  width: 288px;
+}
+
+.celularacademydois .box-imerso {
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: #c8982a;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-style: solid;
+  border-top-style: solid;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: -6px;
+  margin-left: -2.5px;
+  margin-right: -2.5px;
+  padding: 16px 38px;
+  position: relative;
+}
+
+.celularacademydois .imers-o-dias-para {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.celularacademydois .group-4 {
+  height: 172px;
+  margin-right: -8px;
+  position: relative;
+  width: 338px;
+}
+
+.celularacademydois .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 14px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.celularacademydois .img-2 {
+  height: 32px;
+  position: relative;
+  width: 32px;
+}
+
+.celularacademydois .circled-c {
+  height: 33.71px;
+  position: relative;
+  width: 32px;
+}
+
+.celularacademydois .text-wrapper-14 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 32px;
+  left: 46px;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 284px;
+}
+
+.celularacademydois .text-wrapper-15 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 32px;
+  left: 46px;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: absolute;
+  top: 46px;
+  width: 281px;
+}
+
+.celularacademydois .text-wrapper-16 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 16px;
+  left: 46px;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: absolute;
+  top: 101px;
+  width: 272px;
+}
+
+.celularacademydois .text-wrapper-17 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  height: 32px;
+  left: 46px;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: absolute;
+  top: 140px;
+  width: 272px;
+}
+
+.celularacademydois .image-2 {
+  height: 184px;
+  left: 22px;
+  position: absolute;
+  top: 723px;
+  width: 315px;
+}
+
+.celularacademydois .boto {
+  align-items: center;
+  background-color: #c8982a;
+  border-radius: 22.64px;
+  display: flex;
+  gap: 10px;
+  height: 86px;
+  justify-content: center;
+  left: 25px;
+  padding: 10px;
+  position: absolute;
+  top: 945px;
+  width: 311px;
+}
+
+.celularacademydois .text-wrapper-18 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 29.3px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.celularacademydois .imagens {
+  height: 252px;
+  left: 56px;
+  position: absolute;
+  top: 2774px;
+  width: 248px;
+}
+
+.celularacademydois .overlap-group {
+  height: 228px;
+  position: relative;
+  width: 285px;
+}
+
+.celularacademydois .div-absolute {
+  background-color: #d9daff;
+  border-radius: 46.92px;
+  height: 178px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 197px;
+}
+
+.celularacademydois .frame-wrapper {
+  border-radius: 46.92px;
+  height: 184px;
+  left: 88px;
+  position: absolute;
+  top: 34px;
+  width: 184px;
+}
+
+.celularacademydois .servio-de-trado-wrapper {
+  background-color: #0536a8b5;
+  border-radius: 46.92px;
+  height: 185px;
+  overflow: hidden;
+  position: relative;
+  width: 185px;
+}
+
+.celularacademydois .servio-de-trado {
+  height: 185px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 185px;
+}
+
+.celularacademydois .empresa-de-traduo {
+  background-image: url(../../../static/img/mask-group-2x.png);
+  background-size: 100% 100%;
+  height: 37px;
+  left: 248px;
+  position: absolute;
+  top: 15px;
+  width: 37px;
+}
+
+.celularacademydois .empresa-de-traduo-2 {
+  background-image: url(../../../static/img/mask-group-1-2x.png);
+  background-size: 100% 100%;
+  height: 23px;
+  left: 78px;
+  position: absolute;
+  top: 205px;
+  width: 23px;
+}
+
+.celularacademydois .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 4.24px;
+  height: 859px;
+  left: 23px;
+  position: absolute;
+  top: 3057px;
+  width: 315px;
+}
+
+.celularacademydois .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  line-height: normal;
+  position: relative;
+  text-align: justify;
+}
+
+.celularacademydois .text-wrapper-19 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+}
+
+.celularacademydois .text-wrapper-20 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+}
+
+.celularacademydois .text-wrapper-21 {
+  font-size: 10.8px;
+  font-weight: 300;
+  letter-spacing: 0.43px;
+}
+
+.celularacademydois .text-wrapper-22 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 39px;
+  font-weight: 700;
+  left: 9px;
+  letter-spacing: 1.56px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 4012px;
+  transform: rotate(0.13deg);
+}
+
+.celularacademydois .element-modulo {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4080px;
+  width: 360px;
+}
+
+.celularacademydois .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 0px 4px 0px 0px;
+  position: relative;
+  width: 328px;
+}
+
+.celularacademydois .text-wrapper-23 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 12.8px;
+  font-weight: 700;
+  letter-spacing: 0.51px;
+  line-height: normal;
+  margin-top: -0.63px;
+  position: relative;
+  transform: rotate(0.13deg);
+  width: 320.17px;
+}
+
+.celularacademydois .flexcontainer-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6.16px;
+  width: 329px;
+}
+
+.celularacademydois .span-wrapper {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 12.8px;
+  font-weight: 300;
+  letter-spacing: 0.51px;
+  line-height: normal;
+  position: relative;
+}
+
+.celularacademydois .text-wrapper-24 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 12.8px;
+  font-weight: 300;
+  letter-spacing: 0.51px;
+}
+
+.celularacademydois .element-modulo-2 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4384px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-3 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4688px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-4 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4992px;
+  width: 360px;
+}
+
+.celularacademydois .text-wrapper-25 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 12.8px;
+  font-weight: 300;
+  letter-spacing: 0.51px;
+  line-height: normal;
+  position: relative;
+  width: 329px;
+}
+
+.celularacademydois .overlap-2 {
+  height: 302px;
+  left: 0;
+  position: absolute;
+  top: 5296px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-5 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 0;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-6 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 150px;
+  width: 360px;
+}
+
+.celularacademydois .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  position: relative;
+  width: 330px;
+}
+
+.celularacademydois .element-modulo-7 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 5598px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-8 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 6077px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-9 {
+  align-items: center;
+  background-color: #c1b3f9;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 360px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 6381px;
+  width: 360px;
+}
+
+.celularacademydois .b-nus-exclusivo {
+  color: transparent;
+  font-family: "Lato", Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.56px;
+  line-height: normal;
+  margin-top: -0.63px;
+  position: relative;
+  transform: rotate(0.13deg);
+  width: 320.17px;
+}
+
+.celularacademydois .text-wrapper-26 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.52px;
+  line-height: normal;
+  position: relative;
+  width: 332px;
+}
+
+.celularacademydois .element-modulo-10 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4232px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-11 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4536px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-12 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 4840px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-13 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: -2px;
+  padding: 19px 0px;
+  position: absolute;
+  top: 5144px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-14 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 5750px;
+  width: 360px;
+}
+
+.celularacademydois .element-modulo-15 {
+  align-items: center;
+  background-color: #e3ddfc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 152px;
+  left: 0;
+  padding: 19px 0px;
+  position: absolute;
+  top: 6229px;
+  width: 360px;
+}
+
+.celularacademydois .text-wrapper-27 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 55.8px;
+  font-weight: 700;
+  left: 92px;
+  letter-spacing: 2.23px;
+  line-height: normal;
+  position: absolute;
+  top: 5957px;
+  transform: rotate(0.13deg);
+  white-space: nowrap;
+  width: 165px;
+}
+
+.celularacademydois .overlap-3 {
+  background-color: #ffffffd1;
+  border: 31px solid;
+  border-color: #c8982a;
+  height: 816px;
+  left: 0;
+  position: absolute;
+  top: 6741px;
+  width: 360px;
+}
+
+.celularacademydois .text-wrapper-28 {
+  color: #050505;
+  font-family: "Lato", Helvetica;
+  font-size: 42.5px;
+  font-weight: 700;
+  left: 19px;
+  letter-spacing: 1.7px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 51px;
+  width: 260px;
+}
+
+.celularacademydois .overlap-4 {
+  height: 98px;
+  left: 8px;
+  position: absolute;
+  top: 227px;
+  width: 345px;
+}
+
+.celularacademydois .text-wrapper-29 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 42.5px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 1.7px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  width: 345px;
+}
+
+.celularacademydois .overlap-wrapper {
+  height: 98px;
+  left: 124px;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.celularacademydois .overlap-5 {
+  height: 98px;
+  left: -1px;
+  position: relative;
+  width: 98px;
+}
+
+.celularacademydois .line-4 {
+  height: 97px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.celularacademydois .line-5 {
+  height: 96px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 96px;
+}
+
+.celularacademydois .text-wrapper-30 {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 55px;
+  font-weight: 700;
+  left: 14px;
+  letter-spacing: 2.2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 366px;
+  white-space: nowrap;
+}
+
+.celularacademydois .valor-para-essa {
+  color: #000000;
+  font-family: "Lato", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 9px;
+  letter-spacing: 1.2px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 495px;
+  width: 280px;
+}
+
+.celularacademydois .boto-2 {
+  align-items: center;
+  background-color: #ff0000;
+  border-radius: 22.64px;
+  display: flex;
+  gap: 10px;
+  height: 74px;
+  justify-content: center;
+  left: 16px;
+  padding: 10px;
+  position: absolute;
+  top: 610px;
+  width: 266px;
+}

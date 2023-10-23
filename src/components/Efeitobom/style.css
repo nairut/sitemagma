@@ -1,0 +1,289 @@
+.efeitobom {
+  background-color: #ffffff;
+  height: 1300px;
+  position: relative;
+  width: 1440px;
+}
+
+.efeitobom .overlap-group {
+  left: 161px;
+  position: absolute;
+  top: 270px;
+}
+
+.efeitobom .text-wrapper {
+  color: #254f5a;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 397.3px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: -11.92px;
+  line-height: 345.7px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.efeitobom .keyboard {
+  height: 480px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 1118px;
+}
+
+.efeitobom .like-we-said {
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: 400;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.efeitobom .scrollbar {
+  position: absolute;
+}
+
+.efeitobom .img {
+  height: 480px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1118px;
+}
+
+.efeitobom .hand {
+  height: 760px;
+  left: 805px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 514px;
+}
+
+.efeitobom .div {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1223px;
+  position: absolute;
+  top: 326px;
+  width: 24px;
+}
+
+.efeitobom .text-wrapper-2 {
+  color: #000000;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  position: absolute;
+  top: 197px;
+  white-space: nowrap;
+}
+
+.efeitobom .keyboard-2 {
+  object-fit: cover;
+  position: absolute;
+}
+
+.efeitobom .hand-2 {
+  height: 111px;
+  left: 640px;
+  object-fit: cover;
+  position: absolute;
+  top: 1189px;
+  width: 693px;
+}
+
+.efeitobom .scrollbar-2 {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1384px;
+  position: absolute;
+  width: 24px;
+}
+
+.efeitobom .text-wrapper-3 {
+  color: #000000;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  opacity: 0;
+  position: absolute;
+  top: 197px;
+  white-space: nowrap;
+}
+
+.efeitobom .scrollbar-3 {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1384px;
+  position: absolute;
+  top: 292px;
+  width: 24px;
+}
+
+.efeitobom.property-1-cinco {
+  overflow: hidden;
+}
+
+.efeitobom.property-1-cinco .overlap-group {
+  color: #254f5a;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 397.3px;
+  font-weight: 400;
+  letter-spacing: -11.92px;
+  line-height: 345.7px;
+  white-space: nowrap;
+}
+
+.efeitobom.property-1-tres .overlap-group {
+  height: 482px;
+  width: 1118px;
+}
+
+.efeitobom.property-1-cinco .like-we-said {
+  color: #000000;
+  font-size: 48px;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  top: 197px;
+}
+
+.efeitobom.property-1-um .like-we-said {
+  color: #000000;
+  font-size: 48px;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  top: 197px;
+}
+
+.efeitobom.property-1-tres .like-we-said {
+  color: #000000;
+  font-size: 48px;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  top: 197px;
+}
+
+.efeitobom.property-1-dois .like-we-said {
+  color: #000000;
+  font-size: 48px;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  top: 197px;
+}
+
+.efeitobom.property-1-quatro .like-we-said {
+  color: #254f5a;
+  font-size: 397.3px;
+  left: 161px;
+  letter-spacing: -11.92px;
+  line-height: 345.7px;
+  top: 270px;
+}
+
+.efeitobom.property-1-cinco .scrollbar {
+  height: 760px;
+  left: 161px;
+  top: 697px;
+  width: 1319px;
+}
+
+.efeitobom.property-1-um .scrollbar {
+  height: 72px;
+  left: 1384px;
+  top: 512px;
+  width: 24px;
+}
+
+.efeitobom.property-1-tres .scrollbar {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1384px;
+  top: 512px;
+  width: 24px;
+}
+
+.efeitobom.property-1-dois .scrollbar {
+  height: 72px;
+  left: 1384px;
+  top: 512px;
+  width: 24px;
+}
+
+.efeitobom.property-1-quatro .scrollbar {
+  height: 72px;
+  left: 1384px;
+  top: 512px;
+  width: 24px;
+}
+
+.efeitobom.property-1-cinco .keyboard-2 {
+  height: 480px;
+  left: 161px;
+  top: 272px;
+  width: 1118px;
+}
+
+.efeitobom.property-1-um .keyboard-2 {
+  height: 368px;
+  left: 291px;
+  top: 328px;
+  width: 858px;
+}
+
+.efeitobom.property-1-tres .keyboard-2 {
+  height: 480px;
+  left: 161px;
+  top: 272px;
+  width: 1118px;
+}
+
+.efeitobom.property-1-dois .keyboard-2 {
+  height: 480px;
+  left: 161px;
+  top: 272px;
+  width: 1118px;
+}
+
+.efeitobom.property-1-quatro .keyboard-2 {
+  height: 480px;
+  left: 161px;
+  top: 697px;
+  width: 1118px;
+}
+
+.efeitobom.property-1-cinco .scrollbar-2 {
+  top: 40px;
+}
+
+.efeitobom.property-1-um .scrollbar-2 {
+  top: 40px;
+}
+
+.efeitobom.property-1-tres .scrollbar-2 {
+  top: 40px;
+}
+
+.efeitobom.property-1-dois .scrollbar-2 {
+  top: 40px;
+}
+
+.efeitobom.property-1-quatro .scrollbar-2 {
+  top: 762px;
+}

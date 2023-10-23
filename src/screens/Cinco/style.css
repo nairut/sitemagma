@@ -1,0 +1,77 @@
+.cinco {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cinco .div {
+  background-color: #ffffff;
+  height: 1300px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.cinco .text-wrapper {
+  color: #254f5a;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 397.3px;
+  font-weight: 400;
+  left: 161px;
+  letter-spacing: -11.92px;
+  line-height: 345.7px;
+  position: absolute;
+  top: 270px;
+  white-space: nowrap;
+}
+
+.cinco .text-wrapper-2 {
+  color: #000000;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 185px;
+  letter-spacing: -1.44px;
+  line-height: 41.8px;
+  position: absolute;
+  top: 197px;
+  white-space: nowrap;
+}
+
+.cinco .overlap-group {
+  height: 760px;
+  left: 161px;
+  position: absolute;
+  top: 697px;
+  width: 1319px;
+}
+
+.cinco .keyboard {
+  height: 480px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1118px;
+}
+
+.cinco .hand {
+  height: 760px;
+  left: 805px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 514px;
+}
+
+.cinco .scrollbar {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1223px;
+  position: absolute;
+  top: 326px;
+  width: 24px;
+}

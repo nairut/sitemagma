@@ -1,0 +1,1 @@
+export { Cinco } from "./Cinco";

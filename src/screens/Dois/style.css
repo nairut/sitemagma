@@ -1,0 +1,33 @@
+.dois {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.dois .div-3 {
+  background-color: #ffffff;
+  height: 1300px;
+  position: relative;
+  width: 1440px;
+}
+
+.dois .keyboard-2 {
+  height: 480px;
+  left: 161px;
+  object-fit: cover;
+  position: absolute;
+  top: 272px;
+  width: 1118px;
+}
+
+.dois .scrollbar-3 {
+  background-color: #00000040;
+  border-radius: 32px;
+  height: 72px;
+  left: 1384px;
+  position: absolute;
+  top: 292px;
+  width: 24px;
+}

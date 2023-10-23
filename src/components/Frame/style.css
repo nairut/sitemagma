@@ -1,0 +1,83 @@
+.frame {
+  height: 1281px;
+  position: relative;
+  width: 1377px;
+}
+
+.frame .rectangle {
+  background-color: #d9d9d9;
+  height: 211px;
+  left: -158px;
+  position: absolute;
+  top: 245px;
+  width: 316px;
+}
+
+.frame .div {
+  background-color: #d9d9d9;
+  height: 211px;
+  left: 1219px;
+  position: absolute;
+  top: 245px;
+  width: 316px;
+}
+
+.frame .rectangle-2 {
+  background-color: #d9d9d9;
+  height: 211px;
+  left: 71px;
+  position: absolute;
+  top: 728px;
+  width: 316px;
+}
+
+.frame .rectangle-3 {
+  background-color: #d9d9d9;
+  height: 211px;
+  left: 853px;
+  position: absolute;
+  top: 728px;
+  width: 316px;
+}
+
+.frame .rectangle-4 {
+  background-color: #d9d9d9;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1377px;
+}
+
+.frame .rectangle-5 {
+  background-color: #d9d9d9;
+  height: 70px;
+  left: 0;
+  position: absolute;
+  top: 1211px;
+  width: 1377px;
+}
+
+.frame .rectangle,
+.frame .div {
+  transition: left 0.5s ease; /* Adjust the duration (0.5s) to control the speed */
+}
+
+.frame:hover .rectangle {
+  left: 71px;
+}
+
+.frame:hover .div {
+  left: 853px;
+}
+
+/* Define the initial position */
+.frame-1 {
+  left: 71px;
+  transition: left 0.5s ease;
+}
+
+/* Define a class for a different position */
+.frame-1.scrolled {
+  left: 853px; /* Adjust this value as needed */
+}
