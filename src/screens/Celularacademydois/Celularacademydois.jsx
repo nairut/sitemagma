@@ -503,14 +503,13 @@ export const Celularacademydois = () => {
           <div className="flexcontainer-2">
             <p className="span-wrapper">
               <span className="text-wrapper-24">
-                Tradução técnica, Localização, audiovisual, MTPE (Machine Translation Post Editing), Legendagem,
-                Transcriação, Revisão, editorial e tradução juramentada.
+             Como usar a plataforma de E-mail Marketing.
                 <br />
               </span>
             </p>
             <p className="span-wrapper">
               <span className="text-wrapper-24">
-                Conheça todas as áreas que você pode atuar no Mercado de Tradução.
+        
               </span>
             </p>
           </div>
