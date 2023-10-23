@@ -498,7 +498,13 @@ export const Celularacademydois = () => {
         </div>
         <div className="element-modulo-14">
           <div className="frame-5">
-            <p className="text-wrapper-23">Aula extra: Como evitar golpes</p>
+            <p className="text-wrapper-23">
+              
+            "Aula extra: como evitar golpes
+Aula extra: como usar as plataformas de e-mail marketing"
+              
+              
+              </p>
           </div>
           <div className="flexcontainer-2">
             <p className="span-wrapper">
