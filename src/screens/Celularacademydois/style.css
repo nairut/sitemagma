@@ -4,8 +4,6 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-
-  align-items: center; /* Add this to center vertically */
 }
 
 .celularacademydois .div {
@@ -13,31 +11,8 @@
   height: 7723px;
   overflow: hidden;
   position: relative;
-  width: 430px;
-}
-
-
-
-.celularacademydoisasdas {
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center; /* Add this to center vertically */
-  width: 100%;
-  min-height: 100vh; /* Adjust this for the minimum desired height */
-}
-
-.celularacademydoisasdas .div {
-  background-color: #ffffff;
-  /* height: 7723px; Remove the fixed height */
-  overflow: hidden;
-  position: relative;
   width: 360px;
-  max-width: 100%; /* Allow the element to grow with its parent */
 }
-
-
-
 
 .celularacademydois .frame {
   align-items: center;
