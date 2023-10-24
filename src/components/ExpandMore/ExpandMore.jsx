@@ -5,19 +5,20 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
+import { ExpandMore1 } from "../../icons/ExpandMore1";
+import { StyleTwoTone } from "../../icons/StyleTwoTone";
 import "./style.css";
 
-export const ExpandMore = ({ style, className, styleRound = "/img/style-round.png" }) => {
+export const ExpandMore = ({ style }) => {
   return (
-    <img
-      className={`expand-more ${className}`}
-      alt="Style filled"
-      src={style === "round" ? styleRound : style === "two-tone" ? "/img/style-two-tone.png" : "/img/style-filled.png"}
-    />
+    <>
+      {["filled", "outlined", "sharp", "two-tone"].includes(style) && <StyleTwoTone className="instance-node-6" />}
+
+      {style === "round" && <ExpandMore1 className="instance-node-6" color="black" />}
+    </>
   );
 };
 
 ExpandMore.propTypes = {
   style: PropTypes.oneOf(["round", "sharp", "filled", "two-tone", "outlined"]),
-  styleRound: PropTypes.string,
 };

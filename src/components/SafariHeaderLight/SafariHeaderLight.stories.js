@@ -11,6 +11,5 @@ export const Default = {
     headerClassName: {},
     URLClassName: {},
     text: "https://www.weare3logy.com",
-    left: "/img/left.png",
   },
 };

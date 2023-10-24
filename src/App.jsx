@@ -23,6 +23,7 @@ import { Turian } from "./screens/Turian/Turian";
 import { Um } from "./screens/Um";
 import { Celularacademydois } from "./screens/Celularacademydois";
 import { Sinistro, sinistro } from "./screens/sinistro";
+import { MarianaGrande } from "./screens/MarianaGrande";
 
 
 
@@ -61,6 +62,13 @@ export const App = () => {
         path: "/sinistro",
         element: isMobile ? <Sinistro /> : <Turian />,
       },
+
+
+      {
+        path: "/mariana",
+        element: isMobile ? <Sinistro /> : <MarianaGrande />,
+      },
+
 
 
       

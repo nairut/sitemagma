@@ -12,7 +12,6 @@ export const SafariHeaderLight = ({
   headerClassName,
   URLClassName,
   text = "https://www.weare3logy.com",
-  left = "/img/left.png",
 }) => {
   return (
     <div className={`safari-header-light ${className}`}>
@@ -36,7 +35,7 @@ export const SafariHeaderLight = ({
             </div>
           </div>
         </div>
-        <img className="left" alt="Left" src={left} />
+        <img className="left" alt="Left" src="/img/left.png" />
       </div>
     </div>
   );
@@ -44,5 +43,4 @@ export const SafariHeaderLight = ({
 
 SafariHeaderLight.propTypes = {
   text: PropTypes.string,
-  left: PropTypes.string,
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Helmet from 'react-helmet'
 
 export const Academy = () => {
   return (

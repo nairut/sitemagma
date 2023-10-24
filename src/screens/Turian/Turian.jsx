@@ -1,7 +1,7 @@
 import React from "react";
 import { Dropdown } from "../../components/Dropdown";
-import { ExpandMore } from "../../components/ExpandMore";
-import { Person } from "../../components/Person";
+import { ExpandMore1 } from "../../icons/ExpandMore1";
+import { IconEnd1Medium17 } from "../../icons/IconEnd1Medium17";
 import "./style.css";
 
 export const Turian = () => {
@@ -21,7 +21,7 @@ export const Turian = () => {
             <div className="frame-2">
               <div className="frame-3">
                 <div className="frame-4">
-                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-2-1.png" />
+                  <img className="ellipse" alt="Ellipse" src="/img/ellipse-2.png" />
                   <div className="frame-wrapper">
                     <div className="frame-5">
                       <div className="bruno-vidal">Bruno Vidal</div>
@@ -34,16 +34,16 @@ export const Turian = () => {
                   people think in other countries, specially of the US, UK and Germany for our projects
                 </p>
                 <div className="frame-6">
-                  <img className="star" alt="Star" src="/img/star-21-3.png" />
-                  <img className="star" alt="Star" src="/img/star-22-3.png" />
-                  <img className="star" alt="Star" src="/img/star-23-3.png" />
-                  <img className="star" alt="Star" src="/img/star-24-3.png" />
-                  <img className="star" alt="Star" src="/img/star-25-2.png" />
+                  <img className="star" alt="Star" src="/img/star-21.svg" />
+                  <img className="star" alt="Star" src="/img/star-21.svg" />
+                  <img className="star" alt="Star" src="/img/star-21.svg" />
+                  <img className="star" alt="Star" src="/img/star-21.svg" />
+                  <img className="star" alt="Star" src="/img/star-21.svg" />
                 </div>
               </div>
               <div className="frame-7">
                 <div className="frame-8">
-                  <img className="img" alt="Ellipse" src="/img/ellipse-80-2.png" />
+                  <img className="img" alt="Ellipse" src="/img/ellipse-80.png" />
                   <div className="frame-9">
                     <div className="frame-10">
                       <div className="text-wrapper-5">Milton Santana</div>
@@ -56,15 +56,15 @@ export const Turian = () => {
                   through the expertise of their team.
                 </p>
                 <div className="frame-6">
-                  <img className="star" alt="Star" src="/img/star-21-4.png" />
-                  <img className="star" alt="Star" src="/img/star-22-4.png" />
-                  <img className="star" alt="Star" src="/img/star-23-4.png" />
-                  <img className="star" alt="Star" src="/img/star-24-4.png" />
+                  <img className="star" alt="Star" src="/img/star-21-1.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-1.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-1.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-1.svg" />
                 </div>
               </div>
               <div className="frame-11">
                 <div className="frame-8">
-                  <img className="img" alt="Ellipse" src="/img/ellipse-80-3.png" />
+                  <img className="img" alt="Ellipse" src="/img/ellipse-80-1.png" />
                   <div className="frame-9">
                     <div className="frame-10">
                       <div className="text-wrapper-8">Danielle Schmitt</div>
@@ -77,19 +77,19 @@ export const Turian = () => {
                   security is essential. Magma Translation is a trusted company.
                 </p>
                 <div className="frame-6">
-                  <img className="star" alt="Star" src="/img/star-21-5.png" />
-                  <img className="star" alt="Star" src="/img/star-22-5.png" />
-                  <img className="star" alt="Star" src="/img/star-23-5.png" />
-                  <img className="star" alt="Star" src="/img/star-24-5.png" />
-                  <img className="star" alt="Star" src="/img/star-25-3.png" />
+                  <img className="star" alt="Star" src="/img/star-21-2.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-2.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-2.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-2.svg" />
+                  <img className="star" alt="Star" src="/img/star-21-2.svg" />
                 </div>
               </div>
             </div>
             <div className="overlap-group">
-              <img className="bi-arrow-left-short" alt="Bi arrow left short" src="/img/bi-arrow-left-short-2.png" />
+              <img className="bi-arrow-left-short" alt="Bi arrow left short" src="/img/bi-arrow-left-short.svg" />
             </div>
             <div className="bi-arrow-left-short-wrapper">
-              <img className="bi-arrow-left-short" alt="Bi arrow left short" src="/img/bi-arrow-left-short-3.png" />
+              <img className="bi-arrow-left-short" alt="Bi arrow left short" src="/img/bi-arrow-left-short-1.svg" />
             </div>
           </div>
           <div className="group">
@@ -109,7 +109,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="img-2" alt="Documento" src="/img/documento-1-1-1.png" />
+                        <img className="img-2" alt="Documento" src="/img/documento-1-1.svg" />
                         <div className="heading-2">
                           <div className="text-wrapper-11">Documentos</div>
                         </div>
@@ -127,7 +127,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="img-3" alt="Seta de alvo" src="/img/seta-de-alvo-1-1.png" />
+                        <img className="img-3" alt="Seta de alvo" src="/img/seta-de-alvo-1.svg" />
                         <div className="marketing-material-wrapper">
                           <div className="text-wrapper-13">Marketing Material &amp; Ads</div>
                         </div>
@@ -143,7 +143,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="alt-do-site" alt="Alt do site" src="/img/alt-do-site-1-1.png" />
+                        <img className="alt-do-site" alt="Alt do site" src="/img/alt-do-site-1.svg" />
                         <div className="heading-3">
                           <div className="text-wrapper-13">Website &amp; Apps</div>
                         </div>
@@ -161,7 +161,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="filme" alt="Filme" src="/img/filme-1-1-1.png" />
+                        <img className="filme" alt="Filme" src="/img/filme-1-1.svg" />
                         <div className="heading-3">
                           <div className="text-wrapper-13">Legenda de vídeos</div>
                         </div>
@@ -177,7 +177,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="img-3" alt="Alt de inventario" src="/img/alt-de-inventario-1-1.png" />
+                        <img className="img-3" alt="Alt de inventario" src="/img/alt-de-inventario-1.svg" />
                         <div className="heading-3">
                           <div className="text-wrapper-13">Descrição de produtos</div>
                         </div>
@@ -195,7 +195,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-hp-perfect-wrapper">
                       <div className="div-item-hp-perfect">
-                        <img className="img-2" alt="Diploma" src="/img/diploma-1-1.png" />
+                        <img className="img-2" alt="Diploma" src="/img/diploma-1.svg" />
                         <div className="heading-3">
                           <div className="text-wrapper-16">Artigos científicos, certificados;</div>
                         </div>
@@ -204,7 +204,7 @@ export const Turian = () => {
                             Tradução meticulosa para pesquisas e publicações acadêmicas.
                           </p>
                         </div>
-                        <div className="image-4">
+                        <div className="image-wrapper">
                           <div className="image-3" />
                         </div>
                       </div>
@@ -290,17 +290,17 @@ export const Turian = () => {
               </div>
             </div>
           </div>
-          <img className="hero-header" alt="Hero header" src="/img/hero-header-05-1.png" />
+          <img className="hero-header" alt="Hero header" src="/img/hero-header-05.png" />
           <div className="group-8">
-            <img className="fi" alt="Fi" src="/img/fi-2111463-1.png" />
-            <img className="fi-2" alt="Fi" src="/img/fi-3536394-1.png" />
+            <img className="fi" alt="Fi" src="/img/fi-2111463.svg" />
+            <img className="fi-2" alt="Fi" src="/img/fi-3536394.svg" />
             <img className="logo-preto-branco" alt="Logo preto branco" src="/img/logo-preto-branco-2.png" />
-            <img className="linkedin" alt="Linkedin" src="/img/linkedin-1-1.png" />
+            <img className="linkedin" alt="Linkedin" src="/img/linkedin-1.svg" />
           </div>
-          <img className="line" alt="Line" src="/img/line-15-1.png" />
-          <img className="line-2" alt="Line" src="/img/line-15-1.png" />
-          <img className="line-3" alt="Line" src="/img/line-17-1.png" />
-          <img className="line-4" alt="Line" src="/img/line-18-1.png" />
+          <img className="line" alt="Line" src="/img/line-15.svg" />
+          <img className="line-2" alt="Line" src="/img/line-15.svg" />
+          <img className="line-3" alt="Line" src="/img/line-17.svg" />
+          <img className="line-4" alt="Line" src="/img/line-17.svg" />
         </div>
         <div className="overlap-8">
           <div className="rectangle-4" />
@@ -333,10 +333,10 @@ export const Turian = () => {
               <div className="text-wrapper-33">Fale com um especialista</div>
             </div>
             <div className="div-rewards-icons">
-              <img className="slator-svg" alt="Slator svg" src="/img/slator-2023-svg-1.png" />
+              <img className="slator-svg" alt="Slator svg" src="/img/slator-2023-svg.svg" />
               <div className="top-fastest" />
-              <img className="nimdzi-svg" alt="Nimdzi svg" src="/img/nimdzi-2023-svg-1.png" />
-              <img className="frame-svg" alt="Frame svg" src="/img/frame-14349-svg-1.png" />
+              <img className="nimdzi-svg" alt="Nimdzi svg" src="/img/nimdzi-2023-svg.svg" />
+              <img className="frame-svg" alt="Frame svg" src="/img/frame-14349-svg.svg" />
             </div>
           </div>
           <div className="frame-15">
@@ -373,12 +373,12 @@ export const Turian = () => {
             <div className="empresas-que-confiam-wrapper">
               <p className="empresas-que-confiam">Empresas Que Confiam Em Nós</p>
             </div>
-            <img className="group-11" alt="Group" src="/img/group-22-1.png" />
+            <img className="group-11" alt="Group" src="/img/group-22.png" />
           </div>
           <div className="rectangle-5" />
           <div className="overlap-wrapper">
             <div className="overlap-10">
-              <img className="group-12" alt="Group" src="/img/group-43-1.png" />
+              <img className="group-12" alt="Group" src="/img/group-43.png" />
               <p className="a-magma-translation">
                 <span className="text-wrapper-35">A Magma Translation oferece serviços de tradução</span>
                 <span className="text-wrapper-36"> profissionais</span>
@@ -392,28 +392,28 @@ export const Turian = () => {
           </div>
         </div>
         <div className="overlap-11">
-          <div className="overlap-group-wrapper">
-            <div className="overlap-12">
-              <div className="div-max-wrapper">
-                <div className="div-max">
-                  <div className="div-row-2">
-                    <div className="div-box-pad-wrapper">
-                      <div className="div-box-pad">
-                        <div className="heading-margin">
-                          <div className="heading-4">
-                            <div className="text-wrapper-37">O que nós fazemos</div>
+          <div className="overlap-12">
+            <div className="overlap-group-wrapper">
+              <div className="overlap-13">
+                <div className="div-max-wrapper">
+                  <div className="div-max">
+                    <div className="div-row-2">
+                      <div className="div-box-pad-wrapper">
+                        <div className="div-box-pad">
+                          <div className="heading-margin">
+                            <div className="heading-4">
+                              <div className="text-wrapper-37">O que nós fazemos</div>
+                            </div>
+                          </div>
+                          <div className="a-tradu-o-apenas-o-wrapper">
+                            <p className="a-tradu-o-apenas-o">
+                              A tradução é apenas o começo. Nossos especialistas em idiomas oferecem uma série de
+                              serviços profissionais de tradução&nbsp;&nbsp;e soluções de localização para ajudar a
+                              concluir qualquer projeto.
+                            </p>
                           </div>
                         </div>
-                        <div className="a-tradu-o-apenas-o-wrapper">
-                          <p className="a-tradu-o-apenas-o">
-                            A tradução é apenas o começo. Nossos especialistas em idiomas oferecem uma série de serviços
-                            profissionais de tradução&nbsp;&nbsp;e soluções de localização para ajudar a concluir
-                            qualquer projeto.
-                          </p>
-                        </div>
                       </div>
-                    </div>
-                    <div className="overlap-group-4">
                       <div className="div-item-hp-perfect-2">
                         <div className="div-item-hp-perfect-3">
                           <div className="heading-wrapper">
@@ -427,15 +427,15 @@ export const Turian = () => {
                               há verificação vocabular, de estilo, coesão textual e várias outras.
                             </p>
                           </div>
-                          <div className="image-5">
-                            <div className="image-6" />
+                          <div className="image-4">
+                            <div className="image-5" />
                           </div>
                           <div className="span-wrapper">
                             <div className="span-2">
                               <img
                                 className="arrow-sm-red-svg"
                                 alt="Arrow sm red svg"
-                                src="/img/arrow-sm-red-svg-5.png"
+                                src="/img/arrow-sm-red-svg.svg"
                               />
                               <div className="text-wrapper-40">Saiba mais</div>
                             </div>
@@ -443,9 +443,65 @@ export const Turian = () => {
                         </div>
                       </div>
                       <div className="div-item-hp-perfect-4">
-                        <div className="div-item-hp-perfect-3">
+                        <div className="div-item-hp-perfect-5">
                           <div className="link-2">
                             <div className="heading-6">
+                              <div className="text-wrapper-41">Tradução de Manual</div>
+                            </div>
+                          </div>
+                          <div className="div-text-6">
+                            <p className="text-wrapper-42">
+                              É muito comum no Brasil a solicitação de Tradução de Manuais Técnicos. Em geral, são
+                              traduções de Maquinário Pesado e industrial.
+                            </p>
+                          </div>
+                          <div className="image-4">
+                            <div className="image-5" />
+                          </div>
+                          <div className="span-hd-bdb-wrapper">
+                            <div className="span-2">
+                              <img
+                                className="arrow-sm-red-svg"
+                                alt="Arrow sm red svg"
+                                src="/img/arrow-sm-red-svg-1.svg"
+                              />
+                              <div className="text-wrapper-40">Saiba mais</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="div-item-hp-perfect-6">
+                        <div className="div-item-hp-perfect-3">
+                          <div className="link-2">
+                            <div className="heading-7">
+                              <div className="text-wrapper-43">Tradução de Sites</div>
+                            </div>
+                          </div>
+                          <div className="div-text-7">
+                            <p className="text-wrapper-44">
+                              Crie websites multilíngues com facilidade. Aumente o tráfego, as conversões e a receita em
+                              qualquer mercado com sites que atraiam o público local em seu idioma.
+                            </p>
+                          </div>
+                          <div className="image-6">
+                            <div className="image-5" />
+                          </div>
+                          <div className="span-wrapper">
+                            <div className="span-2">
+                              <img
+                                className="arrow-sm-red-svg"
+                                alt="Arrow sm red svg"
+                                src="/img/arrow-sm-red-svg-2.svg"
+                              />
+                              <div className="text-wrapper-40">Saiba mais</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="div-item-hp-perfect-7">
+                        <div className="div-item-hp-perfect-3">
+                          <div className="link-3">
+                            <div className="heading-8">
                               <div className="text-wrapper-41">Legendagem</div>
                             </div>
                           </div>
@@ -463,12 +519,40 @@ export const Turian = () => {
                           <div className="image-7">
                             <div className="image-8" />
                           </div>
-                          <div className="link-3">
+                          <div className="span-wrapper">
                             <div className="span-2">
                               <img
                                 className="arrow-sm-red-svg"
                                 alt="Arrow sm red svg"
-                                src="/img/arrow-sm-red-svg-8.png"
+                                src="/img/arrow-sm-red-svg-3.svg"
+                              />
+                              <div className="text-wrapper-40">Saiba mais</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="div-item-hp-perfect-8">
+                        <div className="div-item-hp-perfect-9">
+                          <div className="link-2">
+                            <div className="heading-9">
+                              <div className="text-wrapper-45">Catálogos</div>
+                            </div>
+                          </div>
+                          <div className="div-text-8">
+                            <p className="text-wrapper-46">
+                              Igualmente comum é a solicitação de tradução de catálogos de produtos. Vão desde
+                              maquinário a produtos de beleza.
+                            </p>
+                          </div>
+                          <div className="image-4">
+                            <div className="image-5" />
+                          </div>
+                          <div className="span-hd-aa-wrapper">
+                            <div className="span-2">
+                              <img
+                                className="arrow-sm-red-svg"
+                                alt="Arrow sm red svg"
+                                src="/img/arrow-sm-red-svg-4.svg"
                               />
                               <div className="text-wrapper-40">Saiba mais</div>
                             </div>
@@ -476,301 +560,218 @@ export const Turian = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="div-item-hp-perfect-5">
-                      <div className="div-item-hp-perfect-6">
-                        <div className="link-4">
-                          <div className="heading-7">
-                            <div className="text-wrapper-41">Tradução de Manual</div>
-                          </div>
-                        </div>
-                        <div className="div-text-6">
-                          <p className="text-wrapper-42">
-                            É muito comum no Brasil a solicitação de Tradução de Manuais Técnicos. Em geral, são
-                            traduções de Maquinário Pesado e industrial.
-                          </p>
-                        </div>
-                        <div className="image-5">
-                          <div className="image-6" />
-                        </div>
-                        <div className="span-wrapper">
-                          <div className="span-2">
-                            <img
-                              className="arrow-sm-red-svg"
-                              alt="Arrow sm red svg"
-                              src="/img/arrow-sm-red-svg-6.png"
-                            />
-                            <div className="text-wrapper-40">Saiba mais</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="div-item-hp-perfect-7">
-                      <div className="div-item-hp-perfect-3">
-                        <div className="link-4">
-                          <div className="heading-8">
-                            <div className="text-wrapper-43">Tradução de Sites</div>
-                          </div>
-                        </div>
-                        <div className="div-text-7">
-                          <p className="text-wrapper-44">
-                            Crie websites multilíngues com facilidade. Aumente o tráfego, as conversões e a receita em
-                            qualquer mercado com sites que atraiam o público local em seu idioma.
-                          </p>
-                        </div>
-                        <div className="image-9">
-                          <div className="image-6" />
-                        </div>
-                        <div className="link-3">
-                          <div className="span-2">
-                            <img
-                              className="arrow-sm-red-svg"
-                              alt="Arrow sm red svg"
-                              src="/img/arrow-sm-red-svg-7.png"
-                            />
-                            <div className="text-wrapper-40">Saiba mais</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="div-item-hp-perfect-8">
-                      <div className="div-item-hp-perfect-9">
-                        <div className="link-4">
-                          <div className="heading-9">
-                            <div className="text-wrapper-45">Catálogos</div>
-                          </div>
-                        </div>
-                        <div className="div-text-8">
-                          <p className="text-wrapper-46">
-                            Igualmente comum é a solicitação de tradução de catálogos de produtos. Vão desde maquinário
-                            a produtos de beleza.
-                          </p>
-                        </div>
-                        <div className="image-9">
-                          <div className="image-6" />
-                        </div>
-                        <div className="span-wrapper">
-                          <div className="span-2">
-                            <img
-                              className="arrow-sm-red-svg"
-                              alt="Arrow sm red svg"
-                              src="/img/arrow-sm-red-svg-9.png"
-                            />
-                            <div className="text-wrapper-40">Saiba mais</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="mask-group-wrapper">
-                <img className="mask-group" alt="Mask group" src="/img/mask-group-7.png" />
+                <div className="mask-group-wrapper">
+                  <img className="mask-group" alt="Mask group" src="/img/mask-group-33.png" />
+                </div>
               </div>
             </div>
-          </div>
-          <div className="div-inner-width-wrapper">
-            <div className="div-inner-width-2">
-              <div className="somos-experts-em-wrapper">
-                <p className="somos-experts-em">
-                  <span className="text-wrapper-47">Somos experts em </span>
-                  <span className="text-wrapper-48">qualquer</span>
-                  <span className="text-wrapper-47"> assunto</span>
-                </p>
-              </div>
-              <div className="div-text-9">
-                <div className="heading-10" />
-              </div>
-              <div className="div-flex">
-                <div className="div-exp-ind-left">
-                  <div className="div-exp-ind-item">
-                    <div className="div-exp-ind-item-2">
-                      <div className="heading-11">
-                        <div className="text-wrapper-49">Automotivo</div>
-                      </div>
-                      <div className="div-text-10">
-                        <p className="text-wrapper-50">
-                          Tradução precisa para o universo automotivo, respeitando terminologias técnicas e tendências
-                          do setor.
-                        </p>
-                      </div>
-                      <div className="link-5">
-                        <div className="text-wrapper-51">Learn more</div>
-                        <div className="image-10">
-                          <div className="image-11" />
+            <div className="div-inner-width-wrapper">
+              <div className="div-inner-width-2">
+                <div className="somos-experts-em-wrapper">
+                  <p className="somos-experts-em">
+                    <span className="text-wrapper-47">Somos experts em </span>
+                    <span className="text-wrapper-48">qualquer</span>
+                    <span className="text-wrapper-47"> assunto</span>
+                  </p>
+                </div>
+                <div className="div-text-9">
+                  <div className="heading-10" />
+                </div>
+                <div className="div-flex">
+                  <div className="div-exp-ind-left">
+                    <div className="div-exp-ind-item">
+                      <div className="div-exp-ind-item-2">
+                        <div className="heading-11">
+                          <div className="text-wrapper-49">Automotivo</div>
+                        </div>
+                        <div className="div-text-10">
+                          <p className="text-wrapper-50">
+                            Tradução precisa para o universo automotivo, respeitando terminologias técnicas e tendências
+                            do setor.
+                          </p>
+                        </div>
+                        <div className="link-4">
+                          <div className="text-wrapper-51">Learn more</div>
+                          <div className="image-9">
+                            <div className="image-10" />
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="overlap-group-5">
-                    <div className="div-exp-ind-item">
-                      <div className="div-exp-ind-item-3">
-                        <div className="heading-12">
-                          <div className="text-wrapper-52">E-learning</div>
+                    <div className="overlap-group-4">
+                      <div className="div-exp-ind-item">
+                        <div className="div-exp-ind-item-3">
+                          <div className="heading-12">
+                            <div className="text-wrapper-52">E-learning</div>
+                          </div>
+                          <div className="div-text-11">
+                            <p className="text-wrapper-53">
+                              Traduções que potencializam o aprendizado, garantindo clareza e eficácia para conteúdos
+                              educacionais digitais.
+                            </p>
+                          </div>
+                          <div className="link-5">
+                            <div className="text-wrapper-51">Learn more</div>
+                            <div className="image-9">
+                              <div className="image-10" />
+                            </div>
+                          </div>
                         </div>
-                        <div className="div-text-11">
-                          <p className="text-wrapper-53">
-                            Traduções que potencializam o aprendizado, garantindo clareza e eficácia para conteúdos
-                            educacionais digitais.
-                          </p>
+                      </div>
+                      <div className="div-exp-ind-item-wrapper">
+                        <div className="div-exp-ind-item-3">
+                          <div className="heading-13">
+                            <div className="text-wrapper-54">Saúde</div>
+                          </div>
+                          <div className="div-text-12">
+                            <p className="text-wrapper-55">
+                              Traduções especializadas na área da saúde, garantindo o cuidado e precisão que
+                              profissionais e pacientes merecem.
+                            </p>
+                          </div>
+                          <div className="link-5">
+                            <div className="text-wrapper-51">Learn more</div>
+                            <div className="image-9">
+                              <div className="image-10" />
+                            </div>
+                          </div>
                         </div>
-                        <div className="link-6">
-                          <div className="text-wrapper-51">Learn more</div>
-                          <div className="image-10">
-                            <div className="image-11" />
+                      </div>
+                      <div className="div-exp-ind-item-4">
+                        <div className="div-exp-ind-item-3">
+                          <div className="heading-14">
+                            <div className="text-wrapper-56">Finanças</div>
+                          </div>
+                          <div className="div-text-13">
+                            <p className="text-wrapper-57">
+                              Nossas traduções financeiras são rigorosas e claras, facilitando decisões e transações em
+                              mercados globais.
+                            </p>
+                          </div>
+                          <div className="link-5">
+                            <div className="text-wrapper-51">Learn more</div>
+                            <div className="image-9">
+                              <div className="image-10" />
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="div-exp-ind-item-wrapper">
-                      <div className="div-exp-ind-item-3">
-                        <div className="heading-13">
-                          <div className="text-wrapper-54">Saúde</div>
+                      <div className="div-exp-ind-item-2">
+                        <div className="heading-15">
+                          <div className="text-wrapper-58">Jurídico</div>
                         </div>
-                        <div className="div-text-12">
-                          <p className="text-wrapper-55">
-                            Traduções especializadas na área da saúde, garantindo o cuidado e precisão que profissionais
-                            e pacientes merecem.
+                        <div className="div-text-14">
+                          <p className="text-wrapper-59">
+                            Navegue com segurança pelo jargão legal com nossas traduções jurídicas meticulosas e
+                            precisas.
                           </p>
                         </div>
-                        <div className="link-6">
+                        <div className="link-4">
                           <div className="text-wrapper-51">Learn more</div>
-                          <div className="image-10">
-                            <div className="image-11" />
+                          <div className="image-9">
+                            <div className="image-10" />
                           </div>
                         </div>
                       </div>
                     </div>
                     <div className="div-exp-ind-item-4">
                       <div className="div-exp-ind-item-3">
-                        <div className="heading-14">
-                          <div className="text-wrapper-56">Finanças</div>
+                        <div className="heading-16">
+                          <div className="text-wrapper-60">E-commerce</div>
                         </div>
-                        <div className="div-text-13">
-                          <p className="text-wrapper-57">
-                            Nossas traduções financeiras são rigorosas e claras, facilitando decisões e transações em
-                            mercados globais.
+                        <div className="div-text-15">
+                          <p className="text-wrapper-61">
+                            Comunicação clara para o mundo do comércio eletrônico, conectando produtos e consumidores
+                            globalmente.
                           </p>
                         </div>
-                        <div className="link-6">
+                        <div className="link-5">
                           <div className="text-wrapper-51">Learn more</div>
-                          <div className="image-10">
-                            <div className="image-11" />
+                          <div className="image-9">
+                            <div className="image-10" />
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="div-exp-ind-item-wrapper">
-                    <div className="div-exp-ind-item-2">
-                      <div className="heading-15">
-                        <div className="text-wrapper-58">Jurídico</div>
-                      </div>
-                      <div className="div-text-14">
-                        <p className="text-wrapper-59">
-                          Navegue com segurança pelo jargão legal com nossas traduções jurídicas meticulosas e precisas.
-                        </p>
-                      </div>
-                      <div className="link-5">
-                        <div className="text-wrapper-51">Learn more</div>
-                        <div className="image-10">
-                          <div className="image-11" />
-                        </div>
-                      </div>
+                  <div className="div-exp-ind-right">
+                    <div className="div-squre" />
+                    <div className="div-hero">
+                      <img className="image-11" alt="Image" src="/img/image-21.png" />
                     </div>
+                    <div className="div-squre-2" />
                   </div>
-                  <div className="div-exp-ind-item-4">
-                    <div className="div-exp-ind-item-3">
-                      <div className="heading-16">
-                        <div className="text-wrapper-58">E-commerce</div>
-                      </div>
-                      <div className="div-text-15">
-                        <p className="text-wrapper-60">
-                          Comunicação clara para o mundo do comércio eletrônico, conectando produtos e consumidores
-                          globalmente.
-                        </p>
-                      </div>
-                      <div className="link-6">
-                        <div className="text-wrapper-51">Learn more</div>
-                        <div className="image-10">
-                          <div className="image-11" />
-                        </div>
-                      </div>
-                    </div>
+                  <div className="div-squre-3" />
+                </div>
+                <div className="div-industry-bottom">
+                  <div className="div-text-16">
+                    <div className="link-gaming">Ciência da vida</div>
+                    <div className="pseudo" />
                   </div>
-                </div>
-                <div className="div-exp-ind-right">
-                  <div className="div-squre" />
-                  <div className="div-hero">
-                    <img className="image-12" alt="Image" src="/img/image-21.png" />
+                  <div className="div-text-17">
+                    <div className="text-wrapper-62">TI &amp; Software</div>
+                    <div className="pseudo-2" />
                   </div>
-                  <div className="div-squre-2" />
-                </div>
-                <div className="div-squre-3" />
-              </div>
-              <div className="div-industry-bottom">
-                <div className="div-text-16">
-                  <div className="link-gaming">Ciência da vida</div>
-                  <div className="pseudo" />
-                </div>
-                <div className="div-text-17">
-                  <div className="text-wrapper-61">TI &amp; Software</div>
-                  <div className="pseudo-2" />
-                </div>
-                <div className="div-text-17">
-                  <div className="text-wrapper-61">Digital Media</div>
-                  <div className="pseudo-3" />
-                </div>
-                <div className="div-text-18">
-                  <div className="link-app">App Localization</div>
-                  <div className="pseudo-4" />
-                </div>
-                <div className="div-text-19">
-                  <div className="text-wrapper-62">eLearning Localization</div>
-                  <div className="pseudo-5" />
-                </div>
-                <div className="div-text-17">
-                  <div className="text-wrapper-62">Turismo</div>
-                  <div className="pseudo-6" />
+                  <div className="div-text-17">
+                    <div className="text-wrapper-62">Digital Media</div>
+                    <div className="pseudo-3" />
+                  </div>
+                  <div className="div-text-18">
+                    <div className="link-app">App Localization</div>
+                    <div className="pseudo-4" />
+                  </div>
+                  <div className="div-text-19">
+                    <div className="text-wrapper-63">eLearning Localization</div>
+                    <div className="pseudo-5" />
+                  </div>
+                  <div className="div-text-17">
+                    <div className="text-wrapper-63">Turismo</div>
+                    <div className="pseudo-6" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="empresa-de-traduo-8" />
-          <div className="rectangle-6" />
-          <div className="group-13">
-            <p className="entendemos-que-cada">
-              <span className="text-wrapper-63">
-                Entendemos que cada indústria possui sua linguagem única e nuances específicas. Na Magma Translations,
-                oferecemos{" "}
-              </span>
-              <span className="text-wrapper-48">soluções de tradução personalizadas</span>
-              <span className="text-wrapper-63">
-                {" "}
-                para atender às demandas exclusivas de cada setor, garantindo precisão e relevância em todos os
-                contextos.
-              </span>
-            </p>
-            <div className="empresa-de-traduo-9" />
-            <div className="link-7">
-              <div className="text-wrapper-17">Fale com um especialista</div>
+            <div className="empresa-de-traduo-8" />
+            <div className="rectangle-6" />
+            <div className="group-13">
+              <p className="entendemos-que-cada">
+                <span className="text-wrapper-64">
+                  Entendemos que cada indústria possui sua linguagem única e nuances específicas. Na Magma Translations,
+                  oferecemos{" "}
+                </span>
+                <span className="text-wrapper-48">soluções de tradução personalizadas</span>
+                <span className="text-wrapper-64">
+                  {" "}
+                  para atender às demandas exclusivas de cada setor, garantindo precisão e relevância em todos os
+                  contextos.
+                </span>
+              </p>
+              <div className="empresa-de-traduo-9" />
+              <div className="link-6">
+                <div className="text-wrapper-17">Fale com um especialista</div>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="overlap-13">
           <div className="empresa-de-traduo-10" />
+        </div>
+        <div className="overlap-14">
           <div className="empresa-de-traduo-11" />
+          <div className="empresa-de-traduo-12" />
           <div className="rectangle-2" />
         </div>
-        <div className="empresa-de-traduo-12" />
         <div className="rectangle-7" />
         <Dropdown
           appearance="outline"
-          chevronDirectionDownSize="/img/icon-end-1-medium-18.png"
-          chevronDirectionUpSizeClassName="design-component-instance-node-2"
           className="dropdown-instance"
           contentsClassName="dropdown-2"
           divClassName="dropdown-4"
           expanded={false}
+          iconEnd1MediumColor="white"
+          iconEnd1MediumStyleOverrideClassName="icon-end-1-medium-17"
           iconEndClassName="dropdown-5"
           inputClassName="design-component-instance-node"
           size="medium"
@@ -785,15 +786,9 @@ export const Turian = () => {
           contentsClassName="dropdown-8"
           divClassName="dropdown-9"
           expanded={false}
+          icon={<IconEnd1Medium17 className="icon-end-1-medium-17" />}
           iconEndClassName="dropdown-5"
           inputClassName="design-component-instance-node"
-          override={
-            <Person
-              className="design-component-instance-node-2"
-              style="outlined"
-              styleOutlined="/img/icon-end-1-medium-19.png"
-            />
-          }
           size="medium"
           text="Login"
           textClassName="dropdown-3"
@@ -802,20 +797,20 @@ export const Turian = () => {
         />
         <div className="group-14">
           <div className="frame-17">
-            <div className="text-wrapper-64">Soluções</div>
-            <ExpandMore className="expand-more-instance" style="round" styleRound="/img/expand-more-4.png" />
+            <div className="text-wrapper-65">Soluções</div>
+            <ExpandMore1 className="expand-more" color="#5857FF" />
           </div>
           <div className="frame-18">
-            <div className="text-wrapper-64">Industriais</div>
-            <ExpandMore className="expand-more-instance" style="round" styleRound="/img/expand-more-5.png" />
+            <div className="text-wrapper-65">Industriais</div>
+            <ExpandMore1 className="expand-more" color="#5857FF" />
           </div>
           <div className="frame-19">
-            <div className="text-wrapper-64">Sobre nós</div>
-            <ExpandMore className="expand-more-instance" style="round" styleRound="/img/expand-more-6.png" />
+            <div className="text-wrapper-65">Sobre nós</div>
+            <ExpandMore1 className="expand-more" color="#5857FF" />
           </div>
           <div className="frame-20">
-            <div className="text-wrapper-64">Insights</div>
-            <ExpandMore className="expand-more-instance" style="round" styleRound="/img/expand-more-7.png" />
+            <div className="text-wrapper-65">Insights</div>
+            <ExpandMore1 className="expand-more" color="#5857FF" />
           </div>
         </div>
         <img className="logo-preto-branco-2" alt="Logo preto branco" src="/img/logo-preto-branco-2.png" />

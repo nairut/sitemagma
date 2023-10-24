@@ -14,7 +14,5 @@ export default {
 export const Default = {
   args: {
     style: "round",
-    className: {},
-    styleRound: "/img/style-round.png",
   },
 };
