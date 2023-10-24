@@ -18,15 +18,18 @@ export const Dropdown = ({
   className,
   inputClassName,
   contentsClassName,
+  textClassName,
   divClassName,
   text = "Placeholder text",
+  iconEndClassName,
+  chevronDirectionUpSizeClassName,
   chevronDirectionDownSize = "/img/icon-end-1-medium.png",
   thinUnderlineClassName,
   override = (
     <Chevron
       direction="down"
       directionDownSize={chevronDirectionDownSize}
-      directionUpSizeClassName="chevron-instance"
+      directionUpSizeClassName={chevronDirectionUpSizeClassName}
       size="twenty"
       theme="regular"
     />
@@ -135,11 +138,11 @@ export const Dropdown = ({
             <>
               <div className={`contents-2 ${contentsClassName}`}>
                 <div className="icon-text-stack-2">
-                  <div className="placeholder-text-wrapper">
+                  <div className={`placeholder-text-wrapper ${textClassName}`}>
                     <div className={`placeholder-text ${divClassName}`}>{text}</div>
                   </div>
                 </div>
-                <div className="icon-end-2">{override}</div>
+                <div className={`icon-end-2 ${iconEndClassName}`}>{override}</div>
               </div>
               <div className={`thin-underline ${thinUnderlineClassName}`} />
             </>
