@@ -219,7 +219,7 @@ export const Academy = () => {
         </div>
         <div className="frame-3">
           <img className="image-2" alt="Image" src="/img/image-2-1.png" />
-          <img className="image-3" alt="Image" src="/img/image-3-1.png" />
+          <img className="image-3" alt="Image" src="/img/image-3-2.png" />
           <div className="text-wrapper-70">Checa os valores:</div>
         </div>
         <div className="text-wrapper-71">E quem sou eu?</div>
