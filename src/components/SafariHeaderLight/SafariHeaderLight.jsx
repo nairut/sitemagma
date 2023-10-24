@@ -9,33 +9,50 @@ import "./style.css";
 
 export const SafariHeaderLight = ({
   className,
+  overlapClassName,
   headerClassName,
+  websiteTitleClassName,
+  overlapGroupClassName,
   URLClassName,
+  sitenameComClassName,
   text = "https://www.weare3logy.com",
+  unionClassName,
+  union = "/img/union.svg",
+  rightClassName,
+  shareClassName,
+  share = "/img/share.png",
+  windowClassName,
+  window = "/img/window.png",
+  downClassName,
+  overlapGroupClassNameOverride,
+  ovalClassName,
+  oval = "/img/oval-7.svg",
+  leftClassName,
+  left = "/img/left.png",
 }) => {
   return (
     <div className={`safari-header-light ${className}`}>
-      <div className="overlap">
+      <div className={`overlap ${overlapClassName}`}>
         <div className={`header ${headerClassName}`}>
-          <div className="website-title">
-            <div className="overlap-group">
+          <div className={`website-title ${websiteTitleClassName}`}>
+            <div className={`overlap-group ${overlapGroupClassName}`}>
               <div className={`URL ${URLClassName}`}>
-                <div className="sitename-com">{text}</div>
+                <div className={`sitename-com ${sitenameComClassName}`}>{text}</div>
               </div>
-              <img className="union" alt="Union" src="/img/union.png" />
+              <img className={`union ${unionClassName}`} alt="Union" src={union} />
             </div>
           </div>
         </div>
-        <div className="right">
-          <img className="share" alt="Share" src="/img/share.png" />
-          <img className="window" alt="Window" src="/img/window.png" />
-          <div className="down">
-            <div className="oval-wrapper">
-              <img className="oval" alt="Oval" src="/img/oval-7.png" />
+        <div className={`right ${rightClassName}`}>
+          <img className={`share ${shareClassName}`} alt="Share" src={share} />
+          <img className={`window ${windowClassName}`} alt="Window" src={window} />
+          <div className={`down ${downClassName}`}>
+            <div className={`oval-wrapper ${overlapGroupClassNameOverride}`}>
+              <img className={`oval ${ovalClassName}`} alt="Oval" src={oval} />
             </div>
           </div>
         </div>
-        <img className="left" alt="Left" src="/img/left.png" />
+        <img className={`left ${leftClassName}`} alt="Left" src={left} />
       </div>
     </div>
   );
@@ -43,4 +60,9 @@ export const SafariHeaderLight = ({
 
 SafariHeaderLight.propTypes = {
   text: PropTypes.string,
+  union: PropTypes.string,
+  share: PropTypes.string,
+  window: PropTypes.string,
+  oval: PropTypes.string,
+  left: PropTypes.string,
 };

@@ -14,7 +14,7 @@
   width: 1512px;
 }
 
-.turian .overlap {
+.turian .overlap-2 {
   height: 3231px;
   left: 0;
   position: absolute;
@@ -107,7 +107,7 @@
   height: 64.57px;
   object-fit: cover;
   position: relative;
-  width: 64.57px;
+  width: 64.58px;
 }
 
 .turian .frame-wrapper {
@@ -283,7 +283,7 @@
   width: fit-content;
 }
 
-.turian .overlap-group {
+.turian .bi-arrow-left-short-wrapper {
   background-color: #5857ff;
   border-radius: 33.47px;
   height: 67px;
@@ -301,7 +301,7 @@
   width: 39px;
 }
 
-.turian .bi-arrow-left-short-wrapper {
+.turian .img-wrapper {
   background-color: #f8f9ff;
   border-radius: 33.47px;
   height: 67px;
@@ -453,7 +453,7 @@
   width: 100%;
 }
 
-.turian .documento {
+.turian .img-2 {
   height: 28.35px;
   position: relative;
   width: 26.77px;
@@ -529,7 +529,7 @@
   width: 54.34px;
 }
 
-.turian .img-2 {
+.turian .img-3 {
   height: 28.35px;
   position: relative;
   width: 28.35px;
@@ -653,12 +653,6 @@
   width: 28.35px;
 }
 
-.turian .diploma {
-  height: 28.35px;
-  position: relative;
-  width: 26.78px;
-}
-
 .turian .text-wrapper-16 {
   color: #000000;
   font-family: "Inter", Helvetica;
@@ -729,7 +723,7 @@
   width: 1087px;
 }
 
-.turian .overlap-2 {
+.turian .overlap-3 {
   height: 81px;
   left: 0;
   position: absolute;
@@ -802,7 +796,7 @@
   width: 113px;
 }
 
-.turian .overlap-group-2 {
+.turian .overlap-4 {
   height: 56px;
   left: 0;
   position: absolute;
@@ -839,7 +833,7 @@
   width: 113px;
 }
 
-.turian .overlap-3 {
+.turian .overlap-group-2 {
   height: 69px;
   left: 0;
   position: absolute;
@@ -869,7 +863,7 @@
   width: 133px;
 }
 
-.turian .overlap-4 {
+.turian .overlap-5 {
   height: 84px;
   left: 0;
   position: absolute;
@@ -892,7 +886,7 @@
   width: 113px;
 }
 
-.turian .overlap-5 {
+.turian .overlap-6 {
   height: 56px;
   left: 0;
   position: absolute;
@@ -900,7 +894,7 @@
   width: 113px;
 }
 
-.turian .overlap-6 {
+.turian .overlap-7 {
   height: 56px;
   left: 0;
   position: absolute;
@@ -946,7 +940,7 @@
   width: 138px;
 }
 
-.turian .overlap-7 {
+.turian .overlap-8 {
   height: 84px;
   left: 0;
   position: absolute;
@@ -1065,7 +1059,7 @@
   width: 1px;
 }
 
-.turian .overlap-8 {
+.turian .overlap-9 {
   height: 914px;
   left: -226px;
   position: absolute;
@@ -1238,7 +1232,7 @@
 }
 
 .turian .top-fastest {
-  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png-3.png);
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 103.16px;
@@ -1353,7 +1347,7 @@
 }
 
 .turian .empresa-de-traduo {
-  background-image: url(../../../static/img/mask-group-39.png);
+  background-image: url(../../../static/img/mask-group-4.png);
   background-size: 100% 100%;
   height: 62px;
   left: 253px;
@@ -1363,7 +1357,7 @@
 }
 
 .turian .empresa-de-traduo-2 {
-  background-image: url(../../../static/img/mask-group-43.png);
+  background-image: url(../../../static/img/mask-group-8.png);
   background-size: 100% 100%;
   height: 31px;
   left: 75px;
@@ -1373,7 +1367,7 @@
 }
 
 .turian .empresa-de-traduo-3 {
-  background-image: url(../../../static/img/mask-group-40.png);
+  background-image: url(../../../static/img/mask-group-5.png);
   background-size: 100% 100%;
   height: 40px;
   left: 376px;
@@ -1384,7 +1378,7 @@
 }
 
 .turian .empresa-de-traduo-4 {
-  background-image: url(../../../static/img/mask-group-41.png);
+  background-image: url(../../../static/img/mask-group-6.png);
   background-size: 100% 100%;
   height: 40px;
   left: -233px;
@@ -1395,7 +1389,7 @@
 }
 
 .turian .empresa-de-traduo-5 {
-  background-image: url(../../../static/img/mask-group-42.png);
+  background-image: url(../../../static/img/mask-group-7.png);
   background-size: 100% 100%;
   height: 39px;
   left: -232px;
@@ -1406,7 +1400,7 @@
 }
 
 .turian .empresa-de-traduo-6 {
-  background-image: url(../../../static/img/mask-group-45.png);
+  background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 46px;
   left: 1121px;
@@ -1415,7 +1409,7 @@
   width: 46px;
 }
 
-.turian .overlap-9 {
+.turian .overlap-10 {
   height: 1787px;
   left: -163px;
   position: absolute;
@@ -1446,7 +1440,7 @@
 }
 
 .turian .empresa-de-traduo-7 {
-  background-image: url(../../../static/img/mask-group-44.png);
+  background-image: url(../../../static/img/mask-group-9.png);
   background-size: 100% 100%;
   height: 40px;
   left: 258px;
@@ -1512,8 +1506,8 @@
   width: 1160px;
 }
 
-.turian .overlap-10 {
-  background-image: url(../../../static/img/group-44-3.png);
+.turian .overlap-11 {
+  background-image: url(../../../static/img/group-44.png);
   background-size: 100% 100%;
   height: 1060px;
   left: -16px;
@@ -1556,11 +1550,19 @@
   font-weight: 600;
 }
 
-.turian .overlap-11 {
+.turian .overlap-12 {
   height: 2062px;
   left: -3px;
   position: absolute;
   top: 2972px;
+  width: 1515px;
+}
+
+.turian .overlap-13 {
+  height: 2062px;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 1515px;
 }
 
@@ -1572,7 +1574,7 @@
   width: 1512px;
 }
 
-.turian .overlap-12 {
+.turian .overlap-14 {
   height: 920px;
   position: relative;
 }
@@ -1808,11 +1810,11 @@
 .turian .span-wrapper {
   align-items: flex-start;
   background-color: #5857ff;
-  bottom: -15px;
   display: flex;
   flex-direction: column;
+  left: 216px;
   position: absolute;
-  right: 20px;
+  top: 178px;
   width: 98px;
 }
 
@@ -1830,7 +1832,7 @@
 .turian .arrow-sm-red-svg {
   height: 10.24px;
   position: relative;
-  width: 11.03px;
+  width: 11.02px;
 }
 
 .turian .text-wrapper-40 {
@@ -1940,11 +1942,11 @@
 .turian .link-3 {
   align-items: flex-start;
   background-color: #5857ff;
-  bottom: -16px;
   display: flex;
   flex-direction: column;
+  left: 216px;
   position: absolute;
-  right: 20px;
+  top: 179px;
   width: 98px;
 }
 
@@ -2076,12 +2078,6 @@
   width: fit-content;
 }
 
-.turian .arrow-sm-red-svg-2 {
-  height: 10.24px;
-  position: relative;
-  width: 11.02px;
-}
-
 .turian .div-item-hp-perfect-8 {
   align-items: flex-start;
   display: flex;
@@ -2158,6 +2154,17 @@
   width: fit-content;
 }
 
+.turian .span-hd-aa-wrapper {
+  align-items: flex-start;
+  background-color: #5857ff;
+  display: flex;
+  flex-direction: column;
+  left: 216px;
+  position: absolute;
+  top: 181px;
+  width: 98px;
+}
+
 .turian .mask-group-wrapper {
   height: 65px;
   left: 434px;
@@ -2169,9 +2176,9 @@
 
 .turian .mask-group {
   height: 46px;
-  left: 2114px;
+  left: -5389px;
   position: absolute;
-  top: 4138px;
+  top: 1300px;
   width: 45px;
 }
 
@@ -2695,25 +2702,25 @@
   border-color: #000000;
   display: flex;
   flex-direction: column;
-  left: 71.21%;
+  left: 740px;
   position: absolute;
   top: -3px;
-  width: 30.61%;
+  width: 318px;
 }
 
 .turian .div-squre {
   background-color: #e6f1fe;
   border-radius: 14.96px;
   height: 181px;
+  left: 202px;
   position: absolute;
-  right: -65px;
   top: -71px;
   width: 181px;
 }
 
 .turian .div-hero {
   align-self: stretch;
-  background-image: url(../../../static/img/side-image-ind-jpg-3.png);
+  background-image: url(../../../static/img/side-image-ind-jpg.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 396.04px;
@@ -2732,20 +2739,20 @@
 }
 
 .turian .div-squre-2 {
-  bottom: 2px;
   height: 39px;
+  left: 194px;
   position: absolute;
-  right: -9px;
+  top: 361px;
   width: 134px;
 }
 
 .turian .div-squre-3 {
   background-color: #c59318;
   border-radius: 5.51px;
-  bottom: 89px;
   height: 55px;
   left: 716px;
   position: absolute;
+  top: 360px;
   width: 55px;
 }
 
@@ -2786,10 +2793,10 @@
 
 .turian .pseudo {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 128px;
   position: absolute;
-  top: 1.18%;
+  top: 0;
   width: 1px;
 }
 
@@ -2817,7 +2824,7 @@
 
 .turian .pseudo-2 {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 113px;
   position: absolute;
   top: 0;
@@ -2826,7 +2833,7 @@
 
 .turian .pseudo-3 {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 110px;
   position: absolute;
   top: 0;
@@ -2857,7 +2864,7 @@
 
 .turian .pseudo-4 {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 132px;
   position: absolute;
   top: 0;
@@ -2888,7 +2895,7 @@
 
 .turian .pseudo-5 {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 166px;
   position: absolute;
   top: 0;
@@ -2897,15 +2904,15 @@
 
 .turian .pseudo-6 {
   background-color: #00000033;
-  height: 100%;
+  height: 27px;
   left: 86px;
   position: absolute;
-  top: 1.18%;
+  top: 0;
   width: 1px;
 }
 
 .turian .empresa-de-traduo-8 {
-  background-image: url(../../../static/img/mask-group-50.png);
+  background-image: url(../../../static/img/mask-group-3.png);
   background-size: 100% 100%;
   height: 65px;
   left: 1384px;
@@ -2957,7 +2964,7 @@
 }
 
 .turian .empresa-de-traduo-9 {
-  background-image: url(../../../static/img/mask-group-51.png);
+  background-image: url(../../../static/img/mask-group-12.png);
   background-size: 100% 100%;
   height: 40px;
   left: 1179px;
@@ -2981,7 +2988,18 @@
   top: 775px;
 }
 
-.turian .overlap-13 {
+.turian .empresa-de-traduo-10 {
+  background-image: url(../../../static/img/mask-group-1.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 76px;
+  opacity: 0.15;
+  position: absolute;
+  top: 1242px;
+  width: 40px;
+}
+
+.turian .overlap-15 {
   height: 239px;
   left: 0;
   position: absolute;
@@ -2989,8 +3007,8 @@
   width: 1512px;
 }
 
-.turian .empresa-de-traduo-10 {
-  background-image: url(../../../static/img/mask-group-47.png);
+.turian .empresa-de-traduo-11 {
+  background-image: url(../../../static/img/mask-group.png);
   background-size: 100% 100%;
   height: 40px;
   left: 1184px;
@@ -3000,8 +3018,8 @@
   width: 40px;
 }
 
-.turian .empresa-de-traduo-11 {
-  background-image: url(../../../static/img/mask-group-49.png);
+.turian .empresa-de-traduo-12 {
+  background-image: url(../../../static/img/mask-group-2.png);
   background-size: 100% 100%;
   height: 65px;
   left: 536px;
@@ -3011,23 +3029,12 @@
   width: 65px;
 }
 
-.turian .empresa-de-traduo-12 {
-  background-image: url(../../../static/img/mask-group-48.png);
-  background-size: 100% 100%;
-  height: 40px;
-  left: 73px;
-  opacity: 0.15;
-  position: absolute;
-  top: 4214px;
-  width: 40px;
-}
-
 .turian .rectangle-7 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 34.9%, rgba(230, 241, 254, 0) 100%);
   height: 220px;
   left: 0;
   position: fixed;
-  top: -1px;
+  top: 32px;
   width: 1512px;
 }
 
@@ -3067,17 +3074,16 @@
   padding: 4.72px 0px 4.72px 1.57px !important;
 }
 
-.turian .design-component-instance-node-2 {
+.turian .style-outlined-1 {
   height: 15.75px !important;
-  left: unset !important;
   position: relative !important;
-  top: unset !important;
   width: 15.75px !important;
 }
 
 .turian .dropdown-6 {
   background-color: unset !important;
-  bottom: 1px !important;
+  top: 24px !important;
+  width: 104px !important;
 }
 
 .turian .dropdown-7 {
@@ -3139,11 +3145,9 @@
   width: fit-content;
 }
 
-.turian .expand-more-instance {
+.turian .expand-more {
   height: 18.9px !important;
-  left: unset !important;
   position: relative !important;
-  top: unset !important;
   width: 18.9px !important;
 }
 
@@ -3172,6 +3176,98 @@
   left: 318px;
   position: absolute;
   top: 0;
+}
+
+.turian .safari-header-light-instance {
+  height: 31px !important;
+  left: 0 !important;
+  position: fixed !important;
+  top: 0 !important;
+  width: 1512px !important;
+}
+
+.turian .safari-header-light-2 {
+  height: 32px !important;
+}
+
+.turian .safari-header-light-3 {
+  background-color: transparent !important;
+  background-image: url(../../../static/img/background-1.svg) !important;
+  height: 32px !important;
+  width: 1512px !important;
+}
+
+.turian .safari-header-light-4 {
+  height: 17px !important;
+  left: 588px !important;
+  top: 8px !important;
+  width: 351px !important;
+}
+
+.turian .safari-header-light-5 {
+  background-image: url(../../../static/img/rectangle-16-1.svg) !important;
+  height: 19px !important;
+  width: 353px !important;
+}
+
+.turian .safari-header-light-6 {
+  gap: 7.87px !important;
+  left: 88px !important;
+}
+
+.turian .safari-header-light-7 {
+  font-size: 10.2px !important;
+  margin-top: -0.79px !important;
+}
+
+.turian .safari-header-light-8 {
+  height: 10px !important;
+  left: 337px !important;
+  width: 9px !important;
+}
+
+.turian .safari-header-light-9 {
+  height: 17px !important;
+  left: 1398px !important;
+  top: 7px !important;
+  width: 105px !important;
+}
+
+.turian .safari-header-light-10 {
+  height: 19px !important;
+  width: 33px !important;
+}
+
+.turian .safari-header-light-11 {
+  height: 19px !important;
+  left: 37px !important;
+  width: 33px !important;
+}
+
+.turian .safari-header-light-12 {
+  height: 17px !important;
+  left: 75px !important;
+  width: 30px !important;
+}
+
+.turian .safari-header-light-13 {
+  background-image: url(../../../static/img/rectangle-18-1.svg) !important;
+  height: 19px !important;
+  width: 32px !important;
+}
+
+.turian .safari-header-light-14 {
+  height: 11px !important;
+  left: 10px !important;
+  top: 3px !important;
+  width: 12px !important;
+}
+
+.turian .safari-header-light-15 {
+  height: 19px !important;
+  left: 12px !important;
+  top: 7px !important;
+  width: 130px !important;
 }
 
 .turian .logo-preto-branco-2 {

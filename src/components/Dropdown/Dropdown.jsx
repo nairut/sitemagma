@@ -5,7 +5,8 @@ Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcN
 
 import PropTypes from "prop-types";
 import React from "react";
-import { Chevron } from "../Chevron";
+import { IconEnd18 } from "../../icons/IconEnd18";
+import { IconEnd1Medium16 } from "../../icons/IconEnd1Medium16";
 import "./style.css";
 
 export const Dropdown = ({
@@ -22,18 +23,10 @@ export const Dropdown = ({
   divClassName,
   text = "Placeholder text",
   iconEndClassName,
-  chevronDirectionDownSize = "/img/icon-end-1-medium-38.png",
-  chevronDirectionUpSizeClassName,
+  iconEnd1Medium16StyleOverrideClassName,
+  iconEnd1Medium16Color = "#616161",
   thinUnderlineClassName,
-  override = (
-    <Chevron
-      direction="down"
-      directionDownSize={chevronDirectionDownSize}
-      directionUpSizeClassName={chevronDirectionUpSizeClassName}
-      size="twenty"
-      theme="regular"
-    />
-  ),
+  icon = <IconEnd1Medium16 className={iconEnd1Medium16StyleOverrideClassName} color={iconEnd1Medium16Color} />,
   inputType = "text",
 }) => {
   return (
@@ -46,36 +39,19 @@ export const Dropdown = ({
                 <input className="text" placeholder={text} type={inputType} />
               </div>
               <div className="icon-end">
-                <Chevron
-                  direction="down"
-                  directionDownSize={
-                    size === "medium" && theme === "light-mode"
-                      ? "/img/icon-end-1-medium-38.png"
-                      : theme === "dark-mode" && size === "medium"
-                      ? "/img/icon-end-1-medium-46.png"
-                      : undefined
-                  }
-                  directionDownSize1={
-                    theme === "light-mode" && size === "large"
-                      ? "/img/icon-end-1-large-32.png"
-                      : theme === "dark-mode" && size === "large"
-                      ? "/img/icon-end-1-large-40.png"
-                      : undefined
-                  }
-                  directionUpSizeClassName="chevron-instance"
-                  img={
-                    size === "small" && theme === "light-mode"
-                      ? "/img/icon-end-1-32.png"
-                      : theme === "dark-mode" && size === "small"
-                      ? "/img/icon-end-1-40.png"
-                      : undefined
-                  }
-                  size={size === "medium" ? "twenty" : size === "large" ? "twenty-four" : "sixteen"}
-                  theme="regular"
-                />
+                {["large", "small"].includes(size) && (
+                  <IconEnd18
+                    className={`${size === "large" ? "class" : "class-2"}`}
+                    color={theme === "dark-mode" ? "#ADADAD" : "#616161"}
+                  />
+                )}
+
+                {size === "medium" && (
+                  <IconEnd1Medium16 className="icon-end-medium" color={theme === "dark-mode" ? "#ADADAD" : "#616161"} />
+                )}
               </div>
             </div>
-            <div className={`in-focus appearance-0-${appearance} theme-0-${theme}`} />
+            <div className={`in-focus size-2-${size} appearance-0-${appearance} theme-0-${theme}`} />
           </div>
           <div className={`list-sections theme-1-${theme}`}>
             <div className="top-section">
@@ -133,7 +109,7 @@ export const Dropdown = ({
       )}
 
       {!expanded && (
-        <div className={`input-2 size-2-${size} appearance-1-${appearance} theme-14-${theme} ${inputClassName}`}>
+        <div className={`input-2 size-3-${size} appearance-1-${appearance} theme-14-${theme} ${inputClassName}`}>
           {["outline", "transparent"].includes(appearance) && (
             <>
               <div className={`contents-2 ${contentsClassName}`}>
@@ -142,7 +118,7 @@ export const Dropdown = ({
                     <div className={`placeholder-text ${divClassName}`}>{text}</div>
                   </div>
                 </div>
-                <div className={`icon-end-2 ${iconEndClassName}`}>{override}</div>
+                <div className={`icon-end-2 ${iconEndClassName}`}>{icon}</div>
               </div>
               <div className={`thin-underline ${thinUnderlineClassName}`} />
             </>
@@ -155,34 +131,17 @@ export const Dropdown = ({
                   <div className="placeholder-text-2">{text}</div>
                 </div>
               </div>
-              <div className="icon-end-wrapper">
-                <Chevron
-                  direction="down"
-                  directionDownSize={
-                    theme === "light-mode" && size === "medium"
-                      ? "/img/icon-end-1-medium-38.png"
-                      : theme === "dark-mode" && size === "medium"
-                      ? "/img/icon-end-1-medium-46.png"
-                      : undefined
-                  }
-                  directionDownSize1={
-                    theme === "light-mode" && size === "large"
-                      ? "/img/icon-end-1-large-32.png"
-                      : theme === "dark-mode" && size === "large"
-                      ? "/img/icon-end-1-large-40.png"
-                      : undefined
-                  }
-                  directionUpSizeClassName="chevron-instance"
-                  img={
-                    size === "small" && theme === "light-mode"
-                      ? "/img/icon-end-1-32.png"
-                      : theme === "dark-mode" && size === "small"
-                      ? "/img/icon-end-1-40.png"
-                      : undefined
-                  }
-                  size={size === "medium" ? "twenty" : size === "large" ? "twenty-four" : "sixteen"}
-                  theme="regular"
-                />
+              <div className="icon-end-3">
+                {["large", "small"].includes(size) && (
+                  <IconEnd18
+                    className={`${size === "large" ? "class" : "class-2"}`}
+                    color={theme === "dark-mode" ? "#ADADAD" : "#616161"}
+                  />
+                )}
+
+                {size === "medium" && (
+                  <IconEnd1Medium16 className="icon-end-medium" color={theme === "dark-mode" ? "#ADADAD" : "#616161"} />
+                )}
               </div>
             </div>
           )}
@@ -200,6 +159,6 @@ Dropdown.propTypes = {
   theme: PropTypes.oneOf(["light-mode", "dark-mode"]),
   expanded: PropTypes.bool,
   text: PropTypes.string,
-  chevronDirectionDownSize: PropTypes.string,
+  iconEnd1Medium16Color: PropTypes.string,
   inputType: PropTypes.string,
 };

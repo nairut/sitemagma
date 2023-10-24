@@ -9,7 +9,7 @@
 }
 
 .safari-header-light .header {
-  background-image: url(../../../static/img/background.png);
+  background-image: url(../../../static/img/background.svg);
   background-position: 50% 50%;
   background-size: cover;
   height: 40px;
@@ -28,7 +28,7 @@
 }
 
 .safari-header-light .overlap-group {
-  background-image: url(../../../static/img/rectangle-16.png);
+  background-image: url(../../../static/img/rectangle-16.svg);
   background-size: 100% 100%;
   height: 24px;
   left: -1px;
@@ -99,7 +99,7 @@
 }
 
 .safari-header-light .oval-wrapper {
-  background-image: url(../../../static/img/rectangle-18.png);
+  background-image: url(../../../static/img/rectangle-18.svg);
   background-size: 100% 100%;
   height: 24px;
   left: -1px;

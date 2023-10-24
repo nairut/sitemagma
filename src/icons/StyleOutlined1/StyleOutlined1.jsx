@@ -3,23 +3,28 @@ We're constantly improving the code you see.
 Please share your feedback here: https://form.asana.com/?k=uvp-HPgd3_hyoXRBw1IcNg&d=1152665201300829
 */
 
+import PropTypes from "prop-types";
 import React from "react";
 
-export const StyleOutlined1 = ({ className }) => {
+export const StyleOutlined1 = ({ color = "black", className }) => {
   return (
     <svg
       className={`style-outlined-1 ${className}`}
       fill="none"
-      height="24"
-      viewBox="0 0 24 24"
-      width="24"
+      height="17"
+      viewBox="0 0 16 17"
+      width="16"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
         className="path"
-        d="M12 6C13.1 6 14 6.9 14 8C14 9.1 13.1 10 12 10C10.9 10 10 9.1 10 8C10 6.9 10.9 6 12 6ZM12 16C14.7 16 17.8 17.29 18 18H6C6.23 17.28 9.31 16 12 16ZM12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"
-        fill="black"
+        d="M7.95019 4.8999C8.67207 4.8999 9.26269 5.49053 9.26269 6.2124C9.26269 6.93428 8.67207 7.5249 7.95019 7.5249C7.22832 7.5249 6.63769 6.93428 6.63769 6.2124C6.63769 5.49053 7.22832 4.8999 7.95019 4.8999ZM7.95019 11.4624C9.72207 11.4624 11.7564 12.309 11.8877 12.7749H4.0127C4.16363 12.3024 6.18488 11.4624 7.95019 11.4624ZM7.95019 3.5874C6.49988 3.5874 5.3252 4.76209 5.3252 6.2124C5.3252 7.66271 6.49988 8.8374 7.95019 8.8374C9.40051 8.8374 10.5752 7.66271 10.5752 6.2124C10.5752 4.76209 9.40051 3.5874 7.95019 3.5874ZM7.95019 10.1499C6.19801 10.1499 2.7002 11.0293 2.7002 12.7749V14.0874H13.2002V12.7749C13.2002 11.0293 9.70238 10.1499 7.95019 10.1499Z"
+        fill={color}
       />
     </svg>
   );
+};
+
+StyleOutlined1.propTypes = {
+  color: PropTypes.string,
 };
