@@ -8,12 +8,10 @@ export const Academy = () => {
     <div className="academy">
       
       <Helmet>
-<title>TIIIIIITULO</title>
-<description>Deeeescrição</description>
-
-
-<meta name="theme-color" content="#FF0000"/>
-</Helmet>
+                <meta charSet="utf-8" />
+                <title>My Titlaaaaaaaaaaaaaaaaaae</title>
+                <link rel="canonical" href="https://pages.magmatranslation.com/" />
+            </Helmet>
 
 
 
