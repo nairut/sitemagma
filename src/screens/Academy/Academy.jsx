@@ -9,8 +9,9 @@ export const Academy = () => {
       
       <Helmet>
                 <meta charSet="utf-8" />
-                <title>My Titlaaaaaaaaaaaaaaaaaae</title>
+                <title>Profissão Tradutor - do Zero ao Sucesso</title>
                 <link rel="canonical" href="https://pages.magmatranslation.com/" />
+                <description>Ganhe em dólar e euro. Conheça!</description>
             </Helmet>
 
 
