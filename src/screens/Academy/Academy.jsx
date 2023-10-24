@@ -4,7 +4,9 @@ import Helmet from 'react-helmet'
 
 export const Academy = () => {
   return (
+    
     <div className="academy">
+      <helmet>Isso é uma meta</helmet>
       <div className="div-2">
         <div className="overlap-29">
           <div className="rectangle-6" />
