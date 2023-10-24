@@ -1,1 +1,0 @@
-export { Efeitobom } from "./Efeitobom";

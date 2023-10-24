@@ -17,7 +17,7 @@ export const Celularacademydois = () => {
         </p>
         <div className="text-wrapper-2">Checa os valores:</div>
         <div className="text-wrapper-3">Dá uma olhada</div>
-        <img className="image" alt="Image" src="/img/image-3.png" />
+        <img className="image" alt="Image" src="/img/image-3sss.png" />
         <img className="img" alt="Image" src="/img/image-2.png" />
         <p className="p">Agora olha as notas fiscais de tradutores da minha empresa</p>
         <img className="PO" alt="Po" src="/img/po-335-3.png" />
@@ -98,7 +98,10 @@ export const Celularacademydois = () => {
             </div>
           </div>
         </div>
-        <img className="image-2" alt="Image" src="/img/image-5.png" />
+
+        <iframe  className="image-2" width="944" height="531" src="https://www.youtube.com/embed/dRVKnNT_sls" title="Comece uma nova carreira: Tradutor!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
         <a className="boto" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
           <p className="text-wrapper-18">Clique e destrave seu futuro</p>
         </a>
@@ -308,7 +311,8 @@ export const Celularacademydois = () => {
             <div className="flexcontainer-2">
               <p className="span-wrapper">
                 <span className="text-wrapper-24">
-                  Os preços do mercado e o que vai cobrar por seu trabalho.
+                  
+                  Desenhamos sua estratégia de tarifa. Os preços do mercado e o que vai cobrar por seu trabalho.
                   <br />
                 </span>
               </p>
@@ -501,15 +505,23 @@ export const Celularacademydois = () => {
             <p className="text-wrapper-23">
               
             Aula extra: como evitar golpes
-Aula extra: como usar as plataformas de e-mail marketing
+
               
               
               </p>
+
+              <p className="text-wrapper-23">
+              
+
+  Aula extra: como usar as plataformas de e-mail marketing
+                
+                
+                </p>
           </div>
           <div className="flexcontainer-2">
             <p className="span-wrapper">
               <span className="text-wrapper-24">
-             Como usar a plataforma de E-mail Marketing.
+             
                 <br />
               </span>
             </p>

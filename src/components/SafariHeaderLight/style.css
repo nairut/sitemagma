@@ -1,0 +1,124 @@
+.safari-header-light {
+  height: 40px;
+  width: 1920px;
+}
+
+.safari-header-light .overlap {
+  height: 40px;
+  position: relative;
+}
+
+.safari-header-light .header {
+  background-image: url(../../../static/img/background.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.safari-header-light .website-title {
+  height: 22px;
+  left: 747px;
+  position: relative;
+  top: 10px;
+  width: 446px;
+}
+
+.safari-header-light .overlap-group {
+  background-image: url(../../../static/img/rectangle-16.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: -1px;
+  position: relative;
+  width: 448px;
+}
+
+.safari-header-light .URL {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  left: 132px;
+  position: absolute;
+  top: 2px;
+}
+
+.safari-header-light .sitename-com {
+  color: #4c4c4c;
+  font-family: "Inter", Helvetica;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.safari-header-light .union {
+  height: 13px;
+  left: 428px;
+  position: absolute;
+  top: 4px;
+  width: 11px;
+}
+
+.safari-header-light .right {
+  height: 22px;
+  left: 1776px;
+  position: absolute;
+  top: 9px;
+  width: 134px;
+}
+
+.safari-header-light .share {
+  height: 24px;
+  left: -1px;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.safari-header-light .window {
+  height: 24px;
+  left: 47px;
+  position: absolute;
+  top: 0;
+  width: 41px;
+}
+
+.safari-header-light .down {
+  height: 22px;
+  left: 96px;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.safari-header-light .oval-wrapper {
+  background-image: url(../../../static/img/rectangle-18.png);
+  background-size: 100% 100%;
+  height: 24px;
+  left: -1px;
+  position: relative;
+  width: 40px;
+}
+
+.safari-header-light .oval {
+  height: 14px;
+  left: 13px;
+  position: absolute;
+  top: 4px;
+  width: 15px;
+}
+
+.safari-header-light .left {
+  height: 24px;
+  left: 15px;
+  position: absolute;
+  top: 9px;
+  width: 165px;
+}

@@ -1,0 +1,849 @@
+.dropdown {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 312px;
+}
+
+.dropdown .input {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .contents {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .icon-text-stack {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown .text {
+  background: none;
+  border: none;
+  flex-grow: 1;
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  padding: 0;
+  position: relative;
+  white-space: nowrap;
+}
+
+.dropdown .icon-end {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.dropdown .chevron-instance {
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+}
+
+.dropdown .in-focus {
+  bottom: 0;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown .list-sections {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .top-section {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .listitem-light {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .list-container {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 6px;
+  padding: 6px 6px 6px 8px;
+  position: relative;
+}
+
+.dropdown .list-item-text {
+  font-family: var(--web-caption-1-strong-font-family);
+  font-size: var(--web-caption-1-strong-font-size);
+  font-style: var(--web-caption-1-strong-font-style);
+  font-weight: var(--web-caption-1-strong-font-weight);
+  letter-spacing: var(--web-caption-1-strong-letter-spacing);
+  line-height: var(--web-caption-1-strong-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .list-container-wrapper {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .div {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 6px;
+  position: relative;
+}
+
+.dropdown .checkmark-control {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.dropdown .list-item-text-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 2px;
+  position: relative;
+}
+
+.dropdown .text-wrapper {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .div-wrapper {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .list-item-text-2 {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .listitem-light-2 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .list-item-text-3 {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .listitem-light-3 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .list-item-text-4 {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .listitem-light-4 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 2px;
+  display: flex;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .list-item-text-5 {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .input-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .contents-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .icon-text-stack-2 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown .placeholder-text-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown .placeholder-text {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .icon-end-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.dropdown .thin-underline {
+  bottom: 0;
+  height: 1px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.dropdown .contents-3 {
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown .icon-text-stack-3 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown .text-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.dropdown .placeholder-text-2 {
+  font-family: "Segoe UI-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.dropdown .icon-end-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.dropdown .outline {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .fill-darker {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .medium {
+  border-radius: 4px;
+}
+
+.dropdown .fill-lighter {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .size-large {
+  padding: 0px 12px;
+}
+
+.dropdown .appearance-outline {
+  border: 1px solid;
+  border-radius: 4px;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.dropdown .appearance-fill-darker {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .size-small {
+  flex: 0 0 auto;
+  padding: 0px 6px;
+}
+
+.dropdown .size-medium {
+  flex: 0 0 auto;
+  padding: 0px 10px;
+}
+
+.dropdown .appearance-fill-lighter {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .dark-mode {
+  flex: 0 0 auto;
+}
+
+.dropdown .light-mode.appearance-fill-darker {
+  background-color: #f5f5f5;
+}
+
+.dropdown .light-mode.appearance-fill-lighter {
+  background-color: #ffffff;
+}
+
+.dropdown .dark-mode.appearance-fill-darker {
+  background-color: #141414;
+}
+
+.dropdown .dark-mode.appearance-outline {
+  background-color: #292929;
+  border-color: #666666;
+}
+
+.dropdown .light-mode.appearance-outline {
+  background-color: #ffffff;
+  border-color: #d1d1d1;
+}
+
+.dropdown .dark-mode.appearance-fill-lighter {
+  background-color: #292929;
+}
+
+.dropdown .light-mode.appearance-fill-darker.size-large {
+  height: 40px;
+}
+
+.dropdown .light-mode.appearance-fill-lighter.size-large {
+  height: 40px;
+}
+
+.dropdown .light-mode.size-large.appearance-transparent {
+  height: 40px;
+}
+
+.dropdown .appearance-0-outline {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dropdown .appearance-0-fill-darker {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dropdown .appearance-0-transparent {
+  border-radius: 1px;
+}
+
+.dropdown .theme-0-light-mode {
+  background-color: #0f6bbc;
+}
+
+.dropdown .appearance-0-fill-lighter {
+  border-radius: 0px 0px 4px 4px;
+}
+
+.dropdown .theme-0-dark-mode {
+  background-color: #479ef5;
+}
+
+.dropdown .theme-1-light-mode {
+  background-color: #ffffff;
+  box-shadow: var(--elevation-light-shadow-16);
+}
+
+.dropdown .theme-1-dark-mode {
+  background-color: #292929;
+  box-shadow: var(--elevation-dark-shadow-16);
+}
+
+.dropdown .size-2-large {
+  flex: 0 0 auto;
+}
+
+.dropdown .appearance-1-outline {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown .appearance-1-fill-darker {
+  border-radius: 4px;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.dropdown .size-2-small {
+  border-radius: 4px;
+}
+
+.dropdown .appearance-1-transparent {
+  flex: 0 0 auto;
+}
+
+.dropdown .size-2-medium {
+  flex: 0 0 auto;
+}
+
+.dropdown .appearance-1-fill-lighter {
+  border-radius: 4px;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.dropdown .theme-14-dark-mode {
+  flex: 0 0 auto;
+}
+
+.dropdown .theme-14-light-mode.size-2-small.appearance-1-outline {
+  height: 24px;
+}
+
+.dropdown .contents.size-large .text {
+  font-size: 16px;
+  height: 40px;
+  line-height: 22px;
+  margin-bottom: -1px;
+}
+
+.dropdown .contents.size-small .text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.dropdown .contents.size-medium .text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown .contents.light-mode .text {
+  color: #707070;
+}
+
+.dropdown .contents.dark-mode .text {
+  color: #999999;
+}
+
+.dropdown .contents.size-large .icon-end {
+  padding: 8px 0px 8px 2px;
+}
+
+.dropdown .contents.size-medium .icon-end {
+  padding: 6px 0px 6px 2px;
+}
+
+.dropdown .contents.size-small .icon-end {
+  padding: 4px 0px 4px 2px;
+}
+
+.dropdown .list-sections.theme-1-dark-mode .listitem-light {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .list-item-text {
+  color: var(--lightforegroundforeground-3);
+  margin-top: -1px;
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-item-text {
+  border-color: var(--darkforegroundforeground-3);
+  color: var(--darkforegroundforeground-3);
+  margin-left: -1px;
+  margin-top: -2px;
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-container-wrapper {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .text-wrapper {
+  color: var(--lightforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .text-wrapper {
+  color: var(--darkforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .div-wrapper {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .list-item-text-2 {
+  color: var(--lightforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-item-text-2 {
+  color: var(--darkforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .listitem-light-2 {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .list-item-text-3 {
+  color: var(--lightforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-item-text-3 {
+  color: var(--darkforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .listitem-light-3 {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .list-item-text-4 {
+  color: var(--lightforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-item-text-4 {
+  color: var(--darkforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .listitem-light-4 {
+  background-color: #292929;
+}
+
+.dropdown .list-sections.theme-1-light-mode .list-item-text-5 {
+  color: var(--lightforegroundforeground-2);
+}
+
+.dropdown .list-sections.theme-1-dark-mode .list-item-text-5 {
+  color: var(--darkforegroundforeground-2);
+}
+
+.dropdown .input-2.size-2-large .contents-2 {
+  padding: 0px 12px;
+}
+
+.dropdown .input-2.appearance-1-outline .contents-2 {
+  border: 1px solid;
+  border-radius: 4px;
+  flex: 0 0 auto;
+  overflow: hidden;
+}
+
+.dropdown .input-2.size-2-small .contents-2 {
+  flex: 0 0 auto;
+  padding: 0px 6px;
+}
+
+.dropdown .input-2.size-2-medium .contents-2 {
+  flex: 0 0 auto;
+  padding: 0px 10px;
+}
+
+.dropdown .input-2.theme-14-dark-mode .contents-2 {
+  flex: 0 0 auto;
+}
+
+.dropdown .input-2.theme-14-dark-mode.appearance-1-outline .contents-2 {
+  background-color: #292929;
+  border-color: #666666;
+}
+
+.dropdown .input-2.theme-14-light-mode.appearance-1-outline .contents-2 {
+  background-color: #ffffff;
+  border-color: #d1d1d1;
+}
+
+.dropdown .input-2.size-2-medium.appearance-1-transparent .contents-2 {
+  border-radius: 4px;
+}
+
+.dropdown .input-2.theme-14-light-mode.size-2-large.appearance-1-transparent .contents-2 {
+  height: 40px;
+}
+
+.dropdown .input-2.theme-14-light-mode.appearance-1-outline.size-2-large .icon-text-stack-2 {
+  height: 40px;
+}
+
+.dropdown .input-2.size-2-large .placeholder-text-wrapper {
+  height: 40px;
+  padding: 9px 2px 11px;
+}
+
+.dropdown .input-2.size-2-medium .placeholder-text-wrapper {
+  padding: 5px 2px 7px;
+}
+
+.dropdown .input-2.size-2-small .placeholder-text-wrapper {
+  padding: 3px 2px 5px;
+}
+
+.dropdown .input-2.size-2-large .placeholder-text {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: -1px;
+}
+
+.dropdown .input-2.size-2-small .placeholder-text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.dropdown .input-2.size-2-medium .placeholder-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown .input-2.theme-14-light-mode .placeholder-text {
+  color: #707070;
+}
+
+.dropdown .input-2.theme-14-dark-mode .placeholder-text {
+  color: #999999;
+}
+
+.dropdown .input-2.size-2-large .icon-end-2 {
+  padding: 8px 0px 8px 2px;
+}
+
+.dropdown .input-2.size-2-medium .icon-end-2 {
+  padding: 6px 0px 6px 2px;
+}
+
+.dropdown .input-2.size-2-small .icon-end-2 {
+  padding: 4px 0px 4px 2px;
+}
+
+.dropdown .input-2.theme-14-light-mode .thin-underline {
+  background-color: #616161;
+}
+
+.dropdown .input-2.theme-14-dark-mode .thin-underline {
+  background-color: #adadad;
+}
+
+.dropdown .input-2.size-2-large .contents-3 {
+  padding: 0px 12px;
+}
+
+.dropdown .input-2.appearance-1-outline .contents-3 {
+  background-color: #ffffff;
+}
+
+.dropdown .input-2.size-2-small .contents-3 {
+  flex: 0 0 auto;
+  padding: 0px 6px;
+}
+
+.dropdown .input-2.appearance-1-transparent .contents-3 {
+  background-color: #ffffff;
+}
+
+.dropdown .input-2.size-2-medium .contents-3 {
+  flex: 0 0 auto;
+  padding: 0px 10px;
+}
+
+.dropdown .input-2.theme-14-dark-mode .contents-3 {
+  flex: 0 0 auto;
+}
+
+.dropdown .input-2.theme-14-light-mode.appearance-1-fill-darker .contents-3 {
+  background-color: #f5f5f5;
+}
+
+.dropdown .input-2.theme-14-light-mode.appearance-1-fill-lighter .contents-3 {
+  background-color: #ffffff;
+}
+
+.dropdown .input-2.theme-14-dark-mode.appearance-1-fill-darker .contents-3 {
+  background-color: #141414;
+}
+
+.dropdown .input-2.theme-14-light-mode.size-2-large .contents-3 {
+  height: 40px;
+}
+
+.dropdown .input-2.theme-14-dark-mode.appearance-1-fill-lighter .contents-3 {
+  background-color: #292929;
+}
+
+.dropdown .input-2.size-2-large .text-2 {
+  height: 40px;
+  padding: 9px 2px 11px;
+}
+
+.dropdown .input-2.size-2-medium .text-2 {
+  padding: 5px 2px 7px;
+}
+
+.dropdown .input-2.size-2-small .text-2 {
+  padding: 3px 2px 5px;
+}
+
+.dropdown .input-2.size-2-large .placeholder-text-2 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: -1px;
+}
+
+.dropdown .input-2.size-2-small .placeholder-text-2 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.dropdown .input-2.size-2-medium .placeholder-text-2 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.dropdown .input-2.theme-14-light-mode .placeholder-text-2 {
+  color: #707070;
+}
+
+.dropdown .input-2.theme-14-dark-mode .placeholder-text-2 {
+  color: #999999;
+}
+
+.dropdown .input-2.size-2-large .icon-end-wrapper {
+  padding: 8px 0px 8px 2px;
+}
+
+.dropdown .input-2.size-2-medium .icon-end-wrapper {
+  padding: 6px 0px 6px 2px;
+}
+
+.dropdown .input-2.size-2-small .icon-end-wrapper {
+  padding: 4px 0px 4px 2px;
+}

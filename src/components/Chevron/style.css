@@ -1,0 +1,43 @@
+.chevron {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.chevron .instance-node {
+  height: 28px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 28px !important;
+}
+
+.chevron.twelve {
+  height: 12px;
+  width: 12px;
+}
+
+.chevron.twenty {
+  height: 20px;
+  width: 20px;
+}
+
+.chevron.sixteen {
+  height: 16px;
+  width: 16px;
+}
+
+.chevron.forty-eight {
+  height: 48px;
+  width: 48px;
+}
+
+.chevron.twenty-four {
+  height: 24px;
+  width: 24px;
+}
+
+.chevron.twenty-eight {
+  height: 28px;
+  width: 28px;
+}

@@ -1,0 +1,1 @@
+export { Sinistro } from "./Sinistro";

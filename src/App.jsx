@@ -22,6 +22,7 @@ import { Celularacademy } from "./screens/Celularacademy/Celularacademy";
 import { Turian } from "./screens/Turian/Turian";
 import { Um } from "./screens/Um";
 import { Celularacademydois } from "./screens/Celularacademydois";
+import { Sinistro, sinistro } from "./screens/sinistro";
 
 
 
@@ -57,9 +58,12 @@ export const App = () => {
 
 
       {
-        path: "/thank-you",
-        element: isMobile ? <Celular /> : <ThankYou />,
+        path: "/sinistro",
+        element: isMobile ? <Sinistro /> : <Turian />,
       },
+
+
+      
 
 
 
