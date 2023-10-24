@@ -8,89 +8,89 @@
 
 .turian .div-2 {
   background-color: #ffffff;
-  height: 8013px;
+  height: 8413.65px;
   overflow: hidden;
   position: relative;
-  width: 1440px;
+  width: 1512px;
 }
 
 .turian .overlap {
-  height: 3077px;
+  height: 3231px;
   left: 0;
   position: absolute;
-  top: 4936px;
-  width: 1440px;
+  top: 5183px;
+  width: 1512px;
 }
 
 .turian .rectangle {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(230, 241, 254) 100%);
-  height: 804px;
+  height: 844px;
   left: 0;
   position: absolute;
-  top: 2273px;
-  width: 1440px;
+  top: 2387px;
+  width: 1512px;
 }
 
 .turian .testimonial {
-  height: 500px;
-  left: 181px;
+  height: 524px;
+  left: 190px;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 1079px;
+  width: 1133px;
 }
 
 .turian .frame {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  gap: 6.75px;
-  left: 90px;
+  gap: 7.09px;
+  left: 95px;
   position: absolute;
-  top: 70px;
+  top: 74px;
 }
 
 .turian .p {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 27px;
+  font-size: 28.3px;
   font-weight: 300;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.79px;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
-  width: 674.25px;
+  width: 707.96px;
 }
 
 .turian .text-wrapper-2 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 13.5px;
+  font-size: 14.2px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 27px;
+  line-height: 28.3px;
   position: relative;
-  width: 674.25px;
+  width: 707.96px;
 }
 
 .turian .frame-2 {
   align-items: flex-start;
   display: inline-flex;
-  gap: 15px;
-  left: 90px;
+  gap: 15.75px;
+  left: 95px;
   position: absolute;
-  top: 214px;
+  top: 224px;
 }
 
 .turian .frame-3 {
   align-items: flex-start;
   background-color: #5857ff;
-  border-radius: 22.5px;
+  border-radius: 23.62px;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 14.25px;
-  padding: 30px 54.75px 30px 30px;
+  gap: 14.96px;
+  padding: 31.5px 57.49px 31.5px 31.5px;
   position: relative;
 }
 
@@ -98,16 +98,16 @@
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
-  gap: 15px;
+  gap: 15.75px;
   position: relative;
-  width: 235.5px;
+  width: 247.27px;
 }
 
 .turian .ellipse {
-  height: 61.5px;
+  height: 64.57px;
   object-fit: cover;
   position: relative;
-  width: 61.5px;
+  width: 64.57px;
 }
 
 .turian .frame-wrapper {
@@ -115,7 +115,7 @@
   display: flex;
   flex: 1;
   flex-grow: 1;
-  gap: 14.25px;
+  gap: 14.96px;
   position: relative;
 }
 
@@ -123,73 +123,72 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 7.5px;
-  margin-right: -81px;
+  gap: 7.87px;
+  margin-right: -85.05px;
   position: relative;
-  width: 240px;
+  width: 252px;
 }
 
 .turian .bruno-vidal {
   align-self: stretch;
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
 }
 
 .turian .text-wrapper-3 {
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 15px;
+  font-size: 15.7px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 
 .turian .text-wrapper-4 {
   color: #ffffffcc;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 25.2px;
   position: relative;
-  width: 300px;
+  width: 315px;
 }
 
 .turian .frame-6 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 7.5px;
+  gap: 7.87px;
   justify-content: center;
   position: relative;
 }
 
 .turian .star {
-  height: 13.04px;
+  height: 13.69px;
   position: relative;
-  width: 13.63px;
+  width: 14.31px;
 }
 
 .turian .frame-7 {
   align-items: flex-start;
   background-color: #f7f8ff;
-  border-radius: 22.5px;
+  border-radius: 23.62px;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 14.25px;
-  height: 264.75px;
+  gap: 14.96px;
+  height: 277.99px;
   justify-content: center;
-  padding: 30px 54.75px 30px 30px;
+  padding: 31.5px 57.49px 31.5px 31.5px;
   position: relative;
 }
 
@@ -197,15 +196,15 @@
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 15px;
+  gap: 15.75px;
   position: relative;
 }
 
 .turian .img {
-  height: 63.75px;
+  height: 66.94px;
   object-fit: cover;
   position: relative;
-  width: 63.75px;
+  width: 66.94px;
 }
 
 .turian .frame-9 {
@@ -213,7 +212,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 14.25px;
+  gap: 14.96px;
   position: relative;
 }
 
@@ -222,113 +221,111 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 7.5px;
+  gap: 7.87px;
   position: relative;
 }
 
 .turian .text-wrapper-5 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
-  width: 147px;
+  width: 154.35px;
 }
 
 .turian .text-wrapper-6 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 15px;
+  font-size: 15.7px;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 
 .turian .text-wrapper-7 {
   color: #000000cc;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 24px;
+  line-height: 25.2px;
   position: relative;
-  width: 300px;
+  width: 315px;
 }
 
 .turian .frame-11 {
   align-items: flex-start;
   background-color: #f7f8ff;
-  border-radius: 22.5px;
+  border-radius: 23.62px;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 14.25px;
-  padding: 30px 54.75px 30px 30px;
+  gap: 14.96px;
+  padding: 31.5px 57.49px 31.5px 31.5px;
   position: relative;
 }
 
 .turian .text-wrapper-8 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 200;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
-  white-space: nowrap;
   width: fit-content;
 }
 
 .turian .overlap-group {
   background-color: #5857ff;
-  border-radius: 31.88px;
-  height: 64px;
-  left: 928px;
+  border-radius: 33.47px;
+  height: 67px;
+  left: 974px;
   position: absolute;
-  top: 79px;
-  width: 64px;
+  top: 83px;
+  width: 67px;
 }
 
 .turian .bi-arrow-left-short {
-  height: 37px;
+  height: 39px;
   left: 14px;
   position: absolute;
   top: 14px;
-  width: 37px;
+  width: 39px;
 }
 
 .turian .bi-arrow-left-short-wrapper {
   background-color: #f8f9ff;
-  border-radius: 31.88px;
-  height: 64px;
-  left: 849px;
+  border-radius: 33.47px;
+  height: 67px;
+  left: 891px;
   position: absolute;
-  top: 79px;
-  width: 64px;
+  top: 83px;
+  width: 67px;
 }
 
 .turian .group {
-  height: 1318px;
+  height: 1384px;
   left: 0;
   position: absolute;
-  top: 476px;
-  width: 1440px;
+  top: 500px;
+  width: 1512px;
 }
 
 .turian .rectangle-2 {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(230, 241, 254) 100%);
-  height: 227px;
+  height: 239px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1512px;
 }
 
 .turian .section {
@@ -336,31 +333,31 @@
   background-color: #e6f1fe;
   display: flex;
   flex-direction: column;
-  gap: 10.5px;
-  height: 901px;
+  gap: 11.02px;
+  height: 946px;
   left: 0;
-  padding: 121.5px 52.2px 52.5px 52.2px;
+  padding: 127.57px 54.81px 55.12px 54.81px;
   position: absolute;
-  top: 227px;
-  width: 1440px;
+  top: 239px;
+  width: 1512px;
 }
 
 .turian .div-inner-width {
-  height: 639.75px;
-  max-width: 1035px;
+  height: 671.74px;
+  max-width: 1086.75px;
   position: relative;
-  width: 1035px;
+  width: 1086.75px;
 }
 
 .turian .heading {
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 22px;
-  padding: 0px 415.81px 0px 415.94px;
+  left: 24px;
+  padding: 0px 436.6px 0px 436.74px;
   position: absolute;
   top: 0;
-  width: 990px;
+  width: 1040px;
 }
 
 .turian .text-wrapper-9 {
@@ -369,13 +366,13 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 26.2px;
+  font-size: 27.5px;
   font-weight: 300;
   letter-spacing: 0;
-  line-height: 37.1px;
-  margin-left: -100.88px;
-  margin-right: -100.88px;
-  margin-top: -0.75px;
+  line-height: 38.9px;
+  margin-left: -105.92px;
+  margin-right: -105.92px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -388,23 +385,23 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 22px;
-  padding: 0px 331.81px 0px 331.94px;
+  left: 24px;
+  padding: 0px 348.4px 0px 348.54px;
   position: absolute;
-  top: 48px;
-  width: 990px;
+  top: 50px;
+  width: 1040px;
 }
 
 .turian .text-wrapper-10 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 15.8px;
+  font-size: 16.5px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 27px;
-  margin-left: -331.87px;
-  margin-right: -331.88px;
-  margin-top: -0.75px;
+  line-height: 28.3px;
+  margin-left: -348.72px;
+  margin-right: -348.72px;
+  margin-top: -0.79px;
   position: relative;
   text-align: center;
   width: fit-content;
@@ -419,17 +416,17 @@
   left: 9px;
   padding: 0px 0.01px 0px 0px;
   position: absolute;
-  top: 155px;
-  width: 1017px;
+  top: 163px;
+  width: 1068px;
 }
 
 .turian .div-item-serv-power {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 0px 0px 37.5px;
+  padding: 0px 0px 39.38px;
   position: relative;
-  width: 338.99px;
+  width: 355.94px;
 }
 
 .turian .div-item-hp-perfect-wrapper {
@@ -438,7 +435,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 16.5px;
+  padding: 0px 17.32px;
   position: relative;
   width: 100%;
 }
@@ -450,16 +447,16 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 11.55px;
-  padding: 37.05px 31.5px 37.5px;
+  gap: 12.13px;
+  padding: 38.9px 33.07px 39.38px;
   position: relative;
   width: 100%;
 }
 
-.turian .img-2 {
-  height: 27px;
+.turian .documento {
+  height: 28.35px;
   position: relative;
-  width: 25.5px;
+  width: 26.77px;
 }
 
 .turian .heading-2 {
@@ -468,7 +465,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 4.49px 0px 0px;
+  padding: 0px 4.72px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -476,11 +473,11 @@
 .turian .text-wrapper-11 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 15.6px;
+  font-size: 16.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 19.8px;
-  margin-top: -0.75px;
+  line-height: 20.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -492,7 +489,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 50.24px 0px 0px;
+  padding: 0px 52.75px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -500,12 +497,13 @@
 .turian .text-wrapper-12 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.8px;
+  font-size: 12.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-right: -50.25px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.43px;
+  margin-right: -53.18px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -514,26 +512,27 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 45px;
+  height: 47px;
   justify-content: center;
   left: 0;
-  max-width: 51.75px;
-  padding: 5.62px 0px;
+  max-width: 54.34px;
+  overflow: hidden;
+  padding: 5.91px 0px;
   position: absolute;
-  top: -27px;
-  width: 52px;
+  top: -28px;
+  width: 54px;
 }
 
 .turian .image-2 {
-  height: 33.75px;
+  height: 35.44px;
   position: relative;
-  width: 51.75px;
+  width: 54.34px;
 }
 
-.turian .img-3 {
-  height: 27px;
+.turian .img-2 {
+  height: 28.35px;
   position: relative;
-  width: 27px;
+  width: 28.35px;
 }
 
 .turian .marketing-material-wrapper {
@@ -542,7 +541,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 26.99px 0px 0px;
+  padding: 0px 28.34px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -550,11 +549,11 @@
 .turian .text-wrapper-13 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 16px;
+  font-size: 16.8px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 19.8px;
-  margin-top: -0.75px;
+  line-height: 20.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -566,7 +565,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 13.49px 0px 0px;
+  padding: 0px 14.17px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -574,20 +573,21 @@
 .turian .text-wrapper-14 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-right: -13.5px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.43px;
+  margin-right: -14.6px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
 .turian .alt-do-site {
-  height: 26.25px;
+  height: 27.56px;
   position: relative;
-  width: 27px;
+  width: 28.35px;
 }
 
 .turian .heading-3 {
@@ -596,7 +596,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 15.74px 0px 0px;
+  padding: 0px 16.53px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -607,7 +607,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 42.74px 0px 0px;
+  padding: 0px 44.88px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -615,12 +615,13 @@
 .turian .text-wrapper-15 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-right: -42.75px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.43px;
+  margin-right: -45.31px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -629,37 +630,44 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 45px;
+  height: 47px;
   justify-content: center;
   left: 0;
-  max-width: 51.75px;
-  padding: 5.25px 0px;
+  max-width: 54.34px;
+  overflow: hidden;
+  padding: 5.51px 0px;
   position: absolute;
-  top: -27px;
-  width: 52px;
+  top: -28px;
+  width: 54px;
 }
 
 .turian .image-3 {
-  height: 34.5px;
+  height: 36.22px;
   position: relative;
-  width: 51.75px;
+  width: 54.34px;
 }
 
 .turian .filme {
-  height: 27.75px;
+  height: 29.14px;
   position: relative;
-  width: 27px;
+  width: 28.35px;
+}
+
+.turian .diploma {
+  height: 28.35px;
+  position: relative;
+  width: 26.78px;
 }
 
 .turian .text-wrapper-16 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 16px;
+  font-size: 16.8px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 19.8px;
-  margin-right: -13.75px;
-  margin-top: -0.75px;
+  line-height: 20.8px;
+  margin-right: -14.39px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -670,34 +678,34 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 435px;
+  padding: 0px 456.75px;
   position: relative;
-  width: 990px;
+  width: 1039.5px;
 }
 
 .turian .link {
   align-items: flex-start;
   background-color: #5857ff;
-  border: 0.75px solid;
-  border-radius: 45px;
+  border: 0.79px solid;
+  border-radius: 47.25px;
   display: inline-flex;
   flex: 0 0 auto;
   justify-content: center;
-  margin-left: -27.6px;
-  margin-right: -27.6px;
-  min-width: 120px;
-  padding: 0.9px 14.1px 0px;
+  margin-left: -28.8px;
+  margin-right: -28.8px;
+  min-width: 126px;
+  padding: 0.94px 14.8px 0px;
   position: relative;
 }
 
 .turian .text-wrapper-17 {
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 11.9px;
+  font-size: 12.5px;
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 38.2px;
-  margin-top: -0.75px;
+  line-height: 40.2px;
+  margin-top: -0.79px;
   position: relative;
   text-align: center;
   white-space: nowrap;
@@ -706,38 +714,38 @@
 
 .turian .rectangle-3 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
-  height: 190px;
+  height: 200px;
   left: 0;
   position: absolute;
-  top: 1128px;
-  width: 1440px;
+  top: 1184px;
+  width: 1512px;
 }
 
 .turian .group-2 {
-  height: 421px;
-  left: 256px;
+  height: 442px;
+  left: 269px;
   position: absolute;
-  top: 2603px;
-  width: 1035px;
+  top: 2733px;
+  width: 1087px;
 }
 
 .turian .overlap-2 {
-  height: 77px;
+  height: 81px;
   left: 0;
   position: absolute;
-  top: 344px;
-  width: 926px;
+  top: 361px;
+  width: 973px;
 }
 
 .turian .text-wrapper-18 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 11.9px;
+  font-size: 12.5px;
   font-weight: 400;
-  height: 39px;
+  height: 41px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
   top: 0;
   white-space: nowrap;
@@ -746,34 +754,34 @@
 .turian .text-wrapper-19 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 11.9px;
+  font-size: 12.5px;
   font-weight: 400;
-  height: 39px;
-  left: 320px;
+  height: 41px;
+  left: 335px;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 38px;
+  top: 40px;
   white-space: nowrap;
 }
 
 .turian .group-3 {
-  height: 185px;
-  left: 125px;
+  height: 195px;
+  left: 132px;
   position: absolute;
   top: 0;
-  width: 162px;
+  width: 170px;
 }
 
 .turian .text-wrapper-20 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 700;
-  height: 39px;
+  height: 41px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
   top: 0;
   white-space: nowrap;
@@ -782,35 +790,35 @@
 .turian .text-wrapper-21 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 50px;
+  top: 52px;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .turian .overlap-group-2 {
-  height: 53px;
+  height: 56px;
   left: 0;
   position: absolute;
-  top: 65px;
-  width: 109px;
+  top: 69px;
+  width: 114px;
 }
 
 .turian .text-wrapper-22 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 39px;
+  height: 41px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
   top: 0;
   white-space: nowrap;
@@ -819,314 +827,314 @@
 .turian .text-wrapper-23 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 38px;
+  top: 40px;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .turian .overlap-3 {
-  height: 66px;
+  height: 69px;
   left: 0;
   position: absolute;
-  top: 119px;
-  width: 150px;
+  top: 125px;
+  width: 158px;
 }
 
 .turian .text-wrapper-24 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 39px;
+  height: 41px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 27px;
+  top: 28px;
   white-space: nowrap;
 }
 
 .turian .group-4 {
-  height: 293px;
-  left: 544px;
+  height: 308px;
+  left: 571px;
   position: absolute;
   top: 0;
-  width: 127px;
+  width: 133px;
 }
 
 .turian .overlap-4 {
-  height: 80px;
+  height: 84px;
   left: 0;
   position: absolute;
-  top: 119px;
-  width: 107px;
+  top: 125px;
+  width: 113px;
 }
 
 .turian .text-wrapper-25 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 65px;
+  top: 69px;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .turian .overlap-5 {
-  height: 53px;
+  height: 56px;
   left: 0;
   position: absolute;
-  top: 65px;
-  width: 107px;
+  top: 69px;
+  width: 113px;
 }
 
 .turian .overlap-6 {
-  height: 53px;
+  height: 56px;
   left: 0;
   position: absolute;
-  top: 200px;
-  width: 107px;
+  top: 210px;
+  width: 113px;
 }
 
 .turian .text-wrapper-26 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 39px;
+  height: 41px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 254px;
+  top: 267px;
   white-space: nowrap;
 }
 
 .turian .group-5 {
-  height: 118px;
-  left: 738px;
+  height: 124px;
+  left: 775px;
   position: absolute;
   top: 0;
-  width: 115px;
+  width: 121px;
 }
 
 .turian .group-6 {
-  height: 118px;
-  left: 924px;
+  height: 124px;
+  left: 970px;
   position: absolute;
   top: 0;
-  width: 115px;
+  width: 121px;
 }
 
 .turian .group-7 {
-  height: 254px;
-  left: 343px;
+  height: 266px;
+  left: 360px;
   position: absolute;
   top: 0;
-  width: 132px;
+  width: 138px;
 }
 
 .turian .overlap-7 {
-  height: 80px;
+  height: 84px;
   left: 0;
   position: absolute;
-  top: 119px;
-  width: 114px;
+  top: 125px;
+  width: 120px;
 }
 
 .turian .text-wrapper-27 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 212px;
+  top: 222px;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .turian .text-wrapper-28 {
   color: #575757;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
-  line-height: 38.2px;
+  line-height: 40.2px;
   position: absolute;
-  top: 238px;
+  top: 250px;
   white-space: nowrap;
-  width: 107px;
+  width: 113px;
 }
 
 .turian .hero-header {
-  height: 679px;
-  left: 158px;
+  height: 713px;
+  left: 165px;
   position: absolute;
-  top: 1717px;
-  width: 1125px;
+  top: 1803px;
+  width: 1181px;
 }
 
 .turian .group-8 {
-  height: 95px;
-  left: 161px;
+  height: 100px;
+  left: 169px;
   position: absolute;
-  top: 2603px;
-  width: 177px;
+  top: 2733px;
+  width: 186px;
 }
 
 .turian .fi {
-  height: 38px;
-  left: 99px;
+  height: 39px;
+  left: 104px;
   position: absolute;
-  top: 58px;
-  width: 38px;
+  top: 61px;
+  width: 39px;
 }
 
 .turian .fi-2 {
-  height: 38px;
-  left: 50px;
+  height: 39px;
+  left: 52px;
   position: absolute;
-  top: 58px;
-  width: 38px;
+  top: 61px;
+  width: 39px;
 }
 
 .turian .logo-preto-branco {
-  height: 46px;
+  height: 48px;
   left: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 177px;
+  width: 186px;
 }
 
 .turian .linkedin {
-  height: 38px;
+  height: 39px;
   left: 0;
   position: absolute;
-  top: 58px;
-  width: 38px;
+  top: 61px;
+  width: 39px;
 }
 
 .turian .line {
-  height: 236px;
-  left: 556px;
+  height: 247px;
+  left: 584px;
   position: absolute;
-  top: 2621px;
+  top: 2752px;
   width: 1px;
 }
 
 .turian .line-2 {
-  height: 236px;
-  left: 757px;
+  height: 247px;
+  left: 795px;
   position: absolute;
-  top: 2621px;
+  top: 2752px;
   width: 1px;
 }
 
 .turian .line-3 {
-  height: 236px;
-  left: 951px;
+  height: 247px;
+  left: 999px;
   position: absolute;
-  top: 2621px;
+  top: 2752px;
   width: 1px;
 }
 
 .turian .line-4 {
-  height: 236px;
-  left: 1137px;
+  height: 247px;
+  left: 1194px;
   position: absolute;
-  top: 2621px;
+  top: 2752px;
   width: 1px;
 }
 
 .turian .overlap-8 {
-  height: 871px;
-  left: -215px;
+  height: 914px;
+  left: -226px;
   position: absolute;
   top: 0;
-  width: 1655px;
+  width: 1738px;
 }
 
 .turian .rectangle-4 {
   background-color: #e6f1fe;
-  height: 871px;
-  left: 212px;
+  height: 914px;
+  left: 223px;
   position: absolute;
   top: 0;
-  width: 1443px;
+  width: 1515px;
 }
 
 .turian .ellipse-wrapper {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 174.75px;
-  height: 350px;
+  border-radius: 183.49px;
+  height: 367px;
   left: 0;
   position: absolute;
-  top: 377px;
-  width: 350px;
+  top: 396px;
+  width: 367px;
 }
 
 .turian .ellipse-2 {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 108.75px;
-  height: 218px;
-  left: 72px;
+  border-radius: 114.19px;
+  height: 228px;
+  left: 76px;
   position: relative;
-  top: 52px;
-  width: 218px;
+  top: 55px;
+  width: 228px;
 }
 
 .turian .group-9 {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 301.88px;
-  height: 604px;
-  left: 866px;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 909px;
   position: absolute;
-  top: 202px;
-  width: 604px;
+  top: 213px;
+  width: 634px;
 }
 
 .turian .ellipse-3 {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 187.86px;
-  height: 376px;
-  left: 125px;
+  border-radius: 197.26px;
+  height: 395px;
+  left: 131px;
   position: relative;
-  top: 91px;
-  width: 376px;
+  top: 96px;
+  width: 395px;
 }
 
 .turian .frame-12 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 48px;
-  left: 365px;
+  gap: 50.4px;
+  left: 384px;
   position: absolute;
-  top: 252px;
-  width: 675px;
+  top: 265px;
+  width: 709px;
 }
 
 .turian .frame-13 {
@@ -1134,22 +1142,22 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 18px;
+  gap: 18.9px;
   justify-content: center;
   position: relative;
-  width: 675px;
+  width: 708.75px;
 }
 
 .turian .servi-o-profissional {
   color: transparent;
   font-family: "Inter", Helvetica;
-  font-size: 36px;
+  font-size: 37.8px;
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 58px;
-  margin-top: -0.75px;
+  line-height: 60.9px;
+  margin-top: -0.79px;
   position: relative;
-  width: 539.25px;
+  width: 566.21px;
 }
 
 .turian .span {
@@ -1163,53 +1171,52 @@
 .turian .na-magma {
   color: var(--base-black);
   font-family: "Inter", Helvetica;
-  font-size: 18px;
+  font-size: 18.9px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 18px;
+  line-height: 18.9px;
   position: relative;
-  width: 665.25px;
+  width: 698.51px;
 }
 
 .turian .text-wrapper-30 {
   font-weight: 500;
-  line-height: 28.9px;
+  line-height: 30.3px;
 }
 
 .turian .text-wrapper-31 {
   font-weight: 900;
-  line-height: 28.9px;
+  line-height: 30.3px;
 }
 
 .turian .text-wrapper-32 {
   font-style: italic;
   font-weight: 800;
-  line-height: 30px;
+  line-height: 31.5px;
 }
 
 .turian .frame-14 {
   align-items: center;
   background-color: #c59318;
-  border-radius: 75px;
+  border-radius: 78.75px;
   display: inline-flex;
   flex: 0 0 auto;
   justify-content: center;
   overflow: hidden;
-  padding: 12px 24px;
+  padding: 12.6px 25.2px;
   position: relative;
 }
 
 .turian .text-wrapper-33 {
   color: var(--base-white);
   font-family: "Inter", Helvetica;
-  font-size: 15px;
+  font-size: 15.7px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
   text-align: center;
-  white-space: nowrap;
   width: fit-content;
 }
 
@@ -1217,331 +1224,332 @@
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
-  gap: 18.3px;
-  padding: 0px 50.14px 3.6px 0px;
+  gap: 19.21px;
+  padding: 0px 52.64px 3.78px 0px;
   position: relative;
-  width: 375.15px;
+  width: 393.91px;
 }
 
 .turian .slator-svg {
-  height: 98.25px;
-  max-width: 375.15px;
+  height: 103.16px;
+  max-width: 393.91px;
   position: relative;
-  width: 98.25px;
+  width: 103.16px;
 }
 
 .turian .top-fastest {
-  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png-3.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 98.25px;
-  max-width: 375.15px;
+  height: 103.16px;
+  max-width: 393.91px;
   position: relative;
-  width: 98.25px;
+  width: 103.16px;
 }
 
 .turian .nimdzi-svg {
-  height: 98.25px;
-  margin-right: -6.34px;
-  max-width: 375.15px;
+  height: 103.16px;
+  margin-right: -6.65px;
+  max-width: 393.91px;
   position: relative;
-  width: 98.25px;
+  width: 103.16px;
 }
 
 .turian .frame-svg {
-  height: 98.25px;
-  margin-right: -122.89px;
-  max-width: 375.15px;
+  height: 103.16px;
+  margin-right: -129.03px;
+  max-width: 393.91px;
   position: relative;
-  width: 98.25px;
+  width: 103.16px;
 }
 
 .turian .frame-15 {
   align-items: center;
-  border: 1.5px solid;
+  border: 1.57px solid;
   border-color: #c59318;
-  border-radius: 75px;
+  border-radius: 78.75px;
   display: inline-flex;
   justify-content: center;
-  left: 626px;
+  left: 658px;
   overflow: hidden;
-  padding: 12px 24px;
+  padding: 12.6px 25.2px;
   position: absolute;
-  top: 551px;
+  top: 579px;
 }
 
 .turian .text-wrapper-34 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 15px;
+  font-size: 15.7px;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
-  margin-top: -1.5px;
+  margin-top: -1.58px;
   position: relative;
   text-align: center;
-  white-space: nowrap;
   width: fit-content;
 }
 
 .turian .imagens {
-  height: 402px;
-  left: 1067px;
+  height: 422px;
+  left: 1121px;
   position: absolute;
-  top: 325px;
-  width: 396px;
+  top: 341px;
+  width: 416px;
 }
 
 .turian .overlap-group-3 {
-  height: 435px;
+  height: 457px;
   left: 0;
   position: absolute;
-  top: -86px;
-  width: 435px;
+  top: -90px;
+  width: 457px;
 }
 
 .turian .div-absolute {
   background-color: #faf4e3;
-  border-radius: 75px;
-  height: 370px;
+  border-radius: 78.75px;
+  height: 389px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 315px;
+  width: 331px;
 }
 
 .turian .frame-16 {
-  border-radius: 75px;
-  height: 295px;
-  left: 140px;
+  border-radius: 78.75px;
+  height: 309px;
+  left: 147px;
   position: absolute;
-  top: 140px;
-  width: 295px;
+  top: 147px;
+  width: 309px;
 }
 
 .turian .servio-de-trado-wrapper {
   background-color: #c59318;
-  border-radius: 75px;
-  height: 295px;
+  border-radius: 78.75px;
+  height: 310px;
   overflow: hidden;
   position: relative;
+  width: 310px;
 }
 
 .turian .servio-de-trado {
-  height: 295px;
+  height: 310px;
   left: -1px;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 296px;
+  width: 311px;
 }
 
 .turian .ezgif {
-  height: 195px;
-  left: 47px;
+  height: 205px;
+  left: 50px;
   object-fit: cover;
   position: absolute;
-  top: 43px;
-  width: 165px;
+  top: 45px;
+  width: 173px;
 }
 
 .turian .empresa-de-traduo {
-  background-image: url(../../../static/img/mask-group-4.png);
+  background-image: url(../../../static/img/mask-group-39.png);
   background-size: 100% 100%;
-  height: 59px;
-  left: 241px;
+  height: 62px;
+  left: 253px;
   position: absolute;
-  top: 43px;
-  width: 59px;
+  top: 45px;
+  width: 62px;
 }
 
 .turian .empresa-de-traduo-2 {
-  background-image: url(../../../static/img/mask-group-8.png);
+  background-image: url(../../../static/img/mask-group-43.png);
   background-size: 100% 100%;
-  height: 29px;
-  left: 71px;
+  height: 31px;
+  left: 75px;
   position: absolute;
-  top: 286px;
-  width: 29px;
+  top: 301px;
+  width: 31px;
 }
 
 .turian .empresa-de-traduo-3 {
-  background-image: url(../../../static/img/mask-group-5.png);
+  background-image: url(../../../static/img/mask-group-40.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: 358px;
+  height: 40px;
+  left: 376px;
   opacity: 0.15;
   position: absolute;
-  top: 1128px;
-  width: 38px;
+  top: 1184px;
+  width: 40px;
 }
 
 .turian .empresa-de-traduo-4 {
-  background-image: url(../../../static/img/mask-group-6-2x.png);
+  background-image: url(../../../static/img/mask-group-41.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: -222px;
+  height: 40px;
+  left: -233px;
   opacity: 0.15;
   position: absolute;
-  top: 1076px;
-  width: 38px;
+  top: 1130px;
+  width: 40px;
 }
 
 .turian .empresa-de-traduo-5 {
-  background-image: url(../../../static/img/mask-group-7.png);
+  background-image: url(../../../static/img/mask-group-42.png);
   background-size: 100% 100%;
-  height: 37px;
-  left: -220px;
+  height: 39px;
+  left: -232px;
   opacity: 0.15;
   position: absolute;
-  top: 1232px;
-  width: 37px;
+  top: 1293px;
+  width: 39px;
 }
 
 .turian .empresa-de-traduo-6 {
-  background-image: url(../../../static/img/mask-group-10.png);
+  background-image: url(../../../static/img/mask-group-45.png);
   background-size: 100% 100%;
-  height: 44px;
-  left: 1067px;
+  height: 46px;
+  left: 1121px;
   position: absolute;
-  top: 218px;
-  width: 44px;
+  top: 228px;
+  width: 46px;
 }
 
 .turian .overlap-9 {
-  height: 1702px;
-  left: -155px;
+  height: 1787px;
+  left: -163px;
   position: absolute;
-  top: 871px;
-  width: 1592px;
+  top: 914px;
+  width: 1672px;
 }
 
 .turian .group-10 {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 366px;
-  height: 732px;
+  border-radius: 384.3px;
+  height: 769px;
   left: 0;
   position: absolute;
-  top: 177px;
-  width: 732px;
+  top: 186px;
+  width: 769px;
 }
 
 .turian .ellipse-4 {
-  border: 0.75px solid;
+  border: 0.79px solid;
   border-color: #c593184c;
-  border-radius: 227.77px;
-  height: 456px;
-  left: 152px;
+  border-radius: 239.16px;
+  height: 478px;
+  left: 159px;
   position: relative;
-  top: 111px;
-  width: 456px;
+  top: 116px;
+  width: 478px;
 }
 
 .turian .empresa-de-traduo-7 {
-  background-image: url(../../../static/img/mask-group-9.png);
+  background-image: url(../../../static/img/mask-group-44.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: 246px;
+  height: 40px;
+  left: 258px;
   opacity: 0.15;
   position: absolute;
-  top: 789px;
-  width: 38px;
+  top: 828px;
+  width: 40px;
 }
 
 .turian .partners {
   background-color: #fafafa;
-  height: 414px;
-  left: 335px;
+  height: 435px;
+  left: 352px;
   position: absolute;
-  top: 155px;
-  width: 1080px;
+  top: 163px;
+  width: 1134px;
 }
 
 .turian .empresas-que-confiam-wrapper {
-  height: 33px;
-  left: 345px;
+  height: 34px;
+  left: 362px;
   position: absolute;
-  top: 58px;
-  width: 390px;
+  top: 61px;
+  width: 410px;
 }
 
 .turian .empresas-que-confiam {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 27px;
+  font-size: 28.3px;
   font-weight: 500;
   left: 0;
-  letter-spacing: -0.75px;
+  letter-spacing: -0.79px;
   line-height: normal;
   position: absolute;
   text-align: center;
   top: 0;
+  white-space: nowrap;
 }
 
 .turian .group-11 {
-  height: 156px;
-  left: 113px;
+  height: 164px;
+  left: 119px;
   position: absolute;
-  top: 160px;
-  width: 854px;
+  top: 168px;
+  width: 896px;
 }
 
 .turian .rectangle-5 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
-  height: 227px;
-  left: 152px;
+  height: 239px;
+  left: 160px;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1512px;
 }
 
 .turian .overlap-wrapper {
-  height: 979px;
-  left: 323px;
+  height: 1028px;
+  left: 339px;
   position: absolute;
-  top: 723px;
-  width: 1105px;
+  top: 759px;
+  width: 1160px;
 }
 
 .turian .overlap-10 {
-  background-image: url(../../../static/img/group-44.png);
+  background-image: url(../../../static/img/group-44-3.png);
   background-size: 100% 100%;
-  height: 1009px;
-  left: -15px;
+  height: 1060px;
+  left: -16px;
   position: relative;
-  width: 1133px;
+  width: 1190px;
 }
 
 .turian .group-12 {
-  height: 696px;
-  left: 600px;
+  height: 731px;
+  left: 630px;
   position: absolute;
-  top: 297px;
-  width: 533px;
+  top: 312px;
+  width: 560px;
 }
 
 .turian .a-magma-translation {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 17.2px;
+  font-size: 18.1px;
   font-weight: 400;
-  height: 120px;
-  left: 39px;
+  height: 126px;
+  left: 41px;
   letter-spacing: 0;
-  line-height: 39.8px;
+  line-height: 41.7px;
   position: absolute;
-  top: 105px;
-  width: 1042px;
+  top: 110px;
+  width: 1095px;
 }
 
 .turian .text-wrapper-35 {
   color: #000000;
   font-family: "Inter", Helvetica;
-  font-size: 17.2px;
+  font-size: 18.1px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 39.8px;
+  line-height: 41.7px;
 }
 
 .turian .text-wrapper-36 {
@@ -1549,31 +1557,23 @@
 }
 
 .turian .overlap-11 {
-  height: 1964px;
+  height: 2062px;
   left: -3px;
   position: absolute;
-  top: 2830px;
-  width: 1443px;
-}
-
-.turian .overlap-12 {
-  height: 1964px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 1443px;
+  top: 2972px;
+  width: 1515px;
 }
 
 .turian .overlap-group-wrapper {
-  height: 876px;
+  height: 920px;
   left: 3px;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1512px;
 }
 
-.turian .overlap-13 {
-  height: 876px;
+.turian .overlap-12 {
+  height: 920px;
   position: relative;
 }
 
@@ -1582,12 +1582,12 @@
   background-color: #e6f1fe;
   display: flex;
   flex-direction: column;
-  height: 876px;
+  height: 920px;
   left: 0;
-  padding: 52.5px 0px 15px;
+  padding: 55.12px 0px 15.75px;
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1512px;
 }
 
 .turian .div-max {
@@ -1595,41 +1595,41 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  max-width: 1500px;
-  padding: 0px 39px;
+  max-width: 1575px;
+  padding: 0px 40.95px;
   position: relative;
-  width: 1139.4px;
+  width: 1196.37px;
 }
 
 .turian .div-row-2 {
   align-self: stretch;
-  height: 538.95px;
+  height: 565.9px;
   position: relative;
   width: 100%;
 }
 
 .turian .div-box-pad-wrapper {
-  height: 280px;
+  height: 294px;
   left: 0;
   position: absolute;
-  top: 138px;
-  width: 354px;
+  top: 145px;
+  width: 371px;
 }
 
 .turian .div-box-pad {
   align-items: flex-start;
   background-color: #5857ff;
-  border-radius: 18px;
-  box-shadow: 0px 24px 48px -9px #0f172833;
+  border-radius: 18.9px;
+  box-shadow: 0px 25.2px 50.4px -9.45px #0f172833;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 18.9px;
   justify-content: center;
-  left: 18px;
-  padding: 52.5px 41.25px 52.95px;
+  left: 19px;
+  padding: 55.12px 43.31px 55.6px;
   position: relative;
-  top: -82px;
-  width: 318px;
+  top: -87px;
+  width: 334px;
 }
 
 .turian .heading-margin {
@@ -1638,8 +1638,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 32.25px;
-  padding: 0px 0px 11.25px;
+  gap: 33.86px;
+  padding: 0px 0px 11.81px;
   position: relative;
   width: 100%;
 }
@@ -1650,7 +1650,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 89.05px 0px 0px;
+  padding: 0px 93.5px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -1659,12 +1659,12 @@
   align-self: stretch;
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 26.2px;
+  font-size: 27.6px;
   font-weight: 800;
-  height: 36.75px;
-  letter-spacing: 1.05px;
+  height: 38.59px;
+  letter-spacing: 1.1px;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   position: relative;
 }
 
@@ -1674,8 +1674,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 32.25px;
-  padding: 0px 24.55px 0px 0px;
+  gap: 33.86px;
+  padding: 0px 25.77px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -1683,26 +1683,34 @@
 .turian .a-tradu-o-apenas-o {
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 13.7px;
+  font-size: 14.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 23.6px;
-  margin-left: -0.35px;
-  margin-right: -24.9px;
-  margin-top: -0.75px;
+  line-height: 24.8px;
+  margin-left: -0.47px;
+  margin-right: -26.24px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
+}
+
+.turian .overlap-group-4 {
+  height: 567px;
+  left: 371px;
+  position: absolute;
+  top: 145px;
+  width: 371px;
 }
 
 .turian .div-item-hp-perfect-2 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  left: 354px;
-  padding: 0px 18px 95.25px;
+  left: 0;
+  padding: 0px 18.9px 100.01px;
   position: absolute;
-  top: 138px;
-  width: 354px;
+  top: 0;
+  width: 371px;
 }
 
 .turian .div-item-hp-perfect-3 {
@@ -1712,8 +1720,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 10.8px;
-  padding: 31.5px 31.5px 37.95px;
+  gap: 11.34px;
+  padding: 33.07px 33.07px 39.85px;
   position: relative;
   width: 100%;
 }
@@ -1722,7 +1730,7 @@
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
-  margin-right: -14.25px;
+  margin-right: -14.31px;
   position: relative;
 }
 
@@ -1731,7 +1739,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 116.04px 0px 0px;
+  padding: 0px 121.84px 0px 0px;
   position: relative;
 }
 
@@ -1741,11 +1749,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.8px;
+  font-size: 19.7px;
   font-weight: 600;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.79px;
   line-height: normal;
-  margin-top: -0.75px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -1758,7 +1766,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 5.04px 0px 0px;
+  padding: 0px 5.29px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -1766,13 +1774,13 @@
 .turian .text-wrapper-39 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.7px;
+  font-size: 12.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.1px;
-  margin-right: -5.14px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.24px;
+  margin-right: -5.53px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -1781,58 +1789,58 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 34px;
+  height: 35px;
   justify-content: center;
-  left: 32px;
-  max-width: 51.75px;
-  padding: 0px 0.56px;
+  left: 33px;
+  max-width: 54.34px;
+  padding: 0px 0.59px;
   position: absolute;
-  top: -16px;
-  width: 52px;
+  top: -17px;
+  width: 54px;
 }
 
 .turian .image-5 {
-  height: 33.75px;
+  height: 35.44px;
   position: relative;
-  width: 50.62px;
+  width: 53.16px;
 }
 
 .turian .span-wrapper {
   align-items: flex-start;
   background-color: #5857ff;
+  bottom: -15px;
   display: flex;
   flex-direction: column;
-  left: 206px;
   position: absolute;
-  top: 169px;
-  width: 93px;
+  right: 20px;
+  width: 98px;
 }
 
 .turian .span-2 {
   align-items: center;
   align-self: stretch;
   display: flex;
-  gap: 3.06px;
-  height: 30px;
-  padding: 0px 8.91px 0px 5.25px;
+  gap: 3.21px;
+  height: 31.5px;
+  padding: 0px 9.36px 0px 5.51px;
   position: relative;
   width: 100%;
 }
 
 .turian .arrow-sm-red-svg {
-  height: 9.75px;
+  height: 10.24px;
   position: relative;
-  width: 10.5px;
+  width: 11.03px;
 }
 
 .turian .text-wrapper-40 {
   color: #ffffff;
   font-family: "Inter", Helvetica;
-  font-size: 11.8px;
+  font-size: 12.4px;
   font-weight: 700;
   letter-spacing: 0;
-  line-height: 30px;
-  margin-top: -0.75px;
+  line-height: 31.5px;
+  margin-top: -1.04px;
   position: relative;
   text-align: center;
   white-space: nowrap;
@@ -1843,30 +1851,18 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  left: 708px;
-  padding: 0px 18px 75px;
+  left: 0;
+  padding: 0px 18.9px 78.75px;
   position: absolute;
-  top: 138px;
-  width: 354px;
-}
-
-.turian .div-item-hp-perfect-5 {
-  align-items: flex-start;
-  align-self: stretch;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 10.8px;
-  height: 186px;
-  padding: 31.5px 31.51px 37.95px 31.5px;
-  position: relative;
-  width: 100%;
+  top: 294px;
+  width: 371px;
 }
 
 .turian .link-2 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
+  margin-right: -22.62px;
   position: relative;
 }
 
@@ -1875,7 +1871,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 53.79px 0px 0px;
+  padding: 0px 165.15px 0px 0px;
   position: relative;
 }
 
@@ -1885,16 +1881,111 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.8px;
+  font-size: 19.7px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: fit-content;
+}
+
+.turian .add-a-personal-touch-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 10.02px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.turian .add-a-personal-touch {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.3px;
+  margin-right: -0.49px;
+  margin-top: -0.79px;
+  position: relative;
+  width: fit-content;
+}
+
+.turian .image-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  justify-content: center;
+  left: 33px;
+  max-width: 55.12px;
+  padding: 0px 0.6px 0px 0.6px;
+  position: absolute;
+  top: -17px;
+  width: 55px;
+}
+
+.turian .image-7 {
+  height: 35.44px;
+  position: relative;
+  width: 53.93px;
+}
+
+.turian .link-3 {
+  align-items: flex-start;
+  background-color: #5857ff;
+  bottom: -16px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  width: 98px;
+}
+
+.turian .div-item-hp-perfect-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 743px;
+  padding: 0px 18.9px 78.75px;
+  position: absolute;
+  top: 145px;
+  width: 371px;
+}
+
+.turian .div-item-hp-perfect-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 11.34px;
+  height: 195.3px;
+  padding: 33.07px 33.08px 39.85px 33.07px;
+  position: relative;
+  width: 100%;
+}
+
+.turian .link-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.turian .heading-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 56.48px 0px 0px;
+  position: relative;
 }
 
 .turian .div-text-6 {
@@ -1903,7 +1994,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 8.79px 0px 0px;
+  padding: 0px 9.23px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -1911,45 +2002,34 @@
 .turian .text-wrapper-42 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.7px;
+  font-size: 12.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.11px;
-  margin-right: -8.89px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.24px;
+  margin-right: -9.46px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
-.turian .span-hd-bdb-wrapper {
-  align-items: flex-start;
-  background-color: #5857ff;
-  display: flex;
-  flex-direction: column;
-  left: 206px;
-  position: absolute;
-  top: 171px;
-  width: 93px;
-}
-
-.turian .div-item-hp-perfect-6 {
+.turian .div-item-hp-perfect-7 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 18px 75px;
+  padding: 0px 18.9px 78.75px;
   position: absolute;
-  top: 418px;
-  width: 354px;
+  top: 438px;
+  width: 371px;
 }
 
-.turian .heading-7 {
+.turian .heading-8 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 79.3px 0px 0px;
+  padding: 0px 83.26px 0px 0px;
   position: relative;
 }
 
@@ -1959,11 +2039,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.9px;
+  font-size: 19.9px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -1977,7 +2057,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 10.3px 0px 0px;
+  padding: 0px 10.81px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -1985,111 +2065,32 @@
 .turian .text-wrapper-44 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.7px;
+  font-size: 12.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.1px;
-  margin-right: -10.4px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.23px;
+  margin-right: -11.04px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
-.turian .image-6 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 34px;
-  justify-content: center;
-  left: 31px;
-  max-width: 51.75px;
-  padding: 0px 0.56px;
-  position: absolute;
-  top: -16px;
-  width: 52px;
-}
-
-.turian .div-item-hp-perfect-7 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  left: 354px;
-  padding: 0px 18px 75px;
-  position: absolute;
-  top: 418px;
-  width: 354px;
-}
-
-.turian .link-3 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  margin-right: -21.5px;
+.turian .arrow-sm-red-svg-2 {
+  height: 10.24px;
   position: relative;
-}
-
-.turian .heading-8 {
-  align-items: flex-start;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  padding: 0px 157.29px 0px 0px;
-  position: relative;
-}
-
-.turian .add-a-personal-touch-wrapper {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  padding: 0px 9.54px 0px 0px;
-  position: relative;
-  width: 100%;
-}
-
-.turian .add-a-personal-touch {
-  color: #094254;
-  font-family: "Inter", Helvetica;
-  font-size: 11.6px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20.2px;
-  margin-top: -0.75px;
-  position: relative;
-  width: fit-content;
-}
-
-.turian .image-7 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 34px;
-  justify-content: center;
-  left: 32px;
-  max-width: 52.5px;
-  padding: 0px 0.57px 0px 0.57px;
-  position: absolute;
-  top: -16px;
-  width: 52px;
-}
-
-.turian .image-8 {
-  height: 33.75px;
-  position: relative;
-  width: 51.36px;
+  width: 11.02px;
 }
 
 .turian .div-item-hp-perfect-8 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  left: 708px;
-  padding: 0px 18px 75px;
+  left: 743px;
+  padding: 0px 18.9px 78.75px;
   position: absolute;
-  top: 418px;
-  width: 354px;
+  top: 438px;
+  width: 371px;
 }
 
 .turian .div-item-hp-perfect-9 {
@@ -2098,9 +2099,9 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  gap: 10.8px;
-  height: 187.5px;
-  padding: 31.5px 31.51px 37.95px 31.5px;
+  gap: 11.34px;
+  height: 196.88px;
+  padding: 33.07px 33.08px 39.85px 33.07px;
   position: relative;
   width: 100%;
 }
@@ -2110,7 +2111,7 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 72.54px 0px 0px;
+  padding: 0px 76.17px 0px 0px;
   position: relative;
 }
 
@@ -2120,11 +2121,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.5px;
+  font-size: 19.5px;
   font-weight: 600;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2138,7 +2139,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 4.29px 0px 0px;
+  padding: 0px 4.5px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2146,75 +2147,64 @@
 .turian .text-wrapper-46 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.7px;
+  font-size: 12.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.11px;
-  margin-right: -4.39px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.24px;
+  margin-right: -4.74px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
-.turian .span-hd-aa-wrapper {
-  align-items: flex-start;
-  background-color: #5857ff;
-  display: flex;
-  flex-direction: column;
-  left: 206px;
-  position: absolute;
-  top: 172px;
-  width: 93px;
-}
-
 .turian .mask-group-wrapper {
-  height: 62px;
-  left: 413px;
+  height: 65px;
+  left: 434px;
   overflow: hidden;
   position: absolute;
-  top: 18px;
-  width: 43px;
+  top: 19px;
+  width: 45px;
 }
 
 .turian .mask-group {
-  height: 43px;
-  left: 2099px;
+  height: 46px;
+  left: 2114px;
   position: absolute;
-  top: 4074px;
-  width: 43px;
+  top: 4138px;
+  width: 45px;
 }
 
 .turian .div-inner-width-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 825px;
-  left: 153px;
-  padding: 52.5px 52.2px 52.5px 52.2px;
+  height: 866px;
+  left: 161px;
+  padding: 55.12px 54.81px 55.12px 54.81px;
   position: absolute;
-  top: 1066px;
-  width: 1139px;
+  top: 1120px;
+  width: 1196px;
 }
 
 .turian .div-inner-width-2 {
-  height: 681px;
-  margin-left: -0.07px;
-  margin-right: -0.07px;
-  max-width: 1035px;
+  height: 715.05px;
+  margin-left: -0.08px;
+  margin-right: -0.08px;
+  max-width: 1086.75px;
   position: relative;
-  width: 1035px;
+  width: 1086.75px;
 }
 
 .turian .somos-experts-em-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 22px;
-  padding: 0px 347.55px 0px 347.7px;
+  left: 24px;
+  padding: 0px 364.93px 0px 365.08px;
   position: absolute;
-  top: -35px;
-  width: 990px;
+  top: -37px;
+  width: 1040px;
 }
 
 .turian .somos-experts-em {
@@ -2223,13 +2213,13 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 25.5px;
+  font-size: 26.8px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 37.1px;
-  margin-left: -73.62px;
-  margin-right: -73.62px;
-  margin-top: -0.75px;
+  line-height: 38.9px;
+  margin-left: -77.26px;
+  margin-right: -77.26px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-align: center;
@@ -2250,19 +2240,19 @@
   align-items: center;
   display: inline-flex;
   flex-direction: column;
-  left: 274px;
-  max-width: 487.5px;
-  padding: 0px 15.3px 0px 15.45px;
+  left: 288px;
+  max-width: 511.88px;
+  padding: 0px 16.06px 0px 16.22px;
   position: absolute;
   top: 13px;
 }
 
 .turian .heading-10 {
   flex: 0 0 auto;
-  margin-left: -266.63px;
-  margin-right: -266.62px;
+  margin-left: -279.96px;
+  margin-right: -279.96px;
   position: relative;
-  width: 990px;
+  width: 1039.5px;
 }
 
 .turian .div-flex {
@@ -2270,19 +2260,19 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0px 0px;
-  height: 480px;
+  height: 504px;
   justify-content: space-around;
-  left: 22px;
-  padding: 0px 297px 0px 0px;
+  left: 24px;
+  padding: 0px 311.85px 0px 0px;
   position: absolute;
-  top: 216px;
-  width: 990px;
+  top: 226px;
+  width: 1040px;
 }
 
 .turian .div-exp-ind-left {
-  height: 480.15px;
+  height: 504.16px;
   position: relative;
-  width: 693px;
+  width: 727.65px;
 }
 
 .turian .div-exp-ind-item {
@@ -2290,15 +2280,15 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 0px 37.5px;
+  padding: 0px 0px 39.38px;
   position: absolute;
   top: 0;
-  width: 333px;
+  width: 349px;
 }
 
 .turian .div-exp-ind-item-2 {
   align-self: stretch;
-  height: 122.55px;
+  height: 128.68px;
   position: relative;
   width: 100%;
 }
@@ -2308,10 +2298,10 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 175.13px 0px 0px;
+  padding: 0px 183.89px 0px 0px;
   position: absolute;
   top: 0;
-  width: 333px;
+  width: 349px;
 }
 
 .turian .text-wrapper-49 {
@@ -2320,11 +2310,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18px;
+  font-size: 18.9px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2337,41 +2327,41 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  max-width: 277.5px;
-  padding: 0px 33px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 34.65px 0px 0px;
   position: absolute;
-  top: 34px;
-  width: 278px;
+  top: 36px;
+  width: 291px;
 }
 
 .turian .text-wrapper-50 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.6px;
+  font-size: 12.2px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -16.43px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -17.23px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
-.turian .link-4 {
-  height: 16px;
+.turian .link-5 {
+  height: 17px;
   left: 0;
   position: absolute;
-  top: 106px;
-  width: 83px;
+  top: 112px;
+  width: 87px;
 }
 
 .turian .text-wrapper-51 {
   color: #5857ff;
   font-family: "Inter", Helvetica;
-  font-size: 12.3px;
+  font-size: 13px;
   font-weight: 700;
-  height: 15px;
+  height: 16px;
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -2379,28 +2369,28 @@
   top: 0;
 }
 
-.turian .image-9 {
+.turian .image-8 {
   align-items: center;
   display: inline-flex;
   justify-content: center;
-  left: 72px;
-  max-width: 11.25px;
+  left: 76px;
+  max-width: 11.81px;
   position: absolute;
   top: 5px;
 }
 
-.turian .image-10 {
-  height: 7.5px;
+.turian .image-9 {
+  height: 7.88px;
   position: relative;
-  width: 11.25px;
+  width: 11.81px;
 }
 
-.turian .overlap-group-4 {
-  height: 480px;
-  left: 360px;
+.turian .overlap-group-5 {
+  height: 504px;
+  left: 378px;
   position: absolute;
   top: 0;
-  width: 333px;
+  width: 349px;
 }
 
 .turian .div-exp-ind-item-3 {
@@ -2409,7 +2399,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  gap: 11.25px;
+  gap: 11.81px;
   position: relative;
   width: 100%;
 }
@@ -2420,7 +2410,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 147.38px 0px 0px;
+  padding: 0px 154.75px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2431,11 +2421,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.2px;
+  font-size: 19.1px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2449,8 +2439,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  max-width: 277.5px;
-  padding: 0px 42.75px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 44.89px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2458,21 +2448,21 @@
 .turian .text-wrapper-53 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.8px;
+  font-size: 12.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -26.18px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -27.47px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
-.turian .link-5 {
-  height: 16.2px;
+.turian .link-6 {
+  height: 17.01px;
   position: relative;
-  width: 83.29px;
+  width: 87.45px;
 }
 
 .turian .div-exp-ind-item-wrapper {
@@ -2480,10 +2470,10 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 0px 37.5px;
+  padding: 0px 0px 39.38px;
   position: absolute;
-  top: 160px;
-  width: 333px;
+  top: 168px;
+  width: 349px;
 }
 
 .turian .heading-13 {
@@ -2492,7 +2482,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 151.88px 0px 0px;
+  padding: 0px 159.48px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2503,11 +2493,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.4px;
+  font-size: 19.3px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2521,8 +2511,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  max-width: 277.5px;
-  padding: 0px 45.75px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 48.04px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2530,13 +2520,13 @@
 .turian .text-wrapper-55 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.8px;
+  font-size: 12.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -29.18px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -30.62px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -2546,10 +2536,10 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 0px 37.5px;
+  padding: 0px 0px 39.38px;
   position: absolute;
-  top: 320px;
-  width: 333px;
+  top: 336px;
+  width: 349px;
 }
 
 .turian .heading-14 {
@@ -2558,7 +2548,7 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 135.38px 0px 0px;
+  padding: 0px 142.15px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2569,11 +2559,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.7px;
+  font-size: 19.6px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2587,8 +2577,8 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  max-width: 277.5px;
-  padding: 0px 25.5px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 26.77px 0px 0px;
   position: relative;
   width: 100%;
 }
@@ -2596,13 +2586,13 @@
 .turian .text-wrapper-57 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.8px;
+  font-size: 12.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -8.93px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -9.36px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -2612,10 +2602,10 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  padding: 0px 139.88px 0px 0px;
+  padding: 0px 146.88px 0px 0px;
   position: absolute;
   top: 0;
-  width: 333px;
+  width: 349px;
 }
 
 .turian .text-wrapper-58 {
@@ -2624,11 +2614,11 @@
   color: #000000;
   display: -webkit-box;
   font-family: "Inter", Helvetica;
-  font-size: 18.5px;
+  font-size: 19.5px;
   font-weight: 500;
   letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
+  line-height: 24.3px;
+  margin-top: -0.79px;
   overflow: hidden;
   position: relative;
   text-overflow: ellipsis;
@@ -2641,23 +2631,23 @@
   display: flex;
   flex-direction: column;
   left: 0;
-  max-width: 277.5px;
-  padding: 0px 20.25px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 21.26px 0px 0px;
   position: absolute;
-  top: 34px;
-  width: 278px;
+  top: 36px;
+  width: 291px;
 }
 
 .turian .text-wrapper-59 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 11.5px;
+  font-size: 12.1px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -3.68px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -3.84px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
@@ -2668,27 +2658,9 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 156.38px 0px 0px;
+  padding: 0px 164.2px 0px 0px;
   position: relative;
   width: 100%;
-}
-
-.turian .text-wrapper-60 {
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 0;
-  color: #000000;
-  display: -webkit-box;
-  font-family: "Inter", Helvetica;
-  font-size: 18.6px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: 23.1px;
-  margin-top: -0.75px;
-  overflow: hidden;
-  position: relative;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .turian .div-text-15 {
@@ -2697,116 +2669,116 @@
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
-  max-width: 277.5px;
-  padding: 0px 32.25px 0px 0px;
+  max-width: 291.38px;
+  padding: 0px 33.86px 0px 0px;
   position: relative;
   width: 100%;
 }
 
-.turian .text-wrapper-61 {
+.turian .text-wrapper-60 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.2px;
-  margin-left: -0.07px;
-  margin-right: -15.68px;
-  margin-top: -0.75px;
+  line-height: 21.3px;
+  margin-left: -0.04px;
+  margin-right: -16.44px;
+  margin-top: -0.79px;
   position: relative;
   width: fit-content;
 }
 
 .turian .div-exp-ind-right {
   align-items: flex-start;
-  border: 3px solid;
+  border: 3.15px solid;
   border-color: #000000;
   display: flex;
   flex-direction: column;
-  left: 705px;
+  left: 71.21%;
   position: absolute;
   top: -3px;
-  width: 303px;
+  width: 30.61%;
 }
 
 .turian .div-squre {
   background-color: #e6f1fe;
-  border-radius: 14.25px;
-  height: 172px;
-  left: 192px;
+  border-radius: 14.96px;
+  height: 181px;
   position: absolute;
-  top: -68px;
-  width: 172px;
+  right: -65px;
+  top: -71px;
+  width: 181px;
 }
 
 .turian .div-hero {
   align-self: stretch;
-  background-image: url(../../../static/img/side-image-ind-jpg.png);
+  background-image: url(../../../static/img/side-image-ind-jpg-3.png);
   background-position: 50% 50%;
   background-size: cover;
-  height: 377.18px;
+  height: 396.04px;
   overflow: hidden;
   position: relative;
   width: 100%;
 }
 
-.turian .image-11 {
-  height: 377px;
-  left: -209px;
+.turian .image-10 {
+  height: 396px;
+  left: -219px;
   object-fit: cover;
   position: absolute;
   top: 0;
-  width: 566px;
+  width: 595px;
 }
 
 .turian .div-squre-2 {
-  height: 38px;
-  left: 184px;
+  bottom: 2px;
+  height: 39px;
   position: absolute;
-  top: 343px;
-  width: 128px;
+  right: -9px;
+  width: 134px;
 }
 
 .turian .div-squre-3 {
   background-color: #c59318;
-  border-radius: 5.25px;
-  height: 52px;
-  left: 682px;
+  border-radius: 5.51px;
+  bottom: 89px;
+  height: 55px;
+  left: 716px;
   position: absolute;
-  top: 343px;
-  width: 52px;
+  width: 55px;
 }
 
 .turian .div-industry-bottom {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.23px 0px;
+  gap: 0.24px 0px;
   justify-content: center;
-  left: 22px;
-  padding: 0px 30.34px 0px 30.34px;
+  left: 24px;
+  padding: 0px 31.86px 0px 31.85px;
   position: absolute;
-  top: 728px;
-  width: 990px;
+  top: 764px;
+  width: 1040px;
 }
 
 .turian .div-text-16 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  padding: 0px 13.5px 0px 0px;
+  padding: 0px 14.17px 0px 0px;
   position: relative;
-  width: 140.25px;
+  width: 147.26px;
 }
 
 .turian .link-gaming {
   color: #575dff;
   font-family: "Inter", Helvetica;
-  font-size: 12.4px;
+  font-size: 13px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 25.5px;
-  margin-top: -0.75px;
+  line-height: 26.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -2814,10 +2786,10 @@
 
 .turian .pseudo {
   background-color: #00000033;
-  height: 26px;
-  left: 122px;
+  height: 100%;
+  left: 128px;
   position: absolute;
-  top: 0;
+  top: 1.18%;
   width: 1px;
 }
 
@@ -2826,18 +2798,18 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 13.5px;
+  padding: 0px 14.17px;
   position: relative;
 }
 
-.turian .text-wrapper-62 {
+.turian .text-wrapper-61 {
   color: #575dff;
   font-family: "Inter", Helvetica;
-  font-size: 12.8px;
+  font-size: 13.4px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 25.5px;
-  margin-top: -0.75px;
+  line-height: 26.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -2845,8 +2817,8 @@
 
 .turian .pseudo-2 {
   background-color: #00000033;
-  height: 26px;
-  left: 108px;
+  height: 100%;
+  left: 113px;
   position: absolute;
   top: 0;
   width: 1px;
@@ -2854,8 +2826,8 @@
 
 .turian .pseudo-3 {
   background-color: #00000033;
-  height: 26px;
-  left: 105px;
+  height: 100%;
+  left: 110px;
   position: absolute;
   top: 0;
   width: 1px;
@@ -2866,18 +2838,18 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 13.12px 0px 13.5px;
+  padding: 0px 13.77px 0px 14.17px;
   position: relative;
 }
 
 .turian .link-app {
   color: #575dff;
   font-family: "Inter", Helvetica;
-  font-size: 12.7px;
+  font-size: 13.3px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 25.5px;
-  margin-top: -0.75px;
+  line-height: 26.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -2885,8 +2857,8 @@
 
 .turian .pseudo-4 {
   background-color: #00000033;
-  height: 26px;
-  left: 126px;
+  height: 100%;
+  left: 132px;
   position: absolute;
   top: 0;
   width: 1px;
@@ -2897,18 +2869,18 @@
   display: inline-flex;
   flex: 0 0 auto;
   flex-direction: column;
-  padding: 0px 13.06px 0px 13.5px;
+  padding: 0px 13.72px 0px 14.17px;
   position: relative;
 }
 
-.turian .text-wrapper-63 {
+.turian .text-wrapper-62 {
   color: #575dff;
   font-family: "Inter", Helvetica;
-  font-size: 12.5px;
+  font-size: 13.1px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 25.5px;
-  margin-top: -0.75px;
+  line-height: 26.8px;
+  margin-top: -0.79px;
   position: relative;
   white-space: nowrap;
   width: fit-content;
@@ -2916,8 +2888,8 @@
 
 .turian .pseudo-5 {
   background-color: #00000033;
-  height: 26px;
-  left: 159px;
+  height: 100%;
+  left: 166px;
   position: absolute;
   top: 0;
   width: 1px;
@@ -2925,257 +2897,261 @@
 
 .turian .pseudo-6 {
   background-color: #00000033;
-  height: 26px;
-  left: 82px;
+  height: 100%;
+  left: 86px;
   position: absolute;
-  top: 0;
+  top: 1.18%;
   width: 1px;
 }
 
 .turian .empresa-de-traduo-8 {
-  background-image: url(../../../static/img/mask-group-3.png);
+  background-image: url(../../../static/img/mask-group-50.png);
   background-size: 100% 100%;
-  height: 62px;
-  left: 1318px;
+  height: 65px;
+  left: 1384px;
   opacity: 0.15;
   position: absolute;
-  top: 837px;
-  width: 62px;
+  top: 879px;
+  width: 65px;
 }
 
 .turian .rectangle-6 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
-  height: 227px;
+  height: 239px;
   left: 0;
   position: absolute;
-  top: 876px;
-  width: 1440px;
+  top: 920px;
+  width: 1512px;
 }
 
 .turian .group-13 {
-  height: 778px;
-  left: 128px;
+  height: 817px;
+  left: 134px;
   position: absolute;
-  top: 1186px;
-  width: 1193px;
+  top: 1245px;
+  width: 1253px;
 }
 
 .turian .entendemos-que-cada {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 15.9px;
+  font-size: 16.7px;
   font-weight: 400;
-  height: 55px;
+  height: 58px;
   left: 0;
   letter-spacing: 0;
-  line-height: 27px;
+  line-height: 28.3px;
   position: absolute;
   text-align: center;
   top: 0;
-  width: 1191px;
+  width: 1251px;
 }
 
-.turian .text-wrapper-64 {
+.turian .text-wrapper-63 {
   color: #094254;
   font-family: "Inter", Helvetica;
-  font-size: 15.9px;
+  font-size: 16.7px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 27px;
+  line-height: 28.3px;
 }
 
 .turian .empresa-de-traduo-9 {
-  background-image: url(../../../static/img/mask-group-12.png);
+  background-image: url(../../../static/img/mask-group-51.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: 1123px;
+  height: 40px;
+  left: 1179px;
   opacity: 0.15;
   position: absolute;
-  top: 128px;
-  width: 38px;
+  top: 135px;
+  width: 40px;
 }
 
-.turian .link-6 {
+.turian .link-7 {
   align-items: flex-start;
   background-color: #5857ff;
-  border: 0.75px solid;
-  border-radius: 45px;
+  border: 0.79px solid;
+  border-radius: 47.25px;
   display: inline-flex;
   justify-content: center;
-  left: 508px;
-  min-width: 120px;
-  padding: 0.9px 14.1px 0px;
+  left: 533px;
+  min-width: 126px;
+  padding: 0.94px 14.8px 0px;
   position: absolute;
-  top: 738px;
+  top: 775px;
+}
+
+.turian .overlap-13 {
+  height: 239px;
+  left: 0;
+  position: absolute;
+  top: 2733px;
+  width: 1512px;
 }
 
 .turian .empresa-de-traduo-10 {
-  background-image: url(../../../static/img/mask-group-1.png);
+  background-image: url(../../../static/img/mask-group-47.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: 73px;
+  height: 40px;
+  left: 1184px;
   opacity: 0.15;
   position: absolute;
-  top: 1183px;
-  width: 38px;
-}
-
-.turian .overlap-14 {
-  height: 227px;
-  left: 0;
-  position: absolute;
-  top: 2603px;
-  width: 1440px;
+  top: 46px;
+  width: 40px;
 }
 
 .turian .empresa-de-traduo-11 {
-  background-image: url(../../../static/img/mask-group.png);
+  background-image: url(../../../static/img/mask-group-49.png);
   background-size: 100% 100%;
-  height: 38px;
-  left: 1127px;
-  opacity: 0.15;
-  position: absolute;
-  top: 44px;
-  width: 38px;
-}
-
-.turian .empresa-de-traduo-12 {
-  background-image: url(../../../static/img/mask-group-2.png);
-  background-size: 100% 100%;
-  height: 62px;
-  left: 511px;
+  height: 65px;
+  left: 536px;
   opacity: 0.15;
   position: absolute;
   top: 0;
-  width: 62px;
+  width: 65px;
+}
+
+.turian .empresa-de-traduo-12 {
+  background-image: url(../../../static/img/mask-group-48.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 73px;
+  opacity: 0.15;
+  position: absolute;
+  top: 4214px;
+  width: 40px;
 }
 
 .turian .rectangle-7 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 34.9%, rgba(230, 241, 254, 0) 100%);
-  height: 209px;
+  height: 220px;
   left: 0;
   position: fixed;
-  top: 0;
-  width: 1440px;
+  top: -1px;
+  width: 1512px;
 }
 
 .turian .dropdown-instance {
-  left: 1038px !important;
+  left: 1090px !important;
   position: fixed !important;
-  top: 64px !important;
-  width: 99px !important;
+  top: 67px !important;
+  width: 104px !important;
 }
 
 .turian .design-component-instance-node {
-  border-radius: 21.75px !important;
+  border-radius: 22.84px !important;
 }
 
 .turian .dropdown-2 {
   background-color: #c59318 !important;
-  border: 0.75px solid !important;
-  border-radius: 17.25px !important;
-  gap: 7.5px !important;
-  padding: 0px 7.5px !important;
+  border: 0.79px solid !important;
+  border-radius: 18.11px !important;
+  gap: 7.87px !important;
+  padding: 0px 7.87px !important;
 }
 
 .turian .dropdown-3 {
-  padding: 3.75px 1.5px 5.25px !important;
+  padding: 3.94px 1.57px 5.51px !important;
 }
 
 .turian .dropdown-4 {
   color: #ffffff !important;
   font-family: "Inter", Helvetica !important;
-  font-size: 10.5px !important;
-  line-height: 15px !important;
-  margin-top: -0.75px !important;
+  font-size: 11px !important;
+  line-height: 15.7px !important;
+  margin-top: -0.79px !important;
 }
 
 .turian .dropdown-5 {
-  gap: 3px !important;
-  padding: 4.5px 0px 4.5px 1.5px !important;
+  gap: 3.15px !important;
+  padding: 4.72px 0px 4.72px 1.57px !important;
 }
 
-.turian .icon-end-1-medium-17 {
-  height: 15px !important;
+.turian .design-component-instance-node-2 {
+  height: 15.75px !important;
+  left: unset !important;
   position: relative !important;
-  width: 15px !important;
+  top: unset !important;
+  width: 15.75px !important;
 }
 
 .turian .dropdown-6 {
   background-color: unset !important;
-  top: 23px !important;
-  width: 99px !important;
+  bottom: 1px !important;
 }
 
 .turian .dropdown-7 {
-  left: 1155px !important;
+  left: 1213px !important;
   position: fixed !important;
-  top: 64px !important;
-  width: 99px !important;
+  top: 67px !important;
+  width: 104px !important;
 }
 
 .turian .dropdown-8 {
   background-color: unset !important;
-  border: 1.5px solid !important;
+  border: 1.57px solid !important;
   border-color: #c59318 !important;
-  border-radius: 17.25px !important;
-  gap: 7.5px !important;
-  padding: 0px 7.5px !important;
+  border-radius: 18.11px !important;
+  gap: 7.87px !important;
+  padding: 0px 7.87px !important;
 }
 
 .turian .dropdown-9 {
   color: #000000 !important;
   flex: 1 !important;
   font-family: "Inter", Helvetica !important;
-  font-size: 10.5px !important;
+  font-size: 11px !important;
   font-weight: 600 !important;
-  line-height: 15px !important;
-  margin-top: -0.75px !important;
+  line-height: 15.7px !important;
+  margin-top: -0.79px !important;
   text-align: center !important;
   white-space: unset !important;
   width: unset !important;
 }
 
 .turian .group-14 {
-  height: 18px;
-  left: 549px;
+  height: 19px;
+  left: 576px;
   position: fixed;
-  top: 67px;
-  width: 369px;
+  top: 70px;
+  width: 387px;
 }
 
 .turian .frame-17 {
   align-items: center;
   display: inline-flex;
-  gap: 3px;
+  gap: 3.15px;
   left: 0;
   position: absolute;
   top: 0;
 }
 
-.turian .text-wrapper-65 {
+.turian .text-wrapper-64 {
   color: var(--gray-900);
   font-family: "Inter", Helvetica;
-  font-size: 12px;
+  font-size: 12.6px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
   position: relative;
   text-align: center;
+  white-space: nowrap;
   width: fit-content;
 }
 
-.turian .expand-more {
-  height: 18px !important;
+.turian .expand-more-instance {
+  height: 18.9px !important;
+  left: unset !important;
   position: relative !important;
-  width: 18px !important;
+  top: unset !important;
+  width: 18.9px !important;
 }
 
 .turian .frame-18 {
   align-items: center;
   display: inline-flex;
-  gap: 3px;
-  left: 97px;
+  gap: 3.15px;
+  left: 102px;
   position: absolute;
   top: 0;
 }
@@ -3183,8 +3159,8 @@
 .turian .frame-19 {
   align-items: center;
   display: inline-flex;
-  gap: 3px;
-  left: 200px;
+  gap: 3.15px;
+  left: 210px;
   position: absolute;
   top: 0;
 }
@@ -3192,17 +3168,17 @@
 .turian .frame-20 {
   align-items: center;
   display: inline-flex;
-  gap: 3px;
-  left: 303px;
+  gap: 3.15px;
+  left: 318px;
   position: absolute;
   top: 0;
 }
 
 .turian .logo-preto-branco-2 {
-  height: 32px;
-  left: 150px;
+  height: 34px;
+  left: 158px;
   object-fit: cover;
   position: fixed;
-  top: 64px;
-  width: 124px;
+  top: 67px;
+  width: 130px;
 }

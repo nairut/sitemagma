@@ -24,5 +24,9 @@ export const Default = {
     direction: "down",
     size: "sixteen",
     theme: "filled",
+    directionUpSizeClassName: {},
+    directionDownSize: "/img/direction-down-size-20-theme-regular-2.png",
+    img: "/img/direction-down-size-16-theme-regular-2.png",
+    directionDownSize1: "/img/direction-down-size-24-theme-regular-2.png",
   },
 };

@@ -6,7 +6,17 @@ export const Academy = () => {
   return (
     
     <div className="academy">
-      <helmet>Isso é uma meta</helmet>
+      
+      <Helmet>
+<title>TIIIIIITULO</title>
+<description>Deeeescrição</description>
+
+
+<meta name="theme-color" content="#FF0000"/>
+</Helmet>
+
+
+
       <div className="div-2">
         <div className="overlap-29">
           <div className="rectangle-6" />

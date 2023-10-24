@@ -1,4 +1,10 @@
-.instance-node {
+.chevron {
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.chevron .instance-node {
   height: 28px !important;
   left: 0 !important;
   position: absolute !important;
@@ -6,42 +12,32 @@
   width: 28px !important;
 }
 
-.instance-node-2 {
-  height: 48px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 48px !important;
+.chevron.twelve {
+  height: 12px;
+  width: 12px;
 }
 
-.instance-node-3 {
-  height: 16px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 16px !important;
+.chevron.twenty {
+  height: 20px;
+  width: 20px;
 }
 
-.class-3 {
-  height: 12px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 12px !important;
+.chevron.sixteen {
+  height: 16px;
+  width: 16px;
 }
 
-.class-4 {
-  height: 24px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 24px !important;
+.chevron.forty-eight {
+  height: 48px;
+  width: 48px;
 }
 
-.instance-node-4 {
-  height: 20px !important;
-  left: 0 !important;
-  position: absolute !important;
-  top: 0 !important;
-  width: 20px !important;
+.chevron.twenty-four {
+  height: 24px;
+  width: 24px;
+}
+
+.chevron.twenty-eight {
+  height: 28px;
+  width: 28px;
 }
