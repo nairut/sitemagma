@@ -1,10 +1,12 @@
 import React from "react";
+import { ContatoRapido } from "../../components/ContatoRapido";
+import { FaleComUm } from "../../components/FaleComUm";
 import "./style.css";
 
 export const Turian = () => {
   return (
     <div className="turian">
-      <div className="div">
+      <div className="div-2">
         <div className="overlap">
           <div className="rectangle" />
           <div className="rectangle-2" />
@@ -20,28 +22,24 @@ export const Turian = () => {
           <div className="frame">
             <div className="frame-2">
               <p className="tradu-es-bem">
-                <span className="text-wrapper">Traduções </span>
-                <span className="span">bem avaliadas - </span>
-                <span className="text-wrapper">de pequeno e grande porte.</span>
+                <span className="span">Traduções </span>
+                <span className="text-wrapper-2">bem avaliadas - </span>
+                <span className="span">de pequeno e grande porte.</span>
               </p>
               <p className="p">
                 Entre em contato com um especialista para um projeto de sua empresa ou clique em orçamento rápido para
                 traduzir seu arquivo pessoal.
               </p>
             </div>
-            <div className="frame-3">
-              <div className="fale-com-um">
-                <div className="text-wrapper-2">Fale com um especialista</div>
-              </div>
-              <div className="contato-rapido">
-                <div className="contato-rapido-2">Orçamento Rapido</div>
-              </div>
+            <div className="dois-botes">
+              <FaleComUm className="fale-com-um-especialista" property1="default" />
+              <ContatoRapido className="contato-rapido-instance" property1="default" text="Orçamento Rápido" />
             </div>
             <div className="div-rewards-icons">
               <img className="slator-svg" alt="Slator svg" src="/img/slator-2023-svg.png" />
               <div className="top-fastest" />
-              <img className="nimdzi-svg" alt="Nimdzi svg" src="/img/nimdzi-2023-svg.png" />
-              <img className="frame-svg" alt="Frame svg" src="/img/frame-14349-svg.png" />
+              <img className="nimdzi-svg" alt="Nimdzi svg" src="/img/nimdzi-2023-svg-1.png" />
+              <img className="frame-svg" alt="Frame svg" src="/img/frame-14349-svg-1.png" />
             </div>
           </div>
           <div className="imagens">
@@ -70,10 +68,10 @@ export const Turian = () => {
             <div className="empresas-que-confiam-wrapper">
               <p className="empresas-que-confiam">Empresas Que Confiam Em Nós</p>
             </div>
-            <img className="img" alt="Group" src="/img/group-22.png" />
+            <img className="img" alt="Group" src="/img/group-22-1.png" />
           </div>
           <div className="rectangle-3" />
-          <img className="hero-header" alt="Hero header" src="/img/hero-header-05.png" />
+          <img className="hero-header" alt="Hero header" src="/img/hero-header-05-1.png" />
         </div>
         <div className="overlap-2">
           <div className="overlap-wrapper">
@@ -484,7 +482,7 @@ export const Turian = () => {
         </div>
         <div className="overlap-6">
           <div className="testimonial">
-            <div className="frame-4">
+            <div className="frame-3">
               <p className="text-wrapper-29">O que nossos clientes dizem</p>
               <p className="text-wrapper-30">
                 Todas as traduções passam por revisão e validação minuciosas nossa equipe de editores profissionais
@@ -492,12 +490,12 @@ export const Turian = () => {
               </p>
             </div>
           </div>
-          <div className="frame-5">
-            <div className="frame-6">
-              <div className="frame-7">
+          <div className="frame-4">
+            <div className="frame-5">
+              <div className="frame-6">
                 <img className="ellipse-4" alt="Ellipse" src="/img/ellipse-80.png" />
-                <div className="frame-8">
-                  <div className="frame-9">
+                <div className="frame-7">
+                  <div className="frame-8">
                     <div className="text-wrapper-31">Milton Santana</div>
                     <div className="text-wrapper-32">Shoppee</div>
                   </div>
@@ -507,19 +505,19 @@ export const Turian = () => {
                 Sem a Magma Translation, nosso crescimento e processo de internacionalização não teriam sido
                 bem-sucedidos, devido à competência de sua equipe.
               </p>
-              <div className="frame-10">
+              <div className="frame-9">
                 <img className="star" alt="Star" src="/img/star-21.png" />
-                <img className="star" alt="Star" src="/img/star-22.png" />
+                <img className="star" alt="Star" src="/img/star-22-3.png" />
                 <img className="star" alt="Star" src="/img/star-23.png" />
                 <img className="star" alt="Star" src="/img/star-24.png" />
-                <img className="star" alt="Star" src="/img/star-25.png" />
+                <img className="star" alt="Star" src="/img/star-25-3.png" />
               </div>
             </div>
-            <div className="frame-11">
-              <div className="frame-12">
+            <div className="frame-10">
+              <div className="frame-11">
                 <img className="ellipse-5" alt="Ellipse" src="/img/ellipse-2.png" />
-                <div className="frame-13">
-                  <div className="frame-14">
+                <div className="frame-12">
+                  <div className="frame-13">
                     <div className="bruno-vidal">Bruno Vidal</div>
                     <div className="text-wrapper-34">Hotmart</div>
                   </div>
@@ -529,19 +527,19 @@ export const Turian = () => {
                 Na Magma, procurávamos a expertise em localização cultural, o entendimento profundo das mentalidades nos
                 EUA, Reino Unido e Alemanha para nossos projetos.
               </p>
-              <div className="frame-15">
-                <img className="star" alt="Star" src="/img/star-21-1.png" />
+              <div className="frame-14">
+                <img className="star" alt="Star" src="/img/star-21-4.png" />
                 <img className="star" alt="Star" src="/img/star-22-1.png" />
                 <img className="star" alt="Star" src="/img/star-23-1.png" />
                 <img className="star" alt="Star" src="/img/star-24-1.png" />
-                <img className="star" alt="Star" src="/img/star-25-1.png" />
+                <img className="star" alt="Star" src="/img/star-25-4.png" />
               </div>
             </div>
-            <div className="frame-16">
-              <div className="frame-17">
+            <div className="frame-15">
+              <div className="frame-16">
                 <img className="ellipse-4" alt="Ellipse" src="/img/ellipse-80-1.png" />
-                <div className="frame-8">
-                  <div className="frame-9">
+                <div className="frame-7">
+                  <div className="frame-8">
                     <div className="text-wrapper-36">Danielle Schmitt</div>
                     <div className="text-wrapper-32">Zf Friedrichshafen</div>
                   </div>
@@ -551,12 +549,12 @@ export const Turian = () => {
                 Somos uma empresa alemã, o maior fabricante de peças de automóveis do mundo. Para nós, a confiança na
                 segurança de dados é essencial. A Magma Translation é uma empresa confiável.
               </p>
-              <div className="frame-15">
+              <div className="frame-14">
                 <img className="star" alt="Star" src="/img/star-21-2.png" />
                 <img className="star" alt="Star" src="/img/star-22-2.png" />
                 <img className="star" alt="Star" src="/img/star-23-2.png" />
                 <img className="star" alt="Star" src="/img/star-24-2.png" />
-                <img className="star" alt="Star" src="/img/star-25-2.png" />
+                <img className="star" alt="Star" src="/img/star-25-5.png" />
               </div>
             </div>
           </div>
@@ -565,7 +563,7 @@ export const Turian = () => {
             <div className="section-2">
               <div className="div-inner-width-2">
                 <div className="heading-14">
-                  <p className="text-wrapper-37">O que nós podemos traduzir?</p>
+                  <p className="text-wrapper-37">Éxemplos de Materiais que Traduzimos</p>
                 </div>
                 <div className="div-text-14">
                   <p className="text-wrapper-38">
@@ -577,7 +575,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="img-2" alt="Documento" src="/img/documento-1-1.png" />
+                        <img className="img-2" alt="Documento" src="/img/documento-1-1-1.png" />
                         <div className="heading-15">
                           <div className="text-wrapper-39">Documentos</div>
                         </div>
@@ -595,7 +593,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="img-3" alt="Seta de alvo" src="/img/seta-de-alvo-1.png" />
+                        <img className="img-3" alt="Seta de alvo" src="/img/seta-de-alvo-1-1.png" />
                         <div className="marketing-material-wrapper">
                           <div className="text-wrapper-41">Marketing Material &amp; Ads</div>
                         </div>
@@ -611,7 +609,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="alt-do-site" alt="Alt do site" src="/img/alt-do-site-1.png" />
+                        <img className="alt-do-site" alt="Alt do site" src="/img/alt-do-site-1-1.png" />
                         <div className="heading-16">
                           <div className="text-wrapper-41">Website &amp; Apps</div>
                         </div>
@@ -629,7 +627,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="filme" alt="Filme" src="/img/filme-1-1.png" />
+                        <img className="filme" alt="Filme" src="/img/filme-1-1-1.png" />
                         <div className="heading-16">
                           <div className="text-wrapper-41">Legenda de vídeos</div>
                         </div>
@@ -645,7 +643,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="img-3" alt="Alt de inventario" src="/img/alt-de-inventario-1.png" />
+                        <img className="img-3" alt="Alt de inventario" src="/img/alt-de-inventario-1-1.png" />
                         <div className="heading-16">
                           <div className="text-wrapper-41">Descrição de produtos</div>
                         </div>
@@ -663,7 +661,7 @@ export const Turian = () => {
                   <div className="div-item-serv-power">
                     <div className="div-item-serv-power-2">
                       <div className="div-item-hp-perfect-12">
-                        <img className="img-2" alt="Diploma" src="/img/diploma-1.png" />
+                        <img className="img-2" alt="Diploma" src="/img/diploma-1-1.png" />
                         <div className="heading-16">
                           <div className="text-wrapper-44">Artigos científicos, certificados;</div>
                         </div>
@@ -701,7 +699,7 @@ export const Turian = () => {
         </div>
         <div className="rectangle-7" />
         <div className="rectangle-8" />
-        <img className="logo-preto-branco-2" alt="Logo preto branco" src="/img/logo-preto-branco-2.png" />
+        <img className="logo-preto-branco-2" alt="Logo preto branco" />
       </div>
     </div>
   );

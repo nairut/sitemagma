@@ -60,7 +60,7 @@ export const App = () => {
 
       {
         path: "/sinistro",
-        element: isMobile ? <Sinistro /> : <Turian />,
+        element: isMobile ? <CelularPtpronto  /> : <Turian />,
       },
 
 

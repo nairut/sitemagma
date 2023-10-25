@@ -1,0 +1,35 @@
+.contato-rapido {
+  align-items: center;
+  border: 1.57px solid;
+  border-color: #c59318;
+  border-radius: 78.75px;
+  display: flex;
+  justify-content: center;
+  left: 20px;
+  overflow: hidden;
+  padding: 12.6px 25.2px;
+  position: relative;
+  width: 244px;
+}
+
+.contato-rapido .div {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 15.7px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.57px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.contato-rapido.property-1-default {
+  top: 20px;
+}
+
+.contato-rapido.property-1-variant-2 {
+  background-color: #8281ff;
+  top: 84px;
+}
