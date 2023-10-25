@@ -17,7 +17,7 @@ export const Celularacademydois = () => {
         </p>
         <div className="text-wrapper-2">Checa os valores:</div>
         <div className="text-wrapper-3">Dá uma olhada</div>
-        <img className="image" alt="Image" src="/img/image-3sss.png" />
+        <img className="image" alt="Image" src="/img/image-3.png" />
         <img className="img" alt="Image" src="/img/image-2.png" />
         <p className="p">Agora olha as notas fiscais de tradutores da minha empresa</p>
         <img className="PO" alt="Po" src="/img/po-335-3.png" />
