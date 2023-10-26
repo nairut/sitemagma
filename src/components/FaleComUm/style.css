@@ -10,7 +10,6 @@
 }
 
 .fale-com-um .text-wrapper {
-  color: var(--base-white);
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
   font-weight: 700;
@@ -30,4 +29,12 @@
 .fale-com-um.variant-2 {
   background-color: #8281ff;
   top: 84px;
+}
+
+.fale-com-um.default .text-wrapper {
+  color: #fff6f6;
+}
+
+.fale-com-um.variant-2 .text-wrapper {
+  color: var(--base-white);
 }

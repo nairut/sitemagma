@@ -15,7 +15,7 @@ export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido"
 
   return (
     <a
-      className={`contato-rapido property-1-${state.property1} ${className}`}
+      className={`contato-rapido property-1-0-${state.property1} ${className}`}
       href="https://contato.magmatranslation.com/"
       rel="noopener noreferrer"
       target="_blank"

@@ -79,12 +79,9 @@ export const App = () => {
       },
 
       {
-        path: "/sercico-de-traduca-tecnica",
+        path: "/servico-de-traduca-tecnica",
         element: isMobile ? <CelularPtpronto  /> : <Traducaotecnica />,
       },
-
-
-
 
       {
         path: "/case-shopee-e-commerce",
