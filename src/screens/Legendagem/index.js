@@ -1,0 +1,1 @@
+export { Legendagem } from "./Legendagem";

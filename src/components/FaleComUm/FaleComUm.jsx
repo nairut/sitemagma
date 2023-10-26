@@ -8,7 +8,7 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
-export const FaleComUm = ({ property1, className, divClassName }) => {
+export const FaleComUm = ({ property1, className }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
@@ -26,7 +26,7 @@ export const FaleComUm = ({ property1, className, divClassName }) => {
         dispatch("mouse_enter");
       }}
     >
-      <div className={`text-wrapper ${divClassName}`}>Fale com um especialista</div>
+      <div className="text-wrapper">Fale com um especialista</div>
     </a>
   );
 };

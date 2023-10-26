@@ -28,6 +28,7 @@ import { Traducaotecnica } from "./screens/Traducaotecnica";
 import { Sobre } from "./screens/Sobre";
 import { CaseShopee } from "./screens/CaseShopee/CaseShopee";
 import { CaseZf } from "./screens/CaseZf/CaseZf";
+import { Legendagem } from "./screens/Legendagem/Legendagem";
 
 
 
@@ -69,27 +70,35 @@ export const App = () => {
 
 
       {
-        path: "/orcamento-rapido",
+        path: "/turian",
         element: isMobile ? <CelularPtpronto  /> : <Turian />,
       },
 
       {
-        path: "/quem-somos",
+        path: "/sobre",
         element: isMobile ? <CelularPtpronto  /> : <Sobre />,
       },
 
       {
-        path: "/servico-de-traduca-tecnica",
+        path: "/traducaotecnica",
         element: isMobile ? <CelularPtpronto  /> : <Traducaotecnica />,
       },
 
       {
-        path: "/case-shopee-e-commerce",
+        path: "/legendagem",
+        element: isMobile ? <CelularPtpronto  /> : <Legendagem />,
+      },
+
+
+
+
+      {
+        path: "/caseshopee",
         element: isMobile ? <CelularPtpronto  /> : <CaseShopee />,
       },
 
       {
-        path: "/Case-zf",
+        path: "/casezf",
         element: isMobile ? <CelularPtpronto  /> : <CaseZf />,
       },
 

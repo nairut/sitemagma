@@ -1,0 +1,37 @@
+.menu {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 25px;
+  left: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.menu .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 3.15px;
+  position: relative;
+}
+
+.menu .text-wrapper-2 {
+  color: var(--gray-900);
+  font-family: "Inter", Helvetica;
+  font-size: 12.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.menu .expand-more-instance {
+  height: 18.9px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18.9px !important;
+}

@@ -14,7 +14,7 @@
   width: 1512px;
 }
 
-.case-ZF .overlap-10 {
+.case-ZF .overlap-11 {
   height: 1970px;
   left: -226px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 1744px;
 }
 
-.case-ZF .rectangle-12 {
+.case-ZF .rectangle-16 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
   height: 239px;
   left: 232px;
@@ -31,7 +31,7 @@
   width: 1512px;
 }
 
-.case-ZF .rectangle-13 {
+.case-ZF .rectangle-17 {
   background-color: #e6f1fe;
   height: 914px;
   left: 223px;
@@ -51,7 +51,7 @@
   width: 769px;
 }
 
-.case-ZF .ellipse-10 {
+.case-ZF .ellipse-15 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 239.16px;
@@ -73,7 +73,7 @@
   width: 367px;
 }
 
-.case-ZF .ellipse-11 {
+.case-ZF .ellipse-16 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 114.19px;
@@ -95,7 +95,7 @@
   width: 634px;
 }
 
-.case-ZF .ellipse-12 {
+.case-ZF .ellipse-17 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 197.26px;
@@ -106,7 +106,7 @@
   width: 395px;
 }
 
-.case-ZF .frame-29 {
+.case-ZF .frame-53 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@
   width: 709px;
 }
 
-.case-ZF .frame-30 {
+.case-ZF .frame-54 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -141,7 +141,7 @@
   width: 709px;
 }
 
-.case-ZF .text-wrapper-57 {
+.case-ZF .text-wrapper-49 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 40.3px;
@@ -150,11 +150,11 @@
   line-height: 48px;
 }
 
-.case-ZF .text-wrapper-58 {
+.case-ZF .text-wrapper-50 {
   font-size: 25px;
 }
 
-.case-ZF .text-wrapper-59 {
+.case-ZF .text-wrapper-51 {
   color: var(--base-black);
   font-family: "Inter", Helvetica;
   font-size: 19.2px;
@@ -179,7 +179,7 @@
   top: unset !important;
 }
 
-.case-ZF .contato-rapido-2 {
+.case-ZF .contato-rapido-3 {
   left: unset !important;
   top: unset !important;
 }
@@ -210,7 +210,7 @@
   width: 331px;
 }
 
-.case-ZF .frame-31 {
+.case-ZF .frame-55 {
   border-radius: 78.75px;
   height: 309px;
   left: 147px;
@@ -237,8 +237,8 @@
   width: 194px;
 }
 
-.case-ZF .empresa-de-traduo-20 {
-  background-image: url(../../../static/img/mask-group.png);
+.case-ZF .empresa-de-traduo-16 {
+  background-image: url(../../../static/img/mask-group-8.png);
   background-size: 100% 100%;
   height: 62px;
   left: 253px;
@@ -247,8 +247,8 @@
   width: 62px;
 }
 
-.case-ZF .empresa-de-traduo-21 {
-  background-image: url(../../../static/img/mask-group-4.png);
+.case-ZF .empresa-de-traduo-17 {
+  background-image: url(../../../static/img/mask-group-12.png);
   background-size: 100% 100%;
   height: 31px;
   left: 75px;
@@ -257,8 +257,8 @@
   width: 31px;
 }
 
-.case-ZF .empresa-de-traduo-22 {
-  background-image: url(../../../static/img/mask-group-14.png);
+.case-ZF .empresa-de-traduo-18 {
+  background-image: url(../../../static/img/mask-group-9.png);
   background-size: 100% 100%;
   height: 40px;
   left: 376px;
@@ -268,8 +268,8 @@
   width: 40px;
 }
 
-.case-ZF .empresa-de-traduo-23 {
-  background-image: url(../../../static/img/mask-group-2.png);
+.case-ZF .empresa-de-traduo-19 {
+  background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 40px;
   left: -233px;
@@ -279,8 +279,8 @@
   width: 40px;
 }
 
-.case-ZF .empresa-de-traduo-24 {
-  background-image: url(../../../static/img/mask-group-16.png);
+.case-ZF .empresa-de-traduo-20 {
+  background-image: url(../../../static/img/mask-group-11.png);
   background-size: 100% 100%;
   height: 39px;
   left: -561px;
@@ -301,7 +301,7 @@
   width: 174px;
 }
 
-.case-ZF .text-wrapper-60 {
+.case-ZF .text-wrapper-52 {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
   font-size: 15.2px;
@@ -315,7 +315,7 @@
   width: 153px;
 }
 
-.case-ZF .text-wrapper-61 {
+.case-ZF .text-wrapper-53 {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
   font-size: 15.2px;
@@ -329,7 +329,7 @@
   width: 153px;
 }
 
-.case-ZF .text-wrapper-62 {
+.case-ZF .text-wrapper-54 {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
   font-size: 15.2px;
@@ -343,8 +343,8 @@
   width: 175px;
 }
 
-.case-ZF .empresa-de-traduo-25 {
-  background-image: url(../../../static/img/mask-group-5.png);
+.case-ZF .empresa-de-traduo-21 {
+  background-image: url(../../../static/img/mask-group-4.png);
   background-size: 100% 100%;
   height: 40px;
   left: 321px;
@@ -354,8 +354,8 @@
   width: 40px;
 }
 
-.case-ZF .empresa-de-traduo-26 {
-  background-image: url(../../../static/img/mask-group-6.png);
+.case-ZF .empresa-de-traduo-22 {
+  background-image: url(../../../static/img/mask-group-14.png);
   background-size: 100% 100%;
   height: 46px;
   left: 1121px;
@@ -364,7 +364,7 @@
   width: 46px;
 }
 
-.case-ZF .frame-32 {
+.case-ZF .frame-56 {
   align-items: flex-start;
   background-color: #f7f8ff;
   border-radius: 28.95px;
@@ -377,7 +377,7 @@
   top: 1629px;
 }
 
-.case-ZF .frame-33 {
+.case-ZF .frame-57 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -385,14 +385,14 @@
   position: relative;
 }
 
-.case-ZF .ellipse-13 {
+.case-ZF .ellipse-18 {
   height: 82.02px;
   object-fit: cover;
   position: relative;
   width: 82.02px;
 }
 
-.case-ZF .frame-34 {
+.case-ZF .frame-58 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -401,7 +401,7 @@
   position: relative;
 }
 
-.case-ZF .frame-35 {
+.case-ZF .frame-59 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -410,7 +410,7 @@
   position: relative;
 }
 
-.case-ZF .text-wrapper-63 {
+.case-ZF .text-wrapper-55 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 27px;
@@ -434,7 +434,7 @@
   width: fit-content;
 }
 
-.case-ZF .text-wrapper-64 {
+.case-ZF .text-wrapper-56 {
   color: #000000cc;
   font-family: "Inter", Helvetica;
   font-size: 15.4px;
@@ -445,7 +445,7 @@
   width: 385.96px;
 }
 
-.case-ZF .frame-36 {
+.case-ZF .frame-60 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -532,13 +532,13 @@
   width: 977px;
 }
 
-.case-ZF .overlap-11 {
+.case-ZF .overlap-12 {
   height: 81px;
   position: relative;
   width: 973px;
 }
 
-.case-ZF .text-wrapper-65 {
+.case-ZF .text-wrapper-57 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -552,7 +552,7 @@
   white-space: nowrap;
 }
 
-.case-ZF .text-wrapper-66 {
+.case-ZF .text-wrapper-58 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -575,78 +575,13 @@
   width: 186px;
 }
 
-.case-ZF .rectangle-14 {
-  background: linear-gradient(180deg, rgb(230, 241, 254) 34.9%, rgba(230, 241, 254, 0) 100%);
+.case-ZF .rectangle-18 {
+  background-color: #e6f1fe;
   height: 142px;
   left: 0;
   position: fixed;
   top: 0;
   width: 1512px;
-}
-
-.case-ZF .group-18 {
-  height: 19px;
-  left: 576px;
-  position: fixed;
-  top: 70px;
-  width: 387px;
-}
-
-.case-ZF .frame-37 {
-  align-items: center;
-  display: inline-flex;
-  gap: 3.15px;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.case-ZF .text-wrapper-67 {
-  color: var(--gray-900);
-  font-family: "Inter", Helvetica;
-  font-size: 12.6px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  text-align: center;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.case-ZF .expand-more-2 {
-  height: 18.9px !important;
-  left: unset !important;
-  position: relative !important;
-  top: unset !important;
-  width: 18.9px !important;
-}
-
-.case-ZF .frame-38 {
-  align-items: center;
-  display: inline-flex;
-  gap: 3.15px;
-  left: 102px;
-  position: absolute;
-  top: 0;
-}
-
-.case-ZF .frame-39 {
-  align-items: center;
-  display: inline-flex;
-  gap: 3.15px;
-  left: 210px;
-  position: absolute;
-  top: 0;
-}
-
-.case-ZF .frame-40 {
-  align-items: center;
-  display: inline-flex;
-  gap: 3.15px;
-  left: 318px;
-  position: absolute;
-  top: 0;
 }
 
 .case-ZF .logo-preto-branco-6 {
@@ -656,4 +591,10 @@
   position: fixed;
   top: 67px;
   width: 130px;
+}
+
+.case-ZF .menu-3 {
+  left: 455px !important;
+  position: fixed !important;
+  top: 75px !important;
 }
