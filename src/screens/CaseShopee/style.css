@@ -1,0 +1,648 @@
+.case-shopee {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.case-shopee .div-3 {
+  background-color: #ffffff;
+  height: 2965px;
+  overflow: hidden;
+  position: relative;
+  width: 1512px;
+}
+
+.case-shopee .overlap-8 {
+  height: 1966px;
+  left: -226px;
+  position: absolute;
+  top: 0;
+  width: 1744px;
+}
+
+.case-shopee .rectangle-9 {
+  background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
+  height: 239px;
+  left: 232px;
+  position: absolute;
+  top: 1614px;
+  width: 1512px;
+}
+
+.case-shopee .rectangle-10 {
+  background-color: #e6f1fe;
+  height: 914px;
+  left: 223px;
+  position: absolute;
+  top: 0;
+  width: 1515px;
+}
+
+.case-shopee .group-5 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 384.3px;
+  height: 769px;
+  left: 63px;
+  position: absolute;
+  top: 1100px;
+  width: 769px;
+}
+
+.case-shopee .ellipse-6 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 239.16px;
+  height: 478px;
+  left: 159px;
+  position: relative;
+  top: 116px;
+  width: 478px;
+}
+
+.case-shopee .group-6 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.49px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 396px;
+  width: 367px;
+}
+
+.case-shopee .ellipse-7 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.19px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.case-shopee .group-7 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 909px;
+  position: absolute;
+  top: 213px;
+  width: 634px;
+}
+
+.case-shopee .ellipse-8 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 197.26px;
+  height: 395px;
+  left: 131px;
+  position: relative;
+  top: 96px;
+  width: 395px;
+}
+
+.case-shopee .frame-17 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 50.4px;
+  left: 384px;
+  position: absolute;
+  top: 265px;
+  width: 709px;
+}
+
+.case-shopee .frame-18 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18.9px;
+  justify-content: center;
+  position: relative;
+  width: 708.75px;
+}
+
+.case-shopee .case-shopee-e-o {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 40.3px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 48px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 709px;
+}
+
+.case-shopee .text-wrapper-46 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40.3px;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 48px;
+}
+
+.case-shopee .text-wrapper-47 {
+  font-size: 25px;
+}
+
+.case-shopee .text-wrapper-48 {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 19.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 33px;
+  position: relative;
+  width: 622px;
+}
+
+.case-shopee .dois-botes-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.case-shopee .fale-com-um-especialista-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.case-shopee .design-component-instance-node {
+  left: unset !important;
+  top: unset !important;
+}
+
+.case-shopee .imagens-2 {
+  height: 422px;
+  left: 1121px;
+  position: absolute;
+  top: 341px;
+  width: 416px;
+}
+
+.case-shopee .overlap-group-4 {
+  height: 457px;
+  left: 0;
+  position: absolute;
+  top: -90px;
+  width: 457px;
+}
+
+.case-shopee .div-absolute-2 {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 389px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.case-shopee .frame-19 {
+  border-radius: 78.75px;
+  height: 309px;
+  left: 147px;
+  position: absolute;
+  top: 147px;
+  width: 309px;
+}
+
+.case-shopee .servio-de-traduo-de-wrapper {
+  background-color: #c59318;
+  border-radius: 78.75px;
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+  width: 310px;
+}
+
+.case-shopee .servio-de-traduo-de {
+  height: 190px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 61px;
+  width: 310px;
+}
+
+.case-shopee .empresa-de-traduo-13 {
+  background-image: url(../../../static/img/mask-group.png);
+  background-size: 100% 100%;
+  height: 62px;
+  left: 253px;
+  position: absolute;
+  top: 45px;
+  width: 62px;
+}
+
+.case-shopee .empresa-de-traduo-14 {
+  background-image: url(../../../static/img/mask-group-4.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 75px;
+  position: absolute;
+  top: 301px;
+  width: 31px;
+}
+
+.case-shopee .empresa-de-traduo-15 {
+  background-image: url(../../../static/img/mask-group-14.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 376px;
+  opacity: 0.15;
+  position: absolute;
+  top: 1184px;
+  width: 40px;
+}
+
+.case-shopee .empresa-de-traduo-16 {
+  background-image: url(../../../static/img/mask-group-2.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: -233px;
+  opacity: 0.15;
+  position: absolute;
+  top: 1130px;
+  width: 40px;
+}
+
+.case-shopee .empresa-de-traduo-17 {
+  background-image: url(../../../static/img/mask-group-16.png);
+  background-size: 100% 100%;
+  height: 39px;
+  left: -561px;
+  opacity: 0.15;
+  position: absolute;
+  top: 1317px;
+  width: 39px;
+}
+
+.case-shopee .idiomas {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  height: 227px;
+  left: 1160px;
+  overflow: hidden;
+  padding: 59px 13px;
+  position: absolute;
+  top: 303px;
+  width: 189px;
+}
+
+.case-shopee .text-wrapper-49 {
+  color: #000000;
+  font-family: "Irish Grover", Helvetica;
+  font-size: 19.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 33px;
+  margin-right: -30px;
+  margin-top: -1px;
+  position: relative;
+  width: 193px;
+}
+
+.case-shopee .text-wrapper-50 {
+  color: #000000;
+  font-family: "Irish Grover", Helvetica;
+  font-size: 19.2px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 33px;
+  margin-right: -30px;
+  position: relative;
+  width: 193px;
+}
+
+.case-shopee .adesivo-redondo {
+  border-radius: 322px;
+  height: 35px;
+  margin-bottom: -31px;
+  position: relative;
+  width: 35px;
+}
+
+.case-shopee .empresa-de-traduo-18 {
+  background-image: url(../../../static/img/mask-group-5.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 321px;
+  opacity: 0.15;
+  position: absolute;
+  top: 1743px;
+  width: 40px;
+}
+
+.case-shopee .empresa-de-traduo-19 {
+  background-image: url(../../../static/img/mask-group-6.png);
+  background-size: 100% 100%;
+  height: 46px;
+  left: 1121px;
+  position: absolute;
+  top: 228px;
+  width: 46px;
+}
+
+.case-shopee .frame-20 {
+  align-items: flex-start;
+  background-color: #f7f8ff;
+  border-radius: 28.95px;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 18.33px;
+  height: 341px;
+  justify-content: center;
+  left: 735px;
+  padding: 38.6px 70.44px 38.6px 38.6px;
+  position: absolute;
+  top: 1625px;
+}
+
+.case-shopee .frame-21 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 19.3px;
+  margin-top: -0.25px;
+  position: relative;
+}
+
+.case-shopee .ellipse-9 {
+  height: 82.02px;
+  object-fit: cover;
+  position: relative;
+  width: 82.02px;
+}
+
+.case-shopee .frame-22 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18.33px;
+  position: relative;
+}
+
+.case-shopee .frame-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 9.65px;
+  position: relative;
+}
+
+.case-shopee .text-wrapper-51 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.96px;
+  position: relative;
+  width: 189.12px;
+}
+
+.case-shopee .text-wrapper-52 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.3px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.case-shopee .text-wrapper-53 {
+  color: #000000cc;
+  font-family: "Inter", Helvetica;
+  font-size: 15.4px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.9px;
+  position: relative;
+  width: 385.96px;
+}
+
+.case-shopee .frame-24 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 9.65px;
+  justify-content: center;
+  margin-bottom: -0.25px;
+  position: relative;
+}
+
+.case-shopee .star-2 {
+  height: 16.77px;
+  position: relative;
+  width: 17.53px;
+}
+
+.case-shopee .feature-section {
+  height: 800px;
+  left: 262px;
+  position: absolute;
+  top: 750px;
+  width: 1440px;
+}
+
+.case-shopee .fale-com-um-2 {
+  left: 634px !important;
+  position: absolute !important;
+  top: 2536px !important;
+}
+
+.case-shopee .partners-2 {
+  background-color: #fafafa;
+  height: 435px;
+  left: 189px;
+  position: absolute;
+  top: 2007px;
+  width: 1134px;
+}
+
+.case-shopee .outras-empresas-que-wrapper {
+  height: 34px;
+  left: 316px;
+  position: absolute;
+  top: 61px;
+  width: 503px;
+}
+
+.case-shopee .outras-empresas-que {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 28.3px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: -0.79px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.case-shopee .group-8 {
+  height: 164px;
+  left: 119px;
+  position: absolute;
+  top: 168px;
+  width: 896px;
+}
+
+.case-shopee .group-9 {
+  height: 81px;
+  left: 269px;
+  position: absolute;
+  top: 2806px;
+  width: 977px;
+}
+
+.case-shopee .overlap-9 {
+  height: 81px;
+  position: relative;
+  width: 973px;
+}
+
+.case-shopee .text-wrapper-54 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12.5px;
+  font-weight: 400;
+  height: 41px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.case-shopee .text-wrapper-55 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12.5px;
+  font-weight: 400;
+  height: 41px;
+  left: 335px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+
+.case-shopee .logo-preto-branco-3 {
+  height: 48px;
+  left: 663px;
+  object-fit: cover;
+  position: absolute;
+  top: 2747px;
+  width: 186px;
+}
+
+.case-shopee .rectangle-11 {
+  background: linear-gradient(180deg, rgb(230, 241, 254) 34.9%, rgba(230, 241, 254, 0) 100%);
+  height: 142px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1512px;
+}
+
+.case-shopee .group-10 {
+  height: 19px;
+  left: 576px;
+  position: fixed;
+  top: 70px;
+  width: 387px;
+}
+
+.case-shopee .frame-25 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3.15px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.case-shopee .text-wrapper-56 {
+  color: var(--gray-900);
+  font-family: "Inter", Helvetica;
+  font-size: 12.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.case-shopee .expand-more-instance {
+  height: 18.9px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18.9px !important;
+}
+
+.case-shopee .frame-26 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3.15px;
+  left: 102px;
+  position: absolute;
+  top: 0;
+}
+
+.case-shopee .frame-27 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3.15px;
+  left: 210px;
+  position: absolute;
+  top: 0;
+}
+
+.case-shopee .frame-28 {
+  align-items: center;
+  display: inline-flex;
+  gap: 3.15px;
+  left: 318px;
+  position: absolute;
+  top: 0;
+}
+
+.case-shopee .logo-preto-branco-4 {
+  height: 34px;
+  left: 158px;
+  object-fit: cover;
+  position: fixed;
+  top: 67px;
+  width: 130px;
+}

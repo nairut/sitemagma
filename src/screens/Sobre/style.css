@@ -1,0 +1,1111 @@
+.sobre {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sobre .div-6 {
+  background-color: #ffffff;
+  height: 4056px;
+  overflow: hidden;
+  position: relative;
+  width: 1512px;
+}
+
+.sobre .overlap-19 {
+  height: 972px;
+  left: -226px;
+  position: absolute;
+  top: 0;
+  width: 1738px;
+}
+
+.sobre .rectangle-26 {
+  background-color: #e6f1fe;
+  height: 680px;
+  left: 223px;
+  position: absolute;
+  top: 0;
+  width: 1515px;
+}
+
+.sobre .group-30 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.49px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 396px;
+  width: 367px;
+}
+
+.sobre .ellipse-19 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.19px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.sobre .group-31 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 909px;
+  position: absolute;
+  top: 213px;
+  width: 634px;
+}
+
+.sobre .ellipse-20 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 197.26px;
+  height: 395px;
+  left: 131px;
+  position: relative;
+  top: 96px;
+  width: 395px;
+}
+
+.sobre .frame-62 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 50.4px;
+  left: 973px;
+  position: absolute;
+  top: 228px;
+  width: 709px;
+}
+
+.sobre .frame-63 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18.9px;
+  justify-content: center;
+  position: relative;
+  width: 708.75px;
+}
+
+.sobre .prazer-somos-a-magma {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 45.7px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 60.4px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 709px;
+}
+
+.sobre .text-wrapper-92 {
+  color: #000000;
+}
+
+.sobre .text-wrapper-93 {
+  color: #c8982a;
+}
+
+.sobre .text-wrapper-94 {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  width: 622px;
+}
+
+.sobre .dois-botes-5 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.sobre .fale-com-um-8 {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.sobre .contato-rapido-4 {
+  left: unset !important;
+  top: unset !important;
+}
+
+.sobre .div-rewards-icons-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 19.21px;
+  padding: 0px 52.64px 3.78px 0px;
+  position: relative;
+  width: 393.91px;
+}
+
+.sobre .slator-svg-2 {
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.sobre .top-fastest-2 {
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.sobre .nimdzi-svg-2 {
+  height: 103.16px;
+  margin-right: -6.65px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.sobre .frame-svg-2 {
+  height: 103.16px;
+  margin-right: -129.03px;
+  position: relative;
+  width: 103.16px;
+}
+
+.sobre .imagens-5 {
+  height: 422px;
+  left: 384px;
+  position: absolute;
+  top: 341px;
+  width: 416px;
+}
+
+.sobre .overlap-group-8 {
+  height: 389px;
+  left: 0;
+  position: absolute;
+  top: -90px;
+  width: 475px;
+}
+
+.sobre .div-absolute-5 {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 389px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.sobre .frame-64 {
+  align-items: flex-start;
+  background-color: #c59318;
+  border-radius: 78.75px;
+  display: flex;
+  flex-direction: column;
+  left: 69px;
+  overflow: hidden;
+  padding: 49px 71px 49px 94px;
+  position: absolute;
+  top: 211px;
+  width: 406px;
+}
+
+.sobre .text-wrapper-95 {
+  color: var(--wwwgetblendcomabout-us1519199951171875x7032000122070312defaultnero);
+  font-family: "Inter", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 44px;
+  margin-top: -0.79px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.sobre .text-wrapper-96 {
+  color: var(--wwwgetblendcomabout-us1519199951171875x7032000122070312defaultnero);
+  font-family: "Inter", Helvetica;
+  font-size: 21.4px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.sobre .empresa-de-traduo-35 {
+  background-image: url(../../../static/img/mask-group-38.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 13px;
+  position: absolute;
+  top: 272px;
+  width: 31px;
+}
+
+.sobre .empresa-de-traduo-36 {
+  background-image: url(../../../static/img/mask-group-35.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 586px;
+  opacity: 0.15;
+  position: absolute;
+  top: 2429px;
+  width: 40px;
+}
+
+.sobre .img-wrapper {
+  height: 40px;
+  left: -233px;
+  opacity: 0.15;
+  overflow: hidden;
+  position: absolute;
+  top: 1130px;
+  width: 40px;
+}
+
+.sobre .mask-group-2 {
+  height: 41px;
+  left: 19195px;
+  position: absolute;
+  top: -973px;
+  width: 40px;
+}
+
+.sobre .empresa-de-traduo-37 {
+  height: 39px;
+  left: -232px;
+  opacity: 0.15;
+  overflow: hidden;
+  position: absolute;
+  top: 1293px;
+  width: 39px;
+}
+
+.sobre .mask-group-3 {
+  height: 39px;
+  left: 19193px;
+  position: absolute;
+  top: -1136px;
+  width: 39px;
+}
+
+.sobre .empresa-de-traduo-38 {
+  background-image: url(../../../static/img/mask-group-39.png);
+  background-size: 100% 100%;
+  height: 74px;
+  left: 397px;
+  position: absolute;
+  top: 294px;
+  width: 74px;
+}
+
+.sobre .empresa-de-traduo-39 {
+  background-image: url(../../../static/img/mask-group-41.png);
+  background-size: 100% 100%;
+  height: 46px;
+  left: 1121px;
+  position: absolute;
+  top: 228px;
+  width: 46px;
+}
+
+.sobre .group-32 {
+  height: 164px;
+  left: 534px;
+  position: absolute;
+  top: 808px;
+  width: 896px;
+}
+
+.sobre .rectangle-27 {
+  background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
+  height: 128px;
+  left: 226px;
+  position: absolute;
+  top: 680px;
+  width: 1512px;
+}
+
+.sobre .overlap-20 {
+  height: 1282px;
+  left: -163px;
+  position: absolute;
+  top: 973px;
+  width: 1666px;
+}
+
+.sobre .group-33 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 384.3px;
+  height: 769px;
+  left: 0;
+  position: absolute;
+  top: 127px;
+  width: 769px;
+}
+
+.sobre .ellipse-21 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 239.16px;
+  height: 478px;
+  left: 159px;
+  position: relative;
+  top: 116px;
+  width: 478px;
+}
+
+.sobre .empresa-de-traduo-40 {
+  background-image: url(../../../static/img/mask-group-10.png);
+  background-size: 100% 100%;
+  height: 65px;
+  left: 893px;
+  opacity: 0.15;
+  position: absolute;
+  top: 746px;
+  width: 65px;
+}
+
+.sobre .rectangle-28 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(230, 241, 254) 100%);
+  height: 142px;
+  left: 154px;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.sobre .nossa-histria {
+  align-items: center;
+  display: inline-flex;
+  left: 401px;
+  position: absolute;
+  top: 244px;
+}
+
+.sobre .column {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.sobre .text {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 632px;
+}
+
+.sobre .text-wrapper-97 {
+  align-self: stretch;
+  color: #171a26;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -0.8px;
+  line-height: 48px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.sobre .text-wrapper-98 {
+  color: #171a26;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  position: relative;
+  width: 517px;
+}
+
+.sobre .imagem-quem-somos {
+  height: 471px;
+  margin-left: -31px;
+  position: relative;
+  width: 449px;
+}
+
+.sobre .untitled-design {
+  height: 287px;
+  left: 28px;
+  position: absolute;
+  top: 126px;
+  width: 352px;
+}
+
+.sobre .logo-preto-branco-9 {
+  height: 34px;
+  left: 97px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 130px;
+}
+
+.sobre .frame-65 {
+  background-color: #c59318;
+  border-radius: 78.75px;
+  height: 51px;
+  left: 233px;
+  position: absolute;
+  top: 58px;
+  width: 216px;
+}
+
+.sobre .div-absolute-6 {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 420px;
+  width: 216px;
+}
+
+.sobre .frame-66 {
+  align-items: center;
+  display: inline-flex;
+  gap: 90px;
+  left: 397px;
+  position: absolute;
+  top: 811px;
+}
+
+.sobre .imagem-quem-somos-2 {
+  height: 471px;
+  position: relative;
+  width: 449px;
+}
+
+.sobre .element-jpg {
+  background-image: url(../../../static/img/9-10-jpg.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 377px;
+  left: 28px;
+  position: absolute;
+  top: 126px;
+  width: 352px;
+}
+
+.sobre .div-absolute-7 {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 51px;
+  left: -80px;
+  position: absolute;
+  top: 54px;
+  width: 216px;
+}
+
+.sobre .span-hd-dbfee-wrapper {
+  align-items: flex-start;
+  background-color: #5857ff;
+  display: flex;
+  flex-direction: column;
+  left: 282px;
+  position: absolute;
+  top: 54px;
+  width: 98px;
+}
+
+.sobre .arrow-sm-red-svg-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 3.21px;
+  height: 31.5px;
+  padding: 0px 9.36px 0px 5.51px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .arrow-sm-red-svg-3 {
+  height: 10.24px;
+  position: relative;
+  width: 11.02px;
+}
+
+.sobre .frame-67 {
+  background-color: #c59318;
+  border-radius: 78.75px;
+  height: 51px;
+  left: 253px;
+  position: absolute;
+  top: 525px;
+  width: 216px;
+}
+
+.sobre .text-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 519px;
+}
+
+.sobre .overlap-21 {
+  height: 1414px;
+  left: 0;
+  position: absolute;
+  top: 2293px;
+  width: 1512px;
+}
+
+.sobre .empresa-de-traduo-41 {
+  background-image: url(../../../static/img/mask-group-40.png);
+  background-size: 100% 100%;
+  height: 40px;
+  left: 743px;
+  opacity: 0.15;
+  position: absolute;
+  top: 352px;
+  width: 40px;
+}
+
+.sobre .group-34 {
+  height: 1203px;
+  left: 0;
+  position: absolute;
+  top: 211px;
+  width: 1512px;
+}
+
+.sobre .div-max-wrapper {
+  align-items: center;
+  background-color: #e6f1fe;
+  display: flex;
+  flex-direction: column;
+  height: 1044px;
+  left: 0;
+  padding: 0px 0px 15.75px;
+  position: absolute;
+  top: 159px;
+  width: 1512px;
+}
+
+.sobre .div-max-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 1044px;
+  margin-bottom: -15.75px;
+  max-width: 1575px;
+  padding: 0px 40.95px;
+  position: relative;
+  width: 1196px;
+}
+
+.sobre .div-row-4 {
+  align-self: stretch;
+  height: 857px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .div-box-pad-wrapper {
+  height: 294px;
+  left: 0;
+  position: absolute;
+  top: 145px;
+  width: 371px;
+}
+
+.sobre .div-box-pad-2 {
+  align-items: flex-start;
+  background-color: #5857ff;
+  border-radius: 18.9px;
+  box-shadow: 0px 25.2px 50.4px -9.45px #0f172833;
+  display: flex;
+  flex-direction: column;
+  gap: 18.9px;
+  justify-content: center;
+  left: 19px;
+  padding: 55.12px 43.31px 55.6px;
+  position: relative;
+  top: -87px;
+  width: 334px;
+}
+
+.sobre .heading-margin-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 33.86px;
+  height: 39px;
+  margin-right: -19.94px;
+  padding: 0px 0px 11.81px;
+  position: relative;
+  width: 267px;
+}
+
+.sobre .heading-22 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-bottom: -11.71px;
+  padding: 0px 93.5px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .text-wrapper-99 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 800;
+  height: 38.9px;
+  letter-spacing: 0.96px;
+  line-height: normal;
+  margin-right: -73.5px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 247px;
+}
+
+.sobre .div-text-22 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 33.86px;
+  height: 182px;
+  padding: 0px 25.77px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .text-wrapper-100 {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 14.3px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24.8px;
+  margin-bottom: -41.21px;
+  margin-right: -25.71px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 247px;
+}
+
+.sobre .div-item-hp-perfect-16 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 371px;
+  padding: 0px 18.9px 100.01px;
+  position: absolute;
+  top: 145px;
+  width: 371px;
+}
+
+.sobre .div-item-hp-perfect-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 11.34px;
+  padding: 33.07px 33.07px 39.85px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .link-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: -6.31px;
+  position: relative;
+}
+
+.sobre .heading-23 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 121.84px 0px 0px;
+  position: relative;
+}
+
+.sobre .text-wrapper-101 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Inter", Helvetica;
+  font-size: 19.7px;
+  font-weight: 600;
+  letter-spacing: 0.79px;
+  line-height: normal;
+  margin-top: -0.79px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  width: fit-content;
+}
+
+.sobre .div-text-23 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 5.29px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .text-wrapper-102 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.3px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.3px;
+  margin-left: -0.24px;
+  margin-right: -5.53px;
+  margin-top: -0.79px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre .image-15 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 35px;
+  justify-content: center;
+  left: 33px;
+  max-width: 54.34px;
+  padding: 0px 0.59px;
+  position: absolute;
+  top: -17px;
+  width: 54px;
+}
+
+.sobre .image-16 {
+  height: 35.44px;
+  position: relative;
+  width: 53.16px;
+}
+
+.sobre .link-10 {
+  align-items: flex-start;
+  background-color: #5857ff;
+  bottom: -15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 20px;
+  width: 98px;
+}
+
+.sobre .div-item-hp-perfect-18 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 11.34px;
+  left: 743px;
+  padding: 33.07px 33.07px 39.85px;
+  position: absolute;
+  top: 145px;
+  width: 333.68px;
+}
+
+.sobre .link-11 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  margin-right: -45.31px;
+  position: relative;
+}
+
+.sobre .div-item-hp-perfect-19 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 18.9px 100px;
+  position: absolute;
+  top: 438px;
+  width: 371px;
+}
+
+.sobre .link-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 50px;
+  margin-right: -13.46px;
+  position: relative;
+  width: 281px;
+}
+
+.sobre .heading-24 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  margin-right: -65.26px;
+  padding: 0px 83.26px 0px 0px;
+  position: relative;
+}
+
+.sobre .text-wrapper-103 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.9px;
+  font-weight: 600;
+  height: 24px;
+  letter-spacing: 0;
+  line-height: 24.3px;
+  margin-top: -0.79px;
+  position: relative;
+  white-space: nowrap;
+  width: 263px;
+}
+
+.sobre .div-text-24 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  height: 175px;
+  padding: 0px 10.81px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.sobre .text-wrapper-104 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.3px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.3px;
+  margin-left: -0.23px;
+  margin-right: -11.04px;
+  margin-top: -0.79px;
+  position: relative;
+  width: fit-content;
+}
+
+.sobre .div-mission-bottom {
+  align-items: center;
+  background-color: var(--wwwgetblendcomabout-us1519199951171875x7032000122070312defaultverdun-green);
+  display: flex;
+  flex-direction: column;
+  left: 407px;
+  max-width: 810px;
+  min-height: 240px;
+  padding: 58px 72.9px 58px 73.1px;
+  position: absolute;
+  top: 569px;
+  width: 810px;
+}
+
+.sobre .text-wrapper-105 {
+  color: var(--wwwgetblendcomabout-us1519199951171875x7032000122070312defaultnero);
+  font-family: "Inter", Helvetica;
+  font-size: 34.4px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 44px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.sobre .empresa-de-traduo-42 {
+  background-image: url(../../../static/img/mask-group-42.png);
+  background-size: 100% 100%;
+  height: 65.36px;
+  opacity: 0.15;
+  position: relative;
+  width: 65.36px;
+}
+
+.sobre .empresa-de-traduo-43 {
+  height: 56px;
+  left: 443px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 45px;
+}
+
+.sobre .mask-group-4 {
+  height: 39px;
+  left: 18676px;
+  position: absolute;
+  top: -1885px;
+  width: 45px;
+}
+
+.sobre .group-35 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 354px;
+  position: absolute;
+  top: 0;
+  width: 634px;
+}
+
+.sobre .rectangle-29 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(230, 241, 254) 100%);
+  height: 273px;
+  left: 0;
+  position: absolute;
+  top: 97px;
+  width: 1512px;
+}
+
+.sobre .text-wrapper-106 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 27px;
+  left: 624px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  white-space: nowrap;
+}
+
+.sobre .MAGMA-reflete-o {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 81px;
+  left: 261px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 294px;
+  width: 989px;
+}
+
+.sobre .group-36 {
+  height: 81px;
+  left: 269px;
+  position: absolute;
+  top: 3847px;
+  width: 977px;
+}
+
+.sobre .overlap-22 {
+  height: 81px;
+  position: relative;
+  width: 973px;
+}
+
+.sobre .text-wrapper-107 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12.5px;
+  font-weight: 400;
+  height: 41px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.sobre .text-wrapper-108 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 12.5px;
+  font-weight: 400;
+  height: 41px;
+  left: 335px;
+  letter-spacing: 0;
+  line-height: 40.2px;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+
+.sobre .logo-preto-branco-10 {
+  height: 48px;
+  left: 663px;
+  object-fit: cover;
+  position: absolute;
+  top: 3788px;
+  width: 186px;
+}
+
+.sobre .div-squre-4 {
+  background-color: var(--wwwgetblendcomabout-us1519199951171875x7032000122070312defaultaqua-island);
+  height: 78px;
+  left: 1050px;
+  position: absolute;
+  top: -2638px;
+  width: 78px;
+}
+
+.sobre .rectangle-30 {
+  background: linear-gradient(180deg, rgb(230, 241, 254) 34.9%, rgba(230, 241, 254, 0) 100%);
+  height: 152px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 1512px;
+}
+
+.sobre .logo-preto-branco-11 {
+  height: 34px;
+  left: 158px;
+  object-fit: cover;
+  position: fixed;
+  top: 67px;
+  width: 130px;
+}

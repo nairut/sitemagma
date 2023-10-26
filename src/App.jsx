@@ -24,6 +24,11 @@ import { Um } from "./screens/Um";
 import { Celularacademydois } from "./screens/Celularacademydois";
 import { Sinistro, sinistro } from "./screens/sinistro";
 import { MarianaGrande } from "./screens/MarianaGrande";
+import { Traducaotecnica } from "./screens/Traducaotecnica";
+import { Sobre } from "./screens/Sobre";
+import { CaseShopee } from "./screens/CaseShopee/CaseShopee";
+import { CaseZf } from "./screens/CaseZf/CaseZf";
+
 
 
 
@@ -44,6 +49,7 @@ const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
 
 export const App = () => {
   const isMobile = useMediaQuery({ maxWidth: 767 });
+  const isSmallPc = useMediaQuery({ maxWidth: 1200 });
   const router = createBrowserRouter([
     
       {
@@ -58,18 +64,54 @@ export const App = () => {
       },
 
 
+
+// Novas Landings Nova Era
+
+
       {
-        path: "/sinistro",
+        path: "/orcamento-rapido",
         element: isMobile ? <CelularPtpronto  /> : <Turian />,
       },
 
+      {
+        path: "/quem-somos",
+        element: isMobile ? <CelularPtpronto  /> : <Sobre />,
+      },
 
       {
-        path: "/mariana",
-        element: isMobile ? <Sinistro /> : <MarianaGrande />,
+        path: "/sercico-de-traduca-tecnica",
+        element: isMobile ? <CelularPtpronto  /> : <Traducaotecnica />,
       },
 
 
+
+
+      {
+        path: "/case-shopee-e-commerce",
+        element: isMobile ? <CelularPtpronto  /> : <CaseShopee />,
+      },
+
+      {
+        path: "/Case-zf",
+        element: isMobile ? <CelularPtpronto  /> : <CaseZf />,
+      },
+
+
+
+  
+
+
+
+
+      
+
+
+
+
+
+
+
+      
 
       
 
