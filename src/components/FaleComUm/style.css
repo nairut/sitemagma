@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.fale-com-um .text-wrapper {
+.fale-com-um .text-wrapper-2 {
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
   font-weight: 700;
@@ -21,20 +21,20 @@
   width: fit-content;
 }
 
-.fale-com-um.default {
+.fale-com-um.property-1-default {
   background-color: #c59318;
   top: 20px;
 }
 
-.fale-com-um.variant-2 {
+.fale-com-um.property-1-variant-2 {
   background-color: #8281ff;
   top: 84px;
 }
 
-.fale-com-um.default .text-wrapper {
+.fale-com-um.property-1-default .text-wrapper-2 {
   color: #fff6f6;
 }
 
-.fale-com-um.variant-2 .text-wrapper {
+.fale-com-um.property-1-variant-2 .text-wrapper-2 {
   color: var(--base-white);
 }

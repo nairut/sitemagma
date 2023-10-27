@@ -15,7 +15,7 @@ export const FaleComUm = ({ property1, className }) => {
 
   return (
     <a
-      className={`fale-com-um ${state.property1} ${className}`}
+      className={`fale-com-um property-1-${state.property1} ${className}`}
       href="https://pages.magmatranslation.com/solicite-um-orcamento"
       rel="noopener noreferrer"
       target="_blank"
@@ -26,7 +26,7 @@ export const FaleComUm = ({ property1, className }) => {
         dispatch("mouse_enter");
       }}
     >
-      <div className="text-wrapper">Fale com um especialista</div>
+      <div className="text-wrapper-2">Fale com um especialista</div>
     </a>
   );
 };

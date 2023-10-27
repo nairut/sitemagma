@@ -12,7 +12,7 @@
   width: 244px;
 }
 
-.contato-rapido .div {
+.contato-rapido .text-wrapper-3 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
@@ -25,11 +25,11 @@
   width: fit-content;
 }
 
-.contato-rapido.property-1-0-default {
+.contato-rapido.property-1-1-default {
   top: 20px;
 }
 
-.contato-rapido.property-1-0-variant-2 {
+.contato-rapido.property-1-1-variant-2 {
   background-color: #8281ff;
   top: 84px;
 }

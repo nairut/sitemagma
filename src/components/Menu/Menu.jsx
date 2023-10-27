@@ -12,43 +12,40 @@ import "./style.css";
 export const Menu = ({
   property1,
   className,
-  expandMoreStyleRound = "/img/expand-more-8.png",
-  expandMoreImg = "/img/expand-more-9.png",
-  expandMoreStyleRound1 = "/img/expand-more-10.png",
-  expandMoreStyleRound2 = "/img/expand-more-11.png",
-  expandMoreStyleRound3 = "/img/expand-more-12.png",
-  expandMoreStyleRound4 = "/img/expand-more-13.png",
+  expandMoreStyleRound = "/img/expand-more.png",
+  expandMoreImg = "/img/expand-more-1.png",
+  expandMoreStyleRound1 = "/img/expand-more-2.png",
+  expandMoreStyleRound2 = "/img/expand-more-3.png",
+  expandMoreStyleRound3 = "/img/expand-more-4.png",
+  expandMoreStyleRound4 = "/img/expand-more-5.png",
   to,
-  to1,
 }) => {
   return (
     <div className={`menu ${className}`}>
       <Link className="frame" to="/turian">
-        <div className="text-wrapper-2">Home</div>
+        <div className="text-wrapper">Home</div>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound} />
       </Link>
       <Link className="frame" to="/casezf">
-        <div className="text-wrapper-2">ZF</div>
+        <div className="text-wrapper">ZF</div>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreImg} />
       </Link>
       <Link className="frame" to="/caseshopee">
-        <div className="text-wrapper-2">Shopee</div>
+        <div className="text-wrapper">Shopee</div>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound1} />
       </Link>
       <Link className="frame" to="/legendagem">
-        <Link className="text-wrapper-2" to={to}>
+        <Link className="text-wrapper" to={to}>
           Legendagem
         </Link>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound2} />
       </Link>
       <Link className="frame" to="/traducaotecnica">
-        <Link className="text-wrapper-2" to={to1}>
-          Tradução Técnica
-        </Link>
+        <div className="text-wrapper">Tradução Técnica</div>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound3} />
       </Link>
       <Link className="frame" to="/sobre">
-        <div className="text-wrapper-2">Sobre nós</div>
+        <div className="text-wrapper">Sobre nós</div>
         <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound4} />
       </Link>
     </div>
@@ -64,5 +61,4 @@ Menu.propTypes = {
   expandMoreStyleRound3: PropTypes.string,
   expandMoreStyleRound4: PropTypes.string,
   to: PropTypes.string,
-  to1: PropTypes.string,
 };

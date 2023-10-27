@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-.case-shopee .div-3 {
+.case-shopee .div-2 {
   background-color: #ffffff;
   height: 2965px;
   overflow: hidden;
@@ -14,7 +14,7 @@
   width: 1512px;
 }
 
-.case-shopee .overlap-9 {
+.case-shopee .overlap-3 {
   height: 1966px;
   left: -226px;
   position: absolute;
@@ -22,7 +22,7 @@
   width: 1744px;
 }
 
-.case-shopee .rectangle-13 {
+.case-shopee .rectangle-11 {
   background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
   height: 239px;
   left: 232px;
@@ -31,7 +31,7 @@
   width: 1512px;
 }
 
-.case-shopee .rectangle-14 {
+.case-shopee .rectangle-12 {
   background-color: #e6f1fe;
   height: 914px;
   left: 223px;
@@ -40,7 +40,7 @@
   width: 1515px;
 }
 
-.case-shopee .group-6 {
+.case-shopee .group-11 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 384.3px;
@@ -51,7 +51,7 @@
   width: 769px;
 }
 
-.case-shopee .ellipse-11 {
+.case-shopee .ellipse-10 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 239.16px;
@@ -62,7 +62,7 @@
   width: 478px;
 }
 
-.case-shopee .group-7 {
+.case-shopee .group-12 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 183.49px;
@@ -73,7 +73,7 @@
   width: 367px;
 }
 
-.case-shopee .ellipse-12 {
+.case-shopee .ellipse-11 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 114.19px;
@@ -84,7 +84,7 @@
   width: 228px;
 }
 
-.case-shopee .group-8 {
+.case-shopee .group-13 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 316.97px;
@@ -95,7 +95,7 @@
   width: 634px;
 }
 
-.case-shopee .ellipse-13 {
+.case-shopee .ellipse-12 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 197.26px;
@@ -106,7 +106,7 @@
   width: 395px;
 }
 
-.case-shopee .frame-45 {
+.case-shopee .frame-41 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@
   width: 709px;
 }
 
-.case-shopee .frame-46 {
+.case-shopee .frame-42 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -141,7 +141,7 @@
   width: 709px;
 }
 
-.case-shopee .text-wrapper-39 {
+.case-shopee .span {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 40.3px;
@@ -150,11 +150,11 @@
   line-height: 48px;
 }
 
-.case-shopee .text-wrapper-40 {
+.case-shopee .text-wrapper-37 {
   font-size: 25px;
 }
 
-.case-shopee .text-wrapper-41 {
+.case-shopee .text-wrapper-38 {
   color: var(--base-black);
   font-family: "Inter", Helvetica;
   font-size: 19.2px;
@@ -165,7 +165,7 @@
   width: 622px;
 }
 
-.case-shopee .dois-botes-2 {
+.case-shopee .dois-botes {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -179,12 +179,12 @@
   top: unset !important;
 }
 
-.case-shopee .contato-rapido-2 {
+.case-shopee .contato-rapido-instance {
   left: unset !important;
   top: unset !important;
 }
 
-.case-shopee .imagens-2 {
+.case-shopee .imagens {
   height: 422px;
   left: 1121px;
   position: absolute;
@@ -192,7 +192,7 @@
   width: 416px;
 }
 
-.case-shopee .overlap-group-4 {
+.case-shopee .overlap-group-6 {
   height: 457px;
   left: 0;
   position: absolute;
@@ -200,7 +200,7 @@
   width: 457px;
 }
 
-.case-shopee .div-absolute-2 {
+.case-shopee .div-absolute {
   background-color: #faf4e3;
   border-radius: 78.75px;
   height: 389px;
@@ -210,7 +210,7 @@
   width: 331px;
 }
 
-.case-shopee .frame-47 {
+.case-shopee .frame-43 {
   border-radius: 78.75px;
   height: 309px;
   left: 147px;
@@ -237,8 +237,8 @@
   width: 310px;
 }
 
-.case-shopee .empresa-de-traduo-9 {
-  background-image: url(../../../static/img/mask-group-8.png);
+.case-shopee .empresa-de-traduo-7 {
+  background-image: url(../../../static/img/mask-group-6.png);
   background-size: 100% 100%;
   height: 62px;
   left: 253px;
@@ -247,8 +247,8 @@
   width: 62px;
 }
 
-.case-shopee .empresa-de-traduo-10 {
-  background-image: url(../../../static/img/mask-group-12.png);
+.case-shopee .empresa-de-traduo-8 {
+  background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 31px;
   left: 75px;
@@ -257,8 +257,8 @@
   width: 31px;
 }
 
-.case-shopee .empresa-de-traduo-11 {
-  background-image: url(../../../static/img/mask-group-9.png);
+.case-shopee .empresa-de-traduo-9 {
+  background-image: url(../../../static/img/mask-group-7.png);
   background-size: 100% 100%;
   height: 40px;
   left: 376px;
@@ -268,8 +268,8 @@
   width: 40px;
 }
 
-.case-shopee .empresa-de-traduo-12 {
-  background-image: url(../../../static/img/mask-group-10.png);
+.case-shopee .empresa-de-traduo-10 {
+  background-image: url(../../../static/img/mask-group-8.png);
   background-size: 100% 100%;
   height: 40px;
   left: -233px;
@@ -279,8 +279,8 @@
   width: 40px;
 }
 
-.case-shopee .empresa-de-traduo-13 {
-  background-image: url(../../../static/img/mask-group-11.png);
+.case-shopee .empresa-de-traduo-11 {
+  background-image: url(../../../static/img/mask-group-4.png);
   background-size: 100% 100%;
   height: 39px;
   left: -561px;
@@ -306,7 +306,7 @@
   width: 189px;
 }
 
-.case-shopee .text-wrapper-42 {
+.case-shopee .text-wrapper-39 {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
   font-size: 19.2px;
@@ -319,7 +319,7 @@
   width: 193px;
 }
 
-.case-shopee .text-wrapper-43 {
+.case-shopee .text-wrapper-40 {
   color: #000000;
   font-family: "Irish Grover", Helvetica;
   font-size: 19.2px;
@@ -339,8 +339,8 @@
   width: 35px;
 }
 
-.case-shopee .empresa-de-traduo-14 {
-  background-image: url(../../../static/img/mask-group-4.png);
+.case-shopee .empresa-de-traduo-12 {
+  background-image: url(../../../static/img/mask-group-11.png);
   background-size: 100% 100%;
   height: 40px;
   left: 321px;
@@ -350,8 +350,8 @@
   width: 40px;
 }
 
-.case-shopee .empresa-de-traduo-15 {
-  background-image: url(../../../static/img/mask-group-14.png);
+.case-shopee .empresa-de-traduo-13 {
+  background-image: url(../../../static/img/mask-group-12.png);
   background-size: 100% 100%;
   height: 46px;
   left: 1121px;
@@ -360,7 +360,7 @@
   width: 46px;
 }
 
-.case-shopee .frame-48 {
+.case-shopee .frame-44 {
   align-items: flex-start;
   background-color: #f7f8ff;
   border-radius: 28.95px;
@@ -375,7 +375,7 @@
   top: 1625px;
 }
 
-.case-shopee .frame-49 {
+.case-shopee .frame-45 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -384,14 +384,14 @@
   position: relative;
 }
 
-.case-shopee .ellipse-14 {
+.case-shopee .ellipse-13 {
   height: 82.02px;
   object-fit: cover;
   position: relative;
   width: 82.02px;
 }
 
-.case-shopee .frame-50 {
+.case-shopee .frame-46 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -400,7 +400,7 @@
   position: relative;
 }
 
-.case-shopee .frame-51 {
+.case-shopee .frame-47 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -409,7 +409,7 @@
   position: relative;
 }
 
-.case-shopee .text-wrapper-44 {
+.case-shopee .text-wrapper-41 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 27px;
@@ -421,7 +421,7 @@
   width: 189.12px;
 }
 
-.case-shopee .text-wrapper-45 {
+.case-shopee .text-wrapper-42 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 19.3px;
@@ -433,7 +433,7 @@
   width: fit-content;
 }
 
-.case-shopee .text-wrapper-46 {
+.case-shopee .text-wrapper-43 {
   color: #000000cc;
   font-family: "Inter", Helvetica;
   font-size: 15.4px;
@@ -444,7 +444,7 @@
   width: 385.96px;
 }
 
-.case-shopee .frame-52 {
+.case-shopee .frame-48 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -468,7 +468,7 @@
   width: 1440px;
 }
 
-.case-shopee .fale-com-um-2 {
+.case-shopee .design-component-instance-node {
   left: 634px !important;
   position: absolute !important;
   top: 2536px !important;
@@ -505,7 +505,7 @@
   white-space: nowrap;
 }
 
-.case-shopee .group-9 {
+.case-shopee .group-14 {
   height: 164px;
   left: 119px;
   position: absolute;
@@ -513,7 +513,7 @@
   width: 896px;
 }
 
-.case-shopee .group-10 {
+.case-shopee .group-15 {
   height: 81px;
   left: 269px;
   position: absolute;
@@ -521,13 +521,13 @@
   width: 977px;
 }
 
-.case-shopee .overlap-10 {
+.case-shopee .overlap-4 {
   height: 81px;
   position: relative;
   width: 973px;
 }
 
-.case-shopee .text-wrapper-47 {
+.case-shopee .text-wrapper-44 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -541,7 +541,7 @@
   white-space: nowrap;
 }
 
-.case-shopee .text-wrapper-48 {
+.case-shopee .text-wrapper-45 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -564,7 +564,7 @@
   width: 186px;
 }
 
-.case-shopee .rectangle-15 {
+.case-shopee .rectangle-13 {
   background-color: #e6f1fe;
   height: 128px;
   left: 0;
