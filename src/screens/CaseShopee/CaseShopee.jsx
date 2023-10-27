@@ -12,16 +12,16 @@ export const CaseShopee = () => {
           <div className="rectangle-11" />
           <div className="rectangle-12" />
           <div className="group-11">
-            <div className="ellipse-10" />
+            <div className="ellipse-8" />
           </div>
           <div className="group-12">
-            <div className="ellipse-11" />
+            <div className="ellipse-9" />
           </div>
           <div className="group-13">
-            <div className="ellipse-12" />
+            <div className="ellipse-10" />
           </div>
-          <div className="frame-41">
-            <div className="frame-42">
+          <div className="frame-40">
+            <div className="frame-41">
               <p className="case-shopee-e-o">
                 <span className="span">
                   Case Shopee
@@ -39,7 +39,7 @@ export const CaseShopee = () => {
           <div className="imagens">
             <div className="overlap-group-6">
               <div className="div-absolute" />
-              <div className="frame-43">
+              <div className="frame-42">
                 <div className="servio-de-traduo-de-wrapper">
                   <img
                     className="servio-de-traduo-de"
@@ -48,12 +48,12 @@ export const CaseShopee = () => {
                   />
                 </div>
               </div>
+              <div className="empresa-de-traduo-6" />
               <div className="empresa-de-traduo-7" />
-              <div className="empresa-de-traduo-8" />
             </div>
+            <div className="empresa-de-traduo-8" />
             <div className="empresa-de-traduo-9" />
             <div className="empresa-de-traduo-10" />
-            <div className="empresa-de-traduo-11" />
           </div>
           <div className="idiomas">
             <div className="text-wrapper-39">Mais de</div>
@@ -61,13 +61,13 @@ export const CaseShopee = () => {
             <div className="text-wrapper-40">palavras traduzidas</div>
             <div className="adesivo-redondo" />
           </div>
+          <div className="empresa-de-traduo-11" />
           <div className="empresa-de-traduo-12" />
-          <div className="empresa-de-traduo-13" />
-          <div className="frame-44">
-            <div className="frame-45">
-              <img className="ellipse-13" alt="Ellipse" src="/img/ellipse-80-2.png" />
-              <div className="frame-46">
-                <div className="frame-47">
+          <div className="frame-43">
+            <div className="frame-44">
+              <img className="ellipse-11" alt="Ellipse" src="/img/ellipse-80-2.png" />
+              <div className="frame-45">
+                <div className="frame-46">
                   <div className="text-wrapper-41">Milton Santana</div>
                   <div className="text-wrapper-42">Shoppee</div>
                 </div>
@@ -77,12 +77,12 @@ export const CaseShopee = () => {
               Sem a Magma Translation, nosso crescimento e processo de internacionalização não teriam sido
               bem-sucedidos, devido à competência de sua equipe.
             </p>
-            <div className="frame-48">
-              <img className="star-2" alt="Star" src="/img/star-21-3.png" />
-              <img className="star-2" alt="Star" src="/img/star-22-3.png" />
-              <img className="star-2" alt="Star" src="/img/star-23-3.png" />
-              <img className="star-2" alt="Star" src="/img/star-24-3.png" />
-              <img className="star-2" alt="Star" src="/img/star-25-3.png" />
+            <div className="frame-47">
+              <img className="star-2" alt="Star" src="/img/star-21-9.png" />
+              <img className="star-2" alt="Star" src="/img/star-22-9.png" />
+              <img className="star-2" alt="Star" src="/img/star-23-9.png" />
+              <img className="star-2" alt="Star" src="/img/star-24-9.png" />
+              <img className="star-2" alt="Star" src="/img/star-25-9.png" />
             </div>
           </div>
           <img className="feature-section" alt="Feature section" src="/img/feature-section-236.png" />
@@ -92,7 +92,7 @@ export const CaseShopee = () => {
           <div className="outras-empresas-que-wrapper">
             <p className="outras-empresas-que">Outras Empresas Que Confiam Em Nós</p>
           </div>
-          <img className="group-14" alt="Group" src="/img/group-22-1.png" />
+          <img className="group-14" alt="Group" src="/img/group-22-4.png" />
         </div>
         <div className="group-15">
           <div className="overlap-4">
@@ -108,7 +108,7 @@ export const CaseShopee = () => {
         <img className="logo-preto-branco-4" alt="Logo preto branco" src="/img/logo-preto-branco-2.png" />
         <Menu
           className="menu-2"
-          expandMoreImg="/img/expand-more-13.png"
+          expandMoreImg="/img/expand-more-19.png"
           expandMoreStyleRound="/img/expand-more-6.png"
           expandMoreStyleRound1="/img/expand-more-8.png"
           expandMoreStyleRound2="/img/expand-more-9.png"

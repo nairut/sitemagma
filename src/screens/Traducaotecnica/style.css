@@ -6,18 +6,18 @@
   width: 100%;
 }
 
-.traducaotecnica .overlap-wrapper-2 {
+.traducaotecnica .overlap-wrapper {
   background-color: #ffffff;
   height: 4474px;
   width: 1512px;
 }
 
-.traducaotecnica .overlap-20 {
+.traducaotecnica .overlap {
   height: 4474px;
   position: relative;
 }
 
-.traducaotecnica .overlap-21 {
+.traducaotecnica .overlap-group {
   height: 4474px;
   left: 0;
   position: absolute;
@@ -33,7 +33,7 @@
   width: 1512px;
 }
 
-.traducaotecnica .background-2 {
+.traducaotecnica .img {
   height: 2512px;
   left: 0;
   position: absolute;
@@ -41,7 +41,7 @@
   width: 1512px;
 }
 
-.traducaotecnica .background-3 {
+.traducaotecnica .background-2 {
   height: 2297px;
   left: 0;
   position: absolute;
@@ -49,7 +49,7 @@
   width: 1512px;
 }
 
-.traducaotecnica .group-26 {
+.traducaotecnica .group {
   height: 38px;
   left: 120px;
   position: absolute;
@@ -57,7 +57,7 @@
   width: 39px;
 }
 
-.traducaotecnica .group-27 {
+.traducaotecnica .group-2 {
   height: 59px;
   left: 177px;
   position: absolute;
@@ -65,7 +65,7 @@
   width: 79px;
 }
 
-.traducaotecnica .group-28 {
+.traducaotecnica .group-3 {
   height: 88px;
   left: 1186px;
   position: absolute;
@@ -73,7 +73,7 @@
   width: 102px;
 }
 
-.traducaotecnica .group-29 {
+.traducaotecnica .group-4 {
   height: 54px;
   left: 299px;
   position: absolute;
@@ -81,7 +81,7 @@
   width: 108px;
 }
 
-.traducaotecnica .logo-preto-branco-8 {
+.traducaotecnica .logo-preto-branco {
   height: 34px;
   left: 158px;
   object-fit: cover;
@@ -90,7 +90,7 @@
   width: 130px;
 }
 
-.traducaotecnica .menu-4 {
+.traducaotecnica .menu-instance {
   left: 455px !important;
   position: absolute !important;
   top: 75px !important;
@@ -108,7 +108,7 @@
   width: 1512px;
 }
 
-.traducaotecnica .frame-92 {
+.traducaotecnica .frame-2 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -117,7 +117,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-93 {
+.traducaotecnica .frame-3 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -126,7 +126,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-114 {
+.traducaotecnica .text-wrapper-4 {
   color: var(--cool-grey900);
   font-family: "Inter", Helvetica;
   font-size: 38.5px;
@@ -138,7 +138,7 @@
   width: 466.57px;
 }
 
-.traducaotecnica .text-wrapper-115 {
+.traducaotecnica .p {
   color: var(--cool-grey900);
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
@@ -155,7 +155,7 @@
   top: unset !important;
 }
 
-.traducaotecnica .graphic-square-3 {
+.traducaotecnica .graphic-square {
   border-radius: 12.61px;
   height: 552px;
   margin-bottom: -33px;
@@ -164,7 +164,7 @@
   width: 467px;
 }
 
-.traducaotecnica .overlap-group-9 {
+.traducaotecnica .overlap-group-2 {
   height: 324px;
   left: 81px;
   position: absolute;
@@ -172,7 +172,7 @@
   width: 469px;
 }
 
-.traducaotecnica .group-30 {
+.traducaotecnica .group-5 {
   height: 287px;
   left: 192px;
   position: absolute;
@@ -180,7 +180,7 @@
   width: 263px;
 }
 
-.traducaotecnica .line-15 {
+.traducaotecnica .line {
   height: 1px;
   left: 0;
   position: absolute;
@@ -188,7 +188,7 @@
   width: 49px;
 }
 
-.traducaotecnica .group-31 {
+.traducaotecnica .group-6 {
   background-image: url(../../../static/img/line-4-1.png);
   background-size: 100% 100%;
   height: 1px;
@@ -198,7 +198,7 @@
   width: 49px;
 }
 
-.traducaotecnica .rectangle-27 {
+.traducaotecnica .rectangle {
   background-color: #eeeeff;
   border: 0.79px solid;
   border-color: #dadbff;
@@ -210,7 +210,7 @@
   width: 187px;
 }
 
-.traducaotecnica .line-16 {
+.traducaotecnica .line-2 {
   height: 70px;
   left: 361px;
   position: absolute;
@@ -218,7 +218,7 @@
   width: 1px;
 }
 
-.traducaotecnica .frame-94 {
+.traducaotecnica .frame-wrapper {
   background-color: #ffffff;
   border-radius: 6.78px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -229,7 +229,7 @@
   width: 229px;
 }
 
-.traducaotecnica .frame-95 {
+.traducaotecnica .frame-4 {
   align-items: center;
   display: inline-flex;
   gap: 17.75px;
@@ -238,13 +238,13 @@
   top: 7px;
 }
 
-.traducaotecnica .ellipse-24 {
+.traducaotecnica .ellipse {
   height: 52.76px;
   position: relative;
   width: 52.76px;
 }
 
-.traducaotecnica .frame-96 {
+.traducaotecnica .frame-5 {
   align-items: flex-start;
   align-self: stretch;
   display: inline-flex;
@@ -255,7 +255,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-116 {
+.traducaotecnica .text-wrapper-5 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 12.6px;
@@ -268,7 +268,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-117 {
+.traducaotecnica .text-wrapper-6 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 11px;
@@ -281,7 +281,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-118 {
+.traducaotecnica .text-wrapper-7 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 11px;
@@ -295,7 +295,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .frame-97 {
+.traducaotecnica .div-wrapper {
   background-color: #ffffff;
   border-radius: 6.75px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -306,7 +306,7 @@
   width: 228px;
 }
 
-.traducaotecnica .frame-98 {
+.traducaotecnica .frame-6 {
   align-items: center;
   display: inline-flex;
   gap: 17.68px;
@@ -315,7 +315,7 @@
   top: 7px;
 }
 
-.traducaotecnica .frame-99 {
+.traducaotecnica .frame-7 {
   align-items: flex-start;
   align-self: stretch;
   display: inline-flex;
@@ -326,7 +326,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-100 {
+.traducaotecnica .frame-8 {
   background-color: #ffffff;
   border-radius: 5.69px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -337,7 +337,7 @@
   width: 192px;
 }
 
-.traducaotecnica .frame-101 {
+.traducaotecnica .frame-9 {
   align-items: center;
   display: flex;
   gap: 14.9px;
@@ -347,13 +347,13 @@
   width: 151px;
 }
 
-.traducaotecnica .ellipse-25 {
+.traducaotecnica .ellipse-2 {
   height: 42.53px;
   position: relative;
   width: 41.74px;
 }
 
-.traducaotecnica .frame-102 {
+.traducaotecnica .frame-10 {
   align-items: flex-start;
   align-self: stretch;
   display: inline-flex;
@@ -365,7 +365,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-119 {
+.traducaotecnica .text-wrapper-8 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 9.4px;
@@ -377,7 +377,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-120 {
+.traducaotecnica .text-wrapper-9 {
   color: #000000;
   font-family: "Lato", Helvetica;
   font-size: 8.7px;
@@ -390,7 +390,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .frame-103 {
+.traducaotecnica .frame-11 {
   background-color: #ffffff;
   border-radius: 5.69px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -401,7 +401,7 @@
   width: 192px;
 }
 
-.traducaotecnica .frame-104 {
+.traducaotecnica .frame-12 {
   align-items: center;
   display: inline-flex;
   gap: 11.02px;
@@ -410,13 +410,13 @@
   top: 9px;
 }
 
-.traducaotecnica .ellipse-26 {
+.traducaotecnica .ellipse-3 {
   height: 42.53px;
   position: relative;
   width: 42.53px;
 }
 
-.traducaotecnica .frame-105 {
+.traducaotecnica .frame-13 {
   align-items: flex-start;
   align-self: stretch;
   display: inline-flex;
@@ -427,7 +427,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-121 {
+.traducaotecnica .text-wrapper-10 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 11px;
@@ -440,7 +440,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .frame-106 {
+.traducaotecnica .frame-14 {
   background-color: #ffffff;
   border-radius: 5.69px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -451,7 +451,7 @@
   width: 192px;
 }
 
-.traducaotecnica .frame-107 {
+.traducaotecnica .frame-15 {
   align-items: center;
   display: flex;
   gap: 11.02px;
@@ -461,13 +461,13 @@
   width: 163px;
 }
 
-.traducaotecnica .ellipse-27 {
+.traducaotecnica .ellipse-4 {
   height: 42.52px;
   position: relative;
   width: 43.31px;
 }
 
-.traducaotecnica .text-wrapper-122 {
+.traducaotecnica .text-wrapper-11 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 11px;
@@ -479,7 +479,7 @@
   width: 70.88px;
 }
 
-.traducaotecnica .frame-108 {
+.traducaotecnica .frame-16 {
   background-color: #ffffff;
   border-radius: 5.69px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -490,7 +490,7 @@
   width: 192px;
 }
 
-.traducaotecnica .frame-109 {
+.traducaotecnica .frame-17 {
   align-items: center;
   display: flex;
   gap: 11.02px;
@@ -500,13 +500,13 @@
   width: 162px;
 }
 
-.traducaotecnica .ellipse-28 {
+.traducaotecnica .ellipse-5 {
   height: 42.52px;
   position: relative;
   width: 42.53px;
 }
 
-.traducaotecnica .text-wrapper-123 {
+.traducaotecnica .text-wrapper-12 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 11px;
@@ -518,7 +518,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .line-17 {
+.traducaotecnica .line-3 {
   height: 13px;
   left: 174px;
   position: absolute;
@@ -526,7 +526,7 @@
   width: 1px;
 }
 
-.traducaotecnica .line-18 {
+.traducaotecnica .line-4 {
   height: 13px;
   left: 174px;
   position: absolute;
@@ -534,7 +534,7 @@
   width: 1px;
 }
 
-.traducaotecnica .line-19 {
+.traducaotecnica .line-5 {
   height: 12px;
   left: 174px;
   position: absolute;
@@ -542,7 +542,7 @@
   width: 1px;
 }
 
-.traducaotecnica .line-20 {
+.traducaotecnica .line-6 {
   height: 13px;
   left: 174px;
   position: absolute;
@@ -550,7 +550,7 @@
   width: 1px;
 }
 
-.traducaotecnica .line-21 {
+.traducaotecnica .line-7 {
   height: 63px;
   left: 175px;
   position: absolute;
@@ -558,7 +558,7 @@
   width: 1px;
 }
 
-.traducaotecnica .text-wrapper-124 {
+.traducaotecnica .avalia-o-dos {
   color: #5857ff;
   font-family: "Lato", Helvetica;
   font-size: 12.6px;
@@ -568,11 +568,11 @@
   line-height: normal;
   position: absolute;
   text-align: center;
-  top: -77px;
+  top: -78px;
   white-space: nowrap;
 }
 
-.traducaotecnica .frame-110 {
+.traducaotecnica .frame-18 {
   background-color: #ffffff;
   border-radius: 5.69px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -583,7 +583,7 @@
   width: 192px;
 }
 
-.traducaotecnica .frame-111 {
+.traducaotecnica .frame-19 {
   align-items: flex-start;
   display: inline-flex;
   gap: 15px;
@@ -592,14 +592,14 @@
   top: 9px;
 }
 
-.traducaotecnica .image-18 {
+.traducaotecnica .logozf {
   height: 40px;
   object-fit: cover;
   position: relative;
   width: 42px;
 }
 
-.traducaotecnica .frame-112 {
+.traducaotecnica .frame-20 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -610,7 +610,7 @@
   width: 96px;
 }
 
-.traducaotecnica .frame-113 {
+.traducaotecnica .frame-21 {
   background-color: #ffffff;
   border-radius: 9.12px;
   box-shadow: 0px 3.15px 14.96px #00000040;
@@ -621,7 +621,7 @@
   width: 308px;
 }
 
-.traducaotecnica .frame-114 {
+.traducaotecnica .frame-22 {
   align-items: flex-end;
   display: inline-flex;
   gap: 23.86px;
@@ -630,13 +630,13 @@
   top: 14px;
 }
 
-.traducaotecnica .ellipse-29 {
+.traducaotecnica .ellipse-6 {
   height: 70.09px;
   position: relative;
   width: 69.3px;
 }
 
-.traducaotecnica .frame-115 {
+.traducaotecnica .frame-23 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -647,7 +647,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-125 {
+.traducaotecnica .text-wrapper-13 {
   color: #010101;
   font-family: "Lato", Helvetica;
   font-size: 15.7px;
@@ -658,7 +658,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-126 {
+.traducaotecnica .text-wrapper-14 {
   color: var(--cool-grey900);
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
@@ -680,18 +680,18 @@
   top: 1450px;
 }
 
-.traducaotecnica .group-32 {
+.traducaotecnica .overlap-group-wrapper {
   height: 237px;
   position: relative;
   width: 332px;
 }
 
-.traducaotecnica .overlap-group-10 {
+.traducaotecnica .overlap-group-3 {
   height: 237px;
   position: relative;
 }
 
-.traducaotecnica .frame-116 {
+.traducaotecnica .frame-24 {
   align-items: center;
   background-color: #e6f1fe;
   border-radius: 20px;
@@ -705,14 +705,14 @@
   top: 0;
 }
 
-.traducaotecnica .link-13 {
+.traducaotecnica .link {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
   position: relative;
 }
 
-.traducaotecnica .heading-25 {
+.traducaotecnica .heading {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -721,7 +721,7 @@
   width: 262px;
 }
 
-.traducaotecnica .text-wrapper-127 {
+.traducaotecnica .text-wrapper-15 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 0;
   color: #000000;
@@ -739,7 +739,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-128 {
+.traducaotecnica .text-wrapper-16 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 12.3px;
@@ -750,7 +750,7 @@
   width: 268px;
 }
 
-.traducaotecnica .rectangle-28 {
+.traducaotecnica .rectangle-2 {
   height: 32px;
   left: 197px;
   position: absolute;
@@ -758,7 +758,7 @@
   width: 98px;
 }
 
-.traducaotecnica .text-wrapper-129 {
+.traducaotecnica .text-wrapper-17 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 0;
   color: #000000;
@@ -777,7 +777,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .rectangle-29 {
+.traducaotecnica .rectangle-3 {
   height: 32px;
   left: 192px;
   position: absolute;
@@ -785,18 +785,18 @@
   width: 98px;
 }
 
-.traducaotecnica .group-33 {
+.traducaotecnica .group-7 {
   height: 238.51px;
   position: relative;
   width: 332px;
 }
 
-.traducaotecnica .overlap-22 {
+.traducaotecnica .overlap-2 {
   height: 239px;
   position: relative;
 }
 
-.traducaotecnica .heading-26 {
+.traducaotecnica .tradutores-wrapper {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -805,7 +805,7 @@
   width: 261px;
 }
 
-.traducaotecnica .tradutores-2 {
+.traducaotecnica .tradutores {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 0;
   color: #000000;
@@ -824,7 +824,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .rectangle-30 {
+.traducaotecnica .rectangle-4 {
   height: 34px;
   left: 199px;
   position: absolute;
@@ -832,7 +832,7 @@
   width: 98px;
 }
 
-.traducaotecnica .text-wrapper-130 {
+.traducaotecnica .text-wrapper-18 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 40px;
@@ -845,7 +845,7 @@
   white-space: nowrap;
 }
 
-.traducaotecnica .group-34 {
+.traducaotecnica .ellipse-wrapper {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 316.97px;
@@ -856,7 +856,7 @@
   width: 634px;
 }
 
-.traducaotecnica .ellipse-30 {
+.traducaotecnica .ellipse-7 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 197.26px;
@@ -867,7 +867,7 @@
   width: 395px;
 }
 
-.traducaotecnica .empresa-de-traduo-30 {
+.traducaotecnica .empresa-de-traduo {
   background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 40px;
@@ -878,7 +878,7 @@
   width: 40px;
 }
 
-.traducaotecnica .empresa-de-traduo-31 {
+.traducaotecnica .empresa-de-traduo-2 {
   background-image: url(../../../static/img/mask-group-11.png);
   background-size: 100% 100%;
   height: 39px;
@@ -889,7 +889,7 @@
   width: 39px;
 }
 
-.traducaotecnica .empresa-de-traduo-32 {
+.traducaotecnica .empresa-de-traduo-3 {
   background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 40px;
@@ -900,7 +900,7 @@
   width: 40px;
 }
 
-.traducaotecnica .partners-3 {
+.traducaotecnica .partners {
   height: 435px;
   left: 189px;
   position: absolute;
@@ -908,7 +908,7 @@
   width: 1134px;
 }
 
-.traducaotecnica .group-35 {
+.traducaotecnica .empresas-que-confiam-wrapper {
   height: 34px;
   left: 362px;
   position: absolute;
@@ -916,7 +916,7 @@
   width: 410px;
 }
 
-.traducaotecnica .empresas-que-confiam-3 {
+.traducaotecnica .empresas-que-confiam {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 28.3px;
@@ -930,7 +930,7 @@
   white-space: nowrap;
 }
 
-.traducaotecnica .group-36 {
+.traducaotecnica .group-8 {
   height: 164px;
   left: 119px;
   position: absolute;
@@ -938,13 +938,13 @@
   width: 896px;
 }
 
-.traducaotecnica .fale-com-um-4 {
+.traducaotecnica .fale-com-um-especialista {
   left: 634px !important;
   position: absolute !important;
   top: 2177px !important;
 }
 
-.traducaotecnica .testimonial-3 {
+.traducaotecnica .testimonial {
   height: 524px;
   left: 180px;
   position: absolute;
@@ -952,7 +952,7 @@
   width: 1133px;
 }
 
-.traducaotecnica .frame-117 {
+.traducaotecnica .frame-25 {
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
@@ -962,7 +962,7 @@
   top: 66px;
 }
 
-.traducaotecnica .text-wrapper-131 {
+.traducaotecnica .text-wrapper-19 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 28.3px;
@@ -975,7 +975,7 @@
   width: 707.96px;
 }
 
-.traducaotecnica .text-wrapper-132 {
+.traducaotecnica .text-wrapper-20 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 14.2px;
@@ -987,7 +987,7 @@
   width: 707.96px;
 }
 
-.traducaotecnica .frame-118 {
+.traducaotecnica .frame-26 {
   align-items: flex-start;
   display: inline-flex;
   gap: 15.75px;
@@ -996,7 +996,7 @@
   top: 2521px;
 }
 
-.traducaotecnica .frame-119 {
+.traducaotecnica .frame-27 {
   align-items: flex-start;
   background-color: #f7f8ff;
   border-radius: 23.62px;
@@ -1010,7 +1010,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-120 {
+.traducaotecnica .frame-28 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1019,14 +1019,14 @@
   position: relative;
 }
 
-.traducaotecnica .ellipse-31 {
+.traducaotecnica .img-2 {
   height: 66.94px;
   object-fit: cover;
   position: relative;
   width: 66.94px;
 }
 
-.traducaotecnica .frame-121 {
+.traducaotecnica .frame-29 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1035,7 +1035,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-122 {
+.traducaotecnica .frame-30 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1044,7 +1044,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-133 {
+.traducaotecnica .text-wrapper-21 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 22px;
@@ -1056,7 +1056,7 @@
   width: 154.35px;
 }
 
-.traducaotecnica .text-wrapper-134 {
+.traducaotecnica .text-wrapper-22 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
@@ -1067,7 +1067,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .text-wrapper-135 {
+.traducaotecnica .text-wrapper-23 {
   color: #000000cc;
   font-family: "Inter", Helvetica;
   font-size: 12.6px;
@@ -1078,7 +1078,7 @@
   width: 315px;
 }
 
-.traducaotecnica .frame-123 {
+.traducaotecnica .frame-31 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1088,13 +1088,13 @@
   position: relative;
 }
 
-.traducaotecnica .star-3 {
+.traducaotecnica .star {
   height: 13.69px;
   position: relative;
   width: 14.31px;
 }
 
-.traducaotecnica .frame-124 {
+.traducaotecnica .frame-32 {
   align-items: flex-start;
   background-color: #5857ff;
   border-radius: 23.62px;
@@ -1106,7 +1106,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-125 {
+.traducaotecnica .frame-33 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1114,7 +1114,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-136 {
+.traducaotecnica .text-wrapper-24 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 22px;
@@ -1126,7 +1126,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .frame-126 {
+.traducaotecnica .frame-34 {
   align-items: flex-start;
   display: inline-flex;
   flex: 0 0 auto;
@@ -1135,7 +1135,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-127 {
+.traducaotecnica .frame-35 {
   align-items: flex-start;
   background-color: #f8f9ff;
   border-radius: 23.62px;
@@ -1147,7 +1147,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-128 {
+.traducaotecnica .frame-36 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -1156,14 +1156,14 @@
   width: 247.27px;
 }
 
-.traducaotecnica .ellipse-32 {
+.traducaotecnica .bruno {
   height: 64.57px;
   object-fit: cover;
   position: relative;
   width: 64.58px;
 }
 
-.traducaotecnica .frame-129 {
+.traducaotecnica .frame-37 {
   align-items: flex-start;
   display: flex;
   flex: 1;
@@ -1172,7 +1172,7 @@
   position: relative;
 }
 
-.traducaotecnica .frame-130 {
+.traducaotecnica .frame-38 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1182,9 +1182,9 @@
   width: 252px;
 }
 
-.traducaotecnica .bruno-vidal-3 {
+.traducaotecnica .bruno-vidal {
   align-self: stretch;
-  color: #ffffff;
+  color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 22px;
   font-weight: 200;
@@ -1194,18 +1194,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-137 {
-  color: #ffffff;
-  font-family: "Inter", Helvetica;
-  font-size: 15.7px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  width: fit-content;
-}
-
-.traducaotecnica .text-wrapper-138 {
+.traducaotecnica .text-wrapper-25 {
   color: #000000cc;
   font-family: "Inter", Helvetica;
   font-size: 12.6px;
@@ -1216,7 +1205,7 @@
   width: 315px;
 }
 
-.traducaotecnica .section-5 {
+.traducaotecnica .section {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1229,14 +1218,14 @@
   width: 1512px;
 }
 
-.traducaotecnica .div-inner-width-4 {
+.traducaotecnica .div-inner-width {
   height: 671.74px;
   max-width: 1086.75px;
   position: relative;
   width: 1086.75px;
 }
 
-.traducaotecnica .heading-27 {
+.traducaotecnica .heading-2 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1247,7 +1236,7 @@
   width: 1040px;
 }
 
-.traducaotecnica .text-wrapper-139 {
+.traducaotecnica .text-wrapper-26 {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 0;
   color: #000000;
@@ -1268,7 +1257,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .div-text-24 {
+.traducaotecnica .div-text {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1279,7 +1268,7 @@
   width: 1040px;
 }
 
-.traducaotecnica .text-wrapper-140 {
+.traducaotecnica .text-wrapper-27 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 16.5px;
@@ -1294,7 +1283,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .overlap-group-11 {
+.traducaotecnica .overlap-group-4 {
   height: 534px;
   left: 9px;
   position: absolute;
@@ -1302,7 +1291,7 @@
   width: 1068px;
 }
 
-.traducaotecnica .div-row-5 {
+.traducaotecnica .div-row {
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -1316,7 +1305,7 @@
   width: 1068px;
 }
 
-.traducaotecnica .div-item-serv-power-9 {
+.traducaotecnica .div-item-serv-power {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1325,7 +1314,7 @@
   width: 355.94px;
 }
 
-.traducaotecnica .div-item-serv-power-10 {
+.traducaotecnica .div-item-hp-perfect-wrapper {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1336,7 +1325,7 @@
   width: 100%;
 }
 
-.traducaotecnica .div-item-hp-perfect-20 {
+.traducaotecnica .div-item-hp-perfect {
   align-items: flex-start;
   align-self: stretch;
   background-color: #ffffff;
@@ -1350,13 +1339,13 @@
   width: 100%;
 }
 
-.traducaotecnica .img-6 {
+.traducaotecnica .img-3 {
   height: 28.35px;
   position: relative;
   width: 26.78px;
 }
 
-.traducaotecnica .heading-28 {
+.traducaotecnica .heading-3 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1367,7 +1356,7 @@
   width: 100%;
 }
 
-.traducaotecnica .text-wrapper-141 {
+.traducaotecnica .text-wrapper-28 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 16.4px;
@@ -1380,7 +1369,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .div-text-25 {
+.traducaotecnica .div-text-2 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1391,7 +1380,7 @@
   width: 100%;
 }
 
-.traducaotecnica .text-wrapper-142 {
+.traducaotecnica .text-wrapper-29 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 12.4px;
@@ -1405,7 +1394,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .image-19 {
+.traducaotecnica .image {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1420,13 +1409,13 @@
   width: 54px;
 }
 
-.traducaotecnica .image-20 {
+.traducaotecnica .image-2 {
   height: 35.44px;
   position: relative;
   width: 54.34px;
 }
 
-.traducaotecnica .div-item-serv-power-11 {
+.traducaotecnica .div-item-serv-power-2 {
   align-items: flex-start;
   align-self: stretch;
   border-radius: 5px;
@@ -1438,7 +1427,7 @@
   width: 100%;
 }
 
-.traducaotecnica .div-item-hp-perfect-21 {
+.traducaotecnica .div-item-hp-perfect-2 {
   align-items: flex-start;
   align-self: stretch;
   background-color: #ffffff;
@@ -1452,13 +1441,13 @@
   width: 100%;
 }
 
-.traducaotecnica .img-7 {
+.traducaotecnica .img-4 {
   height: 28.35px;
   position: relative;
   width: 28.35px;
 }
 
-.traducaotecnica .heading-29 {
+.traducaotecnica .heading-4 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1469,7 +1458,7 @@
   width: 100%;
 }
 
-.traducaotecnica .text-wrapper-143 {
+.traducaotecnica .text-wrapper-30 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 16.8px;
@@ -1482,7 +1471,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .div-text-26 {
+.traducaotecnica .div-text-3 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1493,7 +1482,7 @@
   width: 100%;
 }
 
-.traducaotecnica .text-wrapper-144 {
+.traducaotecnica .text-wrapper-31 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 12.6px;
@@ -1507,7 +1496,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .div-item-serv-power-12 {
+.traducaotecnica .div-item-serv-power-wrapper {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1515,7 +1504,7 @@
   width: 355.94px;
 }
 
-.traducaotecnica .div-item-serv-power-13 {
+.traducaotecnica .div-item-serv-power-3 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1526,7 +1515,7 @@
   width: 100%;
 }
 
-.traducaotecnica .div-item-hp-perfect-22 {
+.traducaotecnica .div-item-hp-perfect-3 {
   align-items: flex-start;
   align-self: stretch;
   background-color: #ffffff;
@@ -1540,13 +1529,13 @@
   width: 100%;
 }
 
-.traducaotecnica .alt-do-site-3 {
+.traducaotecnica .alt-do-site {
   height: 27.56px;
   position: relative;
   width: 28.35px;
 }
 
-.traducaotecnica .heading-30 {
+.traducaotecnica .heading-5 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1557,7 +1546,7 @@
   width: 100%;
 }
 
-.traducaotecnica .div-text-27 {
+.traducaotecnica .div-text-4 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -1568,7 +1557,7 @@
   width: 100%;
 }
 
-.traducaotecnica .text-wrapper-145 {
+.traducaotecnica .text-wrapper-32 {
   color: #094254;
   font-family: "Inter", Helvetica;
   font-size: 12.6px;
@@ -1582,7 +1571,7 @@
   width: fit-content;
 }
 
-.traducaotecnica .image-21 {
+.traducaotecnica .image-wrapper {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -1597,13 +1586,13 @@
   width: 54px;
 }
 
-.traducaotecnica .image-22 {
+.traducaotecnica .image-3 {
   height: 36.22px;
   position: relative;
   width: 54.34px;
 }
 
-.traducaotecnica .div-item-serv-power-14 {
+.traducaotecnica .div-item-serv-power-4 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1613,19 +1602,19 @@
   width: 355.94px;
 }
 
-.traducaotecnica .filme-3 {
+.traducaotecnica .filme {
   height: 29.14px;
   position: relative;
   width: 28.35px;
 }
 
-.traducaotecnica .frame-131 {
+.traducaotecnica .frame-39 {
   height: 100px;
   position: relative;
   width: 100px;
 }
 
-.traducaotecnica .div-item-serv-power-15 {
+.traducaotecnica .div-item-serv-power-5 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -1635,7 +1624,7 @@
   width: 355.94px;
 }
 
-.traducaotecnica .rectangle-31 {
+.traducaotecnica .rectangle-5 {
   height: 32px;
   left: 581px;
   position: absolute;
@@ -1643,7 +1632,7 @@
   width: 98px;
 }
 
-.traducaotecnica .rectangle-32 {
+.traducaotecnica .rectangle-6 {
   height: 32px;
   left: 937px;
   position: absolute;
@@ -1651,7 +1640,7 @@
   width: 98px;
 }
 
-.traducaotecnica .rectangle-33 {
+.traducaotecnica .rectangle-7 {
   height: 32px;
   left: 225px;
   position: absolute;
@@ -1659,7 +1648,7 @@
   width: 98px;
 }
 
-.traducaotecnica .rectangle-34 {
+.traducaotecnica .rectangle-8 {
   height: 32px;
   left: 581px;
   position: absolute;
@@ -1667,7 +1656,7 @@
   width: 98px;
 }
 
-.traducaotecnica .rectangle-35 {
+.traducaotecnica .rectangle-9 {
   height: 32px;
   left: 938px;
   position: absolute;
@@ -1675,7 +1664,7 @@
   width: 98px;
 }
 
-.traducaotecnica .rectangle-36 {
+.traducaotecnica .rectangle-10 {
   height: 32px;
   left: 225px;
   position: absolute;
@@ -1683,7 +1672,7 @@
   width: 98px;
 }
 
-.traducaotecnica .empresa-de-traduo-33 {
+.traducaotecnica .empresa-de-traduo-4 {
   background-image: url(../../../static/img/mask-group-9.png);
   background-size: 100% 100%;
   height: 65px;
@@ -1694,7 +1683,7 @@
   width: 65px;
 }
 
-.traducaotecnica .empresa-de-traduo-34 {
+.traducaotecnica .empresa-de-traduo-5 {
   background-image: url(../../../static/img/mask-group-10.png);
   background-size: 100% 100%;
   height: 40px;
@@ -1705,7 +1694,7 @@
   width: 40px;
 }
 
-.traducaotecnica .fale-com-um-5 {
+.traducaotecnica .fale-com-um-instance {
   left: 638px !important;
   position: absolute !important;
   top: 3815px !important;
@@ -1721,27 +1710,27 @@
   top: 3925px;
 }
 
-.traducaotecnica .logo-preto-branco-9 {
+.traducaotecnica .logo-preto-branco-2 {
   height: 48.04px;
   object-fit: cover;
   position: relative;
   width: 185.85px;
 }
 
-.traducaotecnica .group-37 {
+.traducaotecnica .group-9 {
   height: 81.16px;
   margin-right: -4px;
   position: relative;
   width: 977px;
 }
 
-.traducaotecnica .overlap-group-12 {
+.traducaotecnica .overlap-group-5 {
   height: 81px;
   position: relative;
   width: 973px;
 }
 
-.traducaotecnica .text-wrapper-146 {
+.traducaotecnica .text-wrapper-33 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -1755,7 +1744,7 @@
   white-space: nowrap;
 }
 
-.traducaotecnica .text-wrapper-147 {
+.traducaotecnica .text-wrapper-34 {
   color: #000000;
   font-family: "Inter", Helvetica;
   font-size: 12.5px;
@@ -1799,7 +1788,7 @@
   position: relative;
 }
 
-.traducaotecnica .text-wrapper-148 {
+.traducaotecnica .text-wrapper-35 {
   color: #000000;
   font-family: "Poppins", Helvetica;
   font-size: 52.5px;
@@ -1812,7 +1801,7 @@
   width: 864.15px;
 }
 
-.traducaotecnica .text-wrapper-149 {
+.traducaotecnica .text-wrapper-36 {
   color: var(--base-black);
   font-family: "Inter", Helvetica;
   font-size: 18.9px;
@@ -1824,7 +1813,7 @@
   width: 649px;
 }
 
-.traducaotecnica .group-38 {
+.traducaotecnica .group-10 {
   height: 44.28px;
   position: relative;
   width: 514.9px;

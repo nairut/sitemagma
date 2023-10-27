@@ -12,16 +12,16 @@ export const CaseZf = () => {
           <div className="rectangle-14" />
           <div className="rectangle-15" />
           <div className="group-16">
-            <div className="ellipse-14" />
+            <div className="ellipse-12" />
           </div>
           <div className="group-17">
-            <div className="ellipse-15" />
+            <div className="ellipse-13" />
           </div>
           <div className="group-18">
-            <div className="ellipse-16" />
+            <div className="ellipse-14" />
           </div>
-          <div className="frame-49">
-            <div className="frame-50">
+          <div className="frame-48">
+            <div className="frame-49">
               <p className="o-caso-ZF-e-o-servi">
                 <span className="text-wrapper-46">
                   O caso ZF <br />
@@ -38,7 +38,7 @@ export const CaseZf = () => {
           <div className="imagens-2">
             <div className="overlap-group-7">
               <div className="div-absolute-2" />
-              <div className="frame-51">
+              <div className="frame-50">
                 <div className="servio-de-traduo-wrapper">
                   <img
                     className="servio-de-traduo"
@@ -47,25 +47,25 @@ export const CaseZf = () => {
                   />
                 </div>
               </div>
+              <div className="empresa-de-traduo-13" />
               <div className="empresa-de-traduo-14" />
-              <div className="empresa-de-traduo-15" />
             </div>
+            <div className="empresa-de-traduo-15" />
             <div className="empresa-de-traduo-16" />
             <div className="empresa-de-traduo-17" />
-            <div className="empresa-de-traduo-18" />
           </div>
           <div className="idiomas-2">
             <div className="text-wrapper-49">todos os dias</div>
             <div className="text-wrapper-50">10 idiomas traduzidos</div>
             <div className="text-wrapper-51">Setor Automotivo</div>
           </div>
+          <div className="empresa-de-traduo-18" />
           <div className="empresa-de-traduo-19" />
-          <div className="empresa-de-traduo-20" />
-          <div className="frame-52">
-            <div className="frame-53">
-              <img className="ellipse-17" alt="Ellipse" src="/img/ellipse-80-3.png" />
-              <div className="frame-54">
-                <div className="frame-55">
+          <div className="frame-51">
+            <div className="frame-52">
+              <img className="ellipse-15" alt="Ellipse" src="/img/ellipse-80-3.png" />
+              <div className="frame-53">
+                <div className="frame-54">
                   <div className="text-wrapper-52">Danielle Schmitt</div>
                   <div className="ZF-friedrichshafen">Zf Friedrichshafen</div>
                 </div>
@@ -75,17 +75,17 @@ export const CaseZf = () => {
               Somos uma empresa alemã, o maior fabricante de peças de automóveis do mundo. Para nós, a confiança na
               segurança de dados é essencial. A Magma Translation é uma empresa confiável.
             </p>
-            <div className="frame-56">
-              <img className="star-3" alt="Star" src="/img/star-21-4.png" />
-              <img className="star-3" alt="Star" src="/img/star-22-4.png" />
-              <img className="star-3" alt="Star" src="/img/star-23-4.png" />
-              <img className="star-3" alt="Star" src="/img/star-24-4.png" />
-              <img className="star-3" alt="Star" src="/img/star-25-4.png" />
+            <div className="frame-55">
+              <img className="star-3" alt="Star" src="/img/star-21-10.png" />
+              <img className="star-3" alt="Star" src="/img/star-22-10.png" />
+              <img className="star-3" alt="Star" src="/img/star-23-10.png" />
+              <img className="star-3" alt="Star" src="/img/star-24-10.png" />
+              <img className="star-3" alt="Star" src="/img/star-25-10.png" />
             </div>
           </div>
           <img className="feature-section-2" alt="Feature section" src="/img/feature-section-236-1.png" />
           <div className="group-19">
-            <div className="ellipse-16" />
+            <div className="ellipse-14" />
           </div>
         </div>
         <FaleComUm className="fale-com-um-3" property1="default" />
@@ -93,7 +93,7 @@ export const CaseZf = () => {
           <div className="group-20">
             <p className="outras-empresas-que-2">Outras Empresas Que Confiam Em Nós</p>
           </div>
-          <img className="group-21" alt="Group" src="/img/group-22-2.png" />
+          <img className="group-21" alt="Group" src="/img/group-22-5.png" />
         </div>
         <div className="group-22">
           <div className="overlap-6">
@@ -109,7 +109,7 @@ export const CaseZf = () => {
         <img className="logo-preto-branco-6" alt="Logo preto branco" src="/img/logo-preto-branco-2.png" />
         <Menu
           className="menu-3"
-          expandMoreImg="/img/expand-more-13.png"
+          expandMoreImg="/img/expand-more-19.png"
           expandMoreStyleRound="/img/expand-more-6.png"
           expandMoreStyleRound1="/img/expand-more-8.png"
           expandMoreStyleRound2="/img/expand-more-9.png"
