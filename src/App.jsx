@@ -29,6 +29,8 @@ import { Sobre } from "./screens/Sobre";
 import { CaseShopee } from "./screens/CaseShopee/CaseShopee";
 import { CaseZf } from "./screens/CaseZf/CaseZf";
 import { Legendagem } from "./screens/Legendagem/Legendagem";
+import { Movimento } from "./screens/Movimento/Movimento";
+import { MovimentoScreen } from "./screens/MovimentoScreen";
 
 
 
@@ -106,10 +108,24 @@ export const App = () => {
 
   
 
+// Testes de movimento
 
 
 
-      
+{
+  path: "/movimento",
+  element: isMobile ? <CelularPtpronto  /> : <Movimento />,
+},
+
+
+{
+  path: "/movimentoscreen",
+  element: isMobile ? <CelularPtpronto  /> : <MovimentoScreen />,
+  
+},
+
+
+
 
 
 

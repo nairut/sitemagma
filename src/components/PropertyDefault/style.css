@@ -1,0 +1,18 @@
+.property-default {
+  background-color: #ffffff;
+  height: 770px;
+  left: 20px;
+  position: relative;
+  top: 20px;
+  width: 1512px;
+}
+
+.property-default .ellipse {
+  background-color: #d9d9d9;
+  border-radius: 60px/50.5px;
+  height: 101px;
+  left: 235px;
+  position: relative;
+  top: 182px;
+  width: 120px;
+}

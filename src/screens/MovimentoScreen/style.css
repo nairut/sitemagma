@@ -1,0 +1,16 @@
+.movimento-screen {
+  background-color: #ffffff;
+  min-height: 770px;
+  min-width: 1512px;
+  width: 100%;
+}
+
+.movimento-screen .ellipse-2 {
+  background-color: #d9d9d9;
+  border-radius: 60px/50.5px;
+  height: 101px;
+  left: 696px;
+  position: relative;
+  top: 531px;
+  width: 120px;
+}
