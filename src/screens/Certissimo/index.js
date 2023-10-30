@@ -1,0 +1,1 @@
+export { Certissimo } from "./Certissimo";

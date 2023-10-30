@@ -1,0 +1,48 @@
+.hero-trad-tecnica {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  top: -14474px;
+}
+
+.hero-trad-tecnica .hero-text-tradu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 33px;
+  position: relative;
+}
+
+.hero-trad-tecnica .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 52.5px;
+  font-weight: 700;
+  letter-spacing: -1.57px;
+  line-height: 61.8px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 864.15px;
+}
+
+.hero-trad-tecnica .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  text-align: center;
+  width: 649px;
+}
+
+.hero-trad-tecnica .group {
+  height: 44.28px;
+  position: relative;
+  width: 514.9px;
+}

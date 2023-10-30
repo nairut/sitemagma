@@ -1,0 +1,1 @@
+export { ScrollShrinkImage } from "./ScrollShrinkImage";

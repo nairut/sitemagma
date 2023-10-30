@@ -1,0 +1,134 @@
+.hero-very-new {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-very-new .overlap-group-wrapper {
+  background-color: #ffffff;
+  height: 1013px;
+  overflow: hidden;
+  width: 1512px;
+}
+
+.hero-very-new .overlap-group {
+  height: 1013px;
+  left: -41px;
+  position: relative;
+  top: -41px;
+  width: 1594px;
+}
+
+.hero-very-new .background {
+  height: 1672px;
+  left: 41px;
+  position: absolute;
+  top: 41px;
+  width: 1512px;
+  z-index: 0;
+}
+
+.hero-very-new .rectangle {
+  border: 41px solid;
+  border-color: #000000;
+  border-radius: 2px;
+  height: 942px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1594px;
+  z-index: 0;
+}
+
+.hero-very-new .hero-trad-tecnica-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 41px;
+  left: 365px;
+  position: absolute;
+  top: 317px;
+
+}
+
+.hero-very-new .hero-trad-tecnica {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-very-new .hero-text-tradu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 33px;
+  position: relative;
+}
+
+.hero-very-new .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 52.5px;
+  font-weight: 700;
+  letter-spacing: -1.57px;
+  line-height: 61.8px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 864.15px;
+  z-index: 1;
+}
+
+.hero-very-new .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  text-align: center;
+  width: 649px;
+}
+
+.hero-very-new .logo-preto-branco {
+  height: 41px;
+  left: 238px;
+  object-fit: cover;
+  position: absolute;
+  top: 108px;
+  width: 158px;
+}
+
+.hero-very-new .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 22px;
+  left: 542px;
+  position: absolute;
+  top: 558px;
+}
+
+.hero-very-new .fale-com-um-especialista {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.hero-very-new .contato-rapido-instance {
+  left: unset !important;
+  top: unset !important;
+}
+
+.hero-very-new .menu-instance {
+  left: 496px !important;
+  position: absolute !important;
+  top: 116px !important;
+}

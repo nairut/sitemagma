@@ -1,0 +1,15 @@
+/* Add any styles you want for the component container here */
+.scroll-shrink-image {
+  /* Center the image vertically and horizontally */
+  left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* You can adjust the height to fit your layout */
+}
+
+/* Styles for the image */
+.scroll-shrink-image img {
+  transition: width 0.5s; /* Add a smooth transition effect */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}

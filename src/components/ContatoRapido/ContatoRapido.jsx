@@ -8,14 +8,14 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
-export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido" }) => {
+export const ContatoRapido = ({ property1, className }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
 
   return (
     <a
-      className={`contato-rapido property-1-1-${state.property1} ${className}`}
+      className={`contato-rapido property-1-0-${state.property1} ${className}`}
       href="https://contato.magmatranslation.com/"
       rel="noopener noreferrer"
       target="_blank"
@@ -26,7 +26,7 @@ export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido"
         dispatch("mouse_leave");
       }}
     >
-      <div className="text-wrapper-3">{text}</div>
+      <div className="div">Orçamento Rapido</div>
     </a>
   );
 };
@@ -51,5 +51,4 @@ function reducer(state, action) {
 
 ContatoRapido.propTypes = {
   property1: PropTypes.oneOf(["variant-2", "default"]),
-  text: PropTypes.string,
 };

@@ -1,0 +1,121 @@
+.hero-section-new {
+  height: 2356px;
+  left: -667px;
+  position: relative;
+  top: -741px;
+  width: 2668px;
+}
+
+.hero-section-new .overlap-group {
+  border: 41px solid;
+  border-color: #000000;
+  border-radius: 2px;
+  height: 946px;
+  left: 626px;
+  position: relative;
+  top: 700px;
+  width: 1594px;
+}
+
+.hero-section-new .background {
+  height: 864px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1512px;
+}
+
+.hero-section-new .logo-preto-branco {
+  height: 34px;
+  left: 158px;
+  object-fit: cover;
+  position: absolute;
+  top: 67px;
+  width: 130px;
+}
+
+.hero-section-new .menu-instance {
+  display: flex !important;
+  height: 19px !important;
+  left: 433px !important;
+  position: absolute !important;
+  top: 75px !important;
+  width: 645px !important;
+}
+
+.hero-section-new .hero-trad-tecnica-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  height: 185px;
+  left: 324px;
+  position: absolute;
+  top: 269px;
+  width: 864px;
+}
+
+.hero-section-new .hero-trad-tecnica {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+}
+
+.hero-section-new .hero-text-tradu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 33px;
+  position: relative;
+}
+
+.hero-section-new .text-wrapper-3 {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 52.5px;
+  font-weight: 700;
+  letter-spacing: -1.57px;
+  line-height: 61.8px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 864.15px;
+}
+
+.hero-section-new .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  text-align: center;
+  width: 649px;
+}
+
+.hero-section-new .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  gap: 22px;
+  height: 44px;
+  left: 501px;
+  position: absolute;
+  top: 535px;
+  width: 510px;
+}
+
+.hero-section-new .fale-com-um-especialista {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.hero-section-new .contato-rapido-instance {
+  left: unset !important;
+  top: unset !important;
+}

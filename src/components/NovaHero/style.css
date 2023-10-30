@@ -1,0 +1,61 @@
+.nova-hero {
+ 
+  left: -700px;
+  position: relative;
+  top: -860px;
+  width: 1512px;
+}
+
+.nova-hero .overlap-group {
+  height: 864px;
+  left: 655px;
+  position: relative;
+  top: 811px;
+  width: 1512px;
+}
+
+.nova-hero .background {
+  height: 901px;
+  left: 52px;
+  position: absolute;
+  top: 49px;
+  width: 1512px;
+}
+
+.nova-hero .logo-preto-branco {
+  height: 34px;
+  left: 210px;
+  object-fit: cover;
+  position: absolute;
+  top: 116px;
+  width: 130px;
+}
+
+.nova-hero .menu-instance {
+  display: flex !important;
+  height: 19px !important;
+  left: 533px !important;
+  position: absolute !important;
+  top: 116px !important;
+  width: 600px !important;
+}
+
+.nova-hero .hero-trad-tecnica-instance {
+  display: flex !important;
+  height: 261px !important;
+  left: 376px !important;
+  position: absolute !important;
+  top: 220px !important;
+  width: 864px !important;
+}
+
+.nova-hero .rectangle {
+  border: 43.09px solid;
+  border-color: #000000;
+  border-radius: 14.78px;
+  height: 854px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1612px;
+}

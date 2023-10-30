@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.estudo-de-caso .div {
+.estudo-de-caso .text-wrapper {
   color: var(--base-white);
   font-family: "Inter", Helvetica;
   font-size: 15.7px;

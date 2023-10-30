@@ -31,7 +31,14 @@ import { CaseZf } from "./screens/CaseZf/CaseZf";
 import { Legendagem } from "./screens/Legendagem/Legendagem";
 import { Movimento } from "./screens/Movimento/Movimento";
 import { MovimentoScreen } from "./screens/MovimentoScreen";
-
+import { NovaHero } from "./components/NovaHero";
+import { Certissimo } from "./screens/Certissimo";
+import { Juntando } from "./screens/Juntando";
+import { HeroSection } from "./screens/HeroSection/HeroSection";
+import { ComponenteInferior } from "./screens/ComponenteInferior";
+import { HeroSectionNew } from "./components/HeroSectionNew/HeroSectionNew";
+import { Two } from "./screens/Two/Two";
+import { HeroVeryNew } from "./screens/HeroVeryNew/HeroVeryNew";
 
 
 
@@ -106,7 +113,6 @@ export const App = () => {
 
 
 
-  
 
 // Testes de movimento
 
@@ -119,14 +125,32 @@ export const App = () => {
 
 
 {
-  path: "/movimentoscreen",
-  element: isMobile ? <CelularPtpronto  /> : <MovimentoScreen />,
+  path: "/novahero",
+  element: isMobile ? <CelularPtpronto  /> : <NovaHero />,
   
 },
 
 
+{
+  path: "/juntando",
+  element: isMobile ? <CelularPtpronto  /> : <Juntando />,
+  
+},
+
+{
+  path: "/novahero",
+  element: isMobile ? <CelularPtpronto  /> : <HeroSection />,
+  
+},
 
 
+{
+
+
+  path: "/herosectionnew",
+  element: isMobile ? <CelularPtpronto  /> : <HeroVeryNew />,
+  
+},
 
 
 

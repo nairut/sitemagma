@@ -1,0 +1,14 @@
+.two {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.two .hero-section-new-wrapper {
+  background-color: #ffffff;
+  height: 864px;
+  overflow: hidden;
+  width: 1512px;
+}

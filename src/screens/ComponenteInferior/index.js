@@ -1,0 +1,1 @@
+export { ComponenteInferior } from "./ComponenteInferior";
