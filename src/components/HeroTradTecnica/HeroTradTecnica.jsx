@@ -17,6 +17,7 @@ export const HeroTradTecnica = ({ className }) => {
         </p>
       </div>
       <img className="group" alt="Group" src="/img/group-46885.png" />
+
     </div>
   );
 };

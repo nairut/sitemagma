@@ -39,6 +39,8 @@ import { ComponenteInferior } from "./screens/ComponenteInferior";
 import { HeroSectionNew } from "./components/HeroSectionNew/HeroSectionNew";
 import { Two } from "./screens/Two/Two";
 import { HeroVeryNew } from "./screens/HeroVeryNew/HeroVeryNew";
+import { LogoCloud } from "./screens/LogoCloud/LogoCloud";
+import { MeioEmTroca } from "./screens/MeioEmTroca";
 
 
 
@@ -133,7 +135,7 @@ export const App = () => {
 
 {
   path: "/juntando",
-  element: isMobile ? <CelularPtpronto  /> : <Juntando />,
+  element: isMobile ? <Juntando  /> : <Juntando />,
   
 },
 
@@ -149,6 +151,14 @@ export const App = () => {
 
   path: "/herosectionnew",
   element: isMobile ? <CelularPtpronto  /> : <HeroVeryNew />,
+  
+},
+
+{
+
+
+  path: "/meioemtroca",
+  element: isMobile ? <MeioEmTroca  /> : <MeioEmTroca />,
   
 },
 

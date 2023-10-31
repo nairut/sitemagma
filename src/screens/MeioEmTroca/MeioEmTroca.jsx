@@ -6,7 +6,7 @@ import { ComponenteInferior } from "../ComponenteInferior";
 import { LogoCloud } from "../LogoCloud/LogoCloud";
 
 
-export const Juntando = () => {
+export const MeioEmTroca = () => {
   const [scrollY, setScrollY] = useState(0);
   useEffect(() => {
     const handleScroll = () => {
@@ -25,20 +25,27 @@ export const Juntando = () => {
     maxScale - (scrollY / maxTranslateY) * (maxScale - minScale)
   );
   const translateY = Math.min(maxTranslateY, scrollY);
+
+
   return (
-    <div className="juntando-container">
-      <div
-        className="ellipse on-top"
-        style={{
-          transform: `scale(${scale}) translateY(${translateY}px)`,
-        }}
-      >
-        <div className="centered-content">
-          <NovaHero />
-        </div>
-      </div>
-      <ComponenteInferior />
-      <LogoCloud />
+
+    <div className="container">
+
+    <div className="box1">
+      <div className="texto">Aqui vai entrar o texto depois de algum tempo </div>
+
+
+
+
+
+    </div>
+    <div className="box2"  >
+<div className="imagem"></div>
+
+
+    </div>
+
+
     </div>
   );
 };

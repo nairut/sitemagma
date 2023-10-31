@@ -91,7 +91,7 @@ const imageContainerMaxScroll = 200;
           transform: `scale(${scale}) translateY(${translateY}px)`,
         }}  
       >
-      <div className="quadrado">
+   <div className="quadrado">
         <p > Nunca Tantos arquivos foram Traduzidos</p>
         </div>
       </div>

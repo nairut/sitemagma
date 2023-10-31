@@ -1,0 +1,95 @@
+.container {
+   display: flex;
+   height: 700px;
+   justify-content: space-around;
+   align-items:center;
+}
+
+
+
+.box1 {
+
+height:800px;
+width: 800px;
+background-color: blue;
+
+}
+
+.texto {
+   height:300px;
+   width: 300px;
+   background-color: rgb(150, 131, 145);
+   position: relative; 
+   left: 200px;
+   top:250px;
+}
+
+
+
+.box2 {
+
+   height:800px;
+   width: 800px;
+   background-color: rgb(169, 42, 135);
+
+
+}
+
+.imagem {
+      top:100px;
+      height:600px;
+      width: 700px;
+      background-color: rgb(19, 9, 16);
+      position: relative;
+      left: 100px;
+}
+
+
+
+
+
+
+.textoaaaa {
+   color: #000000;
+   font-family: "Poppins", Helvetica;
+   font-size: 20.6px;
+   font-weight: 700;
+   letter-spacing: -1.22px;
+   line-height: 47.8px;
+   position: relative;
+   text-align: left;
+   height: 200px;
+   width: 300px;
+   left: 300px;
+   top: 320px;
+   border: 2px solid rgb(36, 24, 173);
+   flex-shrink: 5;
+}
+
+
+
+.imagemcomputador {
+   position: relative;
+   width: 800px;
+   left: 500px;
+   top: 120px;
+   flex-basis:50px;
+   flex-shrink: 5;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+   .container {
+       flex-direction: column;
+    }
+}
+
+
+
+
+

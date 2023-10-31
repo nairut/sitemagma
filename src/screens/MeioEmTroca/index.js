@@ -1,0 +1,1 @@
+export { MeioEmTroca } from "./MeioEmTroca";
