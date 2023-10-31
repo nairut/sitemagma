@@ -1,0 +1,457 @@
+
+
+.logo-cloud {
+  width: 100%;
+
+  background-color: #ffffff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.logo-cloud .div {
+  background-color: #ffffff;
+  height: 2233.9px;
+  position: relative;
+  width: 1536px;
+}
+
+
+
+.logo-cloud .text-wrapper {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 35.6px;
+  font-weight: 700;
+  letter-spacing: -1.22px;
+  line-height: 47.8px;
+  margin-top: -1.02px;
+  position: relative;
+  text-align: center;
+  width: 520.13px;
+  left: 490px;
+  top: 720px;
+
+  transition: transform 0.08s ease; /* Adjust the transition duration (e.g., 0.3s) */
+  transform: translate3d(0, 0, 0); /* Use translate3d for smoother animation */
+}
+
+
+.logo-cloud .segundafrase {
+  color: #000000;
+
+  font-family: "Inter", Helvetica;
+  font-size: 19.2px;
+  font-weight: 500;
+  left: 528px;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  position: absolute;
+  text-align: center;
+  top: 1440px;
+  width: 477px;
+}
+
+
+
+.logo-cloud .imagens {
+  position: absolute;
+  top: -54px;
+  width: 477px;
+}
+
+
+
+.logo-cloud .imagenssegundas {
+  position: absolute;
+  top: 4px;
+  width: 477px;
+}
+
+
+
+
+
+.logo-cloud .docx-icon {
+  height: 230px;
+  left: 1088px;
+  object-fit: cover;
+  position: absolute;
+  top: 701px;
+  width: 231px;
+}
+
+.logo-cloud .PDF-file-icon {
+  height: 193px;
+  left: 272px;
+  object-fit: cover;
+  position: absolute;
+  top: 700px;
+  width: 156px;
+}
+
+.logo-cloud .traducao-de-txt {
+  height: 75px;
+  left: 153px;
+  object-fit: cover;
+  position: absolute;
+  top: 103px;
+  width: 75px;
+}
+
+.logo-cloud .traducao-de-cvs {
+  height: 79px;
+  left: 153px;
+  object-fit: cover;
+  position: absolute;
+  top: 481px;
+  width: 78px;
+}
+
+.logo-cloud .element {
+  height: 103px;
+  left: 1026px;
+  object-fit: cover;
+  position: absolute;
+  top: 2052px;
+  width: 108px;
+}
+
+.logo-cloud .element-design-de {
+  height: 143px;
+  left: 900px;
+  object-fit: cover;
+  position: absolute;
+  top: 1643px;
+  width: 143px;
+}
+
+.logo-cloud .download {
+  height: 91px;
+  left: 1013px;
+  object-fit: cover;
+  position: absolute;
+  top: 186px;
+  width: 91px;
+}
+
+.logo-cloud .images {
+  height: 49px;
+  left: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 1735px;
+  width: 49px;
+}
+
+.logo-cloud .traducao-de-excel {
+  height: 193px;
+  left: 911px;
+  object-fit: cover;
+  position: absolute;
+  top: 481px;
+  width: 193px;
+}
+
+.logo-cloud .traducao-de {
+  height: 79px;
+  left: 1275px;
+  object-fit: cover;
+  position: absolute;
+  top: 339px;
+  width: 120px;
+}
+
+.logo-cloud .traducao-de-sql {
+  height: 79px;
+  left: 640px;
+  object-fit: cover;
+  position: absolute;
+  top: 522px;
+  width: 171px;
+}
+
+.logo-cloud .element-java {
+  height: 178px;
+  left: 152px;
+  object-fit: cover;
+  position: absolute;
+  top: 1491px;
+  width: 98px;
+}
+
+.logo-cloud .traducao-de-python {
+  height: 72px;
+  left: 654px;
+  object-fit: cover;
+  position: relative;
+  top: 1698px;
+  width: 71px;
+}
+
+.logo-cloud .traducao-de-c {
+  height: 99px;
+  left: 148px;
+  object-fit: cover;
+  position: absolute;
+  top: 650px;
+  width: 87px;
+}
+
+.logo-cloud .traducao-de-psd {
+  height: 84px;
+  left: 1260px;
+  object-fit: cover;
+  position: absolute;
+  top: 1032px;
+  width: 140px;
+}
+
+.logo-cloud .traducao-adobe {
+  height: 91px;
+  left: 774px;
+  object-fit: cover;
+  position: absolute;
+  top: 248px;
+  width: 93px;
+}
+
+.logo-cloud .traducao {
+  height: 166px;
+  left: 272px;
+  object-fit: cover;
+  position: absolute;
+  top: 213px;
+  width: 171px;
+}
+
+.logo-cloud .adobe-swf-icon {
+  height: 105px;
+  left: 1062px;
+  object-fit: cover;
+  position: absolute;
+  top: 1116px;
+  width: 105px;
+}
+
+.logo-cloud .img {
+  height: 66px;
+  left: 292px;
+  object-fit: cover;
+  position: absolute;
+  top: 978px;
+  width: 66px;
+}
+
+.logo-cloud .i {
+  height: 68px;
+  left: 358px;
+  object-fit: cover;
+  position: absolute;
+  top: 1130px;
+  width: 121px;
+}
+
+.logo-cloud .tipos-de-arquivos {
+  height: 66px;
+  left: 1386px;
+  object-fit: cover;
+  position: absolute;
+  top: 666px;
+  width: 66px;
+}
+
+.logo-cloud .apps-top {
+  height: 139px;
+  left: 343px;
+  object-fit: cover;
+  position: absolute;
+  top: 1310px;
+  width: 135px;
+}
+
+.logo-cloud .element-2 {
+  height: 105px;
+  left: 1148px;
+  object-fit: cover;
+  position: absolute;
+  top: 959px;
+  width: 105px;
+}
+
+.logo-cloud .png-clipart-computer {
+  height: 196px;
+  left: 124px;
+  position: absolute;
+  top: 1163px;
+  width: 65px;
+}
+
+.logo-cloud .overlap-group {
+  height: 274px;
+  left: 1031px;
+  position: absolute;
+  top: 1194px;
+  width: 421px;
+}
+
+.logo-cloud .wordpress-logotype {
+  height: 162px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 113px;
+  width: 299px;
+}
+
+.logo-cloud .image {
+  height: 148px;
+  left: 274px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 146px;
+}
+
+.logo-cloud .tiff-file-document {
+  height: 98px;
+  left: 403px;
+  position: absolute;
+  top: 2049px;
+  width: 105px;
+}
+
+.logo-cloud .download-2 {
+  height: 70px;
+  left: 1379px;
+  object-fit: cover;
+  position: absolute;
+  top: 1735px;
+  width: 70px;
+}
+
+.logo-cloud .images-2 {
+  height: 106px;
+  left: 1253px;
+  position: absolute;
+  top: 1910px;
+  width: 65px;
+}
+
+.logo-cloud .image-2 {
+  height: 106px;
+  left: 148px;
+  object-fit: cover;
+  position: absolute;
+  top: 991px;
+  width: 106px;
+}
+
+.logo-cloud .image-3 {
+  height: 106px;
+  left: 527px;
+  object-fit: cover;
+  position: absolute;
+  top: 186px;
+  width: 111px;
+}
+
+.logo-cloud .image-4 {
+  height: 150px;
+  left: 559px;
+  object-fit: cover;
+  position: relative;
+  top: 1868px;
+  width: 158px;
+}
+
+.logo-cloud .image-5 {
+  height: 136px;
+  left: 1276px;
+  object-fit: cover;
+  position: absolute;
+  top: 1490px;
+  width: 146px;
+}
+
+.logo-cloud .image-6 {
+  height: 133px;
+  left: 391px;
+  object-fit: cover;
+  position: absolute;
+  top: 468px;
+  width: 137px;
+}
+
+.logo-cloud .image-7 {
+  height: 157px;
+  left: 1116px;
+  object-fit: cover;
+  position: absolute;
+  top: 1760px;
+  width: 173px;
+}
+
+.logo-cloud .image-8 {
+  height: 121px;
+  left: 725px;
+  object-fit: cover;
+  position: absolute;
+  top: 2034px;
+  width: 124px;
+}
+
+.logo-cloud .image-9 {
+  height: 62px;
+  left: 419px;
+  object-fit: cover;
+  position: absolute;
+  top: 1540px;
+  width: 60px;
+}
+
+.logo-cloud .image-10 {
+  height: 191px;
+  left: 301px;
+  object-fit: cover;
+  position: absolute;
+  top: 1681px;
+  width: 185px;
+}
+
+.logo-cloud .image-11 {
+  height: 64px;
+  left: 911px;
+  object-fit: cover;
+  position: absolute;
+  top: 1911px;
+  width: 67px;
+}
+
+.logo-cloud .image-12 {
+  height: 64px;
+  left: 1088px;
+  object-fit: cover;
+  position: absolute;
+  top: 1531px;
+  width: 66px;
+}
+
+.logo-cloud .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 19.2px;
+  font-weight: 500;
+  left: 528px;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  position: absolute;
+  text-align: center;
+  top: 1040px;
+  width: 477px;
+}

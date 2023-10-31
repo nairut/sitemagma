@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./style.css";
 import { NovaHero } from "../../components/NovaHero";
 import { ComponenteInferior } from "../ComponenteInferior";
-import { HeroVeryNew } from "../HeroVeryNew/HeroVeryNew";
+import { LogoCloud } from "../LogoCloud/LogoCloud";
+
+
 
 export const Juntando = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -36,12 +38,14 @@ export const Juntando = () => {
         className="ellipse on-top"
         style={{
           transform: `scale(${scale}) translateY(${translateY}px)`,
-        }}  
+        }}
       >
         <div className="centered-content">
-          <HeroVeryNew />
+          <NovaHero />
         </div>
       </div>
+      <ComponenteInferior />
+      <LogoCloud />
       <ComponenteInferior />
     </div>
   );
