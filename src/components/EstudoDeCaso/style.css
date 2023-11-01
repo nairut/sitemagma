@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.estudo-de-caso .text-wrapper {
+.estudo-de-caso .p {
   color: var(--base-white);
   font-family: "Inter", Helvetica;
   font-size: 15.7px;
@@ -22,12 +22,12 @@
   width: fit-content;
 }
 
-.estudo-de-caso.default {
+.estudo-de-caso.property-1-1-default {
   background-color: #c59318;
   top: 20px;
 }
 
-.estudo-de-caso.variant-2 {
+.estudo-de-caso.property-1-1-variant-2 {
   background-color: #8281ff;
   top: 84px;
 }

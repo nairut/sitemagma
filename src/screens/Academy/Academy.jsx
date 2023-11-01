@@ -70,14 +70,14 @@ export const Academy = () => {
                   <span className="text-wrapper-51">{""}</span>
                 </p>
               </div>
-              <a className="link-4" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+              <a className="link-4" href="https://hotm.art/proftradutor" rel="noopener noreferrer" target="_blank">
                 <p className="text-wrapper-52">Clique e destrave seu futuro</p>
               </a>
 
 
               
             </div>
-            <a className="link-5" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+            <a className="link-5" href="https://hotm.art/proftradutor" rel="noopener noreferrer" target="_blank">
               <p className="text-wrapper-53">Clique e destrave seu futuro</p>
             </a>
           </div>
@@ -143,12 +143,8 @@ export const Academy = () => {
 
 
 
-
-
-
-
             <div className="overlap-34">
-            <a className="link-6" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+            <a className="link-6" href="https://hotm.art/proftradutor" rel="noopener noreferrer" target="_blank">
                 <p className="text-wrapper-52">Clique e destrave seu futuro</p>
             </a>
               <p className="saia-do-ZERO-e-torne-2">

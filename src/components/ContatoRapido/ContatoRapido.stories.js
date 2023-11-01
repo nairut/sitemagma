@@ -15,5 +15,6 @@ export const Default = {
   args: {
     property1: "variant-2",
     className: {},
+    text: "Orçamento Rapido",
   },
 };

@@ -1,14 +1,27 @@
 
 
-.juntando-container {
-   color: brown;
-}
 
-@media screen and (max-width: 1000px) {
+  .juntando-container {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  .herocaysa {
+    background-color: #ffffff;
+    height: 7310px;
+    overflow: hidden;
+    position: relative;
+    width: 1512px;
 
-    .juntando-container {
-        color: rgb(3, 3, 3);
-     }
+  }
 
 
-}
+
+  .stiky {
+position: sticky;
+height: 1000px;
+  }

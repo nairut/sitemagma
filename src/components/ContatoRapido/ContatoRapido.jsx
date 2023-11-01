@@ -8,7 +8,7 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
-export const ContatoRapido = ({ property1, className }) => {
+export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido" }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
@@ -26,7 +26,7 @@ export const ContatoRapido = ({ property1, className }) => {
         dispatch("mouse_leave");
       }}
     >
-      <div className="div">Orçamento Rapido</div>
+      <div className="div">{text}</div>
     </a>
   );
 };
@@ -51,4 +51,5 @@ function reducer(state, action) {
 
 ContatoRapido.propTypes = {
   property1: PropTypes.oneOf(["variant-2", "default"]),
+  text: PropTypes.string,
 };

@@ -41,6 +41,7 @@ import { Two } from "./screens/Two/Two";
 import { HeroVeryNew } from "./screens/HeroVeryNew/HeroVeryNew";
 import { LogoCloud } from "./screens/LogoCloud/LogoCloud";
 import { MeioEmTroca } from "./screens/MeioEmTroca";
+import { HeroCaysa } from "./screens/HeroCaysa/HeroCaysa";
 
 
 
@@ -157,8 +158,8 @@ export const App = () => {
 {
 
 
-  path: "/meioemtroca",
-  element: isMobile ? <MeioEmTroca  /> : <MeioEmTroca />,
+  path: "/herocaysa",
+  element: isMobile ? <MeioEmTroca  /> : <HeroCaysa />,
   
 },
 
