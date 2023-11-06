@@ -1,27 +1,73 @@
+.containerdois {
+  background-color: #ffffff;
+  width: 100%;
+}
 
 
+.juntandodois  {
 
-  .juntando-container {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  
-  .herocaysa {
-    background-color: #ffffff;
-    height: 7310px;
-    overflow: hidden;
-    position: relative;
-    width: 1512px;
+height: 8000px;
+width: 1500px;
+position: relative;
 
-  }
+}
 
 
+.cabeaherocaysa{
 
-  .stiky {
+  width: 1516px;
+  height: 1000px;
+  position: relative;
+}
+
+.sticky {
+
+  width: 1510px;
+  height: 1000px;
+  position: sticky;
+  top: 10px;
+
+
+}
+
+
+.baixando {
+
+width: 1510px;
+height: 2500px;
+position: relative;
+
+}
+
+
+.herosectiondois {
+  background-color: rgb(35, 35, 190);
+width: 1510px;
+height: 100px;
 position: sticky;
-height: 1000px;
-  }
+top: 1px;
+}
+
+.box{
+  background-color: rgb(0, 0, 0);
+width: 200px;
+height: 200px;
+position: sticky;
+top: 10px;
+
+}
+
+
+
+
+
+  
+.terceiraparte {
+
+  background-color: rgb(213, 204, 199);
+    width: 1500px;
+    height: 900px;
+    position: relative;
+    }
+
+

@@ -53,6 +53,7 @@ import { HeroCaysa } from "./screens/HeroCaysa/HeroCaysa";
 
 
 
+
  
 // Lazy-loaded components
 const LazyTagManager = React.lazy(() => import("./LazyTagManager"));
@@ -154,16 +155,6 @@ export const App = () => {
   element: isMobile ? <CelularPtpronto  /> : <HeroVeryNew />,
   
 },
-
-{
-
-
-  path: "/herocaysa",
-  element: isMobile ? <MeioEmTroca  /> : <HeroCaysa />,
-  
-},
-
-
 
 
 

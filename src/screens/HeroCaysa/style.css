@@ -6,31 +6,37 @@
   width: 100%;
 }
 
-
-.hero-caysa .div-3 {
+.hero-caysa .div-3dois {
   background-color: #ffffff;
-  height: 1310px;
+  height: 900px;
   overflow: hidden;
   position: relative;
-  width: 1785px;
-  transition: left 0.5s ease;
+  width: 1528px;
+  transition: left 3.53s ease;
+  border: 0.5px solid;
+  border-color: #000000;
+  top: -10;
+  
 }
 
 .hero-caysa .overlap-5 {
   height: 1008px;
-  left: -226px;
+  left: -236px;
   position: absolute;
   top: -47px;
   width: 1785px;
+  
+  
 }
 
 .hero-caysa .turian-2 {
   background-color: #e6f1fe;
+
   height: 1008px;
   left: 176px;
   position: absolute;
   top: 0;
-  width: 1785px;
+  width: 1609px;
 }
 
 .hero-caysa .turian-3 {

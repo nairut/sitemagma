@@ -7,19 +7,38 @@ import "./style.css";
 export const HeroCaysa = ({ scrollY }) => {
 
 
-  const componentStyle = {
-    // Example: Change the background color based on scrollY
-    left: scrollY > 100 ? 331 : 13,
+  //In this modified code, the left property will change to 331 when scrollY is between 
+  //180 and 300 (inclusive), and it will change to 13 otherwise.
 
+  const leftValue = scrollY >= 500 && scrollY <= 6000 ? 731 : 1;
+
+  const stickyClass = scrollY >= 180 && scrollY <= 3000 ? "sticky" : "";
+
+  // Add the component-transition class conditionally
+  const componentStyle = {
+    left: leftValue,
+  };
+
+  const stickyStyle = {
+    position: "sticky",
+    top: "1", // You can adjust the top value as needed
   };
 
 
 
+  // Toggle the component-transition class based on scrollY
+  const containerClassName = `componente-inferior ${
+    leftValue === 331 ? "component-transition" : ""
+  }`;
+
+//className={`hero-caysa ${stickyClass}`}
+
+
   return (
-    <div className="hero-caysa"  >
-      <div className="div-3"   style={componentStyle}>
-        <div className="overlap-5">
-          <div className="turian-2" />
+    <div className="hero-caysa"   className={`hero-caysa ${stickyClass}`}>
+      <div   className="div-3dois"   style={componentStyle}>
+        <div className="overlap-5"    >
+          <div  className="turian-2" />
           <div className="turian-3">
             <div className="ellipse-4" />
           </div>

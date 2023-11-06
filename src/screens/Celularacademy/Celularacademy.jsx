@@ -42,7 +42,7 @@ export const Celularacademy = () => {
             <br />
             Tecnologias obrigatórias para ingressar no mercado
           </p>
-          <a className="link" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+          <a className="link" href="https://pay.hotmart.com/U88042879C?off=jv1krxrk" rel="noopener noreferrer" target="_blank">
             <p className="text-wrapper-3">Clique e destrave seu futuro</p>
           </a>
           <div className="text-wrapper-4">Checa os valores:</div>
@@ -567,7 +567,7 @@ export const Celularacademy = () => {
                 </p>
               </div>
             </div>
-            <a className="link-2" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+            <a className="link-2" href="https://pay.hotmart.com/U88042879C?off=jv1krxrk" rel="noopener noreferrer" target="_blank">
               <p className="text-wrapper-38">Clique e destrave seu futuro</p>
             </a>
           </div>
@@ -645,7 +645,7 @@ export const Celularacademy = () => {
               </div>
             </div>
           </div>
-          <a className="link-3" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+          <a className="link-3" href="https://pay.hotmart.com/U88042879C?off=jv1krxrk" rel="noopener noreferrer" target="_blank">
             <p className="text-wrapper-48">Clique e destrave seu futuro</p>
           </a>
         </div>
