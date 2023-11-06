@@ -9,6 +9,7 @@
 height: 8000px;
 width: 1500px;
 position: relative;
+z-index: 2 !important;
 
 }
 
@@ -16,8 +17,9 @@ position: relative;
 .cabeaherocaysa{
 
   width: 1516px;
-  height: 1000px;
+  height: 10000px;
   position: relative;
+  z-index: 2 !important;
 }
 
 .sticky {
@@ -25,43 +27,59 @@ position: relative;
   width: 1510px;
   height: 1000px;
   position: sticky;
-  top: 10px;
+  top: -1px;
+  transition: top 10000.3s ; /* Add a transition for the 'top' property */
+  z-index: 2 !important;
+
+}
+
+
+
+.textobox {
+
+
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left:  400px;
+  top: 300px;
+  z-index: 0  !important;
+
 
 
 }
+
+
+.paratextbox   {
+
+  width: 1516px;
+  height: 10000px;
+  position: relative;
+}
+
 
 
 .baixando {
-
+background-color: aquamarine;
 width: 1510px;
 height: 2500px;
 position: relative;
+top: 0px;
 
 }
 
 
-.herosectiondois {
-  background-color: rgb(35, 35, 190);
-width: 1510px;
-height: 100px;
-position: sticky;
-top: 1px;
-}
+.componenteinferior {
 
-.box{
-  background-color: rgb(0, 0, 0);
-width: 200px;
-height: 200px;
-position: sticky;
-top: 10px;
+position: relative;
+
+z-index: 2 !important;
 
 }
 
 
 
-
-
-  
 .terceiraparte {
 
   background-color: rgb(213, 204, 199);

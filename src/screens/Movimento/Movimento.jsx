@@ -17,7 +17,8 @@ import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
       <div className="presaum">
 
 
-<div className="parteum"><HeroCaysa/> 
+<div className=""><HeroCaysa/> 
+<div className="box">           </div>
 
 </div>
 
@@ -27,7 +28,6 @@ import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
 
 <div className="partedois">
 
-  <div className="box">   <HeroCaysa/>           </div>
 
 </div>
 
