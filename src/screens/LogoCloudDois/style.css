@@ -1,0 +1,235 @@
+.logo-cloud-dois {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-cloud-dois .div {
+  background-color: #ffffff;
+  height: 2207.73px;
+  position: relative;
+  width: 1518px;
+}
+
+.logo-cloud-dois .imagens-de-baixo {
+  height: 238px;
+  left: 301px;
+  position: absolute;
+  top: 1720px;
+  width: 917px;
+}
+
+.logo-cloud-dois .element {
+  height: 85px;
+  left: 675px;
+  object-fit: cover;
+  position: absolute;
+  top: 153px;
+  width: 89px;
+}
+
+.logo-cloud-dois .element-design-de {
+  height: 119px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 62px;
+  width: 119px;
+}
+
+.logo-cloud-dois .tiff-file-document {
+  height: 81px;
+  left: 157px;
+  position: absolute;
+  top: 150px;
+  width: 87px;
+}
+
+.logo-cloud-dois .images {
+  height: 88px;
+  left: 863px;
+  position: absolute;
+  top: 35px;
+  width: 54px;
+}
+
+.logo-cloud-dois .image {
+  height: 125px;
+  left: 286px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 132px;
+}
+
+.logo-cloud-dois .img {
+  height: 100px;
+  left: 425px;
+  object-fit: cover;
+  position: absolute;
+  top: 138px;
+  width: 103px;
+}
+
+.logo-cloud-dois .image-2 {
+  height: 53px;
+  left: 579px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 56px;
+}
+
+.logo-cloud-dois .overlap-group {
+  height: 916px;
+  left: 97px;
+  position: absolute;
+  top: 780px;
+  width: 1287px;
+}
+
+.logo-cloud-dois .imagens-quase-em {
+  height: 494px;
+  left: 91px;
+  position: absolute;
+  top: 383px;
+  width: 1142px;
+}
+
+.logo-cloud-dois .de-cima {
+  height: 765px;
+  left: 40;
+  position: absolute;
+  top: -690;
+  width: 1205px;
+}
+
+.logo-cloud-dois .imagens-do-meio {
+  height: 327px;
+  left: 36px;
+  position: absolute;
+  top: 61px;
+  width: 1251px;
+}
+
+.logo-cloud-dois .traducao-de-psd {
+  height: 77px;
+  left: 1123px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 128px;
+}
+
+.logo-cloud-dois .adobe-swf-icon {
+  height: 96px;
+  left: 883px;
+  object-fit: cover;
+  position: absolute;
+  top: 185px;
+  width: 96px;
+}
+
+.logo-cloud-dois .element-2 {
+  height: 60px;
+  left: 305px;
+  object-fit: cover;
+  position: absolute;
+  top: 8px;
+  width: 60px;
+}
+
+.logo-cloud-dois .i {
+  height: 62px;
+  left: 254px;
+  object-fit: cover;
+  position: absolute;
+  top: 201px;
+  width: 111px;
+}
+
+.logo-cloud-dois .element-3 {
+  height: 96px;
+  left: 866px;
+  object-fit: cover;
+  position: absolute;
+  top: 38px;
+  width: 96px;
+}
+
+.logo-cloud-dois .png-clipart-computer {
+  height: 179px;
+  left: 0;
+  position: absolute;
+  top: 143px;
+  width: 59px;
+}
+
+.logo-cloud-dois .image-3 {
+  height: 97px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.logo-cloud-dois .image-4 {
+  height: 135px;
+  left: 1081px;
+  object-fit: cover;
+  position: absolute;
+  top: 192px;
+  width: 134px;
+}
+
+.logo-cloud-dois .text-wrapper {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 464px;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  position: absolute;
+  text-align: center;
+  top: 786px;
+  width: 397px;
+}
+
+.logo-cloud-dois .texto {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 27.02px;
+  left: 613px;
+  position: absolute;
+  top: 629px;
+  height: 20px;
+  background-color: #ffffff;
+
+}
+
+.logo-cloud-dois .hero-text-tradu {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 27.86px;
+  position: relative;
+}
+
+.logo-cloud-dois .p {
+  color: #000000;
+  font-family: "Poppins", Helvetica;
+  font-size: 33.8px;
+  font-weight: 700;
+  letter-spacing: -1.01px;
+  line-height: 39.7px;
+  margin-top: -0.84px;
+  position: relative;
+  text-align: center;
+  width: 432.26px;
+}

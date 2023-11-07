@@ -1,0 +1,306 @@
+.hero-caysa {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-caysa .div-3dois {
+  background-color: #ffffff;
+  height: 760px;
+  overflow: hidden;
+  position: relative;
+  width: 1528px;
+  transition: left 3.53s ease;
+  border: 0.5px solid;
+  border-color: #000000;
+
+  
+}
+
+.hero-caysa .overlap-5 {
+  height: 1008px;
+  left: -236px;
+  position: absolute;
+  top: -47px;
+  width: 1785px;
+  
+  
+}
+
+.hero-caysa .turian-2 {
+  background-color: #e6f1fe;
+
+  height: 1008px;
+  left: 176px;
+  position: absolute;
+  top: 0;
+  width: 1609px;
+}
+
+.hero-caysa .turian-3 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.49px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 443px;
+  width: 367px;
+}
+
+.hero-caysa .ellipse-4 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.19px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.hero-caysa .turian-4 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 909px;
+  position: absolute;
+  top: 260px;
+  width: 634px;
+}
+
+.hero-caysa .ellipse-5 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 197.26px;
+  height: 395px;
+  left: 131px;
+  position: relative;
+  top: 96px;
+  width: 395px;
+}
+
+.hero-caysa .frame-8 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 50.4px;
+  left: 384px;
+  position: absolute;
+  top: 312px;
+  width: 709px;
+}
+
+.hero-caysa .frame-9 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 18.9px;
+  justify-content: center;
+  position: relative;
+  width: 708.75px;
+}
+
+.hero-caysa .tradu-es-bem {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 45.7px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 60.4px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 709px;
+}
+
+.hero-caysa .text-wrapper-19 {
+  color: #000000;
+}
+
+.hero-caysa .text-wrapper-20 {
+  color: #c8982a;
+}
+
+.hero-caysa .text-wrapper-21 {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  width: 622px;
+}
+
+.hero-caysa .dois-botes-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+}
+
+.hero-caysa .fale-com-um-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.hero-caysa .design-component-instance-node {
+  left: unset !important;
+  top: unset !important;
+}
+
+.hero-caysa .div-rewards-icons-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 19.21px;
+  padding: 0px 52.64px 3.78px 0px;
+  position: relative;
+  width: 393.91px;
+}
+
+.hero-caysa .slator-svg-2 {
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .top-fastest-2 {
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .nimdzi-svg-2 {
+  height: 103.16px;
+  margin-right: -6.65px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .frame-svg-2 {
+  height: 103.16px;
+  margin-right: -129.03px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .overlap-group-wrapper {
+  height: 422px;
+  left: 1121px;
+  position: absolute;
+  top: 388px;
+  width: 416px;
+}
+
+.hero-caysa .overlap-group-2 {
+  height: 457px;
+  position: relative;
+  top: -90px;
+  width: 457px;
+}
+
+.hero-caysa .div-absolute-4 {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 389px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.hero-caysa .frame-wrapper {
+  border-radius: 78.75px;
+  height: 309px;
+  left: 147px;
+  position: absolute;
+  top: 147px;
+  width: 309px;
+}
+
+.hero-caysa .servio-de-trado-wrapper {
+  background-color: #c59318;
+  border-radius: 78.75px;
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+  width: 310px;
+}
+
+.hero-caysa .servio-de-trado {
+  height: 310px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 311px;
+}
+
+.hero-caysa .ezgif {
+  height: 205px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 173px;
+}
+
+.hero-caysa .empresa-de-traduo-9 {
+  background-image: url(../../../static/img/mask-group-10.png);
+  background-size: 100% 100%;
+  height: 62px;
+  left: 253px;
+  position: absolute;
+  top: 45px;
+  width: 62px;
+}
+
+.hero-caysa .empresa-de-traduo-10 {
+  background-image: url(../../../static/img/mask-group-11.png);
+  background-size: 100% 100%;
+  height: 31px;
+  left: 75px;
+  position: absolute;
+  top: 301px;
+  width: 31px;
+}
+
+.hero-caysa .frame-10 {
+  background-image: url(../../../static/img/mask-group-12.png);
+  background-size: 100% 100%;
+  height: 46px;
+  left: 1121px;
+  position: absolute;
+  top: 275px;
+  width: 46px;
+}
+
+.hero-caysa .turian-5 {
+  height: 34px;
+  left: 158px;
+  object-fit: cover;
+  position: fixed;
+  top: 67px;
+  width: 130px;
+}
+
+.hero-caysa .turian-6 {
+  left: 446px !important;
+  position: fixed !important;
+  top: 75px !important;
+}

@@ -1,0 +1,1 @@
+export { LogoCloudDois } from "./LogoCloudDois";

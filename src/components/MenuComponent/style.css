@@ -1,0 +1,57 @@
+.menu-component {
+  background-color: #e6f1fe;
+  height: 72px;
+  overflow: hidden;
+  position: relative;
+  width: 1518px;
+}
+
+.menu-component .ellipse-wrapper {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 184.22px;
+  height: 368px;
+  left: -227px;
+  position: absolute;
+  top: 398px;
+  width: 368px;
+}
+
+.menu-component .ellipse {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.64px;
+  height: 229px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 229px;
+}
+
+.menu-component .img {
+  height: 34px;
+  left: 158px;
+  object-fit: cover;
+  position: absolute;
+  top: 22px;
+  width: 130px;
+}
+
+.menu-component .menu-instance {
+  gap: 25.1px !important;
+  left: 440px !important;
+  position: absolute !important;
+  top: 26px !important;
+}
+
+.menu-component .design-component-instance-node {
+  gap: 3.16px !important;
+}
+
+.menu-component .turian-2 {
+  height: 18.97px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 18.97px !important;
+}

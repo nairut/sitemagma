@@ -11,7 +11,7 @@
   height: 3660px;
   overflow: hidden;
   position: relative;
-  width: 1512px;
+  width: 1518px;
 }
 
 .componente-inferior .overlap {
@@ -19,7 +19,7 @@
   left: -1px;
   position: absolute;
   top: -15px;
-  width: 1513px;
+  width: 1518px;
 }
 
 .componente-inferior .overlap-group {
@@ -27,7 +27,7 @@
   left: 1px;
   position: absolute;
   top: 15px;
-  width: 1512px;
+  width: 1518px;
 }
 
 .componente-inferior .background {
@@ -35,7 +35,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 1512px;
+  width: 1518px;
 }
 
 .componente-inferior .img {
@@ -43,7 +43,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  width: 1512px;
+  width: 1518px;
 }
 
 .componente-inferior .background-2 {
@@ -51,7 +51,7 @@
   left: 0;
   position: absolute;
   top: 1621px;
-  width: 1512px;
+  width: 1518px;
 }
 
 .componente-inferior .group {

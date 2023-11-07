@@ -5,33 +5,48 @@
 
 
 .juntandodois  {
-
 height: 8000px;
-width: 1500px;
+width: 1518px;
 position: relative;
-z-index: 2 !important;
-
 }
+
+
 
 
 .cabeaherocaysa{
 
-  width: 1516px;
+  width: 1520px;
   height: 10000px;
   position: relative;
-  z-index: 2 !important;
+
 }
 
 .sticky {
 
-  width: 1510px;
-  height: 1000px;
   position: sticky;
   top: -1px;
-  transition: top 10000.3s ; /* Add a transition for the 'top' property */
-  z-index: 2 !important;
+}
+
+
+.primeiraHero {
+
+  width: 1518px;
+  height: 700px;
+  position: fixed;
 
 }
+
+.segundaHeronew {
+
+
+  width: 1518px;
+  height: 700px;
+  position: fixed;
+  z-index: 4 ;
+
+}
+
+
 
 
 
@@ -44,16 +59,13 @@ z-index: 2 !important;
   position: fixed;
   left:  400px;
   top: 300px;
-  z-index: 0  !important;
-
-
 
 }
 
 
 .paratextbox   {
 
-  width: 1516px;
+  width: 1518px;
   height: 10000px;
   position: relative;
 }
@@ -62,7 +74,7 @@ z-index: 2 !important;
 
 .baixando {
 background-color: aquamarine;
-width: 1510px;
+width: 1518px;
 height: 2500px;
 position: relative;
 top: 0px;
@@ -73,8 +85,10 @@ top: 0px;
 .componenteinferior {
 
 position: relative;
+z-index: 7;
+width: 1518px;
 
-z-index: 2 !important;
+
 
 }
 
@@ -88,4 +102,12 @@ z-index: 2 !important;
     position: relative;
     }
 
+
+  .menudois {
+      width: 1500px;
+      height: 300px;
+      position: fixed;
+      top: 0px;
+      z-index: 10;
+    }
 

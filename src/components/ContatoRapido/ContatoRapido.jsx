@@ -8,7 +8,7 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
-export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido" }) => {
+export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido", contatoRapidoClassName }) => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
   });
@@ -26,7 +26,7 @@ export const ContatoRapido = ({ property1, className, text = "Orçamento Rapido"
         dispatch("mouse_leave");
       }}
     >
-      <div className="div">{text}</div>
+      <div className={`div ${contatoRapidoClassName}`}>{text}</div>
     </a>
   );
 };

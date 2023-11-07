@@ -16,5 +16,6 @@ export const Default = {
     property1: "variant-2",
     className: {},
     text: "Orçamento Rapido",
+    contatoRapidoClassName: {},
   },
 };

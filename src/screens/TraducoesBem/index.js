@@ -1,0 +1,1 @@
+export { TraducoesBem } from "./TraducoesBem";
