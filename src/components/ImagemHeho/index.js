@@ -1,0 +1,1 @@
+export { ImagemHeho } from "./ImagemHeho";

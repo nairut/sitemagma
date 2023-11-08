@@ -1,0 +1,83 @@
+.segunda-parte {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.segunda-parte .overlap-group-wrapper {
+  background-color: #ffffff;
+  height: 763px;
+  overflow: hidden;
+  width: 1518px;
+}
+
+.segunda-parte .overlap-group {
+  height: 847px;
+  left: -226px;
+  position: relative;
+  width: 1744px;
+}
+
+.segunda-parte .div {
+  background-color: #e6f1fe;
+  height: 763px;
+  left: 226px;
+  position: absolute;
+  top: 0;
+  width: 1518px;
+}
+
+.segunda-parte .ellipse-wrapper {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.49px;
+  height: 367px;
+  left: 0;
+  position: absolute;
+  top: 396px;
+  width: 367px;
+}
+
+.segunda-parte .ellipse {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.19px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.segunda-parte .turian-2 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 316.97px;
+  height: 634px;
+  left: 909px;
+  position: absolute;
+  top: 213px;
+  width: 634px;
+}
+
+.segunda-parte .ellipse-2 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 197.26px;
+  height: 395px;
+  left: 131px;
+  position: relative;
+  top: 96px;
+  width: 395px;
+}
+
+.segunda-parte .img {
+  height: 701px;
+  left: 497px;
+  object-fit: cover;
+  position: absolute;
+  top: 31px;
+  width: 976px;
+}

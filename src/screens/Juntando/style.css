@@ -25,6 +25,7 @@ position: relative;
 
   position: sticky;
   top: -1px;
+
 }
 
 
@@ -42,25 +43,12 @@ position: relative;
   width: 1518px;
   height: 700px;
   position: fixed;
-  z-index: 4 ;
+  z-index: 2 ;
 
 }
 
 
 
-
-
-.textobox {
-
-
-  background-color: black;
-  width: 200px;
-  height: 200px;
-  position: fixed;
-  left:  400px;
-  top: 300px;
-
-}
 
 
 .paratextbox   {
@@ -109,5 +97,73 @@ width: 1518px;
       position: fixed;
       top: 0px;
       z-index: 10;
+    }
+
+
+
+
+
+
+    .textoboxsss {
+
+
+      background-color: rgb(250, 250, 250);
+      width: 200px;
+      height: 200px;
+      position: fixed;
+      left:  400px;
+      top: 300px;
+      z-index: 3 ;
+    
+    }
+
+
+
+.textobox {
+      color: var(--base-black);
+      font-family: "Inter", Helvetica;
+      font-size: 25.7px;
+      font-weight: 700;
+      letter-spacing: 0.29px;
+      line-height: 30.4px;
+      margin-right: -0.25px;
+      margin-top: -0.79px;
+      position: fixed;
+      width: 309px;
+      z-index:0 ;
+
+      left:  200px;
+      top: 300px;
+    }
+    
+.textobox1 {
+      color: #000000;
+    }
+  .textobox2 {
+      color: #c8982a;
+    }
+
+
+
+    .frasesdeentrada {
+
+position: absolute;
+top: 200px;
+left: 160px;
+
+
+
+
+    }
+
+
+   .imagemsegunda {
+
+      height: 701px;
+
+      width: 1318px;
+      left: 100px;
+
+
     }
 

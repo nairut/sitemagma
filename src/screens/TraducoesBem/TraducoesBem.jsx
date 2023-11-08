@@ -6,7 +6,7 @@ export const TraducoesBem = () => {
     <div className="traducoes-bem">
       <div className="overlap-wrapper">
         <div className="overlap">
-          <img className="background" alt="Background" src="/img/image.png" />
+
           <div className="ellipse-wrapper">
             <div className="ellipse" />
           </div>

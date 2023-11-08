@@ -1,0 +1,21 @@
+.premio-images {
+  align-items: center;
+  display: inline-flex;
+  gap: 12px;
+  position: relative;
+  top: 375px;
+}
+
+.premio-images .img {
+  height: 70.88px;
+  position: relative;
+  width: 70.88px;
+}
+
+.premio-images .top-fastest {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 78px;
+  position: relative;
+  width: 79px;
+}

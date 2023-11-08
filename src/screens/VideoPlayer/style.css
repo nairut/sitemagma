@@ -1,0 +1,145 @@
+.containerdois {
+  background-color: #ffffff;
+  width: 100%;
+}
+
+
+.juntandodois  {
+height: 8000px;
+width: 1518px;
+position: relative;
+}
+
+
+
+
+.cabeaherocaysa{
+
+  width: 1520px;
+  height: 10000px;
+  position: relative;
+
+}
+
+.sticky {
+
+  position: sticky;
+  top: -1px;
+
+}
+
+
+.primeiraHero {
+
+  width: 1518px;
+  height: 700px;
+  position: fixed;
+
+}
+
+.segundaHeronew {
+
+
+  width: 1518px;
+  height: 700px;
+  position: fixed;
+  z-index: 2 ;
+
+}
+
+
+
+
+
+.paratextbox   {
+
+  width: 1518px;
+  height: 10000px;
+  position: relative;
+}
+
+
+
+.baixando {
+background-color: aquamarine;
+width: 1518px;
+height: 2500px;
+position: relative;
+top: 0px;
+
+}
+
+
+.componenteinferior {
+
+position: relative;
+z-index: 7;
+width: 1518px;
+
+
+
+}
+
+
+
+.terceiraparte {
+
+  background-color: rgb(213, 204, 199);
+    width: 1500px;
+    height: 900px;
+    position: relative;
+    }
+
+
+  .menudois {
+      width: 1500px;
+      height: 300px;
+      position: fixed;
+      top: 0px;
+      z-index: 10;
+    }
+
+
+
+
+
+
+    .textoboxsss {
+
+
+      background-color: rgb(250, 250, 250);
+      width: 200px;
+      height: 200px;
+      position: fixed;
+      left:  400px;
+      top: 300px;
+      z-index: 3 ;
+    
+    }
+
+
+
+.textobox {
+      color: var(--base-black);
+      font-family: "Inter", Helvetica;
+      font-size: 45.7px;
+      font-weight: 700;
+      letter-spacing: 0.29px;
+      line-height: 60.4px;
+      margin-right: -0.25px;
+      margin-top: -0.79px;
+      position: fixed;
+      width: 709px;
+      z-index:0 ;
+
+      left:  400px;
+      top: 300px;
+    }
+    
+.textobox1 {
+      color: #000000;
+    }
+  .textobox2 {
+      color: #c8982a;
+    }
+

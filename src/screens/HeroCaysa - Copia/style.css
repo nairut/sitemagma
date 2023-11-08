@@ -6,51 +6,43 @@
   width: 100%;
 }
 
-.hero-caysa .div-3dois {
+.hero-caysa .overlap-wrapper-2 {
   background-color: #ffffff;
-  height: 760px;
+  height: 801px;
   overflow: hidden;
+  width: 1519px;
+}
+
+.hero-caysa .overlap-6 {
+  height: 847px;
+  left: -226px;
   position: relative;
-  width: 1528px;
-  transition: left 3.53s ease;
-  border: 0.5px solid;
-  border-color: #000000;
-
-  
+  width: 1744px;
 }
 
-.hero-caysa .overlap-5 {
-  height: 1008px;
-  left: -236px;
-  position: absolute;
-  top: -47px;
-  width: 1785px;
-  
-  
-}
-
-.hero-caysa .turian-2 {
+.hero-caysa .turian-5 {
   background-color: #e6f1fe;
-
-  height: 1008px;
-  left: 176px;
+  border: 0px solid;
+  border-color: #000000;
+  height: 763px;
+  left: 226px;
   position: absolute;
   top: 0;
-  width: 1609px;
+  width: 1519px;
 }
 
-.hero-caysa .turian-3 {
+.hero-caysa .turian-6 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 183.49px;
   height: 367px;
   left: 0;
   position: absolute;
-  top: 443px;
+  top: 396px;
   width: 367px;
 }
 
-.hero-caysa .ellipse-4 {
+.hero-caysa .ellipse-11 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 114.19px;
@@ -61,18 +53,18 @@
   width: 228px;
 }
 
-.hero-caysa .turian-4 {
+.hero-caysa .turian-7 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 316.97px;
   height: 634px;
   left: 909px;
   position: absolute;
-  top: 260px;
+  top: 213px;
   width: 634px;
 }
 
-.hero-caysa .ellipse-5 {
+.hero-caysa .ellipse-12 {
   border: 0.79px solid;
   border-color: #c593184c;
   border-radius: 197.26px;
@@ -83,18 +75,18 @@
   width: 395px;
 }
 
-.hero-caysa .frame-8 {
+.hero-caysa .frame-29 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 50.4px;
   left: 384px;
   position: absolute;
-  top: 312px;
+  top: 199px;
   width: 709px;
 }
 
-.hero-caysa .frame-9 {
+.hero-caysa .frame-30 {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -118,15 +110,15 @@
   width: 709px;
 }
 
-.hero-caysa .text-wrapper-19 {
+.hero-caysa .text-wrapper-29 {
   color: #000000;
 }
 
-.hero-caysa .text-wrapper-20 {
+.hero-caysa .text-wrapper-30 {
   color: #c8982a;
 }
 
-.hero-caysa .text-wrapper-21 {
+.hero-caysa .text-wrapper-31 {
   color: var(--base-black);
   font-family: "Inter", Helvetica;
   font-size: 18.9px;
@@ -151,7 +143,7 @@
   top: unset !important;
 }
 
-.hero-caysa .design-component-instance-node {
+.hero-caysa .contato-rapido-2 {
   left: unset !important;
   top: unset !important;
 }
@@ -174,7 +166,6 @@
 }
 
 .hero-caysa .top-fastest-2 {
-  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
   background-position: 50% 50%;
   background-size: cover;
   height: 103.16px;
@@ -199,15 +190,15 @@
   width: 103.16px;
 }
 
-.hero-caysa .overlap-group-wrapper {
+.hero-caysa .frame-31 {
   height: 422px;
   left: 1121px;
   position: absolute;
-  top: 388px;
+  top: 275px;
   width: 416px;
 }
 
-.hero-caysa .overlap-group-2 {
+.hero-caysa .overlap-group-3 {
   height: 457px;
   position: relative;
   top: -90px;
@@ -224,7 +215,7 @@
   width: 331px;
 }
 
-.hero-caysa .frame-wrapper {
+.hero-caysa .frame-32 {
   border-radius: 78.75px;
   height: 309px;
   left: 147px;
@@ -261,7 +252,7 @@
 }
 
 .hero-caysa .empresa-de-traduo-9 {
-  background-image: url(../../../static/img/mask-group-10.png);
+  background-image: url(../../../static/img/mask-group-54.png);
   background-size: 100% 100%;
   height: 62px;
   left: 253px;
@@ -271,7 +262,7 @@
 }
 
 .hero-caysa .empresa-de-traduo-10 {
-  background-image: url(../../../static/img/mask-group-11.png);
+  background-image: url(../../../static/img/mask-group-55.png);
   background-size: 100% 100%;
   height: 31px;
   left: 75px;
@@ -280,27 +271,12 @@
   width: 31px;
 }
 
-.hero-caysa .frame-10 {
-  background-image: url(../../../static/img/mask-group-12.png);
+.hero-caysa .frame-33 {
+  background-image: url(../../../static/img/mask-group-56.png);
   background-size: 100% 100%;
   height: 46px;
   left: 1121px;
   position: absolute;
-  top: 275px;
+  top: 163px;
   width: 46px;
-}
-
-.hero-caysa .turian-5 {
-  height: 34px;
-  left: 158px;
-  object-fit: cover;
-  position: fixed;
-  top: 67px;
-  width: 130px;
-}
-
-.hero-caysa .turian-6 {
-  left: 446px !important;
-  position: fixed !important;
-  top: 75px !important;
 }

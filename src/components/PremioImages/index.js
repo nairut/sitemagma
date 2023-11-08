@@ -1,0 +1,1 @@
+export { PremioImages } from "./PremioImages";

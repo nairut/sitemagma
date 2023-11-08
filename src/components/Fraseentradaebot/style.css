@@ -1,0 +1,72 @@
+.fraseentradaebot {
+  height: 325px;
+  position: relative;
+  width: 709px;
+}
+
+.fraseentradaebot .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18.9px;
+  height: 230px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 709px;
+}
+
+.fraseentradaebot .tradu-es-bem {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 45.7px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 60.4px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 709px;
+}
+
+.fraseentradaebot .span {
+  color: #000000;
+}
+
+.fraseentradaebot .text-wrapper-2 {
+  color: #c8982a;
+}
+
+.fraseentradaebot .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 18.9px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.3px;
+  position: relative;
+  width: 622px;
+}
+
+.fraseentradaebot .dois-bot-es {
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  height: 44px;
+  left: 0;
+  position: absolute;
+  top: 280px;
+  width: 518px;
+}
+
+.fraseentradaebot .fale-com-um-especialista {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.fraseentradaebot .contato-rapido-instance {
+  left: unset !important;
+  top: unset !important;
+}

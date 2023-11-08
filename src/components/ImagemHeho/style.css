@@ -1,0 +1,95 @@
+.imagem-heho {
+  height: 534px;
+  left: 895px;
+  position: relative;
+  top: 163px;
+  width: 416px;
+}
+
+.imagem-heho .overlap-group-wrapper {
+  height: 422px;
+  left: 0;
+  position: absolute;
+  top: 112px;
+  width: 416px;
+}
+
+.imagem-heho .overlap-group {
+  height: 457px;
+  position: relative;
+  top: -90px;
+  width: 457px;
+}
+
+.imagem-heho .div-absolute {
+  background-color: #faf4e3;
+  border-radius: 78.75px;
+  height: 389px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 331px;
+}
+
+.imagem-heho .frame-wrapper {
+  border-radius: 78.75px;
+  height: 309px;
+  left: 147px;
+  position: absolute;
+  top: 147px;
+  width: 309px;
+}
+
+.imagem-heho .imagem-caysa-wrapper {
+  background-color: #c59318;
+  border-radius: 78.75px;
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+  width: 310px;
+}
+
+.imagem-heho .imagem-caysa {
+  height: 310px;
+  left: -1px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 311px;
+}
+
+.imagem-heho .giv-de-idiomas {
+  height: 205px;
+  left: 50px;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 173px;
+}
+
+.imagem-heho .empresa-de-tradu-o {
+  background-size: 100% 100%;
+  height: 62px;
+  left: 253px;
+  position: absolute;
+  top: 45px;
+  width: 62px;
+}
+
+.imagem-heho .empresa-de-tradu-o-2 {
+  background-size: 100% 100%;
+  height: 31px;
+  left: 75px;
+  position: absolute;
+  top: 301px;
+  width: 31px;
+}
+
+.imagem-heho .frame-2 {
+  background-size: 100% 100%;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 46px;
+}

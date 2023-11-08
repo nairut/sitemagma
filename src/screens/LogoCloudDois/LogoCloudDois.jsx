@@ -23,34 +23,34 @@ export const LogoCloudDois = () => {
   const { scrollY } = useScroll();
 
   // Calculate the range based on the scroll position of a specific element
-  const minScrollY = 14764; // Adjust this value as needed
-  const maxScrollY = 15015; // Adjust this value as needed
+  const minScrollY = 14864; // Adjust this value as needed
+  const maxScrollY = 15315; // Adjust this value as needed
 
 
   
-  const minScrollCima = 13459; // Adjust this value as needed
-  const maxScrollYCima= 15669  ; // Adjust this value as needed
+  const minScrollCima = 13720; // Adjust this value as needed
+  const maxScrollYCima= 13920  ; // Adjust this value as needed
 
 
   const minScrollMeio = 14197 ; // Adjust this value as needed
   const maxScrollYMeio = 14344 ; // Adjust this value as needed
 
 
-  const minScrollH1 = 13416 ; // Adjust this value as needed
+  const minScrollH1 = 13862 ; // Adjust this value as needed
   const maxScrollYH1 = 14420; // Adjust this value as needed
 
 
-  const minScrollTexto = 14403.2001953125 ; // Adjust this value as needed
-  const maxScrollYTexto = 14587.2001953125; // Adjust this value as needed
+  const minScrollTexto = 14203 ; // Adjust this value as needed
+  const maxScrollYTexto = 14587; // Adjust this value as needed
 
   // Map the scrollY value to a new range for animation
-  const y = useTransform(scrollY, [minScrollY, maxScrollY], [0, -100]);
+  const y = useTransform(scrollY, [minScrollY, maxScrollY], [0, -200]);
   const yMeio = useTransform(scrollY, [maxScrollYMeio, minScrollMeio], [0, -80]);
-  const yH1 = useTransform(scrollY, [minScrollH1, maxScrollYH1], [0, 600]);
-  const yTexto = useTransform(scrollY, [minScrollTexto, maxScrollYTexto], [0, -250]);
+  const yH1 = useTransform(scrollY, [minScrollH1, maxScrollYH1], [0, 500]);
+  const yTexto = useTransform(scrollY, [minScrollTexto, maxScrollYTexto], [0, -300]);
 
 
-  const yCima = useTransform(scrollY, [minScrollCima, maxScrollYCima], [0, 150]);
+  const yCima = useTransform(scrollY, [minScrollCima, maxScrollYCima], [0, -250]);
 
 
 
