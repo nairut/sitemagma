@@ -1,0 +1,1 @@
+export { Teclado } from "./Teclado";

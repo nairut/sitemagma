@@ -30,6 +30,7 @@ export const LogoCloudDois = () => {
   
   const minScrollCima = 13720; // Adjust this value as needed
   const maxScrollYCima= 13920  ; // Adjust this value as needed
+  
 
 
   const minScrollMeio = 14197 ; // Adjust this value as needed
@@ -51,6 +52,9 @@ export const LogoCloudDois = () => {
 
 
   const yCima = useTransform(scrollY, [minScrollCima, maxScrollYCima], [0, -250]);
+
+
+  4957
 
 
 
@@ -103,7 +107,7 @@ export const LogoCloudDois = () => {
             y: yMeio, // Use the y variable to control the vertical position
           }}
         >
-           <img className="imagens-quase-em" alt="Imagens quase em" src="/img/image.png" />
+           <img className="imagens-quase-em" alt="Imagens quase em" src="/img/imagensquaseembaixo.png" />
         </motion.div>
 
 

@@ -1,122 +1,17 @@
-.containerdois {
+.containerteclado {
   background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
 }
 
-
-.juntandodois  {
-height: 8000px;
-width: 1518px;
-position: relative;
-}
-
-
-
-
-.cabeaherocaysa{
-
-  width: 1520px;
-  height: 10000px;
+.containerteclado .div {
+  background-color: #ffffff;
+  height: 2207.73px;
   position: relative;
-
-}
-
-.sticky {
-
-  position: sticky;
-  top: -1px;
-
-}
-
-
-.primeiraHero {
-
   width: 1518px;
-  height: 700px;
-  position: fixed;
-
 }
-
-.segundaHeronew {
-
-
-  width: 1518px;
-  height: 700px;
-  position: fixed;
-  z-index: 2 ;
-
-}
-
-
-
-
-
-.paratextbox   {
-
-  width: 1518px;
-  height: 10000px;
-  position: relative;
-}
-
-
-
-.baixando {
-background-color: aquamarine;
-width: 1518px;
-height: 2500px;
-position: relative;
-top: 0px;
-
-}
-
-
-.componenteinferior {
-
-position: relative;
-z-index: 7;
-width: 1518px;
-
-
-
-}
-
-
-
-.terceiraparte {
-
-  background-color: rgb(213, 204, 199);
-    width: 1500px;
-    height: 900px;
-    position: relative;
-    }
-
-
-  .menudois {
-      width: 1500px;
-      height: 300px;
-      position: fixed;
-      top: 0px;
-      z-index: 10;
-    }
-
-
-
-
-
-
-    .textoboxsss {
-
-
-      background-color: rgb(250, 250, 250);
-      width: 200px;
-      height: 200px;
-      position: fixed;
-      left:  400px;
-      top: 300px;
-      z-index: 3 ;
-    
-    }
-
 
 
 .textobox {
@@ -179,13 +74,27 @@ width: 1518px;
       top: 400px;
     }
 
-    .tecladolargo {
+
+    .cabendo.tecladolargocomponente {
 
 
-      position: fixed;
-      left:  600px;
-      top: 400px;
+width: 800px;
 
+    }
+
+
+
+
+
+  
+
+    .tecladolargocomponente {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 850px;
+      z-index: 20;
+      width: 800px;
     }
 
 
