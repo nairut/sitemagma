@@ -10,42 +10,62 @@ import "./style.css";
 
 export const MenuComponent = ({
   className,
-  menuExpandMoreStyleRound,
-  menuExpandMoreImg,
-  menuExpandMoreStyleRound1,
-  menuExpandMoreStyleRound2,
-  menuExpandMoreStyleRound3,
-  menuExpandMoreStyleRound4,
-  to,
+  turianClassName,
+  ellipseClassName,
+  turianClassNameOverride,
+  menuFrameClassName,
+  menuExpandMoreStyleRound = "/img/expand-more-15.png",
+  menuExpandMoreStyleFilledClassName,
+  menuPropertyDefaultClassName,
+  menuExpandMoreImg = "/img/expand-more-12.png",
+  menuFrameClassNameOverride,
+  menuDivClassName,
+  menuExpandMoreStyleFilledClassNameOverride,
+  menuDivClassNameOverride,
+  menuExpandMoreStyleOutlinedClassName,
+  menuExpandMoreStyleOutlinedClassNameOverride,
+  menuExpandMoreStyleRound1 = "/img/expand-more-16.png",
+  menuExpandMoreStyleRound2 = "/img/expand-more-14.png",
+  menuExpandMoreStyleRoundClassName,
+  menuFrameClassName1,
+  menuExpandMoreStyleRound3 = "/img/expand-more-13.png",
+  menuFrameClassName2,
+  menuExpandMoreStyleRoundClassNameOverride,
+  menuExpandMoreStyleRound4 = "/img/expand-more-17.png",
 }) => {
   return (
     <div className={`menu-component ${className}`}>
-      <div className="ellipse-wrapper">
-        <div className="ellipse" />
+      <div className={`ellipse-wrapper ${turianClassName}`}>
+        <div className={`ellipse ${ellipseClassName}`} />
       </div>
-      <img className="img" alt="Turian" />
+      <img className={`img ${turianClassNameOverride}`} alt="Turian" src="/img/logo-preto-branco-2.png" />
       <Menu
-        className="menu-instance"
-        divClassName="design-component-instance-node"
-        divClassNameOverride="design-component-instance-node"
-        expandMoreImg={menuExpandMoreStyleRound4}
-        expandMoreStyleFilledClassName="turian-2"
-        expandMoreStyleFilledClassNameOverride="turian-2"
-        expandMoreStyleOutlinedClassName="turian-2"
-        expandMoreStyleOutlinedClassNameOverride="turian-2"
-        expandMoreStyleRound={menuExpandMoreStyleRound2}
-        expandMoreStyleRound1={menuExpandMoreStyleRound}
-        expandMoreStyleRound2={menuExpandMoreStyleRound3}
-        expandMoreStyleRound3={menuExpandMoreImg}
-        expandMoreStyleRound4={menuExpandMoreStyleRound1}
-        expandMoreStyleRoundClassName="turian-2"
-        expandMoreStyleRoundClassNameOverride="turian-2"
-        frameClassName="design-component-instance-node"
-        frameClassName1="design-component-instance-node"
-        frameClassName2="design-component-instance-node"
-        frameClassNameOverride="design-component-instance-node"
+        className={menuPropertyDefaultClassName}
+        divClassName="menu-instance"
+        divClassName1="menu-instance"
+        divClassName2="menu-instance"
+        divClassName3="menu-instance"
+        divClassName4="menu-instance"
+        divClassNameOverride="menu-instance"
+        expandMoreImg={menuExpandMoreStyleRound3}
+        expandMoreStyleFilledClassName={menuExpandMoreStyleRoundClassName}
+        expandMoreStyleFilledClassNameOverride={menuExpandMoreStyleFilledClassNameOverride}
+        expandMoreStyleOutlinedClassName={menuExpandMoreStyleFilledClassName}
+        expandMoreStyleOutlinedClassNameOverride={menuExpandMoreStyleOutlinedClassNameOverride}
+        expandMoreStyleRound={menuExpandMoreImg}
+        expandMoreStyleRound1={menuExpandMoreStyleRound2}
+        expandMoreStyleRound2={menuExpandMoreStyleRound}
+        expandMoreStyleRound3={menuExpandMoreStyleRound1}
+        expandMoreStyleRound4={menuExpandMoreStyleRound4}
+        expandMoreStyleRoundClassName={menuExpandMoreStyleOutlinedClassName}
+        expandMoreStyleRoundClassNameOverride={menuExpandMoreStyleRoundClassNameOverride}
+        frameClassName={menuFrameClassName2}
+        frameClassName1={menuFrameClassNameOverride}
+        frameClassName2={menuDivClassName}
+        frameClassName3={menuDivClassNameOverride}
+        frameClassName4={menuFrameClassName}
+        frameClassNameOverride={menuFrameClassName1}
         property1="default"
-        to={to}
       />
     </div>
   );
@@ -58,5 +78,4 @@ MenuComponent.propTypes = {
   menuExpandMoreStyleRound2: PropTypes.string,
   menuExpandMoreStyleRound3: PropTypes.string,
   menuExpandMoreStyleRound4: PropTypes.string,
-  to: PropTypes.string,
 };

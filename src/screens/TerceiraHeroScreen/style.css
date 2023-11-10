@@ -1,0 +1,146 @@
+.terceira-hero-screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.terceira-hero-screen .terceira-hero-2 {
+  background-color: #ffffff;
+  height: 864px;
+  overflow: hidden;
+  position: relative;
+  width: 1536px;
+}
+
+.terceira-hero-screen .turian-7 {
+  height: 864px;
+  left: 57690px;
+  position: absolute;
+  top: 7087px;
+  width: 1536px;
+}
+
+.terceira-hero-screen .turian-8 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.52px;
+  height: 367px;
+  left: -226px;
+  position: absolute;
+  top: 396px;
+  width: 367px;
+}
+
+.terceira-hero-screen .ellipse-6 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.21px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.terceira-hero-screen .fale-com-um-4 {
+  left: 432px !important;
+  position: absolute !important;
+  top: -2526px !important;
+}
+
+.terceira-hero-screen .overlap-3 {
+  height: 650px;
+  left: 265px;
+  position: absolute;
+  top: 98px;
+  width: 1005px;
+}
+
+.terceira-hero-screen .group-4 {
+  height: 650px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1005px;
+}
+
+.terceira-hero-screen .overlap-group-5 {
+  height: 239px;
+  left: 55px;
+  position: absolute;
+  top: 0;
+  width: 278px;
+}
+
+.terceira-hero-screen .frame-7 {
+  background-color: #c59318;
+  border-radius: 5.76px;
+  height: 97px;
+  left: 108px;
+  position: absolute;
+  top: 142px;
+  width: 169px;
+}
+
+.terceira-hero-screen .div-absolute-4 {
+  height: 142px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.terceira-hero-screen .empresa-de-traduo-7 {
+  background-image: url(../../../static/img/mask-group-5.png);
+  background-size: 100% 100%;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 576px;
+  width: 74px;
+}
+
+.terceira-hero-screen .empresa-de-traduo-8 {
+  background-image: url(../../../static/img/mask-group-6.png);
+  background-size: 100% 100%;
+  height: 74px;
+  left: 931px;
+  position: absolute;
+  top: 18px;
+  width: 74px;
+}
+
+.terceira-hero-screen .normais-traducao-2 {
+  height: 502px;
+  left: 612px;
+  object-fit: cover;
+  position: absolute;
+  top: 74px;
+  width: 304px;
+}
+
+.terceira-hero-screen .translation-normal-2 {
+  height: 316px;
+  left: 363px;
+  position: absolute;
+  top: 260px;
+  width: 224px;
+}
+
+.terceira-hero-screen .service-translation-4 {
+  height: 148px;
+  left: 363px;
+  position: absolute;
+  top: 74px;
+  width: 224px;
+}
+
+.terceira-hero-screen .alltranslation-2 {
+  height: 263px;
+  left: 111px;
+  position: absolute;
+  top: 313px;
+  width: 227px;
+}

@@ -1,0 +1,1 @@
+export { SoFrases } from "./SoFrases";

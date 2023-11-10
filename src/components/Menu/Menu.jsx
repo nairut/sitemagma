@@ -18,35 +18,58 @@ export const Menu = ({
   expandMoreStyleRound2 = "/img/expand-more-3.png",
   expandMoreStyleRound3 = "/img/expand-more-4.png",
   expandMoreStyleRound4 = "/img/expand-more-5.png",
-  to,
+  frameClassName,
+  divClassName,
+  expandMoreStyleFilledClassName,
+  frameClassNameOverride,
+  divClassNameOverride,
+  expandMoreStyleFilledClassNameOverride,
+  frameClassName1,
+  divClassName1,
+  expandMoreStyleOutlinedClassName,
+  frameClassName2,
+  divClassName2,
+  expandMoreStyleOutlinedClassNameOverride,
+  frameClassName3,
+  divClassName3,
+  expandMoreStyleRoundClassName,
+  frameClassName4,
+  divClassName4,
+  expandMoreStyleRoundClassNameOverride,
 }) => {
   return (
     <div className={`menu ${className}`}>
-      <Link className="frame" to="/turian">
-        <div className="text-wrapper-2">Home</div>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound} />
+      <Link className={`frame ${frameClassName}`} to="/turian">
+        <div className={`text-wrapper-2 ${divClassName}`}>Home</div>
+        <ExpandMore className={expandMoreStyleFilledClassName} style="round" styleRound={expandMoreStyleRound} />
       </Link>
-      <Link className="frame" to="/casezf">
-        <div className="text-wrapper-2">ZF</div>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreImg} />
+      <div className={`frame ${frameClassNameOverride}`}>
+        <div className={`text-wrapper-2 ${divClassNameOverride}`}>ZF</div>
+        <ExpandMore className={expandMoreStyleFilledClassNameOverride} style="round" styleRound={expandMoreImg} />
+      </div>
+      <div className={`frame ${frameClassName1}`}>
+        <div className={`text-wrapper-2 ${divClassName1}`}>Shopee</div>
+        <ExpandMore className={expandMoreStyleOutlinedClassName} style="round" styleRound={expandMoreStyleRound1} />
+      </div>
+      <div className={`frame ${frameClassName2}`}>
+        <div className={`text-wrapper-2 ${divClassName2}`}>Legendagem</div>
+        <ExpandMore
+          className={expandMoreStyleOutlinedClassNameOverride}
+          style="round"
+          styleRound={expandMoreStyleRound2}
+        />
+      </div>
+      <Link className={`frame ${frameClassName3}`} to="/traducaotecnica">
+        <div className={`text-wrapper-2 ${divClassName3}`}>Tradução Técnica</div>
+        <ExpandMore className={expandMoreStyleRoundClassName} style="round" styleRound={expandMoreStyleRound3} />
       </Link>
-      <Link className="frame" to="/caseshopee">
-        <div className="text-wrapper-2">Shopee</div>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound1} />
-      </Link>
-      <Link className="frame" to="/legendagem">
-        <Link className="text-wrapper-2" to={to}>
-          Legendagem
-        </Link>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound2} />
-      </Link>
-      <Link className="frame" to="/traducaotecnica">
-        <div className="text-wrapper-2">Tradução Técnica</div>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound3} />
-      </Link>
-      <Link className="frame" to="/sobre">
-        <div className="text-wrapper-2">Sobre nós</div>
-        <ExpandMore className="expand-more-instance" style="round" styleRound={expandMoreStyleRound4} />
+      <Link className={`frame ${frameClassName4}`} to="/sobre">
+        <div className={`text-wrapper-2 ${divClassName4}`}>Sobre nós</div>
+        <ExpandMore
+          className={expandMoreStyleRoundClassNameOverride}
+          style="round"
+          styleRound={expandMoreStyleRound4}
+        />
       </Link>
     </div>
   );
@@ -60,5 +83,4 @@ Menu.propTypes = {
   expandMoreStyleRound2: PropTypes.string,
   expandMoreStyleRound3: PropTypes.string,
   expandMoreStyleRound4: PropTypes.string,
-  to: PropTypes.string,
 };

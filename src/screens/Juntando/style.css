@@ -3,12 +3,50 @@
   width: 100%;
 }
 
+.videoplayer {
+
+top: -120px;
+position: absolute;
+
+}
+
 
 .juntandodois  {
-height: 8000px;
+height: 1000px;
 width: 1518px;
 position: relative;
 }
+
+.menudois {
+  width: 1536px;
+  height: 300px;
+  position: fixed;
+  top: 0px;
+  z-index: 10;
+}
+
+.paratextboxdois   {
+
+  width: 1516px;
+  height: 1000px;
+  position: relative;
+}
+
+
+.tecladochild {
+
+
+  width: 1518px;
+  height: 1789px;
+  position: relative;
+
+
+
+
+}
+
+
+
 
 
 
@@ -16,47 +54,43 @@ position: relative;
 .cabeaherocaysa{
 
   width: 1520px;
-  height: 10000px;
+  height: 5000px;
   position: relative;
 
 }
 
 .sticky {
-
   position: sticky;
   top: -1px;
-
 }
 
 
 .primeiraHero {
-
   width: 1518px;
   height: 700px;
   position: fixed;
-
 }
 
+
 .segundaHeronew {
-
-
   width: 1518px;
   height: 700px;
   position: fixed;
   z-index: 2 ;
-
 }
 
-
-
-
-
-.paratextbox   {
-
+.TerceiraHeronew {
   width: 1518px;
-  height: 10000px;
-  position: relative;
+  height: 700px;
+  position: fixed;
+  z-index: 1 ;
 }
+
+
+
+
+
+
 
 
 
@@ -91,13 +125,7 @@ width: 1518px;
     }
 
 
-  .menudois {
-      width: 1500px;
-      height: 300px;
-      position: fixed;
-      top: 0px;
-      z-index: 10;
-    }
+
 
 
 
@@ -119,7 +147,7 @@ width: 1518px;
 
 
 
-.textobox {
+.textoboxOne {
       color: var(--base-black);
       font-family: "Inter", Helvetica;
       font-size: 25.7px;
@@ -132,7 +160,25 @@ width: 1518px;
       width: 309px;
       z-index:0 ;
 
-      left:  200px;
+      left:  320px;
+      top: 300px;
+    }
+
+
+    .textoboxTres {
+      color: var(--base-black);
+      font-family: "Inter", Helvetica;
+      font-size: 25.7px;
+      font-weight: 700;
+      letter-spacing: 0.29px;
+      line-height: 30.4px;
+      margin-right: -0.25px;
+      margin-top: -0.79px;
+      position: fixed;
+      width: 309px;
+      z-index:0 ;
+
+      left:  320px;
       top: 300px;
     }
     
@@ -142,6 +188,24 @@ width: 1518px;
   .textobox2 {
       color: #c8982a;
     }
+
+
+.FaleComEspecialista  {
+
+
+  position: fixed;
+  width: 309px;
+  z-index:0 ;
+
+  left:  320px;
+  top: 300px;
+
+
+
+}
+
+
+
 
     .textoH1parateclado {
       color: var(--base-black);

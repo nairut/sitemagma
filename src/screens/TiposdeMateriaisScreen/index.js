@@ -1,0 +1,1 @@
+export { TiposdeMateriaisScreen } from "./TiposdeMateriaisScreen";

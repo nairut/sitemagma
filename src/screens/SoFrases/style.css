@@ -1,0 +1,143 @@
+.so-frases {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.so-frases .div-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 51px;
+  position: relative;
+}
+
+.so-frases .frase-entrada-e {
+  height: 328.35px;
+  position: relative;
+  width: 717.15px;
+}
+
+.so-frases .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19.12px;
+  height: 233px;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 717px;
+}
+
+.so-frases .tradu-es-bem {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 46.2px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 61.1px;
+  margin-right: -0.25px;
+  margin-top: -2.05px;
+  position: relative;
+  width: 717.41px;
+}
+
+.so-frases .span {
+  color: #000000;
+}
+
+.so-frases .text-wrapper-2 {
+  color: #c8982a;
+}
+
+.so-frases .p {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  margin-bottom: -0.45px;
+  position: relative;
+  width: 629.38px;
+}
+
+.so-frases .dois-botes {
+  align-items: flex-start;
+  display: flex;
+  gap: 30.36px;
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 284px;
+  width: 525px;
+}
+
+.so-frases .fale-com-um-especialista {
+  border-radius: 79.68px !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 12.75px 25.5px !important;
+  top: unset !important;
+}
+
+.so-frases .fale-com-um-instance {
+  font-size: 15.9px !important;
+  margin-top: -0.8px !important;
+  white-space: nowrap !important;
+}
+
+.so-frases .contato-rapido-instance {
+  border: 1.59px solid !important;
+  border-radius: 79.68px !important;
+  left: unset !important;
+  padding: 12.75px 25.5px !important;
+  top: unset !important;
+  width: 246.89px !important;
+}
+
+.so-frases .design-component-instance-node {
+  font-size: 15.9px !important;
+  margin-top: -1.59px !important;
+  white-space: nowrap !important;
+}
+
+.so-frases .div-rewards-icons {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 19.21px;
+  padding: 0px 52.64px 3.78px 0px;
+  position: relative;
+  width: 471px;
+}
+
+.so-frases .img {
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.so-frases .top-fastest {
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.so-frases .frame-svg {
+  height: 103.16px;
+  margin-right: -51.94px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}

@@ -1,57 +1,44 @@
 .menu-component {
   background-color: #e6f1fe;
-  height: 72px;
+  height: 73px;
+  left: -30130px;
   overflow: hidden;
   position: relative;
-  width: 1518px;
+  top: -8361px;
+  width: 1536px;
 }
 
 .menu-component .ellipse-wrapper {
-  border: 0.79px solid;
+  border: 0.8px solid;
   border-color: #c593184c;
-  border-radius: 184.22px;
-  height: 368px;
-  left: -227px;
+  border-radius: 186.4px;
+  height: 373px;
+  left: -230px;
   position: absolute;
-  top: 398px;
-  width: 368px;
+  top: 402px;
+  width: 373px;
 }
 
 .menu-component .ellipse {
-  border: 0.79px solid;
+  border: 0.8px solid;
   border-color: #c593184c;
-  border-radius: 114.64px;
-  height: 229px;
-  left: 76px;
+  border-radius: 116px;
+  height: 232px;
+  left: 77px;
   position: relative;
-  top: 55px;
-  width: 229px;
+  top: 56px;
+  width: 232px;
 }
 
 .menu-component .img {
   height: 34px;
-  left: 158px;
+  left: 160px;
   object-fit: cover;
   position: absolute;
   top: 22px;
-  width: 130px;
+  width: 132px;
 }
 
 .menu-component .menu-instance {
-  gap: 25.1px !important;
-  left: 440px !important;
-  position: absolute !important;
-  top: 26px !important;
-}
-
-.menu-component .design-component-instance-node {
-  gap: 3.16px !important;
-}
-
-.menu-component .turian-2 {
-  height: 18.97px !important;
-  left: unset !important;
-  position: relative !important;
-  top: unset !important;
-  width: 18.97px !important;
+  font-size: 12.8px !important;
 }

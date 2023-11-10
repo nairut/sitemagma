@@ -1,0 +1,1 @@
+export { QualidadeShopee } from "./QualidadeShopee";

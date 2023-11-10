@@ -1,0 +1,157 @@
+.segunda-hero-screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.segunda-hero-screen .segunda-hero-2 {
+  background-color: #ffffff;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+.segunda-hero-screen .turian-5 {
+  height: 768px;
+  left: 52951px;
+  position: absolute;
+  top: 7889px;
+  width: 1366px;
+}
+
+.segunda-hero-screen .turian-6 {
+  border: 0.7px solid;
+  border-color: #c593184c;
+  border-radius: 163.21px;
+  height: 326px;
+  left: -201px;
+  position: absolute;
+  top: 352px;
+  width: 326px;
+}
+
+.segunda-hero-screen .ellipse-5 {
+  border: 0.7px solid;
+  border-color: #c593184c;
+  border-radius: 101.57px;
+  height: 203px;
+  left: 67px;
+  position: relative;
+  top: 49px;
+  width: 203px;
+}
+
+.segunda-hero-screen .fale-com-um-2 {
+  border-radius: 70.03px !important;
+  left: 384px !important;
+  padding: 11.21px 22.41px !important;
+  position: absolute !important;
+  top: -2247px !important;
+}
+
+.segunda-hero-screen .fale-com-um-3 {
+  font-size: 14px !important;
+  margin-top: -0.7px !important;
+}
+
+.segunda-hero-screen .group-3 {
+  height: 578px;
+  left: 236px;
+  position: absolute;
+  top: 87px;
+  width: 894px;
+}
+
+.segunda-hero-screen .imagenew-2 {
+  height: 252px;
+  left: 94px;
+  object-fit: cover;
+  position: absolute;
+  top: 260px;
+  width: 202px;
+}
+
+.segunda-hero-screen .service-translation-3 {
+  height: 287px;
+  left: 324px;
+  object-fit: cover;
+  position: absolute;
+  top: 69px;
+  width: 199px;
+}
+
+.segunda-hero-screen .empresa-de-2 {
+  height: 133px;
+  left: 324px;
+  object-fit: cover;
+  position: absolute;
+  top: 379px;
+  width: 199px;
+}
+
+.segunda-hero-screen .overlap-group-4 {
+  height: 212px;
+  left: 49px;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.segunda-hero-screen .frame-6 {
+  background-color: #c59318;
+  border-radius: 5.12px;
+  height: 86px;
+  left: 96px;
+  position: absolute;
+  top: 126px;
+  width: 151px;
+}
+
+.segunda-hero-screen .div-absolute-3 {
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.segunda-hero-screen .traducao-tecnica-2 {
+  height: 240px;
+  left: 540px;
+  object-fit: cover;
+  position: absolute;
+  top: 273px;
+  width: 271px;
+}
+
+.segunda-hero-screen .stock-photo-portrait-2 {
+  height: 175px;
+  left: 540px;
+  object-fit: cover;
+  position: absolute;
+  top: 69px;
+  width: 271px;
+}
+
+.segunda-hero-screen .empresa-de-traduo-5 {
+  background-image: url(../../../static/img/mask-group-7.png);
+  background-size: 100% 100%;
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 512px;
+  width: 66px;
+}
+
+.segunda-hero-screen .empresa-de-traduo-6 {
+  background-image: url(../../../static/img/mask-group-8.png);
+  background-size: 100% 100%;
+  height: 66px;
+  left: 828px;
+  position: absolute;
+  top: 16px;
+  width: 66px;
+}

@@ -1,0 +1,1 @@
+export { TerceiraHero } from "./TerceiraHero";

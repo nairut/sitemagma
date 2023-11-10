@@ -1,0 +1,1 @@
+export { OsDepoimentosScreen } from "./OsDepoimentosScreen";

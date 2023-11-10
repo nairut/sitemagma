@@ -1,12 +1,32 @@
 import React from "react";
+import { ContatoRapido } from "../../components/ContatoRapido";
+import { FaleComUm } from "../../components/FaleComUm";
 import "./style.css";
+import { Fraseentradaebot } from "../../components/Fraseentradaebot";
+import { ImagemHeho } from "../../components/ImagemHeho";
+
+
 
 export const MovimentoScreen = () => {
   return (
-    <div className="movimento-screen">
-      <div className="ellipse-38" />
+    <div className="frameda">
 
-<iframe className="ellipse-38"  src="https://app.vectary.com/p/4ePJlo055EKp5L20Vck6ds" frameborder="0" width="100%" height="480"></iframe>
+<div className="divda">
+
+  
+<div className="frase">
+<Fraseentradaebot/></div>
+
+
+
+
+        <div className="imagemm">
+      <ImagemHeho/></div>
+
+
+
+
+      </div>
     </div>
   );
 };

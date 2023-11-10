@@ -18,16 +18,16 @@ export const ImagemHeho = ({
         <div className="overlap-group">
           <div className="div-absolute" />
           <div className="frame-wrapper">
-            <div className="imagem-caysa-wrapper">
-              <img className="imagem-caysa" alt="Imagem caysa" />
+            <div className="servi-o-de-trad-o-wrapper">
+              <img className="servi-o-de-trad-o" alt="Servi o de trad o" src="/img/servi-o-de-trad-o-profissional-1.png" />
             </div>
           </div>
-          <img className="giv-de-idiomas" alt="Giv de idiomas" />
+          <img className="ezgif" alt="Ezgif" src="./img/ezgif-2.gif"   />
           <div className={`empresa-de-tradu-o ${empresaDeTraduOClassName}`} />
           <div className={`empresa-de-tradu-o-2 ${empresaDeTraduOClassNameOverride}`} />
         </div>
       </div>
-      <div className={`frame-2 ${frameClassName}`} />
+      <div className={`frame-3 ${frameClassName}`} />
     </div>
   );
 };

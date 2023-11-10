@@ -1,0 +1,1 @@
+export { SegundaHeroScreen } from "./SegundaHeroScreen";

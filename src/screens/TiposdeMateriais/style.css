@@ -1,0 +1,420 @@
+.tiposde-materiais {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tiposde-materiais .overlap-group-wrapper-2 {
+  background-color: #ffffff;
+  height: 1406.4px;
+  overflow: hidden;
+  width: 1536px;
+}
+
+.tiposde-materiais .overlap-group-11 {
+  height: 1898px;
+  left: -166px;
+  position: relative;
+  width: 1702px;
+}
+
+.tiposde-materiais .group-12 {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 390.4px;
+  height: 781px;
+  left: 0;
+  position: absolute;
+  top: 1118px;
+  width: 781px;
+}
+
+.tiposde-materiais .ellipse-21 {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 242.95px;
+  height: 486px;
+  left: 162px;
+  position: relative;
+  top: 118px;
+  width: 486px;
+}
+
+.tiposde-materiais .turian-23 {
+  height: 1406px;
+  left: 166px;
+  position: absolute;
+  top: 0;
+  width: 1536px;
+}
+
+.tiposde-materiais .rectangle-2 {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgb(230, 241, 254) 100%);
+  height: 242px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1536px;
+}
+
+.tiposde-materiais .section-2 {
+  align-items: center;
+  background-color: #e6f1fe;
+  display: flex;
+  flex-direction: column;
+  gap: 11.2px;
+  height: 961px;
+  left: 0;
+  padding: 129.6px 55.68px 56px 55.68px;
+  position: absolute;
+  top: 242px;
+  width: 1536px;
+}
+
+.tiposde-materiais .div-inner-width-2 {
+  height: 682.4px;
+  max-width: 1104px;
+  position: relative;
+  width: 1104px;
+}
+
+.tiposde-materiais .heading-14 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+  padding: 0px 443.53px 0px 443.67px;
+  position: absolute;
+  top: 0;
+  width: 1056px;
+}
+
+.tiposde-materiais .text-wrapper-49 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: #000000;
+  display: -webkit-box;
+  font-family: "Inter", Helvetica;
+  font-size: 27.9px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 39.5px;
+  margin-left: -170.1px;
+  margin-right: -170.1px;
+  margin-top: -0.8px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tiposde-materiais .div-text-14 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 24px;
+  padding: 0px 353.93px 0px 354.07px;
+  position: absolute;
+  top: 51px;
+  width: 1056px;
+}
+
+.tiposde-materiais .text-wrapper-50 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 16.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 28.8px;
+  margin-left: -354px;
+  margin-right: -354px;
+  margin-top: -0.8px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tiposde-materiais .div-row-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  justify-content: space-between;
+  left: 10px;
+  padding: 0px 0.01px 0px 0px;
+  position: absolute;
+  top: 165px;
+  width: 1085px;
+}
+
+.tiposde-materiais .div-item-serv-power {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 40px;
+  position: relative;
+  width: 361.59px;
+}
+
+.tiposde-materiais .div-item-serv-power-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 17.6px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .div-item-hp-perfect-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: #ffffff;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12.32px;
+  padding: 39.52px 33.6px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .img-6 {
+  height: 28.8px;
+  position: relative;
+  width: 27.2px;
+}
+
+.tiposde-materiais .heading-15 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 4.79px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .text-wrapper-51 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 16.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  margin-top: -0.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tiposde-materiais .div-text-15 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 53.59px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .text-wrapper-52 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.6px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  margin-left: -0.4px;
+  margin-right: -54px;
+  margin-top: -0.8px;
+  position: relative;
+  width: fit-content;
+}
+
+.tiposde-materiais .image-7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+  justify-content: center;
+  left: 0;
+  max-width: 55.2px;
+  padding: 6px 0px;
+  position: absolute;
+  top: -29px;
+  width: 55px;
+}
+
+.tiposde-materiais .image-8 {
+  height: 36px;
+  position: relative;
+  width: 55.2px;
+}
+
+.tiposde-materiais .img-7 {
+  height: 28.8px;
+  position: relative;
+  width: 28.8px;
+}
+
+.tiposde-materiais .marketing-material-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 28.79px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .text-wrapper-53 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17.1px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  margin-top: -0.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tiposde-materiais .div-text-16 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 14.39px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .text-wrapper-54 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  margin-left: -0.4px;
+  margin-right: -14.8px;
+  margin-top: -0.8px;
+  position: relative;
+  width: fit-content;
+}
+
+.tiposde-materiais .alt-do-site {
+  height: 28px;
+  position: relative;
+  width: 28.8px;
+}
+
+.tiposde-materiais .heading-16 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 16.79px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .div-text-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 45.59px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.tiposde-materiais .text-wrapper-55 {
+  color: #094254;
+  font-family: "Inter", Helvetica;
+  font-size: 12.8px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.6px;
+  margin-left: -0.4px;
+  margin-right: -46px;
+  margin-top: -0.8px;
+  position: relative;
+  width: fit-content;
+}
+
+.tiposde-materiais .image-9 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 48px;
+  justify-content: center;
+  left: 0;
+  max-width: 55.2px;
+  padding: 5.6px 0px;
+  position: absolute;
+  top: -29px;
+  width: 55px;
+}
+
+.tiposde-materiais .image-10 {
+  height: 36.8px;
+  position: relative;
+  width: 55.2px;
+}
+
+.tiposde-materiais .filme {
+  height: 29.6px;
+  position: relative;
+  width: 28.8px;
+}
+
+.tiposde-materiais .text-wrapper-56 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17.1px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21.1px;
+  margin-right: -14.6px;
+  margin-top: -0.8px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tiposde-materiais .fale-com-um-5 {
+  border-radius: 80px !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 12.8px 25.6px !important;
+  top: unset !important;
+}
+
+.tiposde-materiais .fale-com-um-6 {
+  font-size: 16px !important;
+  margin-top: -0.8px !important;
+  white-space: nowrap !important;
+}
+
+.tiposde-materiais .rectangle-3 {
+  background: linear-gradient(180deg, rgb(230, 241, 254) 0%, rgba(255, 255, 255, 0) 100%);
+  height: 203px;
+  left: 0;
+  position: absolute;
+  top: 1203px;
+  width: 1536px;
+}

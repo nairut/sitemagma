@@ -1,0 +1,153 @@
+.terceira-hero {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.terceira-hero .div-2 {
+  background-color: #E6F1FE;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+.terceira-hero .turian {
+  height: 768px;
+  left: 52951px;
+  position: absolute;
+  top: 6588px;
+  width: 1366px;
+}
+
+.terceira-hero .ellipse-wrapper {
+  border: 0.7px solid;
+  border-color: #c593184c;
+  border-radius: 163.21px;
+  height: 326px;
+  left: -201px;
+  position: absolute;
+  top: 352px;
+  width: 326px;
+}
+
+.terceira-hero .ellipse {
+  border: 0.7px solid;
+  border-color: #c593184c;
+  border-radius: 101.57px;
+  height: 203px;
+  left: 67px;
+  position: relative;
+  top: 49px;
+  width: 203px;
+}
+
+.terceira-hero .fale-com-um-especialista {
+  border-radius: 70.03px !important;
+  left: 384px !important;
+  padding: 11.21px 22.41px !important;
+  position: absolute !important;
+  top: -2247px !important;
+}
+
+.terceira-hero .fale-com-um-instance {
+  font-size: 14px !important;
+  margin-top: -0.7px !important;
+}
+
+.terceira-hero .overlap {
+  height: 578px;
+  left: 236px;
+  position: absolute;
+  top: 87px;
+  width: 894px;
+}
+
+.terceira-hero .group {
+  height: 578px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 894px;
+}
+
+.terceira-hero .overlap-group-2 {
+  height: 212px;
+  left: 49px;
+  position: absolute;
+  top: 0;
+  width: 247px;
+}
+
+.terceira-hero .frame-3 {
+  background-color: #c59318;
+  border-radius: 5.12px;
+  height: 86px;
+  left: 96px;
+  position: absolute;
+  top: 126px;
+  width: 151px;
+}
+
+.terceira-hero .img {
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 96px;
+}
+
+.terceira-hero .empresa-de-traduo {
+  background-image: url(../../../static/img/mask-group-3.png);
+  background-size: 100% 100%;
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 512px;
+  width: 66px;
+}
+
+.terceira-hero .empresa-de-traduo-2 {
+  background-image: url(../../../static/img/mask-group-4.png);
+  background-size: 100% 100%;
+  height: 66px;
+  left: 828px;
+  position: absolute;
+  top: 16px;
+  width: 66px;
+}
+
+.terceira-hero .normais-traducao {
+  height: 446px;
+  left: 544px;
+  object-fit: cover;
+  position: absolute;
+  top: 66px;
+  width: 270px;
+}
+
+.terceira-hero .translation-normal {
+  height: 281px;
+  left: 323px;
+  position: absolute;
+  top: 231px;
+  width: 199px;
+}
+
+.terceira-hero .service-translation {
+  height: 131px;
+  left: 323px;
+  position: absolute;
+  top: 66px;
+  width: 199px;
+}
+
+.terceira-hero .alltranslation {
+  height: 234px;
+  left: 99px;
+  position: absolute;
+  top: 278px;
+  width: 202px;
+}

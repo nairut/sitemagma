@@ -26,7 +26,7 @@ export const EstudoDeCaso = ({ property1, className }) => {
         dispatch("mouse_enter");
       }}
     >
-      <p className="p">Veja o estudo de caso</p>
+      <p className="text-wrapper-4">Veja o estudo de caso</p>
     </a>
   );
 };

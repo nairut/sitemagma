@@ -1,0 +1,1 @@
+export { TiposdeMateriais } from "./TiposdeMateriais";

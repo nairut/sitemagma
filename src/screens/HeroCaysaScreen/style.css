@@ -1,0 +1,250 @@
+.hero-caysa-screen1366 {
+  background-color: #E6F1FE;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-caysa-screen1366 .hero-caysa-2 {
+  background-color: #ffffff;
+  height: 768px;
+  overflow: hidden;
+  position: relative;
+  width: 1366px;
+}
+
+.hero-caysa-screen1366 .turian-16 {
+  border: 0.71px solid;
+  border-color: #c593184c;
+  border-radius: 165.11px;
+  height: 330px;
+  left: -203px;
+  position: absolute;
+  top: 356px;
+  width: 330px;
+}
+
+.hero-caysa-screen1366 .ellipse-17 {
+  border: 0.71px solid;
+  border-color: #c593184c;
+  border-radius: 102.75px;
+  height: 206px;
+  left: 68px;
+  position: relative;
+  top: 50px;
+  width: 206px;
+}
+
+.hero-caysa-screen1366 .overlap-5 {
+  height: 615px;
+  left: 142px;
+  position: absolute;
+  top: 147px;
+  width: 1043px;
+}
+
+.hero-caysa-screen1366 .turian-17 {
+  border: 0.71px solid;
+  border-color: #c593184c;
+  border-radius: 285.23px;
+  height: 570px;
+  left: 473px;
+  position: absolute;
+  top: 45px;
+  width: 570px;
+}
+
+.hero-caysa-screen1366 .ellipse-18 {
+  border: 0.71px solid;
+  border-color: #c593184c;
+  border-radius: 177.5px;
+  height: 355px;
+  left: 118px;
+  position: relative;
+  top: 86px;
+  width: 355px;
+}
+
+.hero-caysa-screen1366 .frame-35 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 45.35px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 638px;
+}
+
+.hero-caysa-screen1366 .fraseentradaebot-escomponent {
+  gap: 17.01px !important;
+  height: 207px !important;
+  width: 638px !important;
+}
+
+.hero-caysa-screen1366 .fraseentradaebot-instance {
+  font-size: 41.1px !important;
+  letter-spacing: 0.26px !important;
+  line-height: 54.3px !important;
+  margin-right: -0.22px !important;
+  margin-top: -0.77px !important;
+  width: 638.01px !important;
+}
+
+.hero-caysa-screen1366 .fraseentradaebot-escomponent-instance {
+  font-size: 17px !important;
+  line-height: 27.3px !important;
+  margin-bottom: unset !important;
+  width: 559.72px !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-2 {
+  gap: 27px !important;
+  height: 40px !important;
+  top: 252px !important;
+  width: 466px !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-3 {
+  border-radius: 70.86px !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 11.34px 22.68px !important;
+  top: unset !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-4 {
+  font-size: 14.2px !important;
+  margin-top: -0.71px !important;
+  white-space: nowrap !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-5 {
+  border: 1.42px solid !important;
+  border-radius: 70.86px !important;
+  left: unset !important;
+  padding: 11.34px 22.68px !important;
+  top: unset !important;
+  width: 219.57px !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-6 {
+  font-size: 14.2px !important;
+  margin-top: -1.42px !important;
+  white-space: nowrap !important;
+}
+
+.hero-caysa-screen1366 .frase-entrada-e-7 {
+  height: 292.01px !important;
+  width: 637.78px !important;
+}
+
+.hero-caysa-screen1366 .div-rewards-icons-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 17.09px;
+  padding: 0px 46.82px 3.36px 0px;
+  position: relative;
+  width: 418.87px;
+}
+
+.hero-caysa-screen1366 .img-4 {
+  height: 91.74px;
+  max-width: 350.31px;
+  position: relative;
+  width: 91.75px;
+}
+
+.hero-caysa-screen1366 .top-fastest-2 {
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 91.74px;
+  max-width: 350.31px;
+  position: relative;
+  width: 91.74px;
+}
+
+.hero-caysa-screen1366 .frame-svg-2 {
+  height: 91.74px;
+  margin-right: -46.19px;
+  max-width: 350.31px;
+  position: relative;
+  width: 91.75px;
+}
+
+.hero-caysa-screen1366 .imagem-heho-2 {
+  height: 380px !important;
+  top: 101px !important;
+  width: 374px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-3 {
+  height: 411px !important;
+  top: -81px !important;
+  width: 411px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-4 {
+  border-radius: 70.86px !important;
+  height: 350px !important;
+  width: 298px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-5 {
+  border-radius: 70.86px !important;
+  height: 278px !important;
+  left: 133px !important;
+  top: 133px !important;
+  width: 278px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-6 {
+  border-radius: 70.86px !important;
+  height: 279px !important;
+  width: 279px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-7 {
+  height: 276px !important;
+  width: 277px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-8 {
+  height: 182px !important;
+  left: 44px !important;
+  top: 40px !important;
+  width: 154px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-9 {
+  height: 481px !important;
+  left: 663px !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 374px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-10 {
+  background-image: url(../../../static/img/mask-group-15.png) !important;
+  height: 56px !important;
+  left: 227px !important;
+  top: 40px !important;
+  width: 56px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-11 {
+  background-image: url(../../../static/img/mask-group-16.png) !important;
+  height: 28px !important;
+  left: 67px !important;
+  top: 271px !important;
+  width: 28px !important;
+}
+
+.hero-caysa-screen1366 .imagem-heho-12 {
+  background-image: url(../../../static/img/mask-group-17.png) !important;
+  height: 41px !important;
+  width: 41px !important;
+}

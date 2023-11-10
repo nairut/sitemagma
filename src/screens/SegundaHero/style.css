@@ -1,0 +1,150 @@
+.segunda-hero {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.segunda-hero .div-4 {
+  background-color: #E6F1FE;
+  height: 864px;
+  overflow: hidden;
+  position: relative;
+  width: 1536px;
+}
+
+.segunda-hero .turian-3 {
+  height: 864px;
+  left: 57690px;
+  position: absolute;
+  top: 8550px;
+  width: 1536px;
+}
+
+.segunda-hero .turian-4 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 183.52px;
+  height: 367px;
+  left: -226px;
+  position: absolute;
+  top: 396px;
+  width: 367px;
+}
+
+.segunda-hero .ellipse-4 {
+  border: 0.79px solid;
+  border-color: #c593184c;
+  border-radius: 114.21px;
+  height: 228px;
+  left: 76px;
+  position: relative;
+  top: 55px;
+  width: 228px;
+}
+
+.segunda-hero .fale-com-um-especialista-instance {
+  left: 432px !important;
+  position: absolute !important;
+  top: -2526px !important;
+}
+
+.segunda-hero .group-2 {
+  height: 650px;
+  left: 265px;
+  position: absolute;
+  top: 98px;
+  width: 1005px;
+}
+
+.segunda-hero .imagenew {
+  height: 283px;
+  left: 106px;
+  object-fit: cover;
+  position: absolute;
+  top: 293px;
+  width: 227px;
+}
+
+.segunda-hero .service-translation-2 {
+  height: 323px;
+  left: 365px;
+  object-fit: cover;
+  position: absolute;
+  top: 77px;
+  width: 224px;
+}
+
+.segunda-hero .empresa-de {
+  height: 150px;
+  left: 365px;
+  object-fit: cover;
+  position: absolute;
+  top: 426px;
+  width: 224px;
+}
+
+.segunda-hero .overlap-group-3 {
+  height: 239px;
+  left: 55px;
+  position: absolute;
+  top: 0;
+  width: 278px;
+}
+
+.segunda-hero .frame-5 {
+  background-color: #c59318;
+  border-radius: 5.76px;
+  height: 97px;
+  left: 108px;
+  position: absolute;
+  top: 142px;
+  width: 169px;
+}
+
+.segunda-hero .div-absolute-2 {
+  height: 142px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.segunda-hero .traducao-tecnica {
+  height: 270px;
+  left: 607px;
+  object-fit: cover;
+  position: absolute;
+  top: 307px;
+  width: 304px;
+}
+
+.segunda-hero .stock-photo-portrait {
+  height: 197px;
+  left: 607px;
+  object-fit: cover;
+  position: absolute;
+  top: 77px;
+  width: 304px;
+}
+
+.segunda-hero .empresa-de-traduo-3 {
+  background-image: url(../../../static/img/mask-group-5.png);
+  background-size: 100% 100%;
+  height: 74px;
+  left: 0;
+  position: absolute;
+  top: 576px;
+  width: 74px;
+}
+
+.segunda-hero .empresa-de-traduo-4 {
+  background-image: url(../../../static/img/mask-group-6.png);
+  background-size: 100% 100%;
+  height: 74px;
+  left: 931px;
+  position: absolute;
+  top: 18px;
+  width: 74px;
+}

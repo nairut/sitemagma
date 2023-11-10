@@ -1,64 +1,64 @@
 .imagem-heho {
-  height: 534px;
-  left: 895px;
-  position: relative;
-  top: 163px;
-  width: 416px;
+  height: 540px;
+
+
+  top: 165px;
+  width: 100%;
 }
 
 .imagem-heho .overlap-group-wrapper {
-  height: 422px;
+  height: 427px;
   left: 0;
   position: absolute;
-  top: 112px;
-  width: 416px;
+  top: 113px;
+  width: 421%;
 }
 
 .imagem-heho .overlap-group {
-  height: 457px;
+  height: 462px;
   position: relative;
-  top: -90px;
-  width: 457px;
+  top: -91px;
+  width: 462%;
 }
 
 .imagem-heho .div-absolute {
   background-color: #faf4e3;
-  border-radius: 78.75px;
-  height: 389px;
+  border-radius: 79.68px;
+  height: 394px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 331px;
+  width: 335px;
 }
 
 .imagem-heho .frame-wrapper {
-  border-radius: 78.75px;
-  height: 309px;
-  left: 147px;
+  border-radius: 79.68px;
+  height: 313px;
+  left: 149px;
   position: absolute;
-  top: 147px;
-  width: 309px;
+  top: 149px;
+  width: 313px;
 }
 
-.imagem-heho .imagem-caysa-wrapper {
+.imagem-heho .servi-o-de-trad-o-wrapper {
   background-color: #c59318;
-  border-radius: 78.75px;
-  height: 310px;
+  border-radius: 79.68px;
+  height: 314px;
   overflow: hidden;
   position: relative;
-  width: 310px;
+  width: 314px;
 }
 
-.imagem-heho .imagem-caysa {
+.imagem-heho .servi-o-de-trad-o {
   height: 310px;
-  left: -1px;
+  left: 0;
   object-fit: cover;
   position: absolute;
-  top: 0;
+  top: 4px;
   width: 311px;
 }
 
-.imagem-heho .giv-de-idiomas {
+.imagem-heho .ezgif {
   height: 205px;
   left: 50px;
   object-fit: cover;
@@ -69,23 +69,23 @@
 
 .imagem-heho .empresa-de-tradu-o {
   background-size: 100% 100%;
-  height: 62px;
-  left: 253px;
+  height: 63px;
+  left: 256px;
   position: absolute;
   top: 45px;
-  width: 62px;
+  width: 63px;
 }
 
 .imagem-heho .empresa-de-tradu-o-2 {
   background-size: 100% 100%;
   height: 31px;
-  left: 75px;
+  left: 76px;
   position: absolute;
-  top: 301px;
+  top: 304px;
   width: 31px;
 }
 
-.imagem-heho .frame-2 {
+.imagem-heho .frame-3 {
   background-size: 100% 100%;
   height: 46px;
   left: 0;

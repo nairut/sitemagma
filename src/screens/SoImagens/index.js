@@ -1,0 +1,1 @@
+export { SoImagens } from "./SoImagens";

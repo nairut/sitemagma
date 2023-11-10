@@ -1,118 +1,136 @@
 .hero-caysa {
-  background-color: #ffffff;
+  background-color: #E6F1FE;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-.hero-caysa .overlap-wrapper {
-  background-color: #ffffff;
-  height: 801px;
+.hero-caysa .div-3 {
+  background-color: #E6F1FE;
+  height: 864px;
   overflow: hidden;
-  width: 1518px;
-}
-
-.hero-caysa .overlap {
-  height: 847px;
-  left: -226px;
   position: relative;
-  width: 1744px;
+  width: 1536px;
 }
 
-.hero-caysa .turian-2 {
-  background-color: #e6f1fe;
-  border: 1px solid;
-  border-color: #000000;
-  height: 763px;
-  left: 226px;
-  position: absolute;
-  top: 0;
-  width: 1518px;
-}
-
-.hero-caysa .ellipse-wrapper {
-  border: 0.79px solid;
+.hero-caysa .div-wrapper {
+  border: 0.8px solid;
   border-color: #c593184c;
-  border-radius: 183.49px;
-  height: 367px;
-  left: 0;
+  border-radius: 185.66px;
+  height: 371px;
+  left: -229px;
   position: absolute;
-  top: 396px;
-  width: 367px;
-}
-
-.hero-caysa .ellipse {
-  border: 0.79px solid;
-  border-color: #c593184c;
-  border-radius: 114.19px;
-  height: 228px;
-  left: 76px;
-  position: relative;
-  top: 55px;
-  width: 228px;
-}
-
-.hero-caysa .turian-3 {
-  border: 0.79px solid;
-  border-color: #c593184c;
-  border-radius: 316.97px;
-  height: 634px;
-  left: 909px;
-  position: absolute;
-  top: 213px;
-  width: 634px;
+  top: 401px;
+  width: 371px;
 }
 
 .hero-caysa .ellipse-2 {
-  border: 0.79px solid;
+  border: 0.8px solid;
   border-color: #c593184c;
-  border-radius: 197.26px;
-  height: 395px;
-  left: 131px;
+  border-radius: 115.54px;
+  height: 231px;
+  left: 76px;
   position: relative;
-  top: 96px;
-  width: 395px;
+  top: 56px;
+  width: 231px;
 }
 
-.hero-caysa .frame-3 {
+.hero-caysa .overlap-2 {
+  height: 692px;
+  left: 159px;
+  position: absolute;
+  top: 165px;
+  width: 1173px;
+}
+
+.hero-caysa .turian-2 {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 320.73px;
+  height: 641px;
+  left: 531px;
+  position: absolute;
+  top: 50px;
+  width: 641px;
+}
+
+.hero-caysa .ellipse-3 {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 199.59px;
+  height: 399px;
+  left: 133px;
+  position: relative;
+  top: 97px;
+  width: 399px;
+}
+
+.hero-caysa .frame-4 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 50.4px;
-  left: 384px;
+  gap: 51px;
+  left: 0;
   position: absolute;
-  top: 199px;
-  width: 709px;
+  top: 36px;
+  width: 717px;
 }
 
 .hero-caysa .frase-entrada-e {
-  height: 324.5px !important;
-  width: 708.75px !important;
+  height: 328.35px !important;
+  width: 717.15px !important;
 }
 
-.hero-caysa .premio-images-instance {
-  flex: 0 0 auto !important;
-  top: unset !important;
+.hero-caysa .div-rewards-icons {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 19.21px;
+  padding: 0px 52.64px 3.78px 0px;
+  position: relative;
+  width: 471px;
 }
 
-.hero-caysa .design-component-instance-node {
-  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png) !important;
+.hero-caysa .img-2 {
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .top-fastest {
+  background-image: url(../../../static/img/top-30-fastest-sustained-growth-lsps-low-2-1-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 103.16px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
+}
+
+.hero-caysa .frame-svg {
+  height: 103.16px;
+  margin-right: -51.94px;
+  max-width: 393.91px;
+  position: relative;
+  width: 103.16px;
 }
 
 .hero-caysa .imagem-heho-component {
-  left: 1121px !important;
+  left: 746px !important;
   position: absolute !important;
+  top: 0 !important;
 }
 
 .hero-caysa .imagem-heho-instance {
-  background-image: url(../../../static/img/mask-group-54.png) !important;
+  background-image: url(../../../static/img/mask-group.png) !important;
 }
 
 .hero-caysa .imagem-heho-component-instance {
-  background-image: url(../../../static/img/mask-group-55.png) !important;
+  background-image: url(../../../static/img/mask-group-1.png) !important;
 }
 
-.hero-caysa .imagem-heho-2 {
-  background-image: url(../../../static/img/mask-group-56.png) !important;
+.hero-caysa .design-component-instance-node {
+  background-image: url(../../../static/img/mask-group-2.png) !important;
 }

@@ -11,10 +11,10 @@ import "./style.css";
 export const Fraseentradaebot = ({ className }) => {
   return (
     <div className={`fraseentradaebot ${className}`}>
-      <div className="frame">
+      <div className="frame-2">
         <p className="tradu-es-bem">
           <span className="span">Traduções </span>
-          <span className="text-wrapper-2">bem avaliadas - </span>
+          <span className="text-wrapper-3">bem avaliadas - </span>
           <span className="span">de pequeno e grande porte.</span>
         </p>
         <p className="p">
@@ -23,8 +23,13 @@ export const Fraseentradaebot = ({ className }) => {
         </p>
       </div>
       <div className="dois-bot-es">
-        <FaleComUm className="fale-com-um-especialista" property1="default" />
-        <ContatoRapido className="contato-rapido-instance" property1="default" text="Orçamento Rápido" />
+        <FaleComUm className="fale-com-um-especialista" divClassName="fale-com-um-instance" property1="default" />
+        <ContatoRapido
+          className="contato-rapido-instance"
+          contatoRapidoClassName="design-component-instance-node"
+          property1="default"
+          text="Orçamento Rápido"
+        />
       </div>
     </div>
   );

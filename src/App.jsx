@@ -42,6 +42,9 @@ import { HeroVeryNew } from "./screens/HeroVeryNew/HeroVeryNew";
 import { LogoCloud } from "./screens/LogoCloud/LogoCloud";
 import { MeioEmTroca } from "./screens/MeioEmTroca";
 import { HeroCaysa } from "./screens/HeroCaysa/HeroCaysa";
+import { Menu } from "./components/Menu";
+import { MenuComponent } from "./components/MenuComponent";
+import { Juntando1366 } from "./screens/Juntando1366";
 
 
 
@@ -124,7 +127,7 @@ export const App = () => {
 
 {
   path: "/movimento",
-  element: isMobile ? <CelularPtpronto  /> : <Movimento />,
+  element: isMobile ? <CelularPtpronto  /> : <MenuComponent />,
 },
 
 
@@ -141,6 +144,13 @@ export const App = () => {
   
 },
 
+
+{
+  path: "/juntando1366",
+  element: isMobile ? <Juntando  /> : <Juntando1366 />,
+  
+},
+
 {
   path: "/novahero",
   element: isMobile ? <CelularPtpronto  /> : <HeroSection />,
@@ -151,18 +161,10 @@ export const App = () => {
 {
 
 
-  path: "/herosectionnew",
-  element: isMobile ? <CelularPtpronto  /> : <HeroVeryNew />,
+  path: "/estudoflex",
+  element: isMobile ? <CelularPtpronto  /> : <MovimentoScreen />,
   
 },
-
-
-
-
-      
-
-      
-
 
 
 

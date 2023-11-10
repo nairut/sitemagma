@@ -29,55 +29,77 @@ export const Teclado = ({  }) => {
 const { scrollY } = useScroll();
 
 // Calculate the range based on the scroll position of a specific element
-const minScrollY = 4360; // Adjust this value as needed
-const maxScrollY = 10552; // Adjust this value as needed
-
-
-
-const minScrollTeclado = 4481; // Adjust this value as needed
-const maxScrolleclado = 4980;  // Adjust this value as needed
-
-
-const minScrollCladodois = 5538; // Adjust this value as needed
-const maxScrollYCladodois = 9756;  // Adjust this value as needed
-
-
-
-const yClado = useTransform(scrollY,
-  [minScrollTeclado, maxScrolleclado, 
-    minScrollCladodois, maxScrollYCladodois], 
-  [4415, 4300,
-  5056, 4556]);
+const minScrollY = 4360; 
+const maxScrollY = 10552; 
 
 
 
 
 
-const minScrollMeio = 14197 ; // Adjust this value as needed
-const maxScrollYMeio = 14344 ; // Adjust this value as needed
 
 
-const minScrollH1 = 13862 ; // Adjust this value as needed
-const maxScrollYH1 = 14420; // Adjust this value as needed
+
+const minScrollMeio = 14197 ; 
+const maxScrollYMeio = 14344 ; 
 
 
-const minScrollTexto = 14203 ; // Adjust this value as needed
-const maxScrollYTexto = 14587; // Adjust this value as needed
 
 
-const minScrollScale= 4415 ; // Adjust this value as needed
-const maxScrollYScale = 4915; // Adjust this value as needed
+
+const minScrollTexto = 14203 ; 
+const maxScrollYTexto = 14587; 
+
+
+
 
 
 
 
 // Map the scrollY value to a new range for animation
 const y = useTransform(scrollY, [minScrollY, maxScrollY], [4360, 5852]);
+
+
 const yMeio = useTransform(scrollY, [maxScrollYMeio, minScrollMeio], [4360, 5852]);
-const yH1 = useTransform(scrollY, [minScrollH1, maxScrollYH1], [0, 500]);
 const yTexto = useTransform(scrollY, [minScrollTexto, maxScrollYTexto], [0, -300]);
 
+
+
+//////////////////////////////  Scale Teclado
+const minScrollScale=  2113 ; 
+const maxScrollYScale = 2313; 
 const ScaleTeclado = useTransform(scrollY, [minScrollScale, maxScrollYScale], [0.7, 1]);
+
+//////////////////////Controle da imagem do teclado
+const minScrollTeclado = 2124; 
+const maxScrolleclado = 2524;  
+const minScrollCladodois = 19; 
+const maxScrollYCladodois = 300;  
+
+const yClado = useTransform(scrollY,
+  [minScrollTeclado, maxScrolleclado, 
+    minScrollCladodois, maxScrollYCladodois], 
+  [19, 30,
+    19, 30]);
+
+
+
+
+
+//////////////////////Controle do Y do texto do teclado
+const minScrollH1 =  2113 ; 
+const maxScrollYH1 = 2932; 
+const minScrollH1one =  0 ; 
+const maxScrollYH1one = 400; 
+
+
+
+const yH1 = useTransform(scrollY, 
+  [minScrollH1, maxScrollYH1],
+  [minScrollH1one, maxScrollYH1one],
+   [4800, -500],
+   [-800, -800]
+   
+   );
 
 
 
@@ -88,43 +110,38 @@ console.log("Page Height: " + document.documentElement.scrollHeight + " pixels")
 
   return (
     <div className="containerteclado">
-      <div className="div">
+      <div className="divteclado">
 
 
-<motion.div
-              className="stickyss"
-
-  
-              className="animated-div"
+          <motion.div
               style={{
-                y: y, // Use the y variable to control the vertical position
+                // Use the y variable to control the vertical position
+                y: yH1,
               }}
             >
-                <p className="textoH1parateclado">
-                <span className="textobox1">Várias Soluções </span>
-                <span className="textobox2">Ao alcance  - </span>
-                <span className="textobox1">dos seus dedos.</span>
+                <p className="textoH1paratecladodois">
+                <span className="textobox1">Todos falam de </span>
+                <span className="textobox2">Qualidade</span>
+                <span className="textobox1">    Não é verdade?</span>
               </p>
-              <p className="textoparateclado">
-              iMac features a color-matched keyboard, mouse, and trackpad. 
-              Magic Keyboard with Touch ID lets you easily and securely unlock your iMac, 
-              switch users, use Apple Pay, and download apps.10 And Magic Mouse and Magic 
-              Trackpad make navigation comfortable and intuitive.
-              </p>  
-              </motion.div>
+              
+              <p className="paragrafoteclado">
+              Quando se trata de tradução, localização de sites e softwares, tradução cultural e todo 
+              o tipo de conteúdo adaptado para outro idioma, sim, falar de qualidade é imporante.  </p>  
+          </motion.div>
 
 
-              <motion.div
+          <motion.div
               className="cabendo"
 
               style={{
-                y: yClado, // Use the y variable to control the vertical position
+                 // Use the y variable to control the vertical position
                 scale: ScaleTeclado,
-                
+                y: yClado,
    
               }}    >
               
-              <img className="tecladolargocomponente" alt="Turian" src="/img/teclado-largo.png" />
+              <img className="tecladolargocomponente" alt="Teclado de tradução" src="/img/teclado-largo.png" />
               </motion.div>
 
               </div>

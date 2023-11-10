@@ -1,0 +1,1 @@
+export { MenuNaoComponent } from "./MenuNaoComponent";

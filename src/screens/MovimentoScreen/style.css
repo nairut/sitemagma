@@ -1,16 +1,37 @@
-.movimento-screen {
-  background-color: #ffffff;
-  min-height: 7700px;
-  min-width: 1512px;
-  width: 100%;
+.framedadois {
+
+ width: 100%;
+
+
 }
 
-.movimento-screen .ellipse-2 {
-  background-color: #d9d9d9;
-  border-radius: 60px/50.5px;
-  height: 101px;
-  left: 696px;
-  position: relative;
-  top: 531px;
-  width: 120px;
+.divda {
+
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+
 }
+
+
+.frase{
+
+
+  width: 300%;
+  height: 300px;
+  top: 100px;
+  position: relative;
+
+}
+
+
+.imagemm{
+
+
+  width: 300%;
+  height: 300px;
+  top: 200px;
+  position: relative;
+}
+
+

@@ -1,0 +1,1 @@
+export { QualidadeShopeeScreen } from "./QualidadeShopeeScreen";

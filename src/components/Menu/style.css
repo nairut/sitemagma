@@ -27,11 +27,3 @@
   white-space: nowrap;
   width: fit-content;
 }
-
-.menu .expand-more-instance {
-  height: 18.9px !important;
-  left: unset !important;
-  position: relative !important;
-  top: unset !important;
-  width: 18.9px !important;
-}

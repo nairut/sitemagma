@@ -1,0 +1,1 @@
+export { OsDepoimentos } from "./OsDepoimentos";
