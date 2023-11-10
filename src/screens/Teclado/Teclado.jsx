@@ -32,25 +32,15 @@ const { scrollY } = useScroll();
 const minScrollY = 4360; 
 const maxScrollY = 10552; 
 
-
-
-
-
-
+const { scrollYProgress } = useScroll();
 
 
 const minScrollMeio = 14197 ; 
 const maxScrollYMeio = 14344 ; 
 
 
-
-
-
 const minScrollTexto = 14203 ; 
 const maxScrollYTexto = 14587; 
-
-
-
 
 
 
@@ -64,46 +54,45 @@ const yTexto = useTransform(scrollY, [minScrollTexto, maxScrollYTexto], [0, -300
 
 
 
-//////////////////////////////  Scale Teclado
-const minScrollScale=  2113 ; 
+//////////////////////////////  Scale Teclado   2113 ;    2313; 
+const minScrollScale=  1876 ; 
 const maxScrollYScale = 2313; 
 const ScaleTeclado = useTransform(scrollY, [minScrollScale, maxScrollYScale], [0.7, 1]);
 
 //////////////////////Controle da imagem do teclado
-const minScrollTeclado = 2124; 
-const maxScrolleclado = 2524;  
-const minScrollCladodois = 19; 
-const maxScrollYCladodois = 300;  
+const minScrollTeclado = 0; 
+const maxScrolleclado = 1661; 
+const minScrollTecladoDois = 1661; 
+const maxScrollecladoDois = 2300;   
+const minScrollTecladoTres =  2300; 
+const maxScrollecladoTres = 4000;   
 
-const yClado = useTransform(scrollY,
-  [minScrollTeclado, maxScrolleclado, 
-    minScrollCladodois, maxScrollYCladodois], 
-  [19, 30,
-    19, 30]);
 
+
+const yClado = useTransform(scrollY, [minScrollTeclado, maxScrolleclado, minScrollTecladoDois, maxScrollecladoDois,
+  minScrollTecladoTres, maxScrollecladoTres
+
+
+
+],
+  [-750, -750, -750, -1900, -1900, -1700]);
 
 
 
 
 //////////////////////Controle do Y do texto do teclado
-const minScrollH1 =  2113 ; 
-const maxScrollYH1 = 2932; 
-const minScrollH1one =  0 ; 
-const maxScrollYH1one = 400; 
-
-
-
-const yH1 = useTransform(scrollY, 
-  [minScrollH1, maxScrollYH1],
-  [minScrollH1one, maxScrollYH1one],
-   [4800, -500],
-   [-800, -800]
-   
-   );
+const minScrollH1 =  1 ; 
+const maxScrollYH1 =  1441; 
+const minScrollH1one =  1441 ; 
+const maxScrollYH1one = 2000; 
+const yH1 = useTransform(scrollY, [minScrollH1, maxScrollYH1, minScrollH1one, maxScrollYH1one],
+  [740, 740, 1040, -150]);
 
 
 
 
+
+  const opacityFraseEscondida = useTransform(scrollYProgress, [0.32, 0.323], [0, 1]);
 
 
 console.log("Page Height: " + document.documentElement.scrollHeight + " pixels");
@@ -115,8 +104,8 @@ console.log("Page Height: " + document.documentElement.scrollHeight + " pixels")
 
           <motion.div
               style={{
-                // Use the y variable to control the vertical position
                 y: yH1,
+       
               }}
             >
                 <p className="textoH1paratecladodois">
@@ -132,17 +121,38 @@ console.log("Page Height: " + document.documentElement.scrollHeight + " pixels")
 
 
           <motion.div
+              style={{
+                opacity: opacityFraseEscondida
+       
+              }}
+            >
+                <p className="fraseEscondida"  style={{ zIndex: 0 }}>
+                <span className="textobox1"> </span>
+                <span className="textobox2">Qualidade é o Mais Importante</span>
+                <span className="textobox1">  </span>
+              </p>
+              
+      
+          </motion.div>
+          <motion.div
               className="cabendo"
 
               style={{
                  // Use the y variable to control the vertical position
                 scale: ScaleTeclado,
                 y: yClado,
+             
+      
    
               }}    >
               
-              <img className="tecladolargocomponente" alt="Teclado de tradução" src="/img/teclado-largo.png" />
+              <img className="tecladolargocomponente" style={{ zIndex: 2 }} alt="Teclado de tradução" src="/img/teclado-largo.png" />
               </motion.div>
+
+
+       
+ 
+
 
               </div>
 

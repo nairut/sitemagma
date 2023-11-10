@@ -101,6 +101,20 @@ export const Juntando = () => {
           </div>
         </div>
         <div className="paratextboxdois">
+
+          
+
+          <div className="sticky primeiraHero">
+
+          <Teclado/>
+            
+
+
+      
+
+
+
+
           <motion.div
             className="sticky primeiraHero"
               style={{
@@ -111,7 +125,6 @@ export const Juntando = () => {
                  }}>
                 <HeroCaysa  /> {/* Apply animation to HeroCaysa */}
           </motion.div>
-
 
 
 
@@ -142,17 +155,19 @@ export const Juntando = () => {
             
         </div>
 
-        <div className="sticksdsdfy">
-              <Teclado/>
-              </div>
+        </div>
+
+
+
+
 
         <div className="componenteinferior">
 
-          
+
+       
   
   <QualidadeShopee/>
             
-
 
         <LogoCloudDois />
         <HeroCaysa  /> 

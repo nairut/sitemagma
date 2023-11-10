@@ -102,7 +102,7 @@ export const Celularacademydois = () => {
         <iframe  className="image-2" width="944" height="531" src="https://www.youtube.com/embed/dRVKnNT_sls" title="Comece uma nova carreira: Tradutor!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-        <a className="boto" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+        <a className="boto" href="https://pay.hotmart.com/U88042879C?off=jv1krxrk" rel="noopener noreferrer" target="_blank">
           <p className="text-wrapper-18">Clique e destrave seu futuro</p>
         </a>
         <div className="imagens">
@@ -564,7 +564,7 @@ export const Celularacademydois = () => {
           </div>
           <div className="text-wrapper-30">997,00 R$</div>
           <p className="valor-para-essa"> Valor para essa primeira turma</p>
-          <a className="boto-2" href="https://mpago.la/2vM3EcD" rel="noopener noreferrer" target="_blank">
+          <a className="boto-2" href="https://pay.hotmart.com/U88042879C?off=jv1krxrk" rel="noopener noreferrer" target="_blank">
             <p className="text-wrapper-18">Clique e destrave seu futuro</p>
           </a>
         </div>

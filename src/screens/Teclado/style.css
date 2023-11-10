@@ -6,7 +6,7 @@
 
 .containerteclado .divteclado {
   background-color: #ffffff;
-  height: 2007.73px;
+  height: 2007px;
   position: relative;
   width: 1516px;
 }
@@ -23,10 +23,11 @@
       margin-top: -0.79px;
       position: fixed;
       width: 309px;
-      z-index:20 ;
+  
+
 
       left:  320px;
-      top: 700px;
+      top: 10px;
     }
 
 
@@ -41,11 +42,11 @@
       margin-top: -0.79px;
       position: fixed;
       width: 609px;
-      z-index:20 ;
+ 
 
 
       left:  710px;
-      top: 850px;
+      top: 10px;
     }
 
 
@@ -53,6 +54,7 @@
 
 width: 900px;
 position: fixed;
+z-index: 10 !important;
 
     }
 
@@ -63,7 +65,7 @@ position: fixed;
       position: relative;
       left: 290px;
       top: 2100px;
-      z-index: 0;
+      z-index: 10 !important;
       width: 1000px;
     }
 
@@ -87,6 +89,29 @@ left: 160px;
 
       width: 1318px;
       left: 100px;
+
+
+    }
+
+
+    .fraseEscondida {
+
+      color: var(--base-black);
+      font-family: "Inter", Helvetica;
+      font-size: 60.7px;
+      font-weight: 700;
+      letter-spacing: 0.29px;
+      line-height: 30.4px;
+      margin-right: -0.25px;
+      margin-top: -0.79px;
+      position: relative;
+      width: 609px;
+      z-index: 0 !important;
+
+
+      left:  413px;
+      top: 310px;
+
 
 
     }
