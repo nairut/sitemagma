@@ -39,7 +39,7 @@ export const Celularacademydois = () => {
                     <div className="div-2">
                       <div className="frame-2">
                         <div className="frame-3">
-                          <div className="text-wrapper-5">Metodo</div>
+                          <div className="text-wrapper-5">Método</div>
                           <p className="profiss-o-tradutor">
                             <span className="span">Profissão </span>
                             <span className="text-wrapper-6">T</span>

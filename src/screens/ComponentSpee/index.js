@@ -1,0 +1,2 @@
+export { ComponentSpee } from "./ComponentSpee";
+

@@ -98,10 +98,10 @@ left: 160px;
 
       color: var(--base-black);
       font-family: "Inter", Helvetica;
-      font-size: 60.7px;
+      font-size: 190.7px;
       font-weight: 700;
       letter-spacing: 0.29px;
-      line-height: 30.4px;
+      line-height: 60.4px;
       margin-right: -0.25px;
       margin-top: -0.79px;
       position: relative;
@@ -109,10 +109,35 @@ left: 160px;
       z-index: 0 !important;
 
 
-      left:  413px;
-      top: 310px;
+      left:  290px;
+      top: 210px;
 
 
 
     }
+
+
+ .fraseemcimadoteclado
+
+ {
+
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 30.7px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 50.4px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 1009px;
+  z-index: 0 !important;
+
+
+  left:  305px;
+  top: -390px;
+
+
+
+}
 

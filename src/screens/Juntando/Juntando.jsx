@@ -34,6 +34,7 @@ import { TerceiraHeroScreen } from "../TerceiraHeroScreen/TerceiraHeroScreen";
 import { TiposdeMateriais } from "../TiposdeMateriais/TiposdeMateriais";
 import { TiposdeMateriaisScreen } from "../TiposdeMateriaisScreen/TiposdeMateriaisScreen";
 import { FaleComUm } from "../../components/FaleComUm";
+import { ComponentSpee } from "../ComponentSpee";
 
 
 
@@ -45,6 +46,9 @@ export const Juntando = () => {
     // Update the scroll position when the user scrolls
     setScrollY(window.scrollY);
   };
+
+
+
   // Attach a scroll event listener to update scrollY
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -53,19 +57,30 @@ export const Juntando = () => {
     };
   }, []);
 
+
+  
+
   const { scrollYProgress } = useScroll();
   const scaleHeroCaysa = useTransform(scrollYProgress, [0, 0.05], [1, 0.5]);
   const scale = useTransform(scrollYProgress, [0, 0.05], [1, 0.5]);
+  const scaleSpee = useTransform(scrollYProgress, [0.61, 0.66], [1, 5]);
+  const ySpee = useTransform(scrollYProgress, [0.61, 0.655], [0, 900]); 
+  const xSpee = useTransform(scrollYProgress, [0.61, 0.65], [0, -800]); 
+
+  const opacitySpee= useTransform(scrollYProgress, [0.61, 0.609], [1, 0]);
   const x = useTransform(scrollYProgress, [0.0, 0.14], [0, 290]); 
   const xSecond = useTransform(scrollYProgress, [0.1, 0.2], [0, 300]);  
 
   //Teclado Abaixo
  
   const yTextosTeclado = useTransform(scrollYProgress, [0.06, 0.08], [1, 200]); 
-  const yTerceiraHero = useTransform(scrollYProgress, [0.20, 0.25], [1, -700]); 
+  const yTerceiraHero = useTransform(scrollYProgress, [0.20, 0.25], [1, -1500]); 
+
+  
 
 
   const opacityFraseTeclado = useTransform(scrollYProgress, [0.27, 0.30], [1, 1]);
+
   
   //This means that when scrollYProgress is at 0.1, the output value will be 0, and when scrollYProgress is at 0.9, 
   //the output value will be 300
@@ -76,6 +91,10 @@ export const Juntando = () => {
   const opacity = useTransform(scrollYProgress, [0.159,  0.16], [1, 0]);
   const opacityFraseDois = useTransform(scrollYProgress, [0.159, 0.16, 0.179, 0.18], [0, 1, 1, 0]);
   const opacityFraseTres = useTransform(scrollYProgress, [0.179, 0.18, 0.24, 0.26], [0, 1, 1, 0]);
+  const opacityQualidadeShopee = useTransform(scrollYProgress, [0.60,  0.80], [1, 0]);
+
+
+
 
   
   const  OpacitySegHero = useTransform(scrollYProgress, [0.179, 0.18], [1, 0]);
@@ -166,11 +185,6 @@ export const Juntando = () => {
 
        
   
-  <QualidadeShopee/>
-            
-
-        <LogoCloudDois />
-        <HeroCaysa  /> 
 
   
         </div>
@@ -210,7 +224,42 @@ export const Juntando = () => {
                   </p>
             </motion.div>
 
+
+            <motion.div
+
+                style={{
+                    // Use the scale variable here
+                 // Use the x variable to control horizontal movement
+                  opacity: opacityQualidadeShopee,
+
+                 }}>
+           <QualidadeShopee/>
+           
+            </motion.div>
+
+
+            <motion.div
+              className="sticky primeiraHero"
+                style={{
+                    // Use the scale variable here
+                 // Use the x variable to control horizontal movement
+                  scale: scaleSpee,
+                  y: ySpee,
+                  opacity: opacitySpee, 
+                  x: xSpee,
+
+                 }}>
               
+            
+            <div className="componentspeedois">
+            <ComponentSpee/>
+            </div>
+            </motion.div>
+
+
+
+            <LogoCloudDois />
+
 
       </div>
     </div>

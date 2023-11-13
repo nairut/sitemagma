@@ -19,6 +19,9 @@ import { SegundaParte } from "../SegundaParte";
 
 
 
+
+
+
 export const Teclado = ({  }) => {
 
 
@@ -43,14 +46,15 @@ const minScrollTexto = 14203 ;
 const maxScrollYTexto = 14587; 
 
 
-
-
 // Map the scrollY value to a new range for animation
 const y = useTransform(scrollY, [minScrollY, maxScrollY], [4360, 5852]);
 
-
 const yMeio = useTransform(scrollY, [maxScrollYMeio, minScrollMeio], [4360, 5852]);
 const yTexto = useTransform(scrollY, [minScrollTexto, maxScrollYTexto], [0, -300]);
+
+
+
+
 
 
 
@@ -75,7 +79,7 @@ const yClado = useTransform(scrollY, [minScrollTeclado, maxScrolleclado, minScro
 
 
 ],
-  [-750, -750, -750, -1900, -1900, -1700]);
+  [-850, -850, -850, -2000, -2000, -1700]);
 
 
 
@@ -92,7 +96,16 @@ const yH1 = useTransform(scrollY, [minScrollH1, maxScrollYH1, minScrollH1one, ma
 
 
 
-  const opacityFraseEscondida = useTransform(scrollYProgress, [0.32, 0.323], [0, 1]);
+  const opacityFraseEscondida = useTransform(scrollYProgress, [0.289, 0.29, 0.60, 0.61], [0, 1, 1, 0]);
+
+  const opacityFraseemcimadoteclado= useTransform(scrollYProgress,  [ 0.27, 0.2799, 0.60, 0.61], [0, 1, 1, 0]);
+
+  const opacityTeclado= useTransform(scrollYProgress,  [ 0.60, 0.61], [ 1, 0]);
+
+
+  
+
+
 
 
 console.log("Page Height: " + document.documentElement.scrollHeight + " pixels");
@@ -102,10 +115,12 @@ console.log("Page Height: " + document.documentElement.scrollHeight + " pixels")
       <div className="divteclado">
 
 
+
+
           <motion.div
               style={{
                 y: yH1,
-       
+
               }}
             >
                 <p className="textoH1paratecladodois">
@@ -116,38 +131,59 @@ console.log("Page Height: " + document.documentElement.scrollHeight + " pixels")
               
               <p className="paragrafoteclado">
               Quando se trata de tradução, localização de sites e softwares, tradução cultural e todo 
-              o tipo de conteúdo adaptado para outro idioma, sim, falar de qualidade é imporante.  </p>  
+              o tipo de conteúdo adaptado para outro idioma, sim, falar de qualidade é importante.  </p>  
           </motion.div>
 
 
           <motion.div
               style={{
-                opacity: opacityFraseEscondida
-       
+                opacity: opacityFraseEscondida,
+   
               }}
             >
                 <p className="fraseEscondida"  style={{ zIndex: 0 }}>
                 <span className="textobox1"> </span>
-                <span className="textobox2">Qualidade é o Mais Importante</span>
+                <span className="textobox2">Segredo</span>
                 <span className="textobox1">  </span>
               </p>
-              
-      
           </motion.div>
+
           <motion.div
               className="cabendo"
-
               style={{
                  // Use the y variable to control the vertical position
                 scale: ScaleTeclado,
                 y: yClado,
-             
-      
-   
+                opacity: opacityTeclado, 
+    
               }}    >
+              <img className="tecladolargocomponente"  
               
-              <img className="tecladolargocomponente" style={{ zIndex: 2 }} alt="Teclado de tradução" src="/img/teclado-largo.png" />
+              
+              
+              alt="Teclado de tradução" src="/img/teclado-largo.png" />
               </motion.div>
+
+
+
+
+              <motion.div
+              style={{
+                opacity: opacityFraseemcimadoteclado,
+
+       
+              }}
+            >
+                <p className="fraseemcimadoteclado"  >
+                <span className="textobox1">Avaliações constantes são o nosso </span>
+                <span className="textobox2"></span>
+                <span className="textobox1">  </span>
+              </p>
+          </motion.div>
+
+
+
+
 
 
        

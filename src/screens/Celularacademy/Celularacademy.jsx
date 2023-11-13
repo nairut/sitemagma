@@ -14,7 +14,7 @@ export const Celularacademy = () => {
             <span className="span">Tradutor</span>
             <span className="text-wrapper"> - do Zero ao Sucesso</span>
           </p>
-          <div className="text-wrapper-2">Metodo</div>
+          <div className="text-wrapper-2">Método</div>
           <p className="qualquer-pessoa-com">
             <span className="text-wrapper">Qualquer pessoa com um </span>
             <span className="span">segundo idioma</span>
