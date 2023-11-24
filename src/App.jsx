@@ -45,6 +45,7 @@ import { HeroCaysa } from "./screens/HeroCaysa/HeroCaysa";
 import { Menu } from "./components/Menu";
 import { MenuComponent } from "./components/MenuComponent";
 import { Juntando1366 } from "./screens/Juntando1366";
+import { CursoDeTraducaodo } from "./screens/CursoDeTraducaodo";
 
 
 
@@ -163,6 +164,16 @@ export const App = () => {
 
   path: "/estudoflex",
   element: isMobile ? <CelularPtpronto  /> : <MovimentoScreen />,
+  
+},
+
+
+
+{
+
+
+  path: "/profissao-tradutor-do-zero-ao-sucesso",
+  element: isMobile ? <CursoDeTraducaodo  /> : <CursoDeTraducaodo />,
   
 },
 

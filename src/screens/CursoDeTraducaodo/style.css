@@ -1,0 +1,799 @@
+.curso-de-traducaodo {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.curso-de-traducaodo .div {
+  background-image: url(../../../dist/img/cursodetraducaodozero.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 8629px;
+  overflow: hidden;
+  position: relative;
+  width: 1536px;
+}
+
+.curso-de-traducaodo .turian {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 185.66px;
+  height: 371px;
+  left: -229px;
+  position: absolute;
+  top: 401px;
+  width: 371px;
+}
+
+.curso-de-traducaodo .ellipse {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 115.54px;
+  height: 231px;
+  left: 76px;
+  position: relative;
+  top: 56px;
+  width: 231px;
+}
+
+.curso-de-traducaodo .overlap {
+  height: 814px;
+  left: 159px;
+  position: absolute;
+  top: 42px;
+  width: 1225px;
+}
+
+.curso-de-traducaodo .overlap-group {
+  height: 746px;
+  left: 0;
+  position: absolute;
+  top: 69px;
+  width: 1225px;
+}
+
+.curso-de-traducaodo .ellipse-wrapper {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 320.73px;
+  height: 641px;
+  left: 532px;
+  position: absolute;
+  top: 104px;
+  width: 641px;
+}
+
+.curso-de-traducaodo .ellipse-2 {
+  border: 0.8px solid;
+  border-color: #c593184c;
+  border-radius: 199.59px;
+  height: 399px;
+  left: 133px;
+  position: relative;
+  top: 97px;
+  width: 399px;
+}
+
+.curso-de-traducaodo .imagem-heho {
+  height: 445px;
+  left: 878px;
+  position: absolute;
+  top: 0;
+  width: 347px;
+}
+
+.curso-de-traducaodo .frame {
+  height: 352px;
+  left: 0;
+  position: absolute;
+  top: 93px;
+  width: 347px;
+}
+
+.curso-de-traducaodo .overlap-group-2 {
+  height: 381px;
+  position: relative;
+  top: -75px;
+  width: 381px;
+}
+
+.curso-de-traducaodo .div-absolute {
+  background-color: #faf4e3;
+  border-radius: 65.68px;
+  height: 324px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 276px;
+}
+
+.curso-de-traducaodo .frame-wrapper {
+  border-radius: 65.68px;
+  height: 258px;
+  left: 123px;
+  position: absolute;
+  top: 123px;
+  width: 258px;
+}
+
+.curso-de-traducaodo .frame-2 {
+  background-color: #c59318;
+  border-radius: 65.68px;
+  height: 259px;
+  width: 259px;
+}
+
+.curso-de-traducaodo .ezgif {
+  height: 169px;
+  left: 41px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 143px;
+}
+
+.curso-de-traducaodo .empresa-de-traduo {
+  background-image: url(../../../static/img/mask-group-3.png);
+  background-size: 100% 100%;
+  height: 52px;
+  left: 211px;
+  position: absolute;
+  top: 37px;
+  width: 52px;
+}
+
+.curso-de-traducaodo .empresa-de-traduo-2 {
+  background-image: url(../../../static/img/mask-group-4.png);
+  background-size: 100% 100%;
+  height: 26px;
+  left: 62px;
+  position: absolute;
+  top: 251px;
+  width: 26px;
+}
+
+.curso-de-traducaodo .frame-3 {
+  background-image: url(../../../static/img/mask-group-5.png);
+  background-size: 100% 100%;
+  height: 38px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.curso-de-traducaodo .flexcontainer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 454px;
+  left: 0;
+  position: absolute;
+  top: 153px;
+  width: 728px;
+}
+
+.curso-de-traducaodo .text {
+  align-self: stretch;
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 15.9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.curso-de-traducaodo .text-wrapper {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 15.9px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.curso-de-traducaodo .profiss-o-tradutor {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.29px;
+  line-height: 47.1px;
+  position: absolute;
+  top: 0;
+  width: 717px;
+}
+
+.curso-de-traducaodo .span {
+  color: #000000;
+}
+
+.curso-de-traducaodo .text-wrapper-2 {
+  color: #c8982a;
+}
+
+.curso-de-traducaodo .p {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 119px;
+  width: 629px;
+}
+
+.curso-de-traducaodo .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 48.2px;
+  position: absolute;
+  top: 2594px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .overlap-2 {
+  height: 414px;
+  left: 183px;
+  position: absolute;
+  top: 2671px;
+  width: 545px;
+}
+
+.curso-de-traducaodo .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  text-decoration: underline;
+  top: 383px;
+  width: 441px;
+}
+
+.curso-de-traducaodo .image {
+  height: 384px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 545px;
+}
+
+.curso-de-traducaodo .memo-q {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 854px;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: absolute;
+  top: 2842px;
+}
+
+.curso-de-traducaodo .text-wrapper-5 {
+  line-height: 43.3px;
+}
+
+.curso-de-traducaodo .text-wrapper-6 {
+  font-size: 17.2px;
+  line-height: 27.6px;
+}
+
+.curso-de-traducaodo .text-wrapper-7 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 3357px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 180px;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 6236px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .overlap-3 {
+  height: 531px;
+  left: 187px;
+  position: absolute;
+  top: 5574px;
+  width: 581px;
+}
+
+.curso-de-traducaodo .text-wrapper-9 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .overlap-4 {
+  height: 499px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 581px;
+}
+
+.curso-de-traducaodo .line {
+  height: 422px;
+  left: 253px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.curso-de-traducaodo .cat-tool-ferramenta {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24.5px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 39.4px;
+  position: absolute;
+  top: 33px;
+  width: 581px;
+}
+
+.curso-de-traducaodo .overlap-5 {
+  height: 328px;
+  left: 424px;
+  position: absolute;
+  top: 4733px;
+  width: 717px;
+}
+
+.curso-de-traducaodo .text-wrapper-10 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 252px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .frase-entrada-e {
+  height: 328px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 717px;
+}
+
+.curso-de-traducaodo .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19.12px;
+  height: 233px;
+  justify-content: center;
+  position: relative;
+  width: 717px;
+}
+
+.curso-de-traducaodo .tradu-es-bem {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 47.1px;
+  margin-right: -0.25px;
+  position: relative;
+  width: 717.41px;
+}
+
+.curso-de-traducaodo .text-wrapper-11 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17.2px;
+  font-weight: 500;
+  left: 854px;
+  letter-spacing: 0;
+  line-height: 27.6px;
+  position: absolute;
+  text-decoration: underline;
+  top: 3267px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .https-www-wordfast {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17.2px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 27.6px;
+  position: absolute;
+  top: 3805px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .text-wrapper-12 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 17.2px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 27.6px;
+}
+
+.curso-de-traducaodo .text-wrapper-13 {
+  text-decoration: underline;
+}
+
+.curso-de-traducaodo .fonte-https-go-proz {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 325px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 2242px;
+  width: 770px;
+}
+
+.curso-de-traducaodo .text-wrapper-14 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 30.7px;
+}
+
+.curso-de-traducaodo .fonte-https-go-proz-2 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 182px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 1478px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .overlap-6 {
+  height: 137px;
+  left: 159px;
+  position: absolute;
+  top: 883px;
+  width: 1305px;
+}
+
+.curso-de-traducaodo .text-wrapper-15 {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 1px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 106px;
+  width: 629px;
+}
+
+.curso-de-traducaodo .cat-tools-computer {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 30px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0.29px;
+  line-height: 47.1px;
+  position: absolute;
+  top: 0;
+  width: 1305px;
+}
+
+.curso-de-traducaodo .text-wrapper-16 {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 182px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 1642px;
+  width: 629px;
+}
+
+.curso-de-traducaodo .text-wrapper-17 {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 2523px;
+  width: 233px;
+}
+
+.curso-de-traducaodo .text-wrapper-18 {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 19.1px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 30.7px;
+  position: absolute;
+  top: 3958px;
+  width: 233px;
+}
+
+.curso-de-traducaodo .text-wrapper-19 {
+  color: #c59318;
+  font-family: "Inter", Helvetica;
+  font-size: 54.3px;
+  font-weight: 500;
+  left: 198px;
+  letter-spacing: 0;
+  line-height: 87.2px;
+  position: absolute;
+  top: 5428px;
+  width: 661px;
+}
+
+.curso-de-traducaodo .img {
+  height: 382px;
+  left: 361px;
+  object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 813px;
+}
+
+.curso-de-traducaodo .image-2 {
+  height: 485px;
+  left: 298px;
+  position: absolute;
+  top: 1723px;
+  width: 939px;
+}
+
+.curso-de-traducaodo .line-2 {
+  height: 1px;
+  left: 198px;
+  object-fit: cover;
+  position: absolute;
+  top: 2398px;
+  width: 1140px;
+}
+
+.curso-de-traducaodo .image-3 {
+  height: 349px;
+  left: 839px;
+  object-fit: cover;
+  position: absolute;
+  top: 2897px;
+  width: 611px;
+}
+
+.curso-de-traducaodo .image-4 {
+  height: 349px;
+  left: 198px;
+  object-fit: cover;
+  position: absolute;
+  top: 3429px;
+  width: 611px;
+}
+
+.curso-de-traducaodo .image-5 {
+  height: 500px;
+  left: 186px;
+  position: absolute;
+  top: 4032px;
+  width: 1096px;
+}
+
+.curso-de-traducaodo .div-wrapper {
+  align-items: center;
+  background-color: #c59318;
+  display: flex;
+  gap: 10px;
+  height: 117px;
+  justify-content: center;
+  left: 424px;
+  padding: 10px;
+  position: absolute;
+  top: 5107px;
+  width: 637px;
+}
+
+.curso-de-traducaodo .text-wrapper-20 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 80.3px;
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.curso-de-traducaodo .line-3 {
+  height: 1px;
+  left: 198px;
+  object-fit: cover;
+  position: absolute;
+  top: 5338px;
+  width: 1140px;
+}
+
+.curso-de-traducaodo .line-4 {
+  height: 1px;
+  left: 541px;
+  object-fit: cover;
+  position: absolute;
+  top: 6132px;
+  width: 454px;
+}
+
+.curso-de-traducaodo .line-5 {
+  height: 1px;
+  left: 541px;
+  object-fit: cover;
+  position: absolute;
+  top: 6548px;
+  width: 454px;
+}
+
+.curso-de-traducaodo .line-6 {
+  height: 1px;
+  left: 541px;
+  object-fit: cover;
+  position: absolute;
+  top: 7824px;
+  width: 454px;
+}
+
+.curso-de-traducaodo .line-7 {
+  height: 1px;
+  left: 541px;
+  object-fit: cover;
+  position: absolute;
+  top: 6912px;
+  width: 454px;
+}
+
+.curso-de-traducaodo .line-8 {
+  height: 1px;
+  left: 198px;
+  object-fit: cover;
+  position: absolute;
+  top: 4732px;
+  width: 1140px;
+}
+
+.curso-de-traducaodo .tmx-translation {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 24.5px;
+  font-weight: 400;
+  left: 180px;
+  letter-spacing: 0;
+  line-height: 39.4px;
+  position: absolute;
+  top: 6293px;
+  width: 1713px;
+}
+
+.curso-de-traducaodo .relembrando-pois-wrapper {
+  align-items: center;
+  background-color: #c8982a;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  left: 446px;
+  padding: 10px;
+  position: absolute;
+  top: 6625px;
+  width: 653px;
+}
+
+.curso-de-traducaodo .relembrando-pois {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 15.9px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.curso-de-traducaodo .file-types {
+  height: 580px;
+  left: 276px;
+  object-fit: cover;
+  position: absolute;
+  top: 6992px;
+  width: 984px;
+}
+
+.curso-de-traducaodo .fonte-https-go-proz-3 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 296px;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 7627px;
+  white-space: nowrap;
+}
+
+.curso-de-traducaodo .text-wrapper-21 {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 43.3px;
+}
+
+.curso-de-traducaodo .exemplo-de-e-mail-ol {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 27px;
+  font-weight: 500;
+  left: 231px;
+  letter-spacing: 0;
+  line-height: 43.3px;
+  position: absolute;
+  top: 7894px;
+}

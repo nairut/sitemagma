@@ -1,0 +1,1 @@
+export { CursoDeTraducaodo } from "./CursoDeTraducaodo";
