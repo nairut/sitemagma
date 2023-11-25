@@ -115,7 +115,7 @@ export const CursoDeTraducaodo = () => {
                 <span className="text-wrapper">
                   10. Contagens
                   <br />
-                </span>
+                </span>     
               </p>
               <p className="text">
                 <span className="text-wrapper">11. Nomeclatura</span>
