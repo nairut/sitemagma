@@ -58,7 +58,7 @@ export const AoFrameMotion = () => {
       } else {
         setVariationDois('none');
       }
-    });
+    });ss
 
     return () => unsubscribe();
   }, [scrollY]);
