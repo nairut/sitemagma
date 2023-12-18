@@ -1,0 +1,1 @@
+export { CamadaUm } from "./CamadaUm";

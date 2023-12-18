@@ -1,17 +1,22 @@
 .hero-caysa {
-  background-color: #E6F1FE;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
+
+  position: relative;
+  overflow: hidden;
+
 }
 
 .hero-caysa .div-3 {
   background-color: #E6F1FE;
-  height: 864px;
-  overflow: hidden;
+ height: 864px;
+
   position: relative;
   width: 1536px;
+  
 }
 
 .hero-caysa .div-wrapper {
@@ -78,7 +83,7 @@
 }
 
 .hero-caysa .frase-entrada-e {
-  height: 328.35px !important;
+  height: 328.35px !important; 
   width: 717.15px !important;
 }
 

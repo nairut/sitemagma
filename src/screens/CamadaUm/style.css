@@ -1,0 +1,20 @@
+.camadaUm {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+  
+  
+  
+  }
+  
+  .camadaUm .divCamada {
+    background-color: #E6F1FE;
+    height: 764px;
+    position: sticky;
+    top: 500px;
+    width: 1536px;
+    
+  }

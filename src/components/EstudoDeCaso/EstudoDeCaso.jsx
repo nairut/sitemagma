@@ -15,7 +15,7 @@ export const EstudoDeCaso = ({ property1, className }) => {
 
   return (
     <a
-      className={`estudo-de-caso property-1-1-${state.property1} ${className}`}
+      className={`estudo-de-caso ${state.property1} ${className}`}
       href="https://pages.magmatranslation.com/caso-zf"
       rel="noopener noreferrer"
       target="_blank"
@@ -26,7 +26,7 @@ export const EstudoDeCaso = ({ property1, className }) => {
         dispatch("mouse_enter");
       }}
     >
-      <p className="text-wrapper-4">Veja o estudo de caso</p>
+      <p className="text-wrapper">Veja o estudo de caso</p>
     </a>
   );
 };

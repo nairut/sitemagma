@@ -8,7 +8,7 @@
 
 .qualidade-shopee .div-6 {
   background-color: #ffffff;
-  height: 864px;
+  height: 2464px;
   overflow: hidden;
   position: relative;
   width: 1536px;
@@ -599,3 +599,11 @@
   white-space: nowrap;
   width: fit-content;
 }
+
+
+.qualidade-shopee .estudo-de-caso-instance {
+  left: 850px !important;
+  position: absolute !important;
+  top: 860px !important;
+}
+

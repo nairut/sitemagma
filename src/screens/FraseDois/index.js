@@ -1,0 +1,3 @@
+export { FraseDois } from "./FraseDois";
+
+

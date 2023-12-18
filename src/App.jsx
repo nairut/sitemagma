@@ -46,6 +46,12 @@ import { Menu } from "./components/Menu";
 import { MenuComponent } from "./components/MenuComponent";
 import { Juntando1366 } from "./screens/Juntando1366";
 import { CursoDeTraducaodo } from "./screens/CursoDeTraducaodo";
+import { AoFrameMotion } from "./screens/AoFrameMotion";
+import { LogoCloudDois } from "./screens/LogoCloudDois";
+
+
+
+
 
 
 
@@ -127,14 +133,14 @@ export const App = () => {
 
 
 {
-  path: "/movimento",
-  element: isMobile ? <CelularPtpronto  /> : <MenuComponent />,
+  path: "/aoramemotion",
+  element: isMobile ? <CelularPtpronto  /> : <AoFrameMotion />,
 },
 
 
 {
-  path: "/novahero",
-  element: isMobile ? <CelularPtpronto  /> : <NovaHero />,
+  path: "/HeroCaysa",
+  element: isMobile ? <CelularPtpronto  /> : <LogoCloudDois />,
   
 },
 
@@ -166,6 +172,8 @@ export const App = () => {
   element: isMobile ? <CelularPtpronto  /> : <MovimentoScreen />,
   
 },
+
+
 
 
 

@@ -1,34 +1,57 @@
 import React from "react";
 import { FaleComUm } from "../../components/FaleComUm";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
 import "./style.css";
 
+
+
+
+
+
+
+
 export const SegundaHero = () => {
+
+
+
+
+
+
+  const { scrollY } = useScroll()
+
+  const position = useTransform(scrollY, (pos) =>
+  pos <= 2000 ? "fixed" : "relative"
+);
+
+
+
+
   return (
-    <div className="segunda-hero">
-      <div className="div-4">
-        <img className="turian-3" alt="Turian" src="/img/turian.png" />
-        <div className="turian-4">
-          <div className="ellipse-4" />
+
+    <motion.div  style={{ position  }} >
+    <div   className="segunda-hero">
+      <div className="div">
+        <img className="turian" alt="Turian" src="/img/turian.png" />
+        <div className="ellipse-wrapper">
+          <div className="ellipse" />
         </div>
-        <FaleComUm className="fale-com-um-especialista-instance" property1="default" />
-        <div className="group-2">
-          <img className="imagenew" alt="Imagenew" src="/img/imagenew-1.png" />
-          <img className="service-translation-2" alt="Service translation" src="/img/service-translation-1.png" />
-          <img className="empresa-de" alt="Empresa de" src="/img/empresa-de-tradu-o1-2.png" />
-          <div className="overlap-group-3">
-            <div className="frame-5" />
-            <img className="div-absolute-2" alt="Div absolute" src="/img/div-absolute-1.png" />
-          </div>
-          <img className="traducao-tecnica" alt="Traducao tecnica" src="/img/traducao-tecnica-1.png" />
-          <img
-            className="stock-photo-portrait"
-            alt="Stock photo portrait"
-            src="/img/stock-photo-portrait-of-happy-african-american-small-business-ow.png"
+        <FaleComUm className="fale-com-um-especialista" property1="default" />
+        <div className="group">
+          <p className="quer-destravar-seus">
+            <span className="span">Quer destravar seus problemas linguísticos </span>
+            <span className="text-wrapper-2">avançar em um novo mercado - </span>
+            <span className="span">ou implesmente traduzir um documento da empresa?</span>
+          </p>
+          <FaleComUm
+            className="fale-com-um-especialista-instance"
+            divClassName="fale-com-um-instance"
+            property1="default"
           />
-          <div className="empresa-de-traduo-3" />
-          <div className="empresa-de-traduo-4" />
         </div>
+        <img className="img" alt="Segunda hero" src="/img/segundaheroescalado.png" />
       </div>
     </div>
+    </motion.div>
   );
 };

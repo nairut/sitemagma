@@ -1,15 +1,17 @@
-import React from "react";
-import { Fraseentradaebot } from "../../components/Fraseentradaebot";
-import { ImagemHeho } from "../../components/ImagemHeho";
+import * as React from "react";
+import { useEffect } from "react"; // Import useEffect
+import { useState } from "react"; 
+import { useMotionValue } from "framer-motion";
 import { useRef } from "react";
-import { FaleComUm } from "../../components/FaleComUm";
 import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
 import "./style.css";
-import { ContatoRapido } from "../../components/ContatoRapido";
+import { FaleComUm } from "../../components/FaleComUm";
+import { ButtonPortugues } from "../../components/ButtonPortugues/ButtonPortugues";
 
 
 
-export const TerceiraHero = () => {
+
+export const FraseUm = () => {
 
 
 
@@ -68,58 +70,41 @@ const yPositionHeroCaysa= useTransform(scrollY, [0, 864], [0, 64])
 
 const opacity = useTransform(scrollY, [0, 1000, 1000, 1000 ], [1, 1, 1,0]);
 const scaleHeroCaysa = useTransform(scrollY, [0, 455], [1, 0.55]);
-const yHeroCaysa = useTransform(scrollY, [0, 1499, 1500, 5000], [0, 0, 0, 0]);
+const yHeroCaysa = useTransform(scrollY, [0, 455, 455, 455], [0, -50, -50, -50]);
 const xHeroCaysa = useTransform(scrollY, [0, 400, 401, 855], [0, 0, 0, 300]);
 
 
 
 const position = useTransform(scrollY, (pos) =>
-  pos <= 4000 ? "fixed" : "relative"
+  pos <= 2000 ? "fixed" : "relative"
 );
 
 
-return (
 
+  return (
 
+    <section ref={extendedRef}  style={{ scale:scaleHeroCaysa, x:xHeroCaysa,  y:yHeroCaysa, position  }}   >
 
+    <motion.div   >
+    <div className="FraseUmbox">
+    <p >
+    <span className="TextoboxFraseUm">Quer destravar seus problemas linguísticos </span>
+    <span className="TextoboxFraseUm2">avançar em um novo mercado - </span>
+    <span className="TextoboxFraseUm">simplesmente traduzir um documento da empresa?</span>
+      </p>
 
-
-    <motion.div   ref={extendedRef}  style={{ position }}   className="hero-caysa" >
-
-
-<div className="terceira-hero">
-      <div className="div-2">
-        <img className="turian" alt="Turian" src="/img/turian.png" />
-        <div className="ellipse-wrapper">
-          <div className="ellipse" />
-        </div>
-        <FaleComUm className="fale-com-um-especialista" property1="default" />
-        <div className="group">
-          <p className="quer-destravar-seus">
-            <span className="span">Quer destravar seus problemas linguísticos </span>
-            <span className="text-wrapper-2">avançar em um novo mercado - </span>
-            <span className="span">ou implesmente traduzir um documento da empresa?</span>
-          </p>
-          <ContatoRapido
-            className="contato-rapido-instance"
-            contatoRapidoClassName="design-component-instance-node"
-            property1="default"
-            text="Orçamento Rápido"
-          />
-        </div>
-        <img className="img" alt="Terceira hero" src="/img/terceiraheroescalado.png" />
+      <FaleComUm />
       </div>
-    </div>
-    </motion.div>
 
 
 
 
 
+      </motion.div>
+      </section>
 
 
 
 
-);
-
-}
+  );
+};

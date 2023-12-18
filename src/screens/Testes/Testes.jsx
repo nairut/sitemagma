@@ -1,61 +1,46 @@
-import React, { useState } from 'react';
+import React from "react";
+import { Fraseentradaebot } from "../../components/Fraseentradaebot";
+import { ImagemHeho } from "../../components/ImagemHeho";
+import { useRef } from "react";
+import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
+import "./styles.css";
+
+
+
 
 export const Testes = () => {
-  const [texto, setTexto] = useState(''); // Use um estado para armazenar o texto de entrada
-  const [contagem, setContagem] = useState([]); // Inicialize com uma matriz vazia
 
-  const contarPalavras = () => {
-    const palavras = texto.split(/\s+/); // Divide o texto em palavras usando espaço como separador
-    const contagemPalavras = {};
 
-    // Conta a frequência de cada palavra
-    for (const palavra of palavras) {
-      if (palavra !== '') {
-        contagemPalavras[palavra] = (contagemPalavras[palavra] || 0) + 1;
-      }
-    }
 
-    // Crie uma matriz de objetos com palavras e frequências
-    const palavrasFrequencia = Object.entries(contagemPalavras).map(
-      ([palavra, frequencia]) => ({
-        palavra,
-        frequencia,
-      })
-    );
+  
 
-    // Ordene a matriz por frequência decrescente
-    palavrasFrequencia.sort((a, b) => b.frequencia - a.frequencia);
+  const ref = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["end end", "start start"]
+  });
 
-    setContagem(palavrasFrequencia); // Atualize o estado com a matriz ordenada
-  };
 
-  return (
-    <div>
-      <textarea
-        value={texto}
-        onChange={(e) => setTexto(e.target.value)}
-        placeholder="Digite seu texto aqui..."
-      />
-      <button onClick={contarPalavras}>Contar Palavras</button>
-      <div>
-        <h2>Contagem de Palavras:</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Palavra</th>
-              <th>Frequência</th>
-            </tr>
-          </thead>
-          <tbody>
-            {contagem.map((item, index) => (
-              <tr key={index}>
-                <td>{item.palavra}</td>
-                <td>{item.frequencia}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+///////////////////////////////////////////////////
+
+
+return (
+  <section>
+    <div ref={ref}>
+      <figure className="progress">
+        <svg id="progress" width="75" height="75" viewBox="0 0 100 100">
+          <circle cx="50" cy="50" r="30" pathLength="1" className="bg" />
+          <motion.circle
+            cx="50"
+            cy="50"
+            r="30"
+            pathLength="1"
+            className="indicator"
+            style={{ pathLength: scrollYProgress }}
+          />
+        </svg>
+      </figure>
     </div>
-  );
-};
+  </section>
+);
+}

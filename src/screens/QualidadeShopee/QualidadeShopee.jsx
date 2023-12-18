@@ -1,7 +1,48 @@
 import React from "react";
+import * as React from "react";
+import { useEffect } from "react"; // Import useEffect
+import { useState } from "react"; 
+import { useMotionValue } from "framer-motion";
+import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
+import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
+import { ComponenteInferior } from "../ComponenteInferior/ComponenteInferior";
+import { TraducoesBem } from "../TraducoesBem";
+import { Menu } from "../../components/Menu";
+import { MenuComponent } from "../../components/MenuComponent";
+import { LogoCloud } from "../LogoCloud/LogoCloud";
+import { LogoCloudDois } from "../LogoCloudDois";
+
+import { VideoPlayer } from "../VideoPlayer";
+import { Fraseentradaebot } from "../../components/Fraseentradaebot";
+import { ImagemHeho } from "../../components/ImagemHeho";
+import { PremioImages } from "../../components/PremioImages";
+import { SegundaParte } from "../SegundaParte";
+import { FaleComUm } from "../../components/FaleComUm";
+import { ContatoRapido } from "../../components/ContatoRapido";
+import { TerceiraHero } from "../TerceiraHero";
 import "./style.css";
+import { EstudoDeCaso } from "../../components/EstudoDeCaso";
+
+
 
 export const QualidadeShopee = () => {
+
+
+
+
+
+
+
+  const { scrollY } = useScroll()
+
+  const scale = useTransform(scrollY, [5050, 5200], [1, 2]);
+
+  const yShopee = useTransform(scrollY, [5050, 5300], [0, 570]);
+
+  const xShopee = useTransform(scrollY, [5050, 5300], [0, -200]);
+
+
+
   return (
     <div className="qualidade-shopee">
       <div className="div-6">
@@ -91,15 +132,7 @@ export const QualidadeShopee = () => {
             <img className="line-6" alt="Line" src="/img/line-12.png" />
             <img className="line-7" alt="Line" src="/img/line-10.png" />
             <div className="avalia-o-dos">Avaliação dos linguistas</div>
-            <div className="frame-28">
-              <div className="frame-29">
-                <img className="img-3" alt="Shopee tw png" src="/img/shopee-tw-png-0.png" />
-                <div className="frame-30">
-                  <div className="text-wrapper-9">Projeto Shopee</div>
-                  <div className="text-wrapper-8">30 milhões de palavras</div>
-                </div>
-              </div>
-            </div>
+
             <div className="frame-31">
               <div className="frame-32">
                 <img className="ellipse-15" alt="Ellipse" src="/img/ellipse-5-6.png" />
@@ -109,8 +142,31 @@ export const QualidadeShopee = () => {
                 </div>
               </div>
             </div>
+
+            <motion.div         style={{ scale, y:yShopee, x: xShopee}}>
+            <div className="frame-28">
+
+
+              <div className="frame-29">
+                <img className="img-3" alt="Shopee tw png" src="/img/shopee-tw-png-0.png" />
+
+
+
+
+                <div className="frame-30">
+                  <div className="text-wrapper-9">Projeto Shopee</div>
+                  <div className="text-wrapper-8">30 milhões de palavras</div>
+                </div>
+
+              </div>
+
+            </div>
+
+            </motion.div>
+
           </div>
         </div>
+        <EstudoDeCaso className="estudo-de-caso-instance" property1="default" />
       </div>
     </div>
   );

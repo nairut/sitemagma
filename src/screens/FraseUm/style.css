@@ -1,0 +1,42 @@
+ .FraseUmbox {
+  color: var(--base-black);
+  font-family: "Inter", Helvetica;
+  font-size: 25.7px;
+  font-weight: 700;
+  letter-spacing: 0.29px;
+  line-height: 30.4px;
+  margin-right: -0.25px;
+  margin-top: -0.79px;
+  position: relative;
+  width: 309px;
+  z-index:1 ;
+  height: 707px;
+  left:  220px;
+  top: 300px;
+}
+
+
+.TextoboxFraseUm {
+  color: #000000;
+}
+.TextoboxFraseUm2 {
+  color: #c8982a;
+}
+
+
+
+.fale-com-um-especialista {
+  border-radius: 71.41px !important;
+  flex: 0 0 auto !important;
+  left: unset !important;
+  padding: 11.43px 22.85px !important;
+  top: 200px;
+
+  width:  300px;
+}
+
+.fale-com-um-instance {
+  font-size: 14.3px !important;
+  margin-top: -0.71px !important;
+  white-space: nowrap !important;
+}

@@ -1,0 +1,55 @@
+.containerframe {
+
+
+width: 100%;
+position:relative;
+
+}
+
+
+.videoplayer {
+
+    top: 1px;
+    position: fixed ;
+    z-index: 2;
+    
+    }
+
+.espaco {
+
+    height: 5000px;
+    width: 4px;
+position:relative;
+}
+
+
+
+
+
+.paraFooter {
+
+    height: 500px;
+    width: 4px;
+position:relative;
+}
+
+
+
+
+
+
+    .variacao {
+
+        height: 800px;
+
+
+    }
+
+
+    
+    .variacaoDois {
+
+        height: 800px;
+
+
+    }
