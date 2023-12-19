@@ -4,25 +4,24 @@ import "./style.css";
 import { useTransform, useScroll } from "framer-motion";
 import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
 import { LogoCloud } from "../LogoCloud/LogoCloud";
-import { LogoCloudDois } from "../LogoCloudDois";
 import { VideoPlayer } from "../VideoPlayer";
 import { MenuNaoComponent } from "../MenuNaoComponent";
-import { FraseUm } from "../FraseUm";
 import { CamadaUm } from "../CamadaUm";
 import { SegundaHero } from "../SegundaHero";
 import { TerceiraHero } from "../TerceiraHero";
 import { Teclado } from "../Teclado";
-import { FraseDois } from "../FraseDois";
 import { useTransform, useScroll } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import { QualidadeShopee } from "../QualidadeShopee";
 import { Footer } from "../Footer";
+import React, { useState, useEffect } from 'react';
 
 
 
 export const AoFrameMotion = () => {
   const { scrollY } = useScroll();
   const [variation, setVariation] = useState('HeroCaysa');
+  const [showInitial, setShowInitial] = useState(true);
 
   useEffect(() => {
     const unsubscribe = scrollY.onChange(v => {
@@ -41,6 +40,16 @@ export const AoFrameMotion = () => {
 
     return () => unsubscribe();
   }, [scrollY]);
+
+
+  useEffect(() => {
+    // After 0.5 seconds, set showInitial to false
+    const timer = setTimeout(() => {
+      setShowInitial(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, []);
 
 
   const [variationDois, setVariationDois,] = useState('HeroCaysa');
@@ -71,9 +80,14 @@ export const AoFrameMotion = () => {
 
 
   return (
-    <div   className="containerframe">
-
-      <div className="menudois"><MenuNaoComponent /></div>
+    <div className="containerframe">
+    {showInitial ? (
+      // Only show HeroCaysa component for the first 0.5 seconds
+      <HeroCaysa />
+    ) : (
+      // After 0.5 seconds, show the rest of the components
+      <>
+        <div className="menudois"><MenuNaoComponent /></div>
 
 
       <div className={`variacao ${variation}`} style={{ zIndex: 1 }}>
@@ -90,12 +104,10 @@ export const AoFrameMotion = () => {
 
 
       <div className="espaco"></div>
-      <LogoCloud/>
-
-
-
-<Footer/>
-
+          <LogoCloud />
+          <Footer />
+        </>
+      )}
     </div>
   );
 };
