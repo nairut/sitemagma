@@ -83,7 +83,10 @@ export const AoFrameMotion = () => {
     <div className="containerframe">
     {showInitial ? (
       // Only show HeroCaysa component for the first 0.5 seconds
-      <HeroCaysa />
+
+      <><div className="menudois"><MenuNaoComponent /></div>
+      <HeroCaysa /> </>
+
     ) : (
       // After 0.5 seconds, show the rest of the components
       <>
