@@ -1,0 +1,1 @@
+export { MenuAutomatic } from "./MenuAutomatic";

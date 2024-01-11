@@ -1,32 +1,40 @@
-import React from "react";
-import { ContatoRapido } from "../../components/ContatoRapido";
-import { FaleComUm } from "../../components/FaleComUm";
-import "./style.css";
-import { Fraseentradaebot } from "../../components/Fraseentradaebot";
-import { ImagemHeho } from "../../components/ImagemHeho";
-
-
+import React, { useState } from 'react';
+import axios from 'axios';
 
 export const MovimentoScreen = () => {
-  return (
-    <div className="frameda">
+    const [selectedFile, setSelectedFile] = useState(null);
+    const [musicXml, setMusicXml] = useState(null);
 
-<div className="divda">
+    const handleFileChange = (event) => {
+        setSelectedFile(event.target.files[0]);
+    };
 
-  
-<div className="frase">
-<Fraseentradaebot/></div>
+    const handleSubmit = async () => {
+        if (!selectedFile) {
+            alert('Por favor, selecione um arquivo PDF.');
+            return;
+        }
 
+        const formData = new FormData();
+        formData.append('pdf', selectedFile);
 
+        try {
+            const response = await axios.post('/convert-pdf', formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            });
+            setMusicXml(response.data);
+        } catch (error) {
+            console.error('Erro na conversão do arquivo:', error);
+        }
+    };
 
-
-        <div className="imagemm">
-      <ImagemHeho/></div>
-
-
-
-
-      </div>
-    </div>
-  );
+    return (
+        <div>
+            <input type="file" accept=".pdf" onChange={handleFileChange} />
+            <button onClick={handleSubmit}>Converter PDF</button>
+            {musicXml && <textarea value={musicXml} readOnly rows={10} />}
+        </div>
+    );
 };

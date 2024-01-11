@@ -15,6 +15,9 @@ import { useRef, useState, useEffect } from "react";
 import { QualidadeShopee } from "../QualidadeShopee";
 import { Footer } from "../Footer";
 import React, { useState, useEffect } from 'react';
+import { MenuAutomatic } from "../MenuAutomatic";
+
+
 
 
 
@@ -84,13 +87,13 @@ export const AoFrameMotion = () => {
     {showInitial ? (
       // Only show HeroCaysa component for the first 0.5 seconds
 
-      <><div className="menudois"><MenuNaoComponent /></div>
+      <><div className="menuMainFrame"><MenuAutomatic/></div>
       <HeroCaysa /> </>
 
     ) : (
       // After 0.5 seconds, show the rest of the components
       <>
-        <div className="menudois"><MenuNaoComponent /></div>
+        <div className="menuMainFrame"><MenuAutomatic/></div>
 
 
       <div className={`variacao ${variation}`} style={{ zIndex: 1 }}>

@@ -1,0 +1,1 @@
+export { Automatic } from "./Automatic";

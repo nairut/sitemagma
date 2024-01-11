@@ -48,6 +48,7 @@ import { Juntando1366 } from "./screens/Juntando1366";
 import { CursoDeTraducaodo } from "./screens/CursoDeTraducaodo";
 import { AoFrameMotion } from "./screens/AoFrameMotion";
 import { LogoCloudDois } from "./screens/LogoCloudDois";
+import { Automatic } from "./screens/Automatic/Automatic";
 
 
 
@@ -184,6 +185,14 @@ export const App = () => {
   element: isMobile ? <CursoDeTraducaodo  /> : <CursoDeTraducaodo />,
   
 },
+
+
+
+{
+  path: "/automatic",
+  element:  <Automatic />,
+},
+
 
 
 
