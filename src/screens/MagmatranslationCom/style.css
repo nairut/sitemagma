@@ -1,0 +1,3127 @@
+.magmatranslation-com {
+  align-items: flex-start;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.magmatranslation-com .section {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 189.6px 0px 189.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  min-height: 120px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-column {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 228px;
+}
+
+.magmatranslation-com .div-elementor-widget {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-widget-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.magmatranslation-com .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 5.7px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-logo-magma {
+  background-image: url(../../../static/img/link-logo-magma-translation-empresa-traducoes-brasil-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 64px;
+  max-width: 228px;
+  position: relative;
+  width: 228px;
+}
+
+.magmatranslation-com .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 684px;
+}
+
+.magmatranslation-com .div-elementor-2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.magmatranslation-com .nav-navigation {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  height: 28px;
+  justify-content: center;
+  padding: 0px 51.82px 0px 51.81px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0px 5.35px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .solues {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 5px 23px 5px 23px;
+  position: relative;
+}
+
+.magmatranslation-com .link {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+}
+
+.magmatranslation-com .text-wrapper {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1tuatara);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 12px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-jet-mega-menu {
+  flex: 0 0 auto;
+  min-height: 18px;
+  min-width: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+.magmatranslation-com .industrias-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0px 5.34px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .industrias {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 5px 23px;
+  position: relative;
+}
+
+.magmatranslation-com .sobre-ns-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0px 5.01px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .sobre-ns {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 5px 23px 5px 23px;
+  position: relative;
+}
+
+.magmatranslation-com .insights-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0px 5px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .insights {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: 5px 22.99px 5px 23px;
+  position: relative;
+}
+
+.magmatranslation-com .link-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0.68px 0px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.magmatranslation-com .img {
+  flex: 0 0 auto;
+  margin-left: 0px;
+  min-height: 18px;
+  min-width: 18px;
+  position: relative;
+  z-index: 0;
+}
+
+.magmatranslation-com .div-elementor-column-2 {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 125.4px;
+}
+
+.magmatranslation-com .div-elementor-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.magmatranslation-com .div-wrapper-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-wpml-ls-statics {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 125.4px;
+  position: relative;
+  width: 125.4px;
+}
+
+.magmatranslation-com .list-item-link {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1silver);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6.8px 38.6px 6.2px 10.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .portugu-s {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Segoe UI-Semibold", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 12px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .after {
+  border-bottom-style: solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  border-left-style: solid;
+  border-right-style: solid;
+  border-style: solid;
+  border-top-style: solid;
+  height: 10px;
+  left: 107px;
+  position: absolute;
+  top: 10px;
+  width: 8px;
+}
+
+.magmatranslation-com .div-elementor-column-3 {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 102.6px;
+}
+
+.magmatranslation-com .div-elementor-widget-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  justify-content: flex-end;
+  padding: 0px 0px 0px 37.6px;
+  position: relative;
+}
+
+.magmatranslation-com .link-group-svg-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 1.05px 0px 5.7px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-group-svg {
+  display: block;
+  flex: 0 0 auto;
+  max-width: 14px;
+  position: relative;
+}
+
+.magmatranslation-com .heading-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 10px 0px 16px 8px;
+  position: relative;
+}
+
+.magmatranslation-com .link-LOGIN {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hibiscus);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 17px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .main {
+  align-self: stretch;
+  height: 5890.2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .section-2 {
+  align-items: center;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 20px 189.6px 70px 189.6px;
+  position: absolute;
+  top: 0;
+  width: 1519px;
+}
+
+.magmatranslation-com .div-elementor-3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  min-height: 400px;
+  padding: 0px 0.01px 0px 0px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-column-4 {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 670.98px;
+}
+
+.magmatranslation-com .div-elementor-widget-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 10px 16px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 544.98px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-localiza-o {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hibiscus);
+  font-family: "Arial-Black", Helvetica;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 38px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 653px;
+  padding: 7.6px 0px 46.4px;
+  position: relative;
+  width: 653px;
+}
+
+.magmatranslation-com .voc-culturalmente-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 10px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .voc-culturalmente {
+  color: transparent;
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 39.8px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .span {
+  color: #383836;
+}
+
+.magmatranslation-com .text-wrapper-2 {
+  color: #1b3e8d;
+}
+
+.magmatranslation-com .div-elementor-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 491px;
+  padding: 7.4px 0px 66.6px;
+  position: relative;
+  width: 491px;
+}
+
+.magmatranslation-com .ganhe-a-confian-a-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 111px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .ganhe-a-confian-a {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Arial-Narrow", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-button {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 447.24px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .span-elementor-wrapper {
+  align-items: flex-start;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 18px 64px;
+  position: relative;
+}
+
+.magmatranslation-com .span-elementor {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.magmatranslation-com .saiba-mais-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0.27px 0px 0.47px;
+  position: relative;
+}
+
+.magmatranslation-com .saiba-mais {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Arial-Black", Helvetica;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 13px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-column-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 415.7px;
+  position: relative;
+  width: 469.01px;
+}
+
+.magmatranslation-com .div-elementor-widget-4 {
+  align-self: stretch;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.magmatranslation-com .overlap-group {
+  height: 417px;
+  position: relative;
+  width: 795px;
+}
+
+.magmatranslation-com .div-elementor-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 0px 5.98px 364px;
+  position: absolute;
+  top: 16px;
+}
+
+.magmatranslation-com .groupa-jpg-webp {
+  background-image: url(../../../static/img/groupa-jpg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 389.32px;
+  max-width: 431.01px;
+  position: relative;
+  width: 431.01px;
+}
+
+.magmatranslation-com .div-elementor-8 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 59px;
+  position: absolute;
+  top: 0;
+}
+
+.magmatranslation-com .div-elementor-widget-5 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 5.7px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .group-jpg {
+  background-image: url(../../../static/img/group-35-1-10-jpg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 300px;
+  height: 410px;
+  max-width: 410px;
+  position: relative;
+  width: 410px;
+}
+
+.magmatranslation-com .div-elementor-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 277px;
+  max-width: 469.01px;
+  padding: 0px 14px 92.3px 0px;
+  position: absolute;
+  top: 266px;
+}
+
+.magmatranslation-com .group-png {
+  background-image: url(../../../static/img/group-20874-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 53px;
+  max-width: 178px;
+  position: relative;
+  width: 178px;
+}
+
+.magmatranslation-com .div-elementor-10 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 5px;
+  max-width: 469.01px;
+  padding: 38px 250px 0px 0px;
+  position: absolute;
+  top: 0;
+}
+
+.magmatranslation-com .group-png-2 {
+  background-image: url(../../../static/img/group-20864-2-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 214px;
+  max-width: 214px;
+  position: relative;
+  width: 214px;
+}
+
+.magmatranslation-com .section-3 {
+  align-items: center;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1tuatara);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 120px 189.6px 0px 189.6px;
+  position: absolute;
+  top: 513px;
+  width: 1519px;
+}
+
+.magmatranslation-com .div-elementor-column-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  min-height: 768px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-column-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  height: 1493px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-11 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: -31px;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-widget-6 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 58.8px 180.8px 66.8px 180.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 163.55px 0px 163.85px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .p {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 39px;
+  margin-left: -27px;
+  margin-right: -27px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-12 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 38px 120px 46px;
+  position: absolute;
+  top: 239px;
+  width: 1140px;
+}
+
+.magmatranslation-com .a-localiza-o-de-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 83.9px 0px 84.1px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .a-localiza-o-de {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 32px;
+  margin-left: -45.5px;
+  margin-right: -45.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .section-4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 451px;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-13 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  padding: 0px 0.01px 0px 0px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .overlap-group-wrapper {
+  align-self: stretch;
+  position: relative;
+  width: 533.99px;
+}
+
+.magmatranslation-com .overlap-group-2 {
+  height: 486px;
+  left: -283px;
+  position: relative;
+  width: 777px;
+}
+
+.magmatranslation-com .div-elementor-14 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 0px 34.3px;
+  position: absolute;
+  top: 35px;
+}
+
+.magmatranslation-com .group-png-3 {
+  height: 411px;
+  max-width: 456px;
+  position: relative;
+  width: 456px;
+}
+
+.magmatranslation-com .div-elementor-15 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 367px;
+  position: absolute;
+  top: 0;
+}
+
+.magmatranslation-com .group-jpg-webp {
+  background-image: url(../../../static/img/group-35-12-jpg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 300px;
+  height: 410px;
+  max-width: 410px;
+  position: relative;
+  width: 410px;
+}
+
+.magmatranslation-com .div-elementor-16 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 283px;
+  max-width: 533.99px;
+  padding: 0px 0px 0px 140px;
+  position: absolute;
+  top: 296px;
+}
+
+.magmatranslation-com .group-png-4 {
+  height: 184px;
+  max-width: 310px;
+  position: relative;
+  width: 310px;
+}
+
+.magmatranslation-com .div-elementor-17 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 283px;
+  position: absolute;
+  top: 106px;
+}
+
+.magmatranslation-com .group-png-5 {
+  height: 199px;
+  max-width: 200px;
+  position: relative;
+  width: 200px;
+}
+
+.magmatranslation-com .div-elementor-widget-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 92.7px 10px;
+  position: relative;
+  width: 606px;
+}
+
+.magmatranslation-com .div-elementor-18 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 539px;
+  padding: 38px 0px 46px;
+  position: relative;
+  width: 539px;
+}
+
+.magmatranslation-com .heading-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 117px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .acrescentada-a {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-right: -57px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 120px 16px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .n-s-te-ajudamos-a {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 39px;
+  margin-right: -42px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .overlap {
+  height: 606px;
+  left: -10px;
+  position: absolute;
+  top: 937px;
+  width: 1150px;
+}
+
+.magmatranslation-com .section-margin {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 10px;
+  padding: 90px 0px 100px;
+  position: absolute;
+  top: 0;
+  width: 1140px;
+}
+
+.magmatranslation-com .section-5 {
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero-20);
+  border-radius: 8px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 50.8px 100.8px 50.8px 100.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-20 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  padding: 0px 0.01px 0px 0px;
+  position: relative;
+  width: 938.4px;
+}
+
+.magmatranslation-com .div-elementor-widget-8 {
+  align-self: stretch;
+  object-fit: cover;
+  position: relative;
+  width: 158.04px;
+}
+
+.magmatranslation-com .div-elementor-widget-9 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 169.35px 10px 10px;
+  position: relative;
+  width: 780.35px;
+}
+
+.magmatranslation-com .div-elementor-21 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 601px;
+  padding: 8px 0px 46px;
+  position: relative;
+  width: 601px;
+}
+
+.magmatranslation-com .ter-uma-estrat-gia-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 110px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .ter-uma-estrat-gia {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-right: -64px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-22 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 601px;
+  padding: 8px 0px 16px;
+  position: relative;
+  width: 601px;
+}
+
+.magmatranslation-com .heading-4 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 238px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-3 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25px;
+  margin-right: -49px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-23 {
+  height: 101px;
+  left: 0;
+  position: absolute;
+  top: 505px;
+  width: 1150px;
+}
+
+.magmatranslation-com .div-elementor-24 {
+  height: 106px;
+  left: 517px;
+  position: absolute;
+  top: 134px;
+  width: 106px;
+}
+
+.magmatranslation-com .section-6 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 189.6px 0px 189.6px;
+  position: absolute;
+  top: 2256px;
+  width: 1519px;
+}
+
+.magmatranslation-com .div-elementor-25 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-26 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 78px 100px 23px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading-5 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 122.41px 0px 122.59px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-4 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 65px;
+  margin-left: -47px;
+  margin-right: -47px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .section-7 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-27 {
+  align-items: flex-start;
+  display: flex;
+  height: 590.2px;
+  max-width: 1140px;
+  padding: 0px 0.03px 0px 0px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-column-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  min-height: 1px;
+  padding: 13px;
+  position: relative;
+  width: 379.99px;
+}
+
+.magmatranslation-com .div-elementor-widget-10 {
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-28 {
+  height: 95px;
+  left: 132px;
+  position: absolute;
+  top: 61px;
+  width: 90px;
+}
+
+.magmatranslation-com .div-elementor-29 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 41px;
+  padding: 20px 0px 15.2px;
+  position: absolute;
+  top: 156px;
+  width: 272px;
+}
+
+.magmatranslation-com .aumente-sua-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 78.6px 0px 78.79px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .aumente-sua {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1black);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-left: -11px;
+  margin-right: -11px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .overlap-group-3 {
+  height: 227px;
+  left: 41px;
+  position: absolute;
+  top: 243px;
+  width: 272px;
+}
+
+.magmatranslation-com .div-elementor-30 {
+  height: 66px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 272px;
+}
+
+.magmatranslation-com .region-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 0px 15px;
+  position: absolute;
+  top: 65px;
+  width: 272px;
+}
+
+.magmatranslation-com .region {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 24.09px 0px 24.3px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .seus-concorrentes {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .garanta-uma-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 47.6px 0px 47.79px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .garanta-uma {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1black);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-left: -12.5px;
+  margin-right: -12.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .overlap-group-4 {
+  height: 260px;
+  left: 41px;
+  position: absolute;
+  top: 243px;
+  width: 272px;
+}
+
+.magmatranslation-com .div-elementor-31 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 20px 15px 20px;
+  position: absolute;
+  top: 65px;
+  width: 272px;
+}
+
+.magmatranslation-com .voc-j-investe-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 21.1px 0px 21.29px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .voc-j-investe {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-32 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 41px;
+  padding: 20px 0px 30px;
+  position: absolute;
+  top: 156px;
+  width: 272px;
+}
+
+.magmatranslation-com .heading-6 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 57.11px 0px 57.28px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-5 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1black);
+  display: -webkit-box;
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 25.6px;
+  margin-left: -12px;
+  margin-right: -12px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .overlap-group-5 {
+  height: 215px;
+  left: 41px;
+  position: absolute;
+  top: 232px;
+  width: 272px;
+}
+
+.magmatranslation-com .a-import-ncia-da-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 28.6px 0px 28.79px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .a-import-ncia-da {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22.5px;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .section-8 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  padding: 0px 189.6px 0px 189.6px;
+  position: absolute;
+  top: 3142px;
+  width: 1519px;
+}
+
+.magmatranslation-com .div-elementor-widget-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1alto);
+  border-top-style: solid;
+  border-top-width: 0.8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 85.8px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .link-localiza-o-de-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 408.4px 0px 408.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-localiza-o-de {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hibiscus);
+  font-family: "Atten New-ExtraBold", Helvetica;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 38px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-33 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 0px 40px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading-7 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 253.41px 0px 253.59px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-6 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1black);
+  display: -webkit-box;
+  font-family: "Atten New-Bold", Helvetica;
+  font-size: 31.9px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-34 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 7.4px 110px 86.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .muito-comum-que-a-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 82.9px 0px 83.1px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .muito-comum-que-a {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Atten New-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-left: -53.5px;
+  margin-right: -53.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-column-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  min-height: 1px;
+  padding: 15px;
+  position: relative;
+  width: 285px;
+}
+
+.magmatranslation-com .div-elementor-widget-12 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3.81e-6px;
+  padding: 40.8px 30.8px 96.4px 30.8px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-35 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-36 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px 0px 15.8px;
+  position: relative;
+  width: 193.4px;
+}
+
+.magmatranslation-com .adapta-o-de-recursos-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 29.1px 0px 29.3px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-7 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1black);
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-16-line-height
+  );
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-widget-13 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3.81e-6px;
+  padding: 40.8px 30.8px 70.8px 30.8px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-37 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px 0px 15.4px;
+  position: relative;
+  width: 193.4px;
+}
+
+.magmatranslation-com .modifica-o-do-conte-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 20.1px 0px 20.3px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .alterar-o-design-e-o-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 19.6px 0px 19.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .convers-o-para-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 24.6px 0px 24.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-38 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  padding: 0px 285px 0px 0px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-widget-14 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3.81e-6px;
+  padding: 40.8px 30.8px 45.8px 30.8px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-39 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px 0px 16px;
+  position: relative;
+  width: 193.4px;
+}
+
+.magmatranslation-com .utiliza-o-de-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 23.6px 0px 23.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-15 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3.81e-6px;
+  padding: 40.8px 30.8px 122.6px 30.8px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-40 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 20px 0px 15.2px;
+  position: relative;
+  width: 193.4px;
+}
+
+.magmatranslation-com .abordagem-de-normas-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 25.1px 0px 25.3px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-16 {
+  align-items: center;
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1raffia);
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 3.81e-6px;
+  padding: 40.8px 30.8px 97px 30.8px;
+  position: relative;
+}
+
+.magmatranslation-com .uso-de-tecnologias-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 25.6px 0px 25.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .section-9 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 4466px;
+  width: 1519px;
+}
+
+.magmatranslation-com .div-elementor-41 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 1519.2px;
+}
+
+.magmatranslation-com .section-10 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1alto-22);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 189.6px 110px 189.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-42 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 704.23px;
+  padding: 78px 0px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading-8 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 309.23px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-8 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1tuatara);
+  font-family: "Arial-Narrow", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 65px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-posts {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 30px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .article {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero-02);
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px #00000014;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 360px;
+}
+
+.magmatranslation-com .link-margin {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 20px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.magmatranslation-com .link-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 0px 288px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .traducao {
+  align-self: stretch;
+  background-image: url(../../../static/img/traducao-inteligencia-artificial-300x200-jpg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 240px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-post {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 55px 120.2px 35px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.magmatranslation-com .link-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 3.29px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .o-papel-da-IA-na-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 1.71px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .text-wrapper-9 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1tuatara);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 19.8px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 31px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .whatsapp-image {
+  align-self: stretch;
+  background-image: url(../../../static/img/whatsapp-image-2023-05-31-at-13-13-37-300x271-jpeg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 325.2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-post-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 55px 35px 35px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.magmatranslation-com .heading-9 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 25.49px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .qual-a-import-ncia-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 0px 1.51px 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .mercado-de-traducao {
+  align-self: stretch;
+  background-image: url(../../../static/img/mercado-de-traducao-pos-pandemia-300x200-jpg-webp.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 240px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-post-3 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 55px 151.2px 35px;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+}
+
+.magmatranslation-com .heading-10 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 27px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .mercado-de-tradu-o-p-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.magmatranslation-com .mercado-de-tradu-o-p {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1tuatara);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 31px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .section-11 {
+  align-items: center;
+  align-self: stretch;
+  background-image: url(../../../static/img/section.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 189.6px 0px 189.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-43 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 1140px;
+  min-height: 394px;
+  padding: 0px 0.51px 0px 0px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-column-9 {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 589.99px;
+}
+
+.magmatranslation-com .div-elementor-widget-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 10px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-44 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 0px 16px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .quer-entender-o-que-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 122.99px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .quer-entender-o-que {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Arial-Narrow", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .heading-11 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 192.99px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-10 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  font-family: "Arial-Narrow", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 56px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .div-elementor-column-10 {
+  align-items: flex-start;
+  display: flex;
+  min-height: 1px;
+  position: relative;
+  width: 549.5px;
+}
+
+.magmatranslation-com .div-elementor-widget-18 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 0px 0px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-button-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0px 0px 10px;
+  position: relative;
+}
+
+.magmatranslation-com .div-elementor-button-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 72.55px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-4 {
+  align-items: flex-start;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: 18px 31.4px 18px 32px;
+  position: relative;
+}
+
+.magmatranslation-com .vamos-falar-sobre-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.magmatranslation-com .vamos-falar-sobre {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  font-family: "Arial-Black", Helvetica;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 13px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .footer {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 60px 189.6px 30px 189.6px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-45 {
+  align-items: flex-start;
+  display: flex;
+  height: 329.8px;
+  max-width: 1140px;
+  position: relative;
+  width: 1140px;
+}
+
+.magmatranslation-com .div-elementor-46 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 10px;
+  position: absolute;
+  top: 25px;
+}
+
+.magmatranslation-com .link-logo-magma-svg {
+  display: block;
+  flex: 0 0 auto;
+  max-width: 212px;
+  position: relative;
+}
+
+.magmatranslation-com .div-wpml-elementor-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1058px;
+  max-width: 72px;
+  position: absolute;
+  top: 45px;
+  width: 72px;
+}
+
+.magmatranslation-com .list-item-link-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  max-width: 72px;
+  position: relative;
+  width: 72px;
+}
+
+.magmatranslation-com .list-item-link-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1silver);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8.85px 43.2px 5.8px 10.8px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .pt-br-png {
+  background-image: url(../../../static/img/pt-br-png.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 12px;
+  max-width: 72px;
+  position: relative;
+  width: 18px;
+}
+
+.magmatranslation-com .after-2 {
+  border-bottom-style: solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  border-left-style: solid;
+  border-right-style: solid;
+  border-style: solid;
+  border-top-style: solid;
+  height: 12px;
+  left: 52px;
+  position: absolute;
+  top: 11px;
+  width: 10px;
+}
+
+.magmatranslation-com .div-elementor-47 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 10px;
+  position: absolute;
+  top: 200px;
+}
+
+.magmatranslation-com .link-cria-o-de-site-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 100.4px 13.32px 0px 13.67px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .link-cria-o-de-site {
+  color: transparent;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .text-wrapper-11 {
+  color: #c8982a;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-line-height
+  );
+}
+
+.magmatranslation-com .text-wrapper-12 {
+  color: #646363;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-line-height
+  );
+}
+
+.magmatranslation-com .text-wrapper-13 {
+  color: #646363;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-bold-13-line-height
+  );
+}
+
+.magmatranslation-com .div-hd-cca-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 852px;
+  padding: 100px 0px 0px;
+  position: absolute;
+  top: 200px;
+}
+
+.magmatranslation-com .div-hd-cca {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 24.7px 0px 25px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-14 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  display: -webkit-box;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-narrow-13-line-height
+  );
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .section-wrapper {
+  height: 15px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 1120px;
+}
+
+.magmatranslation-com .section-12 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 65px 30px 255px;
+  position: relative;
+  width: 1120px;
+}
+
+.magmatranslation-com .div-elementor-48 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  max-width: 800px;
+  position: relative;
+  width: 800px;
+}
+
+.magmatranslation-com .div-elementor-widget-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 75px;
+  position: relative;
+  width: 160px;
+}
+
+.magmatranslation-com .div-elementor-49 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 8px 0px 36px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .heading-12 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 33px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-15 {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  display: -webkit-box;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-line-height
+  );
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .nav-list {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 3px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 31px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-16 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .item-link-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 28px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-3 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 67px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .tecnologias-de-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 51px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-17 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1dove-gray);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.magmatranslation-com .servi-o-de-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 61px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-20 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 34px;
+  position: relative;
+  width: 160px;
+}
+
+.magmatranslation-com .heading-13 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 64px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-4 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 84px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-5 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 69px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .text-wrapper-18 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .after-3 {
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 22px;
+  width: 140px;
+}
+
+.magmatranslation-com .item-link-6 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 34px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-7 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 22px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-8 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 25px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-9 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 79px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-10 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 63px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-21 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+  width: 160px;
+}
+
+.magmatranslation-com .heading-14 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 57px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-11 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 71px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-12 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 81px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-13 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 101px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-14 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 75px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-15 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 32px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-16 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 93px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-17 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 85px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-22 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 169px;
+  position: relative;
+  width: 160px;
+}
+
+.magmatranslation-com .sobre-n-s-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 53px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .sobre-n-s {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 0;
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  display: -webkit-box;
+  font-family: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-font-family
+  );
+  font-size: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-font-size
+  );
+  font-style: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-font-style
+  );
+  font-weight: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-font-weight
+  );
+  letter-spacing: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-letter-spacing
+  );
+  line-height: var(
+    --magmatranslation-com-localizacao-1519-199951171875x685-5999755859375-default-1-arial-black-12-upper-line-height
+  );
+  margin-top: -1px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .item-link-18 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 77px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .item-link-19 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 38px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-widget-23 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 223px;
+  position: relative;
+  width: 160px;
+}
+
+.magmatranslation-com .heading-15 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 0px 67px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .nav-list-item-link {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 2px 111px 2px 2px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .div-elementor-50 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 10px;
+  position: absolute;
+  top: 91px;
+}
+
+.magmatranslation-com .div-elementor-widget-24 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 9.1px;
+  justify-content: center;
+  padding: 30px 0px 5.7px;
+  position: relative;
+  width: 100%;
+}
+
+.magmatranslation-com .i-fab-wrapper {
+  align-items: flex-start;
+  background-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1nero);
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.magmatranslation-com .i-fab {
+  height: 50px;
+  position: relative;
+  width: 50px;
+}
+
+.magmatranslation-com .before {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 3px;
+  padding: 0px 0px 0px 0.33px;
+  position: relative;
+  width: 44px;
+}
+
+.magmatranslation-com .symbol {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: -0.29px;
+  margin-right: -0.29px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .symbol-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px 0.35px;
+  position: relative;
+  width: 50px;
+}
+
+.magmatranslation-com .symbol-2 {
+  color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1hokey-pokey);
+  font-family: "Font Awesome 5 Brands-Regular", Helvetica;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-left: -0.18px;
+  margin-right: -0.18px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.magmatranslation-com .iframe {
+  border: 1px solid;
+  border-color: var(--magmatranslationcomlocalizacao1519199951171875x6855999755859375default-1mine-shaft);
+  height: 3px;
+  left: 0;
+  position: absolute;
+  top: -100px;
+  width: 3px;
+}
+
+.magmatranslation-com .div-bricks-component {
+  height: 90px;
+  left: 1429px;
+  position: absolute;
+  top: 596px;
+  width: 90px;
+}
+
+.magmatranslation-com .button-abrir {
+  height: 61px;
+  left: 10px;
+  position: absolute;
+  top: 9px;
+  width: 60px;
+}

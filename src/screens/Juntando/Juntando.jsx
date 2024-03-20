@@ -1,267 +1,119 @@
-import * as React from "react";
-import { useEffect } from "react"; // Import useEffect
-import { useState } from "react"; 
-import { useMotionValue } from "framer-motion";
-import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
-import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
-import { ComponenteInferior } from "../ComponenteInferior/ComponenteInferior";
-import { TraducoesBem } from "../TraducoesBem";
-import { Menu } from "../../components/Menu";
-
-import { LogoCloud } from "../LogoCloud/LogoCloud";
-import { LogoCloudDois } from "../LogoCloudDois";
-import { VideoPlayer } from "../VideoPlayer";
-import { Fraseentradaebot } from "../../components/Fraseentradaebot";
-import { ImagemHeho } from "../../components/ImagemHeho";
-import { PremioImages } from "../../components/PremioImages";
-import { SegundaParte } from "../SegundaParte";
-import { Teclado } from "../Teclado";
-import { SegundaHero } from "../SegundaHero";
-import { MenuComponent } from "../../components/MenuComponent";
-import { MenuNaoComponent } from "../MenuNaoComponent";
-import { TerceiraHero } from "../TerceiraHero";
+import { useTransform, useScroll, motion } from "framer-motion";
+import { useRef } from "react";
 import "./style.css";
-import { AreasDeAtuacao } from "../AreasDeAtuacao";
-import { HeroCaysaScreen } from "../HeroCaysaScreen/HeroCaysaScreen";
-import { MosaicoClientes } from "../MosaicoClientes/MosaicoClientes";
-import { OqFazemos } from "../OqFazemos";
-import { OsDepoimentos } from "../OsDepoimentos";
-import { OsDepoimentosScreen } from "../OsDepoimentosScreen";
+import { useTransform, useScroll } from "framer-motion";
+import { HeroCaysa } from "../HeroCaysa/HeroCaysa";
+import { LogoCloud } from "../LogoCloud/LogoCloud";
+import { VideoPlayer } from "../VideoPlayer";
+import { MenuNaoComponent } from "../MenuNaoComponent";
+
+import { SegundaHero } from "../SegundaHero";
+import { TerceiraHero } from "../TerceiraHero";
+import { Teclado } from "../Teclado";
+import { useTransform, useScroll } from "framer-motion";
+import { useRef, useState, useEffect } from "react";
 import { QualidadeShopee } from "../QualidadeShopee";
-import { QualidadeShopeeScreen } from "../QualidadeShopeeScreen/QualidadeShopeeScreen";
+import { Footer } from "../Footer";
+import React, { useState, useEffect } from 'react';
+import { MenuAutomatic } from "../MenuAutomatic";
+import { HeroCaysaScreen } from "../HeroCaysaScreen/HeroCaysaScreen";
 import { SegundaHeroScreen } from "../SegundaHeroScreen/SegundaHeroScreen";
-import { TerceiraHeroScreen } from "../TerceiraHeroScreen/TerceiraHeroScreen";
-import { TiposdeMateriais } from "../TiposdeMateriais/TiposdeMateriais";
-import { TiposdeMateriaisScreen } from "../TiposdeMateriaisScreen/TiposdeMateriaisScreen";
-import { FaleComUm } from "../../components/FaleComUm";
-import { ComponentSpee } from "../ComponentSpee";
-
-
 
 
 
 export const Juntando = () => {
-  const [scrollY, setScrollY] = useState(0);
-  const handleScroll = () => {
-    // Update the scroll position when the user scrolls
-    setScrollY(window.scrollY);
-  };
+  const { scrollY } = useScroll();
+  const [variation, setVariation] = useState('HeroCaysa');
+  const [showInitial, setShowInitial] = useState(true);
 
-
-
-  // Attach a scroll event listener to update scrollY
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    const unsubscribe = scrollY.onChange(v => {
+      if (v <= 1000) {
+        setVariation('HeroCaysa');
+      } else if (v > 1000 && v <= 1400) {
+        setVariation('SegundaHero');
+      } else if (v > 1400 && v <= 1500) {
+        setVariation('TerceiraHero');
+      } else if (v > 1500 && v <=6000) {
+        setVariation('QuartoElemento');
+      } else {
+        setVariation('none');
+      }
+    });
+
+    return () => unsubscribe();
+  }, [scrollY]);
+
+
+  useEffect(() => {
+    // After 0.5 seconds, set showInitial to false
+    const timer = setTimeout(() => {
+      setShowInitial(false);
+    }, 500);
+
+    return () => clearTimeout(timer);
   }, []);
 
 
-  
+  const [variationDois, setVariationDois,] = useState('HeroCaysa');
 
-  const { scrollYProgress } = useScroll();
-  const scaleHeroCaysa = useTransform(scrollYProgress, [0, 0.05], [1, 0.5]);
-  const scale = useTransform(scrollYProgress, [0, 0.05], [1, 0.5]);
-  const scaleSpee = useTransform(scrollYProgress, [0.61, 0.66], [1, 5]);
-  const ySpee = useTransform(scrollYProgress, [0.61, 0.655], [0, 900]); 
-  const xSpee = useTransform(scrollYProgress, [0.61, 0.65], [0, -800]); 
+  useEffect(() => {
+    const unsubscribe = scrollY.onChange(v => {
+      if (v >= 7000) {
+        setVariationDois('HeroCaysa');
+      } else if (v > 7000 && v <= 9000) {
+        setVariationDois('SegundaHero');
+      } else if (v > 7500 && v <= 7500) {
+        setVariationDois('TerceiraHero');
+      } else if (v > 7500 && v <=7500) {
+        setVariationDois('QuartoElemento');
+      } else {
+        setVariationDois('none');
+      }
+    });
 
-  const opacitySpee= useTransform(scrollYProgress, [0.61, 0.609], [1, 0]);
-  const x = useTransform(scrollYProgress, [0.0, 0.14], [0, 290]); 
-  const xSecond = useTransform(scrollYProgress, [0.1, 0.2], [0, 300]);  
-
-  //Teclado Abaixo
- 
-  const yTextosTeclado = useTransform(scrollYProgress, [0.06, 0.08], [1, 200]); 
-  const yTerceiraHero = useTransform(scrollYProgress, [0.20, 0.25], [1, -1500]); 
-
-  
-
-
-  const opacityFraseTeclado = useTransform(scrollYProgress, [0.27, 0.30], [1, 1]);
-
-  
-  //This means that when scrollYProgress is at 0.1, the output value will be 0, and when scrollYProgress is at 0.9, 
-  //the output value will be 300
-
-  const scaleSecond = useTransform(scrollYProgress, [0.1, 0.1], [0.7, 0.7]);
-
-
-  const opacity = useTransform(scrollYProgress, [0.159,  0.16], [1, 0]);
-  const opacityFraseDois = useTransform(scrollYProgress, [0.159, 0.16, 0.179, 0.18], [0, 1, 1, 0]);
-  const opacityFraseTres = useTransform(scrollYProgress, [0.179, 0.18, 0.24, 0.26], [0, 1, 1, 0]);
-  const opacityQualidadeShopee = useTransform(scrollYProgress, [0.60,  0.80], [1, 0]);
+    return () => unsubscribe();
+  }, [scrollY]);
 
 
 
 
-  
-  const  OpacitySegHero = useTransform(scrollYProgress, [0.179, 0.18], [1, 0]);
-  const  OpacityTercHero = useTransform(scrollYProgress, [0.28,  0.29], [1, 0]);
+  //<div className="espaco"></div>
 
-  const controls = useAnimation();
-
-  const zIndex = useTransform(scrollYProgress, [0, 0.7], [5, 1]);
-
-  // Create a custom motion value for scrollY
-  const customScrollY = useMotionValue(0);
-
-///////////////////////////////////////////////////
 
 
   return (
-    <div className="containerdois">
-      <div className="juntandodois">  
-        <div className="menudois">
-        <MenuNaoComponent/> 
-                <div className="videoplayer">
-                            <VideoPlayer/> 
-          </div>
-        </div>
-        <div className="paratextboxdois">
+    <div className="containerframe">
+    {showInitial ? (
+      // Only show HeroCaysa component for the first 0.5 seconds
 
-          
+      <><div className="menuMainFrame"><MenuAutomatic/></div>
+      <HeroCaysa /> </>
 
-          <div className="sticky primeiraHero">
-
-          <Teclado/>
-            
+    ) : (
+      // After 0.5 seconds, show the rest of the components
+      <>
+        <div className="menuMainFrame"><MenuAutomatic/></div>
 
 
-      
+      <div className={`variacao ${variation}`} style={{ zIndex: 1 }}>
 
-
-
-
-          <motion.div
-            className="sticky primeiraHero"
-              style={{
-                scale: scaleHeroCaysa,    // Use the scale variable here
-                x: x,    // Use the x variable to control horizontal movement
-                zIndex: zIndex,
-                opacity: opacity,
-                 }}>
-                <HeroCaysa  /> {/* Apply animation to HeroCaysa */}
-          </motion.div>
-
-
-
-          <motion.div
-            className="sticky segundaHeronew"
-              style={{
-                scale: scale,   
-                  x: x,    
-                  opacity: OpacitySegHero,
-                }}>
-                  <SegundaHero/>
-          </motion.div>
-
-
-              <motion.div
-              className="sticky TerceiraHeronew "
-                style={{
-                  scale: scale,    
-                  x: x,    
-                  opacity: OpacityTercHero,
-                  y: yTerceiraHero,
-                  
-                 }}>
-                   <TerceiraHero/>
-                 
-              </motion.div>
-
-            
-        </div>
-
-        </div>
-
-
-
-
-
-        <div className="componenteinferior">
-
-
-       
-  
-
-  
-        </div>
-
-            <motion.div
-              className="sticky primeiraHero"
-                style={{
-                    // Use the scale variable here
-                 // Use the x variable to control horizontal movement
-                  opacity: opacityFraseDois,
-
-                 }}>
-                  <FaleComUm  />
-                 <p className="textoboxOne">
-                <span className="textobox1">Quer destravar seus problemas linguísticos </span>
-                <span className="textobox2">avançar em um novo mercado - </span>
-                <span className="textobox1">simplesmente traduzir um documento da empresa?</span>
-                  </p>
-           
-            </motion.div>
-     
-
-
-            <motion.div
-              className="sticky primeiraHero"
-                style={{
-                    // Use the scale variable here
-                 // Use the x variable to control horizontal movement
-                  opacity: opacityFraseTres,
-                  y: yTerceiraHero,
-
-                 }}>
-                 <p className="textoboxTres">
-                <span className="textobox1">XXXXXXXQuer destravar seus problemas linguísticos </span>
-                <span className="textobox2">avançar em um novo mercado - </span>
-                <span className="textobox1">simplesmente traduzir um documento da empresa?</span>
-                  </p>
-            </motion.div>
-
-
-            <motion.div
-
-                style={{
-                    // Use the scale variable here
-                 // Use the x variable to control horizontal movement
-                  opacity: opacityQualidadeShopee,
-
-                 }}>
-           <QualidadeShopee/>
-           
-            </motion.div>
-
-
-            <motion.div
-              className="sticky primeiraHero"
-                style={{
-                    // Use the scale variable here
-                 // Use the x variable to control horizontal movement
-                  scale: scaleSpee,
-                  y: ySpee,
-                  opacity: opacitySpee, 
-                  x: xSpee,
-
-                 }}>
-              
-            
-            <div className="componentspeedois">
-            <ComponentSpee/>
-            </div>
-            </motion.div>
-
-
-
-            <LogoCloudDois />
-
+        {variation === 'HeroCaysa' && <HeroCaysaScreen  /> }
+        {variation === 'SegundaHero' && (<> <SegundaHeroScreen/></>)}
+        {variation === 'TerceiraHero' && <TerceiraHero />}
+        {variation === 'QuartoElemento' &&  (<><Teclado/></>) }
+        {variation === 'QuartoElemento' &&  (<><QualidadeShopee/></>) }
 
       </div>
+
+
+
+
+      <div className="espaco"></div>
+          <LogoCloud />
+          <Footer />
+        </>
+      )}
     </div>
   );
 };

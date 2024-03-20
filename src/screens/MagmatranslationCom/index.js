@@ -1,0 +1,1 @@
+export { MagmatranslationCom } from "./MagmatranslationCom";

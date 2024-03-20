@@ -49,6 +49,7 @@ import { CursoDeTraducaodo } from "./screens/CursoDeTraducaodo";
 import { AoFrameMotion } from "./screens/AoFrameMotion";
 import { LogoCloudDois } from "./screens/LogoCloudDois";
 import { Automatic } from "./screens/Automatic/Automatic";
+import { MagmatranslationCom } from "./screens/MagmatranslationCom/MagmatranslationCom";
 
 
 
@@ -137,6 +138,20 @@ export const App = () => {
   path: "/aoramemotion",
   element: isMobile ? <CelularPtpronto  /> : <AoFrameMotion />,
 },
+
+
+{
+  path: "/empresas",
+  element: isMobile ? <CelularPtpronto  /> : <AoFrameMotion />,
+},
+
+
+
+{
+  path: "/localizacao",
+  element: isMobile ? <CelularPtpronto  /> : <MagmatranslationCom />,
+},
+
 
 
 {

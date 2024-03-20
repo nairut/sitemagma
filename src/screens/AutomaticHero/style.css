@@ -1,0 +1,400 @@
+.automatic-hero {
+  background-color: #e6f1fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.automatic-hero .overlap-wrapper {
+  background-color: #e6f1fe;
+  height: 856px;
+  width: 1536px;
+}
+
+.automatic-hero .overlap {
+  height: 753px;
+  left: 164px;
+  position: relative;
+  top: 103px;
+  width: 1372px;
+}
+
+.automatic-hero .overlap-group {
+  height: 747px;
+  left: 0;
+  position: absolute;
+  top: 6px;
+  width: 1372px;
+}
+
+.automatic-hero .vector {
+  height: 747px;
+  left: 510px;
+  position: absolute;
+  top: 0;
+  width: 862px;
+}
+
+.automatic-hero .text-wrapper {
+  color: #000000;
+  font-family: "Atten New-Book", ;
+  font-size: 22px;
+  font-weight: 400;
+  height: 58px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 31.5px;
+  position: absolute;
+  top: 58px;
+  width: 512px;
+}
+
+.automatic-hero .group {
+  height: 377px;
+  left: 0;
+  position: absolute;
+  top: 151px;
+  width: 575px;
+}
+
+.automatic-hero .div {
+  height: 377px;
+  position: relative;
+  width: 583px;
+}
+
+.automatic-hero .p {
+  color: #000000;
+  font-family: "Atten New-Medium", ;
+  font-size: 16px;
+  font-weight: 500;
+  height: 20px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 237px;
+}
+
+.automatic-hero .text-wrapper-2 {
+  color: #000000;
+  font-family: "Atten New-Medium" ;
+  font-size: 16px;
+  font-weight: 500;
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 199px;
+  white-space: nowrap;
+  width: 124px;
+}
+
+.automatic-hero .text-wrapper-3 {
+  color: #000000;
+  font-family: "Atten New-Medium", ;
+  font-size: 16px;
+  font-weight: 500;
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 299px;
+  white-space: nowrap;
+  width: 143px;
+}
+
+.automatic-hero .div-muiinputbase {
+  background-color: #ffffff;
+  border-radius: 4px;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 575px;
+}
+
+.automatic-hero .overlap-group-2 {
+  border-radius: 4px;
+  height: 50px;
+  position: relative;
+}
+
+.automatic-hero .button {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ccd6d7;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 575px;
+}
+
+.automatic-hero .text-wrapper-4 {
+  color: #000000de;
+  font-family: "Atten New-Book", ;
+  font-size: 16px;
+  font-weight: 400;
+  height: 19px;
+  left: 9px;
+  letter-spacing: 0.15px;
+  line-height: 19px;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 166px;
+}
+
+.automatic-hero .frame {
+  height: 24px;
+  left: 541px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.automatic-hero .text-wrapper-5 {
+  color: #000000;
+  font-family: "Atten New-Medium", ;
+  font-size: 16px;
+  font-weight: 500;
+  height: 23px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22.9px;
+  position: absolute;
+  top: 101px;
+  white-space: nowrap;
+  width: 98px;
+}
+
+.automatic-hero .button-2 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ccd6d7;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 137px;
+  width: 575px;
+}
+
+.automatic-hero .text-wrapper-6 {
+  color: #40676a;
+  font-family: "Atten New-Book", ;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 67px;
+}
+
+.automatic-hero .img {
+  height: 24px;
+  left: 542px;
+  position: absolute;
+  top: 13px;
+  width: 24px;
+}
+
+.automatic-hero .button-3 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ccd6d7;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 227px;
+  width: 575px;
+}
+
+.automatic-hero .text-wrapper-7 {
+  color: #40676a;
+  font-family: "Atten New-Book", ;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.automatic-hero .button-4 {
+  all: unset;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ccd6d7;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  top: 327px;
+  width: 575px;
+}
+
+.automatic-hero .text-wrapper-8 {
+  color: #40676a;
+  font-family: "Atten New-Book", ;
+  font-size: 16px;
+  font-weight: 400;
+  height: 28px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+  width: 126px;
+}
+
+.automatic-hero .group-2 {
+  height: 295px;
+  left: 659px;
+  position: absolute;
+  top: 183px;
+  width: 624px;
+}
+
+.automatic-hero .div-sc-nakpo {
+  background-image: url(../../../static/img/div-sc-nakpo.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4.25px;
+  box-shadow: 0px 14.17px 28.33px #00000014;
+  height: 295px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 181px;
+}
+
+.automatic-hero .div-sc-nakpo-2 {
+  background-image: url(../../../static/img/div-sc-nakpo-1.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border: 0.71px solid;
+  border-color: #5857ff;
+  border-radius: 4.25px;
+  box-shadow: 0px 14.17px 28.33px #00000014;
+  height: 295px;
+  left: 226px;
+  position: absolute;
+  top: 1px;
+  width: 181px;
+}
+
+.automatic-hero .div-sc-nakpo-3 {
+  background-image: url(../../../static/img/div-sc-nakpo-2.svg);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 4.25px;
+  box-shadow: 0px 14.17px 28.33px #00000014;
+  height: 295px;
+  left: 443px;
+  position: absolute;
+  top: 0;
+  width: 181px;
+}
+
+.automatic-hero .frase-hero {
+  color: transparent;
+  font-family: "Atten New-ExtraBold", ;
+  font-size: 30.9px;
+  font-weight: 800;
+  left: 0;
+  letter-spacing: 0.17px;
+  line-height: 36.1px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.automatic-hero .span {
+  color: #000000;
+}
+
+.automatic-hero .text-wrapper-9 {
+  color: #c8982a;
+}
+
+.automatic-hero .div-sc-kwmekh {
+  border-color: #eeeeee;
+  border-top-style: solid;
+  border-top-width: 0.8px;
+  height: 73px;
+  left: 0;
+  position: absolute;
+  top: 570px;
+  width: 153px;
+}
+
+.automatic-hero .button-5 {
+  background-color: #c59318;
+  border-radius: 25.57px;
+  height: 58px;
+  left: 405px;
+  position: relative;
+  top: -11px;
+  width: 170px;
+}
+
+.automatic-hero .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "Atten New-Medium", ;
+  font-size: 16.4px;
+  font-weight: 500;
+  height: 29px;
+  left: 27px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 13px;
+  white-space: nowrap;
+}
+
+.automatic-hero .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "Cambria Math-Regular", ;
+  font-size: 16.4px;
+  font-weight: 400;
+  height: 29px;
+  left: 135px;
+  letter-spacing: 0;
+  line-height: 28.6px;
+  position: absolute;
+  text-align: center;
+  top: 14px;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  width: 20px;
+}
