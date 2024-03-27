@@ -95,7 +95,7 @@ export const App = () => {
 
 
       {
-        path: "/turian",
+        path: "/ml_data",
         element: isMobile ? <CelularPtpronto  /> : <Turian />,
       },
 
