@@ -9,38 +9,50 @@ export const Turian = () => {
     setLink(event.target.value);
   };
 
+  const fetchWithExponentialBackoff = async (url, retries = 3, delay = 1000) => {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        if (response.status === 429 && retries > 0) {
+          console.log(`Esperando ${delay}ms antes da próxima tentativa...`);
+          await new Promise(resolve => setTimeout(resolve, delay));
+          return fetchWithExponentialBackoff(url, retries - 1, delay * 2);
+        }
+        throw new Error(`Falha na API: ${response.status} - ${response.statusText}`);
+      }
+      return await response.json();
+    } catch (error) {
+      console.error("Erro ao buscar visitas:", error);
+      throw error;
+    }
+  };
+
   const fetchVisits = async () => {
     setLoading(true);
-    // Usando uma expressão regular para extrair o ID do item
     const match = link.match(/ML[A-Z]+[0-9]+/);
     const itemId = match ? match[0] : null;
-  
+
     if (!itemId) {
       setVisits('ID de item inválido.');
       setLoading(false);
       return;
     }
-  
+
     const url = `https://api.mercadolibre.com/visits/items?ids=${itemId}`;
-  
+
     try {
-      const response = await fetch(url);
-      if (!response.ok) throw new Error(`Falha na API: ${response.status} - ${response.statusText}`);
-  
-      const data = await response.json();
+      const data = await fetchWithExponentialBackoff(url);
       if (data && data[itemId] != null) {
         setVisits(`Total de visitas: ${data[itemId]}`);
       } else {
         setVisits('Não foram encontradas visitas para este ID de item.');
       }
     } catch (error) {
-      console.error("Erro ao buscar visitas:", error);
       setVisits(error.toString());
     } finally {
       setLoading(false);
     }
   };
-  
 
   return (
     <div>
