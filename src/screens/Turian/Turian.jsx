@@ -2,26 +2,45 @@ import React, { useState } from 'react';
 
 export const Turian = () => {
   const [link, setLink] = useState('');
-  const [visits, setVisits] = useState(null);
+  const [visits, setVisits] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const handleLinkChange = (event) => {
     setLink(event.target.value);
   };
 
   const fetchVisits = async () => {
-    const itemId = link.split('/').pop();
-    const accessToken = 'APP_USR-8053638816322863-032711-673dacc9b5d0b2f0142ac75193bc6552-116363616'; // Lembre-se de substituir pelo seu token de acesso real
-    const url = `https://api.mercadolibre.com/visits/items?ids=${itemId}&access_token=${accessToken}`;
-
+    setLoading(true);
+    // Usando uma expressão regular para extrair o ID do item
+    const match = link.match(/ML[A-Z]+[0-9]+/);
+    const itemId = match ? match[0] : null;
+  
+    if (!itemId) {
+      setVisits('ID de item inválido.');
+      setLoading(false);
+      return;
+    }
+  
+    const url = `https://api.mercadolibre.com/visits/items?ids=${itemId}`;
+  
     try {
       const response = await fetch(url);
+      if (!response.ok) throw new Error(`Falha na API: ${response.status} - ${response.statusText}`);
+  
       const data = await response.json();
-      setVisits(data[itemId]);
+      if (data && data[itemId] != null) {
+        setVisits(`Total de visitas: ${data[itemId]}`);
+      } else {
+        setVisits('Não foram encontradas visitas para este ID de item.');
+      }
     } catch (error) {
       console.error("Erro ao buscar visitas:", error);
-      setVisits("Erro ao buscar informações");
+      setVisits(error.toString());
+    } finally {
+      setLoading(false);
     }
   };
+  
 
   return (
     <div>
@@ -32,8 +51,10 @@ export const Turian = () => {
         onChange={handleLinkChange}
         placeholder="Insira o link do anúncio aqui"
       />
-      <button onClick={fetchVisits}>Obter Quantidade de Visitas</button>
-      {visits !== null && <p>Quantidade de Visitas: {visits}</p>}
+      <button onClick={fetchVisits} disabled={loading}>
+        {loading ? 'Carregando...' : 'Obter Quantidade de Visitas'}
+      </button>
+      {visits && <p>{visits}</p>}
     </div>
   );
 };
